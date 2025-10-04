@@ -32,14 +32,80 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Sierra at Skyeview at Skye Canyon | Homes by Dr. Jan Duffy</title>
-        <meta name="description" content="Sierra at Skyeview at Skye Canyon new homes in Las Vegas. Expert guidance from Dr. Jan Duffy. Starting at $447,690 with Century Communities partnership. Quick move-in homes available." />
-        <meta property="og:title" content="Sierra at Skyeview at Skye Canyon | Homes by Dr. Jan Duffy" />
-        <meta property="og:description" content="Sierra at Skyeview at Skye Canyon new homes in Las Vegas. Expert guidance from Dr. Jan Duffy. Starting at $447,690 with Century Communities partnership." />
-        <meta property="og:image" content="/og-image.png" />
+        <title>Sierra at Skyeview New Homes | Skye Canyon Las Vegas | Dr. Jan Duffy Real Estate</title>
+        <meta name="description" content="Luxury new homes at Sierra at Skyeview in Skye Canyon, Las Vegas NV. Century Communities homes starting at $419,990. Expert real estate guidance from Dr. Jan Duffy. Quick move-in homes available now." />
+        <meta property="og:title" content="Sierra at Skyeview New Homes | Skye Canyon Las Vegas | Dr. Jan Duffy Real Estate" />
+        <meta property="og:description" content="Luxury new homes at Sierra at Skyeview in Skye Canyon, Las Vegas NV. Century Communities homes starting at $419,990. Expert real estate guidance from Dr. Jan Duffy." />
+        <meta property="og:image" content="https://sierraskyeview.com/luxury-home-exterior.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:url" content="https://sierraskyeview.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Sierra at Skyeview" />
+        <meta property="og:locale" content="en_US" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Sierra at Skyeview at Skye Canyon | Homes by Dr. Jan Duffy" />
-        <meta name="twitter:description" content="Sierra at Skyeview at Skye Canyon new homes in Las Vegas. Expert guidance from Dr. Jan Duffy." />
+        <meta name="twitter:site" content="@DrJanSells" />
+        <meta name="twitter:title" content="Sierra at Skyeview New Homes | Skye Canyon Las Vegas | Dr. Jan Duffy Real Estate" />
+        <meta name="twitter:description" content="Luxury new homes at Sierra at Skyeview in Skye Canyon, Las Vegas NV. Century Communities homes starting at $419,990." />
+        <meta name="twitter:image" content="https://sierraskyeview.com/luxury-home-exterior.jpg" />
+        <link rel="canonical" href="https://sierraskyeview.com/" />
+        
+        {/* Local Business Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "RealEstateAgent",
+              "name": "Dr. Jan Duffy",
+              "description": "Expert real estate agent specializing in new home construction and Century Communities partnerships in Las Vegas",
+              "url": "https://sierraskyeview.com",
+              "telephone": "(702) 500-1955",
+              "email": "DrJanSells@SierraSkyeview.com",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "8925 Vanhoy Creek St.",
+                "addressLocality": "Las Vegas",
+                "addressRegion": "NV",
+                "postalCode": "89166",
+                "addressCountry": "US"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "36.2565",
+                "longitude": "-115.2848"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Las Vegas",
+                "containedInPlace": {
+                  "@type": "State",
+                  "name": "Nevada"
+                }
+              },
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Sierra at Skyeview New Homes",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "House",
+                      "name": "Residence 1602",
+                      "floorSize": "1602 sq ft",
+                      "numberOfRooms": "3 bedrooms, 2.5 bathrooms",
+                      "offers": {
+                        "@type": "Offer",
+                        "price": "419990",
+                        "priceCurrency": "USD"
+                      }
+                    }
+                  }
+                ]
+              }
+            })
+          }}
+        />
       </Head>
 
       {/* Navigation */}
@@ -143,8 +209,12 @@ const Home: NextPage = () => {
             <div className="grid md:grid-cols-3 gap-8">
               {/* Floor Plan 1 */}
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="h-48 bg-blue-100 flex items-center justify-center">
-                  <span className="text-blue-600 font-semibold">Floor Plan Image</span>
+                <div className="h-48 relative overflow-hidden">
+                  <img 
+                    src="/floorplan-1602-new.jpg" 
+                    alt="Residence 1602 Floor Plan"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 1602</h3>
@@ -175,8 +245,12 @@ const Home: NextPage = () => {
 
               {/* Floor Plan 2 */}
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="h-48 bg-blue-100 flex items-center justify-center">
-                  <span className="text-blue-600 font-semibold">Floor Plan Image</span>
+                <div className="h-48 relative overflow-hidden">
+                  <img 
+                    src="/floorplan-1708-new.jpg" 
+                    alt="Residence 1708 Floor Plan"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 1708</h3>
@@ -207,8 +281,12 @@ const Home: NextPage = () => {
 
               {/* Floor Plan 3 */}
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="h-48 bg-blue-100 flex items-center justify-center">
-                  <span className="text-blue-600 font-semibold">Floor Plan Image</span>
+                <div className="h-48 relative overflow-hidden">
+                  <img 
+                    src="/floorplan-1965-new.jpg" 
+                    alt="Residence 1965 Floor Plan"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 1965</h3>
@@ -252,16 +330,16 @@ const Home: NextPage = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <img src="/home-exterior-1.jpg" alt="Modern home exterior" className="aspect-square object-cover rounded-lg" />
-              <img src="/home-exterior-2.jpg" alt="Beautiful home with landscaping" className="aspect-square object-cover rounded-lg" />
-              <img src="/modern-kitchen-1.jpg" alt="Modern kitchen design" className="aspect-square object-cover rounded-lg" />
-              <img src="/modern-living-room.jpg" alt="Spacious living room" className="aspect-square object-cover rounded-lg" />
-              <img src="/modern-bedroom.jpg" alt="Master bedroom" className="aspect-square object-cover rounded-lg" />
-              <img src="/modern-bathroom.jpg" alt="Luxury bathroom" className="aspect-square object-cover rounded-lg" />
-              <img src="/community-amenities.jpg" alt="Community amenities" className="aspect-square object-cover rounded-lg" />
-              <img src="/community-pool.jpg" alt="Community pool" className="aspect-square object-cover rounded-lg" />
-            </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <img src="/luxury-home-exterior.jpg" alt="Luxury home exterior at Sierra at Skyeview" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
+          <img src="/luxury-kitchen.jpg" alt="Modern luxury kitchen with premium appliances" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
+          <img src="/luxury-living-room.jpg" alt="Spacious luxury living room with modern design" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
+          <img src="/luxury-master-bedroom.jpg" alt="Elegant master bedroom with premium finishes" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
+          <img src="/luxury-bathroom.jpg" alt="Luxury bathroom with modern fixtures" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
+          <img src="/community-pool-luxury.jpg" alt="Resort-style community pool at Skye Canyon" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
+          <img src="/community-fitness-center.jpg" alt="State-of-the-art community fitness center" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
+          <img src="/skye-canyon-master-plan.jpg" alt="Skye Canyon master planned community" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
+        </div>
 
             <div className="text-center mt-8">
               <Link href="/community" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">

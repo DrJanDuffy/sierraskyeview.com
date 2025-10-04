@@ -71,13 +71,13 @@ const Model1602: NextPage = () => {
             <div className="grid lg:grid-cols-2 gap-12">
               {/* Model Image */}
               <div className="bg-white rounded-lg shadow-lg p-8">
-                <div className="h-96 rounded-lg overflow-hidden mb-6">
-                  <img 
-                    src="/floorplan-1602.jpg" 
-                    alt="Residence 1602 Floor Plan"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+        <div className="h-96 rounded-lg overflow-hidden mb-6">
+          <img
+            src="/luxury-kitchen.jpg"
+            alt="Residence 1602 Modern Kitchen"
+            className="w-full h-full object-cover"
+          />
+        </div>
                 <div className="text-center">
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Key Specifications</h3>
                   <div className="grid grid-cols-2 gap-4">
@@ -143,6 +143,71 @@ const Model1602: NextPage = () => {
                   <h4 className="text-lg font-semibold text-blue-900 mb-2">Century Connect® Package Included</h4>
                   <p className="text-blue-800 text-sm">
                     Every home comes with smart home technology, premium finishes, and energy-efficient features.
+                  </p>
+                </div>
+
+                <div className="mt-8">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Lifestyle Benefits</h4>
+                  <p className="text-gray-700 mb-4">
+                    Residence 1602 offers the perfect balance of comfort and functionality for modern living. The open floor plan creates a sense of spaciousness that belies its efficient 1,602 square feet, making it ideal for entertaining guests or enjoying quiet family time. The thoughtful design maximizes natural light flow throughout the main living areas, creating a bright and welcoming atmosphere that enhances daily living.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    Located in the prestigious Sierra at Skyeview community, this home provides access to all the amenities of the larger Skye Canyon master-planned community. Residents enjoy proximity to hiking trails, community pools, fitness centers, and parks, making it perfect for active lifestyles. The higher elevation location offers cooler temperatures and stunning mountain views compared to the Las Vegas valley floor, providing a unique living experience.
+                  </p>
+                  <p className="text-gray-700">
+                    The Century Connect® smart home package included with every home ensures modern convenience and energy efficiency. From smart thermostats to security systems, you'll have the latest technology at your fingertips. This home represents excellent value in the Las Vegas market, with strong appreciation potential in the growing Skye Canyon area. The combination of quality construction, prime location, and modern amenities makes Residence 1602 an exceptional choice for homebuyers seeking the best of Las Vegas living.
+                  </p>
+                </div>
+
+                <div className="mt-8">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Investment Potential</h4>
+                  <p className="text-gray-700 mb-4">
+                    Residence 1602 offers exceptional investment potential in one of Las Vegas's fastest-growing areas. Skye Canyon's master-planned community status ensures continued development and infrastructure improvements, which historically drive property values upward. The community's location at higher elevation provides natural advantages that maintain property desirability, including cooler temperatures and reduced utility costs compared to valley floor locations.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    The Century Communities brand reputation for quality construction and modern design ensures lasting value and appeal to future buyers. With new home construction prices starting from $419,990, this represents an excellent entry point into the Las Vegas real estate market. The combination of limited availability, prime location, and quality construction creates a strong foundation for long-term appreciation.
+                  </p>
+                  <p className="text-gray-700">
+                    Dr. Jan Duffy's expertise in the local market provides invaluable insight into timing, pricing, and negotiation strategies that can maximize your investment return. Her independent representation ensures you receive unbiased guidance focused on your best interests, not the builder's sales goals. This professional approach helps secure the best possible terms and pricing for your new home investment.
+                  </p>
+                </div>
+
+                <div className="mt-8">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Community Features & Amenities</h4>
+                  <p className="text-gray-700 mb-4">
+                    Sierra at Skyeview residents enjoy access to the extensive amenities of the Skye Canyon master-planned community, including over 50 miles of hiking and biking trails, multiple parks and playgrounds, and the Skye Center recreation complex. The community's focus on outdoor living and fitness creates an active, healthy lifestyle for residents of all ages. The higher elevation location provides natural advantages including cleaner air, cooler temperatures, and stunning mountain views.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    The community's proximity to major employment centers, shopping, dining, and entertainment options ensures convenience while maintaining the peaceful, suburban feel that makes Skye Canyon so desirable. With easy access to the Las Vegas Strip, downtown Las Vegas, and major highways, residents can enjoy the best of both worlds - quiet community living with urban amenities just minutes away.
+                  </p>
+                  <p className="text-gray-700">
+                    The master-planned community approach ensures coordinated development, maintained property values, and continued investment in community infrastructure. This planned growth strategy creates a stable, desirable neighborhood that attracts quality residents and maintains high property values over time. The combination of natural beauty, modern amenities, and strategic location makes Sierra at Skyeview an exceptional choice for discerning homebuyers.
+                  </p>
+                </div>
+
+                <div className="mt-8">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Financing & Incentives</h4>
+                  <p className="text-gray-700 mb-4">
+                    Century Communities offers attractive financing options and incentives to make your dream home more affordable. With competitive interest rates and flexible down payment programs, qualifying buyers can secure favorable terms that fit their budget. The builder's preferred lenders understand the new construction process and can streamline the financing experience, making your home buying journey as smooth as possible.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    Dr. Jan Duffy works closely with qualified lenders to help you explore all available financing options, including conventional loans, FHA, VA, and USDA programs. Her expertise in the local market and builder relationships can help you secure the best possible rates and terms. Additionally, she can guide you through various incentive programs that may be available, including closing cost assistance and rate buy-downs.
+                  </p>
+                  <p className="text-gray-700">
+                    The new construction financing process differs from purchasing an existing home, and having an experienced agent like Dr. Jan Duffy ensures you understand all the nuances. From construction draws to final closing, she'll be there every step of the way to protect your interests and ensure a successful transaction. Her independent representation means you'll receive unbiased advice focused solely on your best interests.
+                  </p>
+                </div>
+
+                <div className="mt-8">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Construction Timeline & Process</h4>
+                  <p className="text-gray-700 mb-4">
+                    Understanding the construction timeline is crucial when purchasing a new home. Century Communities typically completes homes within 4-6 months of breaking ground, depending on weather conditions and material availability. The construction process follows a systematic approach, with regular updates provided to keep you informed of progress throughout the build.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    The construction process begins with site preparation and foundation work, followed by framing, electrical, plumbing, and HVAC installation. Interior finishes, including flooring, cabinetry, and fixtures, are completed in the final phases. Throughout construction, you'll have opportunities to visit the site and see your home take shape, creating excitement and anticipation for your move-in date.
+                  </p>
+                  <p className="text-gray-700">
+                    Dr. Jan Duffy coordinates with the builder throughout the construction process to ensure everything proceeds according to schedule and meets your expectations. From pre-construction meetings to final walk-throughs, she'll be your advocate every step of the way. Her experience with Century Communities' construction process ensures you understand what to expect and when to expect it, minimizing surprises and ensuring a smooth transition to your new home.
                   </p>
                 </div>
               </div>

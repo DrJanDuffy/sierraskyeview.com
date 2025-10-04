@@ -71,13 +71,13 @@ const Model1708: NextPage = () => {
             <div className="grid lg:grid-cols-2 gap-12">
               {/* Model Image */}
               <div className="bg-white rounded-lg shadow-lg p-8">
-                <div className="h-96 rounded-lg overflow-hidden mb-6">
-                  <img 
-                    src="/floorplan-1708.jpg" 
-                    alt="Residence 1708 Floor Plan"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+        <div className="h-96 rounded-lg overflow-hidden mb-6">
+          <img
+            src="/luxury-living-room.jpg"
+            alt="Residence 1708 Spacious Living Room"
+            className="w-full h-full object-cover"
+          />
+        </div>
                 <div className="text-center">
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Key Specifications</h3>
                   <div className="grid grid-cols-2 gap-4">
@@ -139,6 +139,71 @@ const Model1708: NextPage = () => {
                   <h4 className="text-lg font-semibold text-blue-900 mb-2">Century Connect® Package Included</h4>
                   <p className="text-blue-800 text-sm">
                     Every home comes with smart home technology, premium finishes, and energy-efficient features.
+                  </p>
+                </div>
+
+                <div className="mt-8">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Lifestyle Benefits</h4>
+                  <p className="text-gray-700 mb-4">
+                    Residence 1708 stands out as the most popular floor plan for good reason - it perfectly balances functionality with flexibility. The stunning loft area provides endless possibilities for customization, whether you envision it as a home office, playroom, media room, or additional bedroom. This versatility makes it ideal for growing families, remote workers, or anyone who values adaptable living spaces.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    The enhanced kitchen design features premium finishes and an upgraded island, making it the heart of the home for both daily living and entertaining. The open-concept layout seamlessly connects all main living areas, creating a sense of flow that enhances both comfort and functionality. With 1,708 square feet of thoughtfully designed space, this home offers room to grow without feeling overwhelming.
+                  </p>
+                  <p className="text-gray-700">
+                    Located in Sierra at Skyeview within the Skye Canyon master-planned community, residents enjoy access to world-class amenities including hiking trails, community pools, and fitness centers. The higher elevation provides cooler temperatures and beautiful mountain views, while still being conveniently located near shopping, dining, and entertainment options. This home represents exceptional value in the Las Vegas market, with strong potential for appreciation in the rapidly growing Skye Canyon area.
+                  </p>
+                </div>
+
+                <div className="mt-8">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Why Choose Residence 1708</h4>
+                  <p className="text-gray-700 mb-4">
+                    Residence 1708's popularity stems from its perfect balance of space, functionality, and value. The loft area provides the flexibility that modern families demand, whether you need a home office, playroom, or additional sleeping space. This adaptability means your home can grow and change with your family's needs, eliminating the need for costly renovations or moves as your lifestyle evolves.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    The enhanced kitchen design features premium finishes and an upgraded island that serves as both a functional workspace and a social gathering point. The open-concept layout ensures that whether you're cooking, entertaining, or relaxing, you're always connected to the heart of your home. This thoughtful design creates a sense of togetherness that enhances family life and makes entertaining effortless.
+                  </p>
+                  <p className="text-gray-700">
+                    The two-story design provides clear separation between living and sleeping areas, creating privacy and quiet when needed while maintaining the open, connected feel that modern homebuyers desire. The shared private driveways add to the community feel while providing convenient access and reduced street traffic. This thoughtful design element creates a more intimate neighborhood atmosphere that enhances the overall living experience.
+                  </p>
+                </div>
+
+                <div className="mt-8">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Construction & Quality</h4>
+                  <p className="text-gray-700 mb-4">
+                    Century Communities' reputation for quality construction and attention to detail is evident throughout Residence 1708. The builder's commitment to using premium materials and modern construction techniques ensures your home will stand the test of time. From energy-efficient windows and insulation to high-quality flooring and fixtures, every detail is designed to provide lasting value and comfort.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    The Century Connect® smart home package includes advanced technology that enhances convenience, security, and energy efficiency. Smart thermostats, security systems, and energy monitoring features help reduce utility costs while providing peace of mind. These modern amenities not only improve daily living but also increase the home's appeal to future buyers, protecting your investment.
+                  </p>
+                  <p className="text-gray-700">
+                    The comprehensive warranty coverage provides additional peace of mind, ensuring that any construction issues are addressed promptly and professionally. Century Communities' commitment to customer satisfaction extends beyond the sale, with ongoing support and maintenance resources available to homeowners. This level of service and support adds significant value to your homeownership experience.
+                  </p>
+                </div>
+
+                <div className="mt-8">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Customization Options</h4>
+                  <p className="text-gray-700 mb-4">
+                    Residence 1708 offers numerous customization options to make your home truly unique. From flooring selections and cabinet finishes to lighting fixtures and hardware choices, you can personalize your space to reflect your style and preferences. The loft area provides additional opportunities for customization, whether you prefer built-in shelving, additional electrical outlets, or specialized lighting for your intended use.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    Century Communities' design center offers a wide range of upgrade options, including premium appliances, upgraded countertops, and enhanced flooring materials. These customization choices allow you to create a home that perfectly suits your lifestyle and aesthetic preferences. Dr. Jan Duffy can help you navigate the selection process, ensuring you make choices that add value and appeal to your specific needs.
+                  </p>
+                  <p className="text-gray-700">
+                    The builder's experienced design consultants work with you to create a cohesive look throughout your home, from the kitchen and bathrooms to the living areas and bedrooms. This professional guidance ensures that your customization choices work together harmoniously, creating a home that feels both personal and professionally designed. The result is a unique home that reflects your personality while maintaining broad appeal for future resale.
+                  </p>
+                </div>
+
+                <div className="mt-8">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Energy Efficiency & Sustainability</h4>
+                  <p className="text-gray-700 mb-4">
+                    Residence 1708 incorporates modern energy-efficient features that reduce utility costs and environmental impact. High-efficiency HVAC systems, energy-efficient windows, and proper insulation work together to minimize energy consumption while maintaining comfort. These features not only save money on monthly utility bills but also contribute to a more sustainable lifestyle.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    The Century Connect® smart home package includes smart thermostats and energy monitoring systems that help you optimize your home's energy use. These intelligent systems learn your preferences and automatically adjust settings to maximize efficiency without sacrificing comfort. The result is a home that's both environmentally conscious and cost-effective to operate.
+                  </p>
+                  <p className="text-gray-700">
+                    Century Communities' commitment to sustainable building practices extends beyond energy efficiency to include water-saving fixtures, low-VOC materials, and construction waste reduction. These environmentally responsible choices create a healthier living environment while reducing your carbon footprint. The combination of energy efficiency and sustainability features makes Residence 1708 an excellent choice for environmentally conscious homebuyers.
                   </p>
                 </div>
               </div>

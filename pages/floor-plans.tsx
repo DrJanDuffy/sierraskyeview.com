@@ -70,10 +70,36 @@ const FloorPlans: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Floor Plans - Sierra at Skyeview | Dr. Jan Duffy</title>
-        <meta name="description" content="Explore luxury floor plans at Sierra at Skyeview in Skye Canyon. 3 beautiful two-story homes from $447,690. Expert guidance from Dr. Jan Duffy." />
+        <title>Luxury Floor Plans | Sierra at Skyeview Skye Canyon | Dr. Jan Duffy</title>
+        <meta name="description" content="Explore 3 luxury floor plans at Sierra at Skyeview in Skye Canyon Las Vegas. Residence 1602, 1708, and 1965 from $419,990. Expert real estate guidance from Dr. Jan Duffy." />
         <meta property="og:title" content="Floor Plans - Sierra at Skyeview" />
         <meta property="og:description" content="Explore luxury floor plans at Sierra at Skyeview in Skye Canyon. 3 beautiful two-story homes from $447,690." />
+        <link rel="canonical" href="https://sierraskyeview.com/floor-plans" />
+        
+        {/* Breadcrumb Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://sierraskyeview.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Floor Plans",
+                  "item": "https://sierraskyeview.com/floor-plans"
+                }
+              ]
+            })
+          }}
+        />
       </Head>
 
       {/* Navigation */}
@@ -141,15 +167,15 @@ const FloorPlans: NextPage = () => {
                     </div>
                   )}
                   
-                  <div className="h-64 relative overflow-hidden">
-                    <img 
-                      src={plan.name === "Residence 1602" ? "/floorplan-1602.jpg" : 
-                           plan.name === "Residence 1708" ? "/floorplan-1708.jpg" : 
-                           "/floorplan-1965.jpg"} 
-                      alt={`${plan.name} floor plan`}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
+        <div className="h-64 relative overflow-hidden">
+          <img
+            src={plan.name === "Residence 1602" ? "/luxury-kitchen.jpg" :
+                 plan.name === "Residence 1708" ? "/luxury-living-room.jpg" :
+                 "/luxury-master-bedroom.jpg"}
+            alt={`${plan.name} luxury interior showcase`}
+            className="w-full h-full object-cover"
+          />
+        </div>
                   
                   <div className="p-6">
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">{plan.name}</h3>

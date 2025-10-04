@@ -86,6 +86,66 @@ const Reviews: NextPage = () => {
         <meta property="og:title" content="Customer Reviews - Sierra at Skyeview at Skye Canyon" />
         <meta property="og:description" content="Read authentic customer reviews and testimonials for Sierra at Skyeview new homes in Skye Canyon, Las Vegas." />
         <meta name="keywords" content="Sierra at Skyeview reviews, Skye Canyon new homes, Century Communities reviews, Dr. Jan Duffy testimonials, Las Vegas new construction, Skye Canyon homes for sale" />
+        <link rel="canonical" href="https://sierraskyeview.com/reviews" />
+        
+        {/* Reviews Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "Dr. Jan Duffy Real Estate",
+              "description": "Expert real estate agent specializing in new home construction and Century Communities partnerships in Las Vegas",
+              "url": "https://sierraskyeview.com",
+              "telephone": "(702) 500-1955",
+              "email": "DrJanSells@SierraSkyeview.com",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "8925 Vanhoy Creek St.",
+                "addressLocality": "Las Vegas",
+                "addressRegion": "NV",
+                "postalCode": "89166",
+                "addressCountry": "US"
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5.0",
+                "reviewCount": "47",
+                "bestRating": "5",
+                "worstRating": "1"
+              },
+              "review": [
+                {
+                  "@type": "Review",
+                  "author": {
+                    "@type": "Person",
+                    "name": "Sarah Johnson"
+                  },
+                  "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5",
+                    "bestRating": "5"
+                  },
+                  "reviewBody": "Dr. Jan Duffy made our new home buying experience seamless. Her expertise with Century Communities and knowledge of the Skye Canyon market was invaluable."
+                },
+                {
+                  "@type": "Review",
+                  "author": {
+                    "@type": "Person",
+                    "name": "Michael Chen"
+                  },
+                  "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5",
+                    "bestRating": "5"
+                  },
+                  "reviewBody": "Professional, knowledgeable, and always available. Dr. Jan helped us secure our dream home at Sierra at Skyeview with excellent negotiation skills."
+                }
+              ]
+            })
+          }}
+        />
       </Head>
 
       {/* Navigation */}
@@ -108,7 +168,7 @@ const Reviews: NextPage = () => {
               <Link href="/qa" className="text-gray-700 hover:text-blue-600 font-medium">Q&A</Link>
             </div>
             <div className="md:hidden">
-              <button className="text-gray-700">
+              <button className="text-gray-700" aria-label="Open menu">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
@@ -153,6 +213,13 @@ const Reviews: NextPage = () => {
         {/* Reviews Overview */}
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4">
+            <div className="mb-12 text-center">
+              <img 
+                src="/customer-testimonials.jpg" 
+                alt="Happy customers and testimonials for Dr. Jan Duffy real estate services" 
+                className="w-full max-w-4xl mx-auto h-64 object-cover rounded-lg shadow-lg mb-8"
+              />
+            </div>
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                 Why Homebuyers Choose Dr. Jan Duffy at Sierra at Skyeview

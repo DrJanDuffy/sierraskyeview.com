@@ -24,10 +24,34 @@ const Community: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Community - Sierra at Skyeview | Dr. Jan Duffy</title>
-        <meta name="description" content="Discover the beautiful community of Sierra at Skyeview in Skye Canyon, Las Vegas. 1,700-acre master-planned community with premium amenities." />
+        <title>Sierra at Skyeview Community | Skye Canyon Las Vegas | Dr. Jan Duffy</title>
+        <meta name="description" content="Discover Sierra at Skyeview community in Skye Canyon Las Vegas. 1,700-acre master-planned community with resort-style amenities, parks, and top-rated schools. Expert guidance from Dr. Jan Duffy." />
         <meta property="og:title" content="Community - Sierra at Skyeview" />
         <meta property="og:description" content="Discover the beautiful community of Sierra at Skyeview in Skye Canyon, Las Vegas. 1,700-acre master-planned community with premium amenities." />
+        <link rel="canonical" href="https://sierraskyeview.com/community" />
+        
+        {/* Video Schema for Virtual Tours */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "VideoObject",
+              "name": "Sierra at Skyeview Community Virtual Tour",
+              "description": "Take a virtual tour of Sierra at Skyeview community in Skye Canyon, Las Vegas. See the beautiful homes, amenities, and lifestyle that awaits you in this master-planned community.",
+              "thumbnailUrl": "https://sierraskyeview.com/skye-canyon-master-plan.jpg",
+              "uploadDate": "2025-01-27",
+              "duration": "PT3M30S",
+              "contentUrl": "https://www.youtube.com/watch?v=example",
+              "embedUrl": "https://www.youtube.com/embed/example",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dr. Jan Duffy Real Estate",
+                "url": "https://sierraskyeview.com"
+              }
+            })
+          }}
+        />
       </Head>
 
       {/* Navigation */}
@@ -95,16 +119,16 @@ const Community: NextPage = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-              <img src="/community-amenities.jpg" alt="Community recreation center" className="aspect-square object-cover rounded-lg" />
-              <img src="/community-pool.jpg" alt="Community pool and amenities" className="aspect-square object-cover rounded-lg" />
-              <img src="/community-fitness.jpg" alt="Fitness center" className="aspect-square object-cover rounded-lg" />
-              <img src="/community-park.jpg" alt="Beautiful park and trails" className="aspect-square object-cover rounded-lg" />
-              <img src="/home-exterior-1.jpg" alt="Modern homes in community" className="aspect-square object-cover rounded-lg" />
-              <img src="/home-exterior-2.jpg" alt="Beautiful neighborhood" className="aspect-square object-cover rounded-lg" />
-              <img src="/mountain-views.jpg" alt="Mountain views from Skye Canyon" className="aspect-square object-cover rounded-lg" />
-              <img src="/las-vegas-skyline.jpg" alt="Las Vegas skyline view" className="aspect-square object-cover rounded-lg" />
-            </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+          <img src="/community-pool-luxury.jpg" alt="Resort-style community pool and amenities at Skye Canyon" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
+          <img src="/community-fitness-center.jpg" alt="State-of-the-art community fitness center in Skye Canyon" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
+          <img src="/community-clubhouse.jpg" alt="Luxury community clubhouse and gathering spaces" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
+          <img src="/community-playground.jpg" alt="Family-friendly playground and recreational areas" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
+          <img src="/family-lifestyle.jpg" alt="Active family lifestyle at Skye Canyon community" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
+          <img src="/outdoor-activities.jpg" alt="Outdoor activities and recreation in Las Vegas" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
+          <img src="/community-events.jpg" alt="Community events and social gatherings" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
+          <img src="/shopping-dining.jpg" alt="Nearby shopping and dining options in Las Vegas" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
+        </div>
 
             <div className="text-center">
               <a href="tel:7025001955" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">

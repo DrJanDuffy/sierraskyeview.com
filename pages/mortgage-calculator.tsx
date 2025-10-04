@@ -102,6 +102,13 @@ const MortgageCalculator: NextPage = () => {
         {/* Calculator Section */}
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4">
+            <div className="mb-12 text-center">
+              <img 
+                src="/mortgage-consultation.jpg" 
+                alt="Professional mortgage consultation services for Sierra at Skyeview homebuyers" 
+                className="w-full max-w-4xl mx-auto h-64 object-cover rounded-lg shadow-lg mb-8"
+              />
+            </div>
             <div className="grid lg:grid-cols-2 gap-12">
               {/* Input Form */}
               <div className="bg-white rounded-lg shadow-lg p-8">

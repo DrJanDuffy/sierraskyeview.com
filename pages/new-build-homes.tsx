@@ -94,7 +94,7 @@ const NewBuildHomes: NextPage = () => {
               <Link href="/qa" className="text-gray-700 hover:text-blue-600 font-medium">Q&A</Link>
             </div>
             <div className="md:hidden">
-              <button className="text-gray-700">
+              <button className="text-gray-700" aria-label="Open menu">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
@@ -175,18 +175,25 @@ const NewBuildHomes: NextPage = () => {
               </p>
             </div>
 
+            <div className="mb-12 text-center">
+              <img 
+                src="/new-home-construction.jpg" 
+                alt="New home construction process at Sierra at Skyeview by Century Communities" 
+                className="w-full max-w-4xl mx-auto h-64 object-cover rounded-lg shadow-lg mb-8"
+              />
+            </div>
             <div className="grid md:grid-cols-3 gap-8">
               {floorPlans.map((plan, index) => (
                 <div key={index} className="bg-gray-50 rounded-lg p-6 shadow-lg">
-                  <div className="h-48 rounded-lg overflow-hidden mb-4">
-                    <img 
-                      src={plan.name === "Residence 1602" ? "/floorplan-1602.jpg" : 
-                           plan.name === "Residence 1708" ? "/floorplan-1708.jpg" : 
-                           "/floorplan-1965.jpg"} 
-                      alt={`${plan.name} floor plan`}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
+        <div className="h-48 rounded-lg overflow-hidden mb-4">
+          <img
+            src={plan.name === "Residence 1602" ? "/residence-1602-floor-plan.jpg" :
+                 plan.name === "Residence 1708" ? "/residence-1708-floor-plan.jpg" :
+                 "/residence-1965-floor-plan.jpg"}
+            alt={`${plan.name} floor plan`}
+            className="w-full h-full object-cover"
+          />
+        </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{plan.name}</h3>
                   <p className="text-2xl font-bold text-blue-600 mb-4">Starting at {plan.startingPrice}</p>
                   

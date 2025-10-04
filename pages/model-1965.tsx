@@ -71,13 +71,13 @@ const Model1965: NextPage = () => {
             <div className="grid lg:grid-cols-2 gap-12">
               {/* Model Image */}
               <div className="bg-white rounded-lg shadow-lg p-8">
-                <div className="h-96 rounded-lg overflow-hidden mb-6">
-                  <img 
-                    src="/floorplan-1965.jpg" 
-                    alt="Residence 1965 Floor Plan"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+        <div className="h-96 rounded-lg overflow-hidden mb-6">
+          <img
+            src="/luxury-master-bedroom.jpg"
+            alt="Residence 1965 Luxury Master Bedroom"
+            className="w-full h-full object-cover"
+          />
+        </div>
                 <div className="text-center">
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Key Specifications</h3>
                   <div className="grid grid-cols-2 gap-4">
@@ -139,6 +139,71 @@ const Model1965: NextPage = () => {
                   <h4 className="text-lg font-semibold text-blue-900 mb-2">Century Connect® Package Included</h4>
                   <p className="text-blue-800 text-sm">
                     Every home comes with smart home technology, premium finishes, and energy-efficient features.
+                  </p>
+                </div>
+
+                <div className="mt-8">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Lifestyle Benefits</h4>
+                  <p className="text-gray-700 mb-4">
+                    Residence 1965 represents the pinnacle of luxury living at Sierra at Skyeview, offering the most spacious floor plan with exceptional flexibility. The optional downstairs bed and downstairs den provide perfect solutions for multi-generational living, guest accommodations, or home office space. This versatility makes it ideal for families who need adaptable spaces that can evolve with their changing needs over time.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    The expansive great room provides ample space for entertaining large groups, while the gourmet kitchen with large island serves as the perfect gathering spot for family meals and social events. The spacious primary suite offers a true retreat with premium finishes and ample closet space. With 1,965 square feet of thoughtfully designed space, this home provides room to breathe and grow without compromising on quality or attention to detail.
+                  </p>
+                  <p className="text-gray-700">
+                    Located in the prestigious Sierra at Skyeview community within Skye Canyon, this home offers access to world-class amenities and the natural beauty of the surrounding mountains. The higher elevation provides cooler temperatures and stunning views, while the master-planned community ensures convenient access to shopping, dining, and entertainment. This home represents exceptional value in the Las Vegas market, with strong appreciation potential in the rapidly growing Skye Canyon area. The combination of size, quality, and location makes Residence 1965 the ultimate choice for discerning homebuyers seeking the best of Las Vegas living.
+                  </p>
+                </div>
+
+                <div className="mt-8">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Luxury Living Features</h4>
+                  <p className="text-gray-700 mb-4">
+                    Residence 1965 represents the pinnacle of luxury living with its generous 1,965 square feet of thoughtfully designed space. The gourmet kitchen features premium appliances, custom cabinetry, and a large center island that serves as both a functional workspace and an elegant entertaining area. The open-concept design seamlessly connects the kitchen, dining area, and great room, creating an expansive living space perfect for large gatherings and intimate family moments.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    The spacious primary suite offers a true retreat with premium finishes, ample closet space, and a luxurious bathroom featuring dual vanities and a separate tub and shower. The optional downstairs bed and den provide exceptional flexibility for multi-generational living, home offices, or guest accommodations. This adaptability ensures your home can evolve with your changing needs without requiring expensive renovations or moves.
+                  </p>
+                  <p className="text-gray-700">
+                    The two-story design provides clear separation between living and sleeping areas, creating privacy and quiet when needed while maintaining the open, connected feel that defines modern luxury living. The premium finishes throughout, including two-tone interior paint, energy-efficient windows, and high-quality flooring, create an atmosphere of elegance and sophistication that reflects the quality of life you deserve.
+                  </p>
+                </div>
+
+                <div className="mt-8">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Exclusive Community Benefits</h4>
+                  <p className="text-gray-700 mb-4">
+                    As a resident of Sierra at Skyeview, you'll enjoy exclusive access to the Skye Canyon master-planned community's world-class amenities. The community's focus on outdoor living and wellness includes over 50 miles of hiking and biking trails, multiple parks and playgrounds, and the Skye Center recreation complex. The higher elevation location provides natural advantages including cleaner air, cooler temperatures, and stunning mountain views that create a unique living experience in the Las Vegas area.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    The community's proximity to major employment centers, shopping, dining, and entertainment options ensures convenience while maintaining the peaceful, suburban feel that makes Skye Canyon so desirable. With easy access to the Las Vegas Strip, downtown Las Vegas, and major highways, residents can enjoy the best of both worlds - quiet community living with urban amenities just minutes away. This strategic location provides excellent commute options and access to all the entertainment and cultural attractions that make Las Vegas a world-class city.
+                  </p>
+                  <p className="text-gray-700">
+                    The master-planned community approach ensures coordinated development, maintained property values, and continued investment in community infrastructure. This planned growth strategy creates a stable, desirable neighborhood that attracts quality residents and maintains high property values over time. The combination of natural beauty, modern amenities, and strategic location makes Sierra at Skyeview an exceptional choice for discerning homebuyers who demand the very best in Las Vegas living.
+                  </p>
+                </div>
+
+                <div className="mt-8">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Premium Upgrades & Features</h4>
+                  <p className="text-gray-700 mb-4">
+                    Residence 1965 offers extensive upgrade options that elevate the home to true luxury status. Premium hardwood flooring, upgraded countertops, and high-end appliances transform the already impressive space into a showpiece home. The gourmet kitchen can be enhanced with professional-grade appliances, custom cabinetry, and luxury finishes that create a chef's dream workspace.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    The primary suite can be upgraded with luxury bathroom features including soaking tubs, walk-in showers with multiple shower heads, and premium fixtures. The optional downstairs bed and den can be customized with built-in features, specialty lighting, and high-end finishes that maximize functionality and appeal. These premium upgrades create a home that stands out in the market and provides exceptional value.
+                  </p>
+                  <p className="text-gray-700">
+                    Century Communities' design center offers exclusive upgrade packages specifically designed for Residence 1965, ensuring that your luxury home reflects the highest standards of quality and design. From smart home automation to premium lighting systems, these upgrades create a home that's both beautiful and technologically advanced. The result is a residence that exceeds expectations and provides the ultimate in Las Vegas luxury living.
+                  </p>
+                </div>
+
+                <div className="mt-8">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Market Position & Value</h4>
+                  <p className="text-gray-700 mb-4">
+                    Residence 1965 represents exceptional value in the Las Vegas luxury home market. At 1,965 square feet starting from $449,990, this home offers more space and features than comparable properties in the area. The combination of size, quality, and location creates a compelling value proposition that appeals to both primary homeowners and investors.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    The Skye Canyon location provides natural advantages that maintain property desirability and value over time. The higher elevation, mountain views, and master-planned community status ensure continued appeal to quality buyers. This market position, combined with Century Communities' reputation for quality construction, creates a strong foundation for long-term appreciation and market stability.
+                  </p>
+                  <p className="text-gray-700">
+                    Dr. Jan Duffy's market expertise provides valuable insight into the investment potential and market position of Residence 1965. Her independent analysis helps you understand the true value proposition and make informed decisions about your purchase. This professional guidance ensures you're making a sound investment decision that aligns with your financial goals and lifestyle preferences.
                   </p>
                 </div>
               </div>

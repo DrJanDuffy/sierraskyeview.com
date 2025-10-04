@@ -63,7 +63,14 @@ const About: NextPage = () => {
         <section className="py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
+              <div className="lg:order-2">
+                <img 
+                  src="/dr-jan-duffy-portrait.jpg" 
+                  alt="Dr. Jan Duffy - Professional Real Estate Agent" 
+                  className="w-full h-96 object-cover rounded-lg shadow-lg"
+                />
+              </div>
+              <div className="lg:order-1">
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                   Meet Dr. Jan Duffy
                 </h2>

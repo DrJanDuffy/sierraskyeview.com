@@ -31,6 +31,64 @@ const Contact: NextPage = () => {
         <meta name="description" content="Contact Dr. Jan Duffy for expert real estate guidance. Call (702) 500-1955 or email DrJanSells@SierraSkyeview.com for your new home construction needs." />
         <meta property="og:title" content="Contact Dr. Jan Duffy - Sierra at Skyeview" />
         <meta property="og:description" content="Contact Dr. Jan Duffy for expert real estate guidance. Call (702) 500-1955 or email DrJanSells@SierraSkyeview.com." />
+        <link rel="canonical" href="https://sierraskyeview.com/contact" />
+        
+        {/* Contact Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "RealEstateAgent",
+              "name": "Dr. Jan Duffy",
+              "description": "Expert real estate agent specializing in new home construction and Century Communities partnerships in Las Vegas",
+              "url": "https://sierraskyeview.com",
+              "telephone": "(702) 500-1955",
+              "email": "DrJanSells@SierraSkyeview.com",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "8925 Vanhoy Creek St.",
+                "addressLocality": "Las Vegas",
+                "addressRegion": "NV",
+                "postalCode": "89166",
+                "addressCountry": "US"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "36.2565",
+                "longitude": "-115.2848"
+              },
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                  "opens": "09:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": "Saturday",
+                  "opens": "10:00",
+                  "closes": "16:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": "Sunday",
+                  "opens": "12:00",
+                  "closes": "16:00"
+                }
+              ],
+              "areaServed": {
+                "@type": "City",
+                "name": "Las Vegas",
+                "containedInPlace": {
+                  "@type": "State",
+                  "name": "Nevada"
+                }
+              }
+            })
+          }}
+        />
       </Head>
 
       {/* Navigation */}
@@ -236,6 +294,13 @@ const Contact: NextPage = () => {
         {/* Map Section */}
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4">
+            <div className="mb-12 text-center">
+              <img 
+                src="/contact-office.jpg" 
+                alt="Contact Dr. Jan Duffy for Sierra at Skyeview new homes consultation" 
+                className="w-full max-w-4xl mx-auto h-64 object-cover rounded-lg shadow-lg mb-8"
+              />
+            </div>
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                 Visit Sierra at Skyeview
