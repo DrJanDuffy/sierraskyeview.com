@@ -19,6 +19,7 @@ const QuickMoveIn: NextPage = () => {
       daysOnSite: "10",
       listingDate: "Sep 18, 2025",
       mlsNumber: "2721611",
+      realScoutUrl: "https://drjanduffy.realscout.com/homesearch/listings/p-8990-rimerton-street-las-vegas-89166-glvartrestle-875",
       features: [
         "Open-concept layout with great room, nook, and kitchen",
         "Generous center island and walk-in pantry",
@@ -71,6 +72,7 @@ const QuickMoveIn: NextPage = () => {
       garage: "2",
       price: "$453,940",
       estCompletion: "December 2024",
+      realScoutUrl: null,
       features: ["Optional separate tub/shower at primary bath", "Open-concept layout", "Generous center island", "Walk-in pantry", "Private owner's suite", "Two-tone interior paint"],
       status: "Available"
     },
@@ -85,6 +87,7 @@ const QuickMoveIn: NextPage = () => {
       garage: "2",
       price: "$419,990",
       estCompletion: "November 2024",
+      realScoutUrl: null,
       features: ["Two-tone paint", "Open Floor Plan", "Century Connect® package"],
       status: "Pending"
     },
@@ -99,6 +102,7 @@ const QuickMoveIn: NextPage = () => {
       garage: "2",
       price: "$488,290",
       estCompletion: "December 2024",
+      realScoutUrl: null,
       features: ["Optional Downstairs Bed", "Downstairs Den", "LVP Flooring", "Premium finishes", "Largest floor plan"],
       status: "Available"
     }
@@ -320,17 +324,81 @@ const QuickMoveIn: NextPage = () => {
                       </div>
                     )}
 
-                    <div className="flex space-x-2">
-                      <a href="tel:7025001955" className="flex-1 bg-green-600 text-white text-center py-3 rounded-lg hover:bg-green-700 transition-colors">
-                        📞 Call Now
-                      </a>
-                      <Link href="/contact" className="flex-1 bg-gray-200 text-gray-800 text-center py-3 rounded-lg hover:bg-gray-300 transition-colors">
-                        📧 Inquire
-                      </Link>
+                    <div className="space-y-2">
+                      {/* Primary Actions */}
+                      <div className="flex space-x-2">
+                        <a href="tel:7025001955" className="flex-1 bg-green-600 text-white text-center py-3 rounded-lg hover:bg-green-700 transition-colors">
+                          📞 Call Now
+                        </a>
+                        <Link href="/contact" className="flex-1 bg-gray-200 text-gray-800 text-center py-3 rounded-lg hover:bg-gray-300 transition-colors">
+                          📧 Inquire
+                        </Link>
+                      </div>
+                      
+                      {/* RealScout Link */}
+                      {home.realScoutUrl && (
+                        <a 
+                          href={home.realScoutUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="w-full bg-blue-600 text-white text-center py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm flex items-center justify-center gap-2"
+                        >
+                          🏠 View Full Listing Details
+                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                          </svg>
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* RealScout Integration */}
+        <section className="py-16 bg-blue-50">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                🏠 Advanced Home Search with RealScout
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Get detailed property information, market analysis, and personalized recommendations through Dr. Jan Duffy's RealScout platform. Access comprehensive listing data, neighborhood insights, and expert guidance all in one place.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
+              <div className="bg-white rounded-lg p-6 shadow-lg text-center">
+                <div className="text-4xl mb-4">📊</div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Market Analysis</h3>
+                <p className="text-gray-600">Get detailed market data, price trends, and neighborhood comparisons to make informed decisions.</p>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-lg text-center">
+                <div className="text-4xl mb-4">🔍</div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Detailed Listings</h3>
+                <p className="text-gray-600">Access comprehensive property details, photos, floor plans, and neighborhood information in one platform.</p>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-lg text-center">
+                <div className="text-4xl mb-4">🤝</div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Expert Guidance</h3>
+                <p className="text-gray-600">Work directly with Dr. Jan Duffy for personalized recommendations and professional real estate expertise.</p>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <a 
+                href="https://drjanduffy.realscout.com/homesearch/listings/p-8990-rimerton-street-las-vegas-89166-glvartrestle-875"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors text-lg"
+              >
+                🏠 View 8990 Rimerton Street on RealScout
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
             </div>
           </div>
         </section>
