@@ -13,7 +13,7 @@ export default function Modal({
   images: ImageProps[];
   onClose?: () => void;
 }) {
-  let overlayRef = useRef();
+  let overlayRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
 
   const { photoId } = router.query;
@@ -65,11 +65,7 @@ export default function Modal({
     >
       <Dialog.Overlay
         ref={overlayRef}
-        as={motion.div}
-        key="backdrop"
         className="fixed inset-0 z-30 bg-black/70 backdrop-blur-2xl"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
       />
       <SharedModal
         index={curIndex}
