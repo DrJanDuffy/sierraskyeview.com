@@ -96,11 +96,14 @@ const Community: NextPage = () => {
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-              {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
-                <div key={i} className="aspect-square bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500">Community Image {i}</span>
-                </div>
-              ))}
+              <img src="/community-amenities.jpg" alt="Community recreation center" className="aspect-square object-cover rounded-lg" />
+              <img src="/community-pool.jpg" alt="Community pool and amenities" className="aspect-square object-cover rounded-lg" />
+              <img src="/community-fitness.jpg" alt="Fitness center" className="aspect-square object-cover rounded-lg" />
+              <img src="/community-park.jpg" alt="Beautiful park and trails" className="aspect-square object-cover rounded-lg" />
+              <img src="/home-exterior-1.jpg" alt="Modern homes in community" className="aspect-square object-cover rounded-lg" />
+              <img src="/home-exterior-2.jpg" alt="Beautiful neighborhood" className="aspect-square object-cover rounded-lg" />
+              <img src="/mountain-views.jpg" alt="Mountain views from Skye Canyon" className="aspect-square object-cover rounded-lg" />
+              <img src="/las-vegas-skyline.jpg" alt="Las Vegas skyline view" className="aspect-square object-cover rounded-lg" />
             </div>
 
             <div className="text-center">

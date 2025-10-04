@@ -253,12 +253,15 @@ const Home: NextPage = () => {
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
-                <div key={i} className="aspect-square bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500">Gallery Image {i}</span>
-                </div>
-          ))}
-        </div>
+              <img src="/home-exterior-1.jpg" alt="Modern home exterior" className="aspect-square object-cover rounded-lg" />
+              <img src="/home-exterior-2.jpg" alt="Beautiful home with landscaping" className="aspect-square object-cover rounded-lg" />
+              <img src="/modern-kitchen-1.jpg" alt="Modern kitchen design" className="aspect-square object-cover rounded-lg" />
+              <img src="/modern-living-room.jpg" alt="Spacious living room" className="aspect-square object-cover rounded-lg" />
+              <img src="/modern-bedroom.jpg" alt="Master bedroom" className="aspect-square object-cover rounded-lg" />
+              <img src="/modern-bathroom.jpg" alt="Luxury bathroom" className="aspect-square object-cover rounded-lg" />
+              <img src="/community-amenities.jpg" alt="Community amenities" className="aspect-square object-cover rounded-lg" />
+              <img src="/community-pool.jpg" alt="Community pool" className="aspect-square object-cover rounded-lg" />
+            </div>
 
             <div className="text-center mt-8">
               <Link href="/community" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
@@ -376,7 +379,7 @@ const Home: NextPage = () => {
                 📧 EMAIL DR. JAN
               </a>
             </div>
-          </div>
+        </div>
         </section>
       </main>
 

@@ -71,8 +71,12 @@ const Model1602: NextPage = () => {
             <div className="grid lg:grid-cols-2 gap-12">
               {/* Model Image */}
               <div className="bg-white rounded-lg shadow-lg p-8">
-                <div className="h-96 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
-                  <span className="text-blue-600 font-semibold text-xl">Residence 1602 Floor Plan</span>
+                <div className="h-96 rounded-lg overflow-hidden mb-6">
+                  <img 
+                    src="/floorplan-1602.jpg" 
+                    alt="Residence 1602 Floor Plan"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div className="text-center">
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Key Specifications</h3>

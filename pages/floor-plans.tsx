@@ -141,8 +141,14 @@ const FloorPlans: NextPage = () => {
                     </div>
                   )}
                   
-                  <div className="h-64 bg-blue-100 flex items-center justify-center relative">
-                    <span className="text-blue-600 font-semibold">Floor Plan Image</span>
+                  <div className="h-64 relative overflow-hidden">
+                    <img 
+                      src={plan.name === "Residence 1602" ? "/floorplan-1602.jpg" : 
+                           plan.name === "Residence 1708" ? "/floorplan-1708.jpg" : 
+                           "/floorplan-1965.jpg"} 
+                      alt={`${plan.name} floor plan`}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   
                   <div className="p-6">

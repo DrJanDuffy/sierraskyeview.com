@@ -145,8 +145,14 @@ const QuickMoveIn: NextPage = () => {
             <div className="grid md:grid-cols-2 gap-8">
               {availableHomes.map((home) => (
                 <div key={home.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
-                  <div className="h-48 bg-green-100 flex items-center justify-center">
-                    <span className="text-green-600 font-semibold">Home Image</span>
+                  <div className="h-48 overflow-hidden">
+                    <img 
+                      src={home.floorPlan === "Residence 1602" ? "/home-exterior-1.jpg" : 
+                           home.floorPlan === "Residence 1965" ? "/home-exterior-3.jpg" : 
+                           "/home-exterior-2.jpg"} 
+                      alt={`${home.floorPlan} at ${home.address}`}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div className="p-6">
                     <div className="flex justify-between items-start mb-4">

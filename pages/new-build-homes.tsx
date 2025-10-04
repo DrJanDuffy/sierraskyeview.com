@@ -178,6 +178,15 @@ const NewBuildHomes: NextPage = () => {
             <div className="grid md:grid-cols-3 gap-8">
               {floorPlans.map((plan, index) => (
                 <div key={index} className="bg-gray-50 rounded-lg p-6 shadow-lg">
+                  <div className="h-48 rounded-lg overflow-hidden mb-4">
+                    <img 
+                      src={plan.name === "Residence 1602" ? "/floorplan-1602.jpg" : 
+                           plan.name === "Residence 1708" ? "/floorplan-1708.jpg" : 
+                           "/floorplan-1965.jpg"} 
+                      alt={`${plan.name} floor plan`}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{plan.name}</h3>
                   <p className="text-2xl font-bold text-blue-600 mb-4">Starting at {plan.startingPrice}</p>
                   
