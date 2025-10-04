@@ -231,13 +231,13 @@ const About: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Sierra Skyview</h3>
+              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview</h3>
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300">
-                5060 Wind Springs Street<br />
-                North Las Vegas, NV 89031<br />
+                8925 Vanhoy Creek St.<br />
+                Las Vegas, NV 89166<br />
                 (702) 500-1955
               </p>
             </div>

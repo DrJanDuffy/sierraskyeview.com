@@ -97,7 +97,7 @@ const Home: NextPage = () => {
               </Link>
             </div>
             <p className="mt-4 text-lg font-semibold">
-              5060 Wind Springs Street, North Las Vegas, NV 89031
+              8925 Vanhoy Creek St., Las Vegas, NV 89166
             </p>
           </div>
         </section>
@@ -330,8 +330,8 @@ const Home: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300">
-                5060 Wind Springs Street<br />
-                North Las Vegas, NV 89031<br />
+                8925 Vanhoy Creek St.<br />
+                Las Vegas, NV 89166<br />
                 (702) 500-1955
               </p>
             </div>
