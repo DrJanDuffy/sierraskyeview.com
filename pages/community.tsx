@@ -192,8 +192,17 @@ const Community: NextPage = () => {
                   ))}
                 </div>
               </div>
-              <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-                <span className="text-gray-500">Map Image</span>
+              <div className="relative">
+                <img 
+                  src="/skye-canyon-community-map.jpg" 
+                  alt="Skye Canyon Master Planned Community Map showing neighborhoods, amenities, and Sierra at Skyeview location" 
+                  className="w-full h-96 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300" 
+                  loading="lazy"
+                />
+                <div className="absolute top-4 left-4 bg-white bg-opacity-90 rounded-lg p-3">
+                  <h4 className="font-bold text-gray-900 text-sm">Sierra at Skyeview</h4>
+                  <p className="text-xs text-gray-600">Premium new construction homes</p>
+                </div>
               </div>
             </div>
           </div>
@@ -263,6 +272,147 @@ const Community: NextPage = () => {
                 <div className="text-4xl mb-4">🏠</div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Premium Finishes</h3>
                 <p className="text-gray-600 text-sm">High-quality materials throughout your home</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Interactive Community Map */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                🗺️ Explore Skye Canyon Master Plan
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Discover the 1,700-acre master-planned community where Sierra at Skyeview is located. This comprehensive map shows neighborhoods, amenities, schools, and recreational facilities throughout Skye Canyon.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+              <div className="relative">
+                <img 
+                  src="/skye-canyon-community-map.jpg" 
+                  alt="Skye Canyon Master Planned Community Map showing neighborhoods, amenities, parks, schools, and Sierra at Skyeview location in Las Vegas" 
+                  className="w-full h-auto object-contain" 
+                  loading="lazy"
+                />
+                <div className="absolute top-6 left-6 bg-blue-600 text-white rounded-lg p-4 shadow-lg">
+                  <h4 className="font-bold text-lg">📍 Sierra at Skyeview</h4>
+                  <p className="text-sm opacity-90">Premium Century Communities homes</p>
+                  <p className="text-xs opacity-75 mt-1">Starting from $419,990</p>
+                </div>
+              </div>
+              
+              <div className="p-6 bg-gray-50">
+                <div className="grid md:grid-cols-4 gap-6">
+                  <div className="text-center">
+                    <div className="text-2xl mb-2">🏞️</div>
+                    <h4 className="font-semibold text-gray-900">Parks & Recreation</h4>
+                    <p className="text-sm text-gray-600">Multiple parks, trails, and open spaces</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl mb-2">🏫</div>
+                    <h4 className="font-semibold text-gray-900">Top-Rated Schools</h4>
+                    <p className="text-sm text-gray-600">Elementary, middle, and high schools</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl mb-2">🛍️</div>
+                    <h4 className="font-semibold text-gray-900">Shopping & Dining</h4>
+                    <p className="text-sm text-gray-600">Retail centers and restaurants nearby</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl mb-2">🚗</div>
+                    <h4 className="font-semibold text-gray-900">Easy Access</h4>
+                    <p className="text-sm text-gray-600">Near major highways and employment centers</p>
+                  </div>
+                </div>
+                
+                <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
+                  <a 
+                    href="/skye-canyon-community-map.pdf" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                  >
+                    📄 Download Full Community Map (PDF)
+                  </a>
+                  <a 
+                    href="https://www.google.com/maps/search/Skye+Canyon,+Las+Vegas,+NV" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
+                  >
+                    🗺️ View on Google Maps
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Google Maps Location */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                📍 Visit Sierra at Skyeview
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Located in the heart of Skye Canyon, Sierra at Skyeview offers easy access to the Las Vegas Strip, Downtown Las Vegas, and major employment centers.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">Location Details</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start">
+                    <div className="text-2xl mr-4">📍</div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900">Address</h4>
+                      <p className="text-gray-600">8925 Vanhoy Creek St.<br />Las Vegas, NV 89166</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="text-2xl mr-4">🚗</div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900">Distance to Key Locations</h4>
+                      <p className="text-gray-600">• Las Vegas Strip: 25 minutes<br />• Downtown Las Vegas: 20 minutes<br />• McCarran Airport: 30 minutes<br />• Red Rock Canyon: 15 minutes</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="text-2xl mr-4">🛣️</div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900">Major Highways</h4>
+                      <p className="text-gray-600">• US-95: 5 minutes<br />• I-215 Beltway: 10 minutes<br />• Skye Canyon Blvd: Direct access</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="mt-8">
+                  <a 
+                    href="https://www.google.com/maps/dir/?api=1&destination=8925+Vanhoy+Creek+St,+Las+Vegas,+NV+89166"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                  >
+                    🚗 Get Directions
+                  </a>
+                </div>
+              </div>
+              
+              <div className="relative">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.234567890123!2d-115.2848!3d36.2565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8b4b5b5b5b5b5%3A0x1234567890abcdef!2sSkye%20Canyon%2C%20Las%20Vegas%2C%20NV!5e0!3m2!1sen!2sus!4v1234567890123"
+                  width="100%"
+                  height="400"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Skye Canyon Community Location in Las Vegas"
+                ></iframe>
               </div>
             </div>
           </div>
