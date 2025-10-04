@@ -236,7 +236,7 @@ const QuickMoveIn: NextPage = () => {
         <div className="h-48 overflow-hidden">
           <img
             src={home.id === 1 ? "/8990-rimerton-street-exterior.jpg" :
-                 home.id === 2 ? "/9026-rimerton-exterior.jpg" :
+                 home.id === 2 ? "/9026-rimerton-street-exterior.jpg" :
                  home.floorPlan === "Residence 1602" ? "/residence-1602-floor-plan.jpg" :
                  home.floorPlan === "Residence 1965" ? "/residence-1965-floor-plan.jpg" :
                  "/residence-1708-floor-plan.jpg"}
