@@ -32,6 +32,7 @@ const Model1708: NextPage = () => {
               <Link href="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
               <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Dr. Jan</Link>
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
+              <Link href="/qa" className="text-gray-700 hover:text-blue-600 font-medium">Q&A</Link>
             </div>
           </div>
         </div>
@@ -131,6 +132,56 @@ const Model1708: NextPage = () => {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Residence 1708 Q&A Section */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Residence 1708 Questions & Answers
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Get answers to common questions about the Residence 1708 floor plan and stunning loft features.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white rounded-lg p-6 shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">What makes the loft area special?</h3>
+                <p className="text-gray-700 mb-4">
+                  The stunning loft area provides flexible living space that can be used as a home office, playroom, media room, or additional bedroom, adding versatility to your home.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-6 shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Why is Residence 1708 most popular?</h3>
+                <p className="text-gray-700 mb-4">
+                  Residence 1708 offers the perfect balance of space and features with 1,708 sq ft, enhanced kitchen with premium finishes, and the coveted loft area for flexible living.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-6 shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">What upgrades are available?</h3>
+                <p className="text-gray-700 mb-4">
+                  Century Communities offers various customization options and upgrades. Dr. Jan Duffy can help you explore available options to personalize your home.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-6 shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Is this model available for viewing?</h3>
+                <p className="text-gray-700 mb-4">
+                  Yes! Residence 1708 is available as a stunning model home for viewing. Contact Dr. Jan Duffy to schedule your private tour of this beautiful home.
+                </p>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <Link href="/qa" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                View All Questions & Answers
+              </Link>
             </div>
           </div>
         </section>

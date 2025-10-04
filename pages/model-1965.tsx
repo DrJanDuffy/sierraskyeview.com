@@ -32,6 +32,7 @@ const Model1965: NextPage = () => {
               <Link href="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
               <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Dr. Jan</Link>
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
+              <Link href="/qa" className="text-gray-700 hover:text-blue-600 font-medium">Q&A</Link>
             </div>
           </div>
         </div>
@@ -131,6 +132,56 @@ const Model1965: NextPage = () => {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Residence 1965 Q&A Section */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Residence 1965 Questions & Answers
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Get answers to common questions about the largest floor plan at Sierra at Skyeview.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white rounded-lg p-6 shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">What makes Residence 1965 the largest floor plan?</h3>
+                <p className="text-gray-700 mb-4">
+                  Residence 1965 offers 1,965 sq ft with an optional downstairs bed, downstairs den, and the most spacious great room perfect for entertaining large groups.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-6 shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">What's included in the downstairs den?</h3>
+                <p className="text-gray-700 mb-4">
+                  The downstairs den provides additional flexible living space that can be used as a home office, playroom, or guest room, perfect for growing families.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-6 shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Is the downstairs bed optional?</h3>
+                <p className="text-gray-700 mb-4">
+                  Yes! The optional downstairs bed provides flexibility for guests or family members who prefer single-story living, making this floor plan perfect for multi-generational families.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-lg p-6 shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">What premium finishes are included?</h3>
+                <p className="text-gray-700 mb-4">
+                  Residence 1965 comes with premium finishes throughout, including a gourmet kitchen with large island, expansive primary suite, and the Century Connect® smart home package.
+                </p>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <Link href="/qa" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                View All Questions & Answers
+              </Link>
             </div>
           </div>
         </section>
