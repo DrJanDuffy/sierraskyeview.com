@@ -193,7 +193,7 @@ const QuickMoveIn: NextPage = () => {
                 <div key={home.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
         <div className="h-48 overflow-hidden">
           <img
-            src={home.id === 1 ? "/8990-rimerton-exterior-1.jpg" :
+            src={home.id === 1 ? "/8990-rimerton-street-exterior.jpg" :
                  home.floorPlan === "Residence 1602" ? "/residence-1602-floor-plan.jpg" :
                  home.floorPlan === "Residence 1965" ? "/residence-1965-floor-plan.jpg" :
                  "/residence-1708-floor-plan.jpg"}
@@ -410,7 +410,7 @@ const QuickMoveIn: NextPage = () => {
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 <div className="group cursor-pointer">
                   <img 
-                    src="/8990-rimerton-exterior-1.jpg" 
+                    src="/8990-rimerton-street-exterior.jpg" 
                     alt="8990 Rimerton Street exterior view"
                     className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
                     loading="lazy"
