@@ -76,7 +76,7 @@ const QuickMoveIn: NextPage = () => {
       daysOnSite: "2",
       listingDate: "Oct 1, 2025",
       mlsNumber: "2722264",
-      realScoutUrl: "https://drjanduffy.realscout.com/homesearch/listings/p-9026-rimerton-street-las-vegas-89166-glvartrestle-876",
+      realScoutUrl: "https://drjanduffy.realscout.com/homesearch/listings/p-9026-rimerton-street-las-vegas-89166-glvartrestle-6",
       features: [
         "Cul-de-sac location with charming living",
         "Open-concept layout connecting great room, nook, and kitchen",
@@ -624,6 +624,103 @@ const QuickMoveIn: NextPage = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 9026 Rimerton Street Gallery */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
+              📸 9026 Rimerton Street Photo Gallery
+            </h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              <div className="group cursor-pointer">
+                <img 
+                  src="/9026-rimerton-street-exterior.jpg" 
+                  alt="9026 Rimerton Street exterior view"
+                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                />
+                <p className="text-sm text-gray-600 mt-2 text-center">Exterior View</p>
+              </div>
+              <div className="group cursor-pointer">
+                <img 
+                  src="/9026-rimerton-kitchen-real.jpg" 
+                  alt="Modern kitchen with island and walk-in pantry"
+                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                />
+                <p className="text-sm text-gray-600 mt-2 text-center">Modern Kitchen</p>
+              </div>
+              <div className="group cursor-pointer">
+                <img 
+                  src="/9026-rimerton-living-room-real.jpg" 
+                  alt="Open concept living room"
+                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                />
+                <p className="text-sm text-gray-600 mt-2 text-center">Living Room</p>
+              </div>
+              <div className="group cursor-pointer">
+                <img 
+                  src="/9026-rimerton-dining-room.jpg" 
+                  alt="Dining room with breakfast nook"
+                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                />
+                <p className="text-sm text-gray-600 mt-2 text-center">Dining Room</p>
+              </div>
+              <div className="group cursor-pointer">
+                <img 
+                  src="/9026-rimerton-master-bedroom-real.jpg" 
+                  alt="Master bedroom with walk-in closet"
+                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                />
+                <p className="text-sm text-gray-600 mt-2 text-center">Master Bedroom</p>
+              </div>
+              <div className="group cursor-pointer">
+                <img 
+                  src="/9026-rimerton-bathroom-real.jpg" 
+                  alt="Master bathroom with dual vanities"
+                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                />
+                <p className="text-sm text-gray-600 mt-2 text-center">Master Bathroom</p>
+              </div>
+              <div className="group cursor-pointer">
+                <img 
+                  src="/9026-rimerton-laundry-room.jpg" 
+                  alt="Upstairs laundry room"
+                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                />
+                <p className="text-sm text-gray-600 mt-2 text-center">Laundry Room</p>
+              </div>
+              <div className="group cursor-pointer">
+                <img 
+                  src="/9026-rimerton-garage-real.jpg" 
+                  alt="Two-car garage"
+                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                />
+                <p className="text-sm text-gray-600 mt-2 text-center">Two-Car Garage</p>
+              </div>
+            </div>
+            
+            <div className="text-center mt-8">
+              <a 
+                href="https://drjanduffy.realscout.com/homesearch/listings/p-9026-rimerton-street-las-vegas-89166-glvartrestle-6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
+              >
+                🏠 View All Photos on RealScout
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
             </div>
           </div>
         </section>
