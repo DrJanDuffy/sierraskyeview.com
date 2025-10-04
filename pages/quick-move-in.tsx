@@ -13,10 +13,52 @@ const QuickMoveIn: NextPage = () => {
       bedrooms: "3",
       bathrooms: "2.5",
       garage: "2",
-      price: "$447,690",
-      estCompletion: "December 2024",
-      features: ["Open Floor Plan", "Optional separate tub/shower at primary bath", "Two-tone interior paint", "Laundry room with upper cabinets", "Generous center island", "Walk-in pantry"],
-      status: "Available"
+      price: "$420,240",
+      pricePerSqft: "$262",
+      estCompletion: "Under Construction",
+      daysOnSite: "10",
+      listingDate: "Sep 18, 2025",
+      mlsNumber: "2721611",
+      features: [
+        "Open-concept layout with great room, nook, and kitchen",
+        "Generous center island and walk-in pantry",
+        "Two secondary bedrooms upstairs with full bath",
+        "Convenient upstairs laundry room",
+        "Private owner's suite with walk-in closet and slider closet",
+        "Dual vanities and walk-in shower in master bath",
+        "Patio cover and BBQ stub",
+        "Century Home Connect smart home features",
+        "Upgraded whole house electrical package",
+        "42\" cabinets (java) with fawn glossy full backsplash",
+        "Laundry cabinet uppers",
+        "Upgraded appliance package",
+        "Two-tone paint throughout",
+        "Gas cooktop, dishwasher, disposal, microwave",
+        "Tankless water heater",
+        "Double pane, low-emissivity windows",
+        "Desert landscaping with drip irrigation",
+        "Attached 2-car garage"
+      ],
+      amenities: [
+        "Community pool and spa/hot tub",
+        "Fitness center",
+        "Clubhouse",
+        "Basketball and tennis courts",
+        "Dog park",
+        "Playground",
+        "Jogging paths"
+      ],
+      schools: [
+        "Kenneth Divich Elementary (K-5)",
+        "Edmundo Eddie Escobedo Sr Middle School (6-8)",
+        "Arbor View High School (9-12)"
+      ],
+      hoaFee: "$250 quarterly",
+      taxes: "$943 annually",
+      status: "Available",
+      yearBuilt: "2025",
+      construction: "Frame, Stucco, and Drywall",
+      roof: "Pitched and Tile"
     },
     {
       id: 2,
@@ -66,7 +108,7 @@ const QuickMoveIn: NextPage = () => {
     <>
       <Head>
         <title>Quick Move-In Homes Available | Sierra at Skyeview at Skye Canyon | Homes by Dr. Jan Duffy</title>
-        <meta name="description" content="Discover quick move-in homes available now at Sierra at Skyeview in Skye Canyon, Las Vegas. New homes ready for immediate occupancy with Dr. Jan Duffy's expert guidance." />
+        <meta name="description" content="Quick move-in homes available now at Sierra at Skyeview Skye Canyon Las Vegas. Residence 1602 starting at $420,240 with 1,602 sqft. Expert guidance from Dr. Jan Duffy for Century Communities new homes ready for immediate occupancy." />
         <meta property="og:title" content="Quick Move-In Homes Available | Sierra at Skyeview at Skye Canyon" />
         <meta property="og:description" content="Discover quick move-in homes available now at Sierra at Skyeview in Skye Canyon, Las Vegas. New homes ready for immediate occupancy." />
         <meta name="keywords" content="quick move-in homes Las Vegas, Sierra at Skyeview available homes, Skye Canyon new homes ready, Century Communities move-in ready, Las Vegas new construction available" />
@@ -112,7 +154,7 @@ const QuickMoveIn: NextPage = () => {
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
               <p className="text-xl max-w-3xl mx-auto">
-                Don't wait months for construction! Discover move-in ready homes at Sierra at Skyeview in Skye Canyon, Las Vegas. Get expert guidance from Dr. Jan Duffy for Century Communities new homes available for immediate occupancy.
+                Don't wait months for construction! Discover move-in ready homes at Sierra at Skyeview in Skye Canyon, Las Vegas. Currently available: Residence 1602 starting at $420,240 with 1,602 sqft. Get expert guidance from Dr. Jan Duffy for Century Communities new homes available for immediate occupancy.
               </p>
               <div className="flex items-center gap-3">
                 <span className="text-gray-300">Built by</span>
@@ -189,20 +231,94 @@ const QuickMoveIn: NextPage = () => {
                     </div>
 
                     <div className="mb-4">
-                      <p className="text-2xl font-bold text-green-600">{home.price}</p>
-                      <p className="text-sm text-gray-600">Est. Completion: {home.estCompletion}</p>
+                      <div className="flex justify-between items-start">
+                        <div>
+                          <p className="text-2xl font-bold text-green-600">{home.price}</p>
+                          {home.pricePerSqft && (
+                            <p className="text-sm text-gray-600">{home.pricePerSqft} per sqft</p>
+                          )}
+                        </div>
+                        {home.daysOnSite && (
+                          <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">
+                            {home.daysOnSite} days
+                          </span>
+                        )}
+                      </div>
+                      <div className="mt-2 space-y-1">
+                        <p className="text-sm text-gray-600">Status: {home.estCompletion}</p>
+                        {home.listingDate && (
+                          <p className="text-sm text-gray-600">Listed: {home.listingDate}</p>
+                        )}
+                        {home.mlsNumber && (
+                          <p className="text-sm text-gray-600">MLS: {home.mlsNumber}</p>
+                        )}
+                      </div>
                     </div>
 
                     <div className="mb-4">
-                      <h4 className="font-semibold text-gray-900 mb-2">Included Features:</h4>
+                      <h4 className="font-semibold text-gray-900 mb-2">Key Features:</h4>
                       <div className="flex flex-wrap gap-2">
-                        {home.features.map((feature, index) => (
-                          <span key={index} className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">
+                        {home.features.slice(0, 6).map((feature, index) => (
+                          <span key={index} className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">
                             {feature}
                           </span>
                         ))}
+                        {home.features.length > 6 && (
+                          <span className="bg-blue-100 text-blue-700 px-2 py-1 rounded text-xs">
+                            +{home.features.length - 6} more
+                          </span>
+                        )}
                       </div>
                     </div>
+
+                    {/* Community Amenities */}
+                    {home.amenities && (
+                      <div className="mb-4">
+                        <h4 className="font-semibold text-gray-900 mb-2">Community Amenities:</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {home.amenities.slice(0, 4).map((amenity, index) => (
+                            <span key={index} className="bg-green-100 text-green-700 px-2 py-1 rounded text-xs">
+                              {amenity}
+                            </span>
+                          ))}
+                          {home.amenities.length > 4 && (
+                            <span className="bg-green-100 text-green-700 px-2 py-1 rounded text-xs">
+                              +{home.amenities.length - 4} more
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Schools */}
+                    {home.schools && (
+                      <div className="mb-4">
+                        <h4 className="font-semibold text-gray-900 mb-2">Nearby Schools:</h4>
+                        <div className="text-sm text-gray-600">
+                          {home.schools.map((school, index) => (
+                            <div key={index}>{school}</div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* HOA & Taxes */}
+                    {(home.hoaFee || home.taxes) && (
+                      <div className="mb-4 text-sm">
+                        {home.hoaFee && (
+                          <div className="flex justify-between">
+                            <span className="text-gray-600">HOA Fee:</span>
+                            <span className="font-semibold">{home.hoaFee}</span>
+                          </div>
+                        )}
+                        {home.taxes && (
+                          <div className="flex justify-between">
+                            <span className="text-gray-600">Property Tax:</span>
+                            <span className="font-semibold">{home.taxes}</span>
+                          </div>
+                        )}
+                      </div>
+                    )}
 
                     <div className="flex space-x-2">
                       <a href="tel:7025001955" className="flex-1 bg-green-600 text-white text-center py-3 rounded-lg hover:bg-green-700 transition-colors">
