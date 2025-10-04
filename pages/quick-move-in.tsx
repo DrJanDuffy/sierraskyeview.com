@@ -13,8 +13,8 @@ const QuickMoveIn: NextPage = () => {
       bedrooms: "3",
       bathrooms: "2.5",
       garage: "2",
-      price: "$444,240",
-      estCompletion: "November 2024",
+      price: "$447,690",
+      estCompletion: "December 2024",
       features: ["Laundry Room Cabinets", "Tile Flooring", "Patio cover", "42\" upper cabinets at kitchen (Java)", "Full kitchen backsplash", "Two-tone interior paint", "Upgraded kitchen appliances"],
       status: "Available"
     },
@@ -34,6 +34,20 @@ const QuickMoveIn: NextPage = () => {
     },
     {
       id: 3,
+      address: "9026 Rimerton ST",
+      lot: "SRA015",
+      floorPlan: "Residence 1602",
+      sqft: "1,602",
+      bedrooms: "3",
+      bathrooms: "2.5",
+      garage: "2",
+      price: "$453,940",
+      estCompletion: "December 2024",
+      features: ["Separate tub/shower at primary bath", "Open-concept layout", "Generous center island", "Walk-in pantry", "Private owner's suite"],
+      status: "Available"
+    },
+    {
+      id: 4,
       address: "9018 Rimerton ST",
       lot: "SRA017",
       floorPlan: "Residence 1965",

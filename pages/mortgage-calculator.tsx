@@ -276,13 +276,13 @@ const MortgageCalculator: NextPage = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-gray-50 rounded-lg p-6 text-center">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 1602</h3>
-                <p className="text-2xl font-bold text-blue-600 mb-4">From $444,240</p>
+                <p className="text-2xl font-bold text-blue-600 mb-4">From $447,690</p>
                 <div className="text-sm text-gray-600 mb-4">
                   <p>1,602 sq ft • 3 bed • 2.5 bath</p>
                   <p>Est. Payment: ~$2,900/month*</p>
                 </div>
                 <button 
-                  onClick={() => setHomePrice(444240)}
+                  onClick={() => setHomePrice(447690)}
                   className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors"
                 >
                   Use in Calculator
@@ -323,7 +323,7 @@ const MortgageCalculator: NextPage = () => {
             <div className="text-center mt-8">
               <p className="text-sm text-gray-500">
                 *Estimates based on 20% down payment, 30-year loan, 7.5% interest rate, 0.6% property tax, and $1,200 annual insurance. 
-                Actual payments may vary. Based on current pricing: Residence 1602 from $444,240, Residence 1708 from $429,990, Residence 1965 from $449,990.
+                Actual payments may vary. Based on current pricing: Residence 1602 from $447,690 (up to $453,940), Residence 1708 from $429,990, Residence 1965 from $449,990.
               </p>
             </div>
           </div>

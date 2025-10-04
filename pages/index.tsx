@@ -33,9 +33,9 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Sierra at Skyeview at Skye Canyon | Homes by Dr. Jan Duffy</title>
-        <meta name="description" content="Sierra at Skyeview at Skye Canyon new homes in Las Vegas. Expert guidance from Dr. Jan Duffy. Starting at $444,240 with Century Communities partnership. Quick move-in homes available." />
+        <meta name="description" content="Sierra at Skyeview at Skye Canyon new homes in Las Vegas. Expert guidance from Dr. Jan Duffy. Starting at $447,690 with Century Communities partnership. Quick move-in homes available." />
         <meta property="og:title" content="Sierra at Skyeview at Skye Canyon | Homes by Dr. Jan Duffy" />
-        <meta property="og:description" content="Sierra at Skyeview at Skye Canyon new homes in Las Vegas. Expert guidance from Dr. Jan Duffy. Starting at $444,240 with Century Communities partnership." />
+        <meta property="og:description" content="Sierra at Skyeview at Skye Canyon new homes in Las Vegas. Expert guidance from Dr. Jan Duffy. Starting at $447,690 with Century Communities partnership." />
         <meta property="og:image" content="/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Sierra at Skyeview at Skye Canyon | Homes by Dr. Jan Duffy" />
@@ -83,7 +83,7 @@ const Home: NextPage = () => {
               Sierra at Skyeview - New Homes in Las Vegas
             </h1>
             <p className="text-xl md:text-2xl mb-4">
-              Now Selling! Starting at $444,240 - Two-Story Homes up to 1,965 sq ft
+              Now Selling! Starting at $447,690 - Two-Story Homes up to 1,965 sq ft
             </p>
             <p className="text-lg mb-8">
               Expert Guidance from Dr. Jan Duffy | Century Communities Partnership
@@ -133,7 +133,7 @@ const Home: NextPage = () => {
                 Sierra at Skyeview Floor Plans - Now Selling!
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Limited Availability! Choose from 3 two-story floor plans with 3 bedrooms and up to 1,965 sq. ft. Each home features expansive living spaces, premium finishes, and smart tech included with the Century Connect® package. Quick move-in homes available starting at $444,240.
+                Limited Availability! Choose from 3 two-story floor plans with 3 bedrooms and up to 1,965 sq. ft. Each home features expansive living spaces, premium finishes, and smart tech included with the Century Connect® package. Quick move-in homes available from $447,690 to $453,940.
               </p>
             </div>
 
@@ -145,7 +145,7 @@ const Home: NextPage = () => {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 1602</h3>
-                  <p className="text-blue-600 font-semibold text-lg mb-4">From $444,240</p>
+                  <p className="text-blue-600 font-semibold text-lg mb-4">From $447,690</p>
                   <div className="grid grid-cols-2 gap-4 mb-4 text-sm">
                     <div>
                       <span className="font-semibold">1,602</span><br />

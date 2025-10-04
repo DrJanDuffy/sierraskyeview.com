@@ -7,7 +7,7 @@ const FloorPlans: NextPage = () => {
     {
       id: 1,
       name: "Residence 1602",
-      price: "From $419,990",
+      price: "From $447,690",
       sqft: "1,602",
       bedrooms: "3",
       bathrooms: "2.5",
@@ -18,6 +18,7 @@ const FloorPlans: NextPage = () => {
         "Generous center island and walk-in pantry",
         "Private owner's suite with walk-in closet plus slider closet",
         "Dual vanities and walk-in shower in primary bath",
+        "Optional separate tub/shower at primary bath",
         "Laundry room with upper cabinets",
         "Two-tone interior paint throughout"
       ],
@@ -67,9 +68,9 @@ const FloorPlans: NextPage = () => {
     <>
       <Head>
         <title>Floor Plans - Sierra at Skyeview | Dr. Jan Duffy</title>
-        <meta name="description" content="Explore luxury floor plans at Sierra at Skyeview in Skye Canyon. 3 beautiful two-story homes from $419,990. Expert guidance from Dr. Jan Duffy." />
+        <meta name="description" content="Explore luxury floor plans at Sierra at Skyeview in Skye Canyon. 3 beautiful two-story homes from $447,690. Expert guidance from Dr. Jan Duffy." />
         <meta property="og:title" content="Floor Plans - Sierra at Skyeview" />
-        <meta property="og:description" content="Explore luxury floor plans at Sierra at Skyeview in Skye Canyon. 3 beautiful two-story homes from $419,990." />
+        <meta property="og:description" content="Explore luxury floor plans at Sierra at Skyeview in Skye Canyon. 3 beautiful two-story homes from $447,690." />
       </Head>
 
       {/* Navigation */}
@@ -105,7 +106,7 @@ const FloorPlans: NextPage = () => {
               Sierra at Skyeview Floor Plans - Now Selling!
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Limited Availability! Choose from 3 two-story floor plans with 3 bedrooms and up to 1,965 sq. ft. Each home features expansive living spaces, premium finishes, and smart tech included with the Century Connect® package.
+              Limited Availability! Choose from 3 two-story floor plans with 3 bedrooms and up to 1,965 sq. ft. Each home features expansive living spaces, premium finishes, and smart tech included with the Century Connect® package. Quick move-in homes available starting at $447,690.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
