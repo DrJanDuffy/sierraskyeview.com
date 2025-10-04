@@ -62,6 +62,7 @@ const Home: NextPage = () => {
               <Link href="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
               <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Dr. Jan</Link>
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
+              <Link href="/qa" className="text-gray-700 hover:text-blue-600 font-medium">Q&A</Link>
             </div>
             <div className="md:hidden">
               <button className="text-gray-700" aria-label="Open menu">
@@ -298,6 +299,60 @@ const Home: NextPage = () => {
                 <h3 className="text-xl font-bold mb-2">Las Vegas Specialist</h3>
                 <p className="text-gray-300">Nevada License S.0197614. Deep knowledge of Skye Canyon and the entire metro area.</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Quick Q&A Section */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Frequently Asked Questions
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Get quick answers to common questions about Sierra at Skyeview homes and community.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">What are the HOA fees?</h3>
+                <p className="text-gray-700 mb-4">
+                  Skye Canyon master community HOA fee is approximately $83/month. Sierra at Skyeview may have additional sub-HOA fees for enhanced amenities.
+                </p>
+                <a href="/qa" className="text-blue-600 hover:text-blue-700 font-semibold">View all HOA questions →</a>
+              </div>
+
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">What's included in the homes?</h3>
+                <p className="text-gray-700 mb-4">
+                  Every home comes with the Century Connect® package featuring smart home technology, premium finishes, and energy-efficient features.
+                </p>
+                <a href="/qa" className="text-blue-600 hover:text-blue-700 font-semibold">Learn more about features →</a>
+              </div>
+
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Are there quick move-in homes?</h3>
+                <p className="text-gray-700 mb-4">
+                  Yes! Several quick move-in homes are available starting from $447,690 with estimated completion dates in December 2024.
+                </p>
+                <a href="/quick-move-in" className="text-blue-600 hover:text-blue-700 font-semibold">View available homes →</a>
+              </div>
+
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">How does Dr. Jan Duffy help?</h3>
+                <p className="text-gray-700 mb-4">
+                  As an independent agent, Dr. Jan represents YOUR interests, not the builder's. She provides expert guidance, market knowledge, and negotiation power.
+                </p>
+                <a href="/about" className="text-blue-600 hover:text-blue-700 font-semibold">Meet Dr. Jan Duffy →</a>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <Link href="/qa" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                View All Questions & Answers
+              </Link>
             </div>
           </div>
         </section>

@@ -96,6 +96,7 @@ const FloorPlans: NextPage = () => {
               <Link href="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
               <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Dr. Jan</Link>
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
+              <Link href="/qa" className="text-gray-700 hover:text-blue-600 font-medium">Q&A</Link>
             </div>
           </div>
         </div>
@@ -219,6 +220,56 @@ const FloorPlans: NextPage = () => {
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Energy Efficient</h3>
                 <p className="text-gray-600">Modern construction techniques for optimal energy performance.</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Floor Plans Q&A Section */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Floor Plans Questions & Answers
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Get answers to common questions about Sierra at Skyeview floor plans and features.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Which floor plan is most popular?</h3>
+                <p className="text-gray-700 mb-4">
+                  Residence 1708 with the stunning loft is our most popular choice, offering 1,708 sq ft and flexible living space starting from $429,990.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">What's the largest floor plan?</h3>
+                <p className="text-gray-700 mb-4">
+                  Residence 1965 is our largest at 1,965 sq ft, featuring an optional downstairs bed and starting from $449,990.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Can I customize the floor plans?</h3>
+                <p className="text-gray-700 mb-4">
+                  Yes! Century Communities offers various customization options and upgrades. Dr. Jan Duffy can help you explore available options.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Do all homes have garages?</h3>
+                <p className="text-gray-700 mb-4">
+                  Yes, all Sierra at Skyeview homes include a 2-car garage and feature shared private driveways for added convenience.
+                </p>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <Link href="/qa" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                View All Questions & Answers
+              </Link>
             </div>
           </div>
         </section>

@@ -50,6 +50,7 @@ const Community: NextPage = () => {
               <Link href="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
               <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Dr. Jan</Link>
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
+              <Link href="/qa" className="text-gray-700 hover:text-blue-600 font-medium">Q&A</Link>
             </div>
           </div>
         </div>
@@ -230,6 +231,56 @@ const Community: NextPage = () => {
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Premium Finishes</h3>
                 <p className="text-gray-600 text-sm">High-quality materials throughout your home</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Community Q&A Section */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Community Questions & Answers
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Get answers to common questions about Skye Canyon community and amenities.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Is Skye Canyon a gated community?</h3>
+                <p className="text-gray-700 mb-4">
+                  Many newer communities within Skye Canyon, including Sierra at Skyeview, offer gated access for added security and exclusivity.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">What's the elevation of Skye Canyon?</h3>
+                <p className="text-gray-700 mb-4">
+                  Skye Canyon is located at 3,000+ foot elevation, providing cooler temperatures and stunning mountain views compared to the Las Vegas valley floor.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">How many homes will be in Skye Canyon?</h3>
+                <p className="text-gray-700 mb-4">
+                  Upon completion, Skye Canyon will feature approximately 6,500 homes across four meticulously planned phases.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">What schools are nearby?</h3>
+                <p className="text-gray-700 mb-4">
+                  Excellent schools include William & Mary Scherbenbach Elementary, Arbor View High School, and Somerset Academy-Skye Canyon Campus.
+                </p>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <Link href="/qa" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                View All Community Questions
+              </Link>
             </div>
           </div>
         </section>
