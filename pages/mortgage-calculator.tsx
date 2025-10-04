@@ -350,7 +350,7 @@ const MortgageCalculator: NextPage = () => {
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 GET PRE-APPROVED: (702) 500-1955
               </a>
-              <a href="mailto:drjan@sierraskyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:DrJanSells@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 EMAIL DR. JAN
               </a>
             </div>
@@ -386,7 +386,7 @@ const MortgageCalculator: NextPage = () => {
               <h4 className="text-lg font-semibold mb-4">Contact Dr. Jan Duffy</h4>
               <div className="space-y-2 text-gray-300">
                 <p><strong>Primary Phone:</strong><br />(702) 500-1955</p>
-                <p><strong>Email:</strong><br />drjan@sierraskyeview.com</p>
+                <p><strong>Email:</strong><br />DrJanSells@SierraSkyeview.com</p>
                 <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>
             </div>

@@ -95,7 +95,7 @@ const Home: NextPage = () => {
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 Call NOW: (702) 500-1955
               </a>
-              <a href="mailto:drjan@sierraskyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:DrJanSells@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 Email Dr. Jan
               </a>
               <Link href="/floor-plans" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -375,7 +375,7 @@ const Home: NextPage = () => {
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 SECURE YOUR HOME NOW (702) 500-1955
               </a>
-              <a href="mailto:drjan@sierraskyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:DrJanSells@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 EMAIL DR. JAN
               </a>
             </div>
@@ -415,7 +415,7 @@ const Home: NextPage = () => {
               <h4 className="text-lg font-semibold mb-4">Contact Dr. Jan Duffy</h4>
               <div className="space-y-2 text-gray-300">
                 <p><strong>Primary Phone:</strong><br />(702) 500-1955</p>
-                <p><strong>Email:</strong><br />drjan@sierraskyeview.com</p>
+                <p><strong>Email:</strong><br />DrJanSells@SierraSkyeview.com</p>
                 <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>
             </div>
