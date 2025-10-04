@@ -193,10 +193,11 @@ const QuickMoveIn: NextPage = () => {
                 <div key={home.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
         <div className="h-48 overflow-hidden">
           <img
-            src={home.floorPlan === "Residence 1602" ? "/residence-1602-floor-plan.jpg" :
+            src={home.id === 1 ? "/8990-rimerton-exterior-1.jpg" :
+                 home.floorPlan === "Residence 1602" ? "/residence-1602-floor-plan.jpg" :
                  home.floorPlan === "Residence 1965" ? "/residence-1965-floor-plan.jpg" :
                  "/residence-1708-floor-plan.jpg"}
-            alt={`${home.floorPlan} at ${home.address}`}
+            alt={home.id === 1 ? "8990 Rimerton Street exterior view" : `${home.floorPlan} at ${home.address}`}
             className="w-full h-full object-cover"
           />
         </div>
@@ -399,6 +400,92 @@ const QuickMoveIn: NextPage = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
               </a>
+            </div>
+            
+            {/* 8990 Rimerton Street Gallery */}
+            <div className="mt-16">
+              <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
+                📸 8990 Rimerton Street Photo Gallery
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div className="group cursor-pointer">
+                  <img 
+                    src="/8990-rimerton-exterior-1.jpg" 
+                    alt="8990 Rimerton Street exterior view"
+                    className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
+                  <p className="text-sm text-gray-600 mt-2 text-center">Exterior View</p>
+                </div>
+                <div className="group cursor-pointer">
+                  <img 
+                    src="/8990-rimerton-kitchen.jpg" 
+                    alt="Modern kitchen with island"
+                    className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
+                  <p className="text-sm text-gray-600 mt-2 text-center">Modern Kitchen</p>
+                </div>
+                <div className="group cursor-pointer">
+                  <img 
+                    src="/8990-rimerton-living-room.jpg" 
+                    alt="Open concept living room"
+                    className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
+                  <p className="text-sm text-gray-600 mt-2 text-center">Living Room</p>
+                </div>
+                <div className="group cursor-pointer">
+                  <img 
+                    src="/8990-rimerton-master-bedroom.jpg" 
+                    alt="Master bedroom"
+                    className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
+                  <p className="text-sm text-gray-600 mt-2 text-center">Master Bedroom</p>
+                </div>
+                <div className="group cursor-pointer">
+                  <img 
+                    src="/8990-rimerton-bathroom.jpg" 
+                    alt="Modern bathroom"
+                    className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
+                  <p className="text-sm text-gray-600 mt-2 text-center">Modern Bathroom</p>
+                </div>
+                <div className="group cursor-pointer">
+                  <img 
+                    src="/8990-rimerton-garage.jpg" 
+                    alt="Two-car garage"
+                    className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
+                  <p className="text-sm text-gray-600 mt-2 text-center">Two-Car Garage</p>
+                </div>
+                <div className="group cursor-pointer">
+                  <img 
+                    src="/8990-rimerton-neighborhood.jpg" 
+                    alt="Sierra at Skyeview neighborhood"
+                    className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
+                  <p className="text-sm text-gray-600 mt-2 text-center">Neighborhood</p>
+                </div>
+              </div>
+              
+              <div className="text-center mt-8">
+                <a 
+                  href="https://drjanduffy.realscout.com/homesearch/listings/p-8990-rimerton-street-las-vegas-89166-glvartrestle-875"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
+                >
+                  🏠 View All Photos on RealScout
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
         </section>
