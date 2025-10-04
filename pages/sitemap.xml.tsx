@@ -6,103 +6,103 @@ function generateSiteMap() {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sierraskyeview.com/</loc>
+    <loc>https://www.sierraskyeview.com/</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://sierraskyeview.com/floor-plans</loc>
+    <loc>https://www.sierraskyeview.com/floor-plans</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sierraskyeview.com/community</loc>
+    <loc>https://www.sierraskyeview.com/community</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sierraskyeview.com/services</loc>
+    <loc>https://www.sierraskyeview.com/services</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sierraskyeview.com/about</loc>
+    <loc>https://www.sierraskyeview.com/about</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sierraskyeview.com/contact</loc>
+    <loc>https://www.sierraskyeview.com/contact</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sierraskyeview.com/reviews</loc>
+    <loc>https://www.sierraskyeview.com/reviews</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sierraskyeview.com/quick-move-in</loc>
+    <loc>https://www.sierraskyeview.com/quick-move-in</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sierraskyeview.com/new-build-homes</loc>
+    <loc>https://www.sierraskyeview.com/new-build-homes</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sierraskyeview.com/mortgage-calculator</loc>
+    <loc>https://www.sierraskyeview.com/mortgage-calculator</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://sierraskyeview.com/qa</loc>
+    <loc>https://www.sierraskyeview.com/qa</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://sierraskyeview.com/model-1602</loc>
+    <loc>https://www.sierraskyeview.com/model-1602</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sierraskyeview.com/model-1708</loc>
+    <loc>https://www.sierraskyeview.com/model-1708</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sierraskyeview.com/model-1965</loc>
+    <loc>https://www.sierraskyeview.com/model-1965</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sierraskyeview.com/model-residence-1602</loc>
+    <loc>https://www.sierraskyeview.com/model-residence-1602</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sierraskyeview.com/model-residence-1708</loc>
+    <loc>https://www.sierraskyeview.com/model-residence-1708</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sierraskyeview.com/model-residence-1965</loc>
+    <loc>https://www.sierraskyeview.com/model-residence-1965</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

@@ -5,7 +5,7 @@ function generateRobotsTxt() {
 Allow: /
 
 # Sitemap
-Sitemap: https://sierraskyeview.com/sitemap.xml
+Sitemap: https://www.sierraskyeview.com/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1
