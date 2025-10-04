@@ -86,6 +86,9 @@ const FloorPlans: NextPage = () => {
               <Link href="/floor-plans" className="text-blue-600 font-medium">Floor Plans</Link>
               <Link href="/community" className="text-gray-700 hover:text-blue-600 font-medium">Community</Link>
               <Link href="/mortgage-calculator" className="text-gray-700 hover:text-blue-600 font-medium">Mortgage Calculator</Link>
+              <Link href="/quick-move-in" className="text-gray-700 hover:text-blue-600 font-medium">Quick Move-In</Link>
+              <Link href="/new-build-homes" className="text-gray-700 hover:text-blue-600 font-medium">New Build Homes</Link>
+              <Link href="/reviews" className="text-gray-700 hover:text-blue-600 font-medium">Reviews</Link>
               <Link href="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
               <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Dr. Jan</Link>
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>

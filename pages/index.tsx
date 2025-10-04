@@ -32,14 +32,14 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Sierra Skyview - Luxury New Homes in Skye Canyon | Dr. Jan Duffy</title>
-        <meta name="description" content="Luxury new homes in Skye Canyon, Las Vegas. Expert guidance from Dr. Jan Duffy. Starting at $459,790 with Century Communities partnership." />
-        <meta property="og:title" content="Sierra Skyview - Luxury New Homes in Skye Canyon" />
-        <meta property="og:description" content="Luxury new homes in Skye Canyon, Las Vegas. Expert guidance from Dr. Jan Duffy. Starting at $459,790 with Century Communities partnership." />
+        <title>Sierra at Skyeview at Skye Canyon | Homes by Dr. Jan Duffy</title>
+        <meta name="description" content="Sierra at Skyeview at Skye Canyon new homes in Las Vegas. Expert guidance from Dr. Jan Duffy. Starting at $419,990 with Century Communities partnership. Quick move-in homes available." />
+        <meta property="og:title" content="Sierra at Skyeview at Skye Canyon | Homes by Dr. Jan Duffy" />
+        <meta property="og:description" content="Sierra at Skyeview at Skye Canyon new homes in Las Vegas. Expert guidance from Dr. Jan Duffy. Starting at $419,990 with Century Communities partnership." />
         <meta property="og:image" content="/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Sierra Skyview - Luxury New Homes in Skye Canyon" />
-        <meta name="twitter:description" content="Luxury new homes in Skye Canyon, Las Vegas. Expert guidance from Dr. Jan Duffy." />
+        <meta name="twitter:title" content="Sierra at Skyeview at Skye Canyon | Homes by Dr. Jan Duffy" />
+        <meta name="twitter:description" content="Sierra at Skyeview at Skye Canyon new homes in Las Vegas. Expert guidance from Dr. Jan Duffy." />
       </Head>
 
       {/* Navigation */}
@@ -56,6 +56,9 @@ const Home: NextPage = () => {
               <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Floor Plans</Link>
               <Link href="/community" className="text-gray-700 hover:text-blue-600 font-medium">Community</Link>
               <Link href="/mortgage-calculator" className="text-gray-700 hover:text-blue-600 font-medium">Mortgage Calculator</Link>
+              <Link href="/quick-move-in" className="text-gray-700 hover:text-blue-600 font-medium">Quick Move-In</Link>
+              <Link href="/new-build-homes" className="text-gray-700 hover:text-blue-600 font-medium">New Build Homes</Link>
+              <Link href="/reviews" className="text-gray-700 hover:text-blue-600 font-medium">Reviews</Link>
               <Link href="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
               <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Dr. Jan</Link>
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
