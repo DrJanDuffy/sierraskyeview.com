@@ -71,9 +71,51 @@ const QuickMoveIn: NextPage = () => {
       bathrooms: "2.5",
       garage: "2",
       price: "$453,940",
-      estCompletion: "December 2024",
-      realScoutUrl: null,
-      features: ["Optional separate tub/shower at primary bath", "Open-concept layout", "Generous center island", "Walk-in pantry", "Private owner's suite", "Two-tone interior paint"],
+      pricePerSqft: "$283",
+      estCompletion: "Under Construction",
+      daysOnSite: "2",
+      listingDate: "Oct 1, 2025",
+      mlsNumber: "2722264",
+      realScoutUrl: "https://drjanduffy.realscout.com/homesearch/listings/p-9026-rimerton-street-las-vegas-89166-glvartrestle-876",
+      features: [
+        "Cul-de-sac location with charming living",
+        "Open-concept layout connecting great room, nook, and kitchen",
+        "Generous center island and walk-in pantry",
+        "Upstairs laundry room with gas dryer hookup",
+        "Private owner's suite with walk-in closet plus slider closet",
+        "Dual vanities and walk-in shower in primary bathroom",
+        "Patio cover and barbecue stub",
+        "Upgraded whole house electrical package",
+        "42\" cabinets (snow) with full backsplash",
+        "Upgraded stainless steel appliance package",
+        "Two-tone paint and upgraded LVP flooring",
+        "Double pane windows with low emissivity",
+        "Block fencing with backyard privacy",
+        "Desert landscaping with drip irrigation",
+        "Community amenities: basketball court, clubhouse, dog park, fitness center, pool"
+      ],
+      amenities: [
+        "Basketball Court",
+        "Clubhouse", 
+        "Dog Park",
+        "Fitness Center",
+        "Jogging Path",
+        "Playground",
+        "Pool",
+        "Spa/Hot Tub",
+        "Tennis Court(s)"
+      ],
+      schools: [
+        "Kenneth Divich Elementary (K-5)",
+        "Edmundo Eddie Escobedo Sr Middle School (6-8)",
+        "Arbor View High School (9-12)"
+      ],
+      hoa: {
+        fee: "$250",
+        frequency: "Quarterly",
+        includes: "Association Management"
+      },
+      taxes: "$943 annually",
       status: "Available"
     },
     {
@@ -194,10 +236,13 @@ const QuickMoveIn: NextPage = () => {
         <div className="h-48 overflow-hidden">
           <img
             src={home.id === 1 ? "/8990-rimerton-street-exterior.jpg" :
+                 home.id === 2 ? "/9026-rimerton-exterior.jpg" :
                  home.floorPlan === "Residence 1602" ? "/residence-1602-floor-plan.jpg" :
                  home.floorPlan === "Residence 1965" ? "/residence-1965-floor-plan.jpg" :
                  "/residence-1708-floor-plan.jpg"}
-            alt={home.id === 1 ? "8990 Rimerton Street exterior view" : `${home.floorPlan} at ${home.address}`}
+            alt={home.id === 1 ? "8990 Rimerton Street exterior view" : 
+                 home.id === 2 ? "9026 Rimerton Street exterior view" : 
+                 `${home.floorPlan} at ${home.address}`}
             className="w-full h-full object-cover"
           />
         </div>
