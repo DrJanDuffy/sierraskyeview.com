@@ -67,7 +67,7 @@ const MortgageCalculator: NextPage = () => {
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
             </div>
             <div className="md:hidden">
-              <button className="text-gray-700">
+              <button className="text-gray-700" aria-label="Open menu">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
@@ -116,6 +116,7 @@ const MortgageCalculator: NextPage = () => {
                       value={homePrice}
                       onChange={(e) => setHomePrice(Number(e.target.value))}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      aria-label="Home Price"
                     />
                   </div>
 
@@ -128,6 +129,7 @@ const MortgageCalculator: NextPage = () => {
                       value={downPayment}
                       onChange={(e) => setDownPayment(Number(e.target.value))}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      aria-label="Down Payment Amount"
                     />
                     <p className="text-sm text-gray-500 mt-1">
                       {((downPayment / homePrice) * 100).toFixed(1)}% down payment
@@ -142,6 +144,7 @@ const MortgageCalculator: NextPage = () => {
                       value={loanTerm}
                       onChange={(e) => setLoanTerm(Number(e.target.value))}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      aria-label="Loan Term"
                     >
                       <option value={15}>15 Years</option>
                       <option value={20}>20 Years</option>
@@ -160,6 +163,7 @@ const MortgageCalculator: NextPage = () => {
                       value={interestRate}
                       onChange={(e) => setInterestRate(Number(e.target.value))}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      aria-label="Interest Rate"
                     />
                   </div>
 
@@ -173,6 +177,7 @@ const MortgageCalculator: NextPage = () => {
                       value={propertyTax}
                       onChange={(e) => setPropertyTax(Number(e.target.value))}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      aria-label="Property Tax Rate"
                     />
                   </div>
 
@@ -185,6 +190,7 @@ const MortgageCalculator: NextPage = () => {
                       value={homeInsurance}
                       onChange={(e) => setHomeInsurance(Number(e.target.value))}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      aria-label="Home Insurance Annual"
                     />
                   </div>
 
@@ -197,6 +203,7 @@ const MortgageCalculator: NextPage = () => {
                       value={hoaFees}
                       onChange={(e) => setHoaFees(Number(e.target.value))}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      aria-label="HOA Fees Monthly"
                     />
                   </div>
                 </div>
@@ -276,13 +283,13 @@ const MortgageCalculator: NextPage = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-gray-50 rounded-lg p-6 text-center">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 1602</h3>
-                <p className="text-2xl font-bold text-blue-600 mb-4">From $447,690</p>
+                <p className="text-2xl font-bold text-blue-600 mb-4">From $419,990</p>
                 <div className="text-sm text-gray-600 mb-4">
                   <p>1,602 sq ft • 3 bed • 2.5 bath</p>
-                  <p>Est. Payment: ~$2,900/month*</p>
+                  <p>Est. Payment: ~$2,700/month*</p>
                 </div>
                 <button 
-                  onClick={() => setHomePrice(447690)}
+                  onClick={() => setHomePrice(419990)}
                   className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors"
                 >
                   Use in Calculator
@@ -294,7 +301,7 @@ const MortgageCalculator: NextPage = () => {
                 <p className="text-2xl font-bold text-blue-600 mb-4">From $429,990</p>
                 <div className="text-sm text-gray-600 mb-4">
                   <p>1,708 sq ft • 3 bed • 2.5 bath</p>
-                  <p>Est. Payment: ~$2,900/month*</p>
+                  <p>Est. Payment: ~$2,800/month*</p>
                 </div>
                 <button 
                   onClick={() => setHomePrice(429990)}
@@ -323,7 +330,7 @@ const MortgageCalculator: NextPage = () => {
             <div className="text-center mt-8">
               <p className="text-sm text-gray-500">
                 *Estimates based on 20% down payment, 30-year loan, 7.5% interest rate, 0.6% property tax, and $1,200 annual insurance. 
-                Actual payments may vary. Based on current pricing: Residence 1602 from $447,690 (up to $453,940), Residence 1708 from $429,990, Residence 1965 from $449,990.
+                Actual payments may vary. Based on current pricing: Residence 1602 from $419,990, Residence 1708 from $429,990, Residence 1965 from $449,990.
               </p>
             </div>
           </div>

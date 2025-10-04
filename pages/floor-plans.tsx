@@ -7,13 +7,14 @@ const FloorPlans: NextPage = () => {
     {
       id: 1,
       name: "Residence 1602",
-      price: "From $447,690",
+      price: "From $419,990",
       sqft: "1,602",
       bedrooms: "3",
       bathrooms: "2.5",
       garage: "2",
       image: "/floorplan-1602.jpg",
       features: [
+        "Open Floor Plan design",
         "Open-concept layout connecting great room, nook, and kitchen",
         "Generous center island and walk-in pantry",
         "Private owner's suite with walk-in closet plus slider closet",
@@ -34,12 +35,13 @@ const FloorPlans: NextPage = () => {
       garage: "2",
       image: "/floorplan-1708.jpg",
       features: [
-        "Stunning Model available for viewing",
-        "Loft area for flexible living",
+        "Stunning Model with Loft",
+        "Loft area for flexible living space",
         "Enhanced kitchen with premium finishes",
         "Spacious primary suite",
         "Modern open concept design",
-        "Upgraded features throughout"
+        "Upgraded features throughout",
+        "Two-story design with shared private driveways"
       ],
       popular: true
     },
@@ -58,7 +60,8 @@ const FloorPlans: NextPage = () => {
         "Spacious great room perfect for entertaining",
         "Gourmet kitchen with large island",
         "Expansive primary suite",
-        "Downstairs Den for additional living space"
+        "Downstairs Den for additional living space",
+        "Premium finishes throughout"
       ],
       popular: false
     }
@@ -106,7 +109,7 @@ const FloorPlans: NextPage = () => {
               Sierra at Skyeview Floor Plans - Now Selling!
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Limited Availability! Choose from 3 two-story floor plans with 3 bedrooms and up to 1,965 sq. ft. Each home features expansive living spaces, premium finishes, and smart tech included with the Century Connect® package. Quick move-in homes available starting at $447,690.
+              Limited Availability! Choose from 3 two-story floor plans with 3 bedrooms and up to 1,965 sq. ft. Each home features expansive living spaces, premium finishes, and smart tech included with the Century Connect® package. Starting from $419,990.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -174,7 +177,10 @@ const FloorPlans: NextPage = () => {
                       <a href="tel:7025001955" className="block w-full bg-blue-600 text-white text-center py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold">
                         📞 Schedule Tour
                       </a>
-                      <a href="mailto:drjan@sierraskyeview.com" className="block w-full bg-transparent border-2 border-blue-600 text-blue-600 text-center py-3 rounded-lg hover:bg-blue-600 hover:text-white transition-colors font-semibold">
+                      <Link href={`/model-${plan.name.toLowerCase().replace(' ', '-')}`} className="block w-full bg-transparent border-2 border-blue-600 text-blue-600 text-center py-3 rounded-lg hover:bg-blue-600 hover:text-white transition-colors font-semibold">
+                        🏠 View Details
+                      </Link>
+                      <a href="mailto:drjan@sierraskyeview.com" className="block w-full bg-gray-100 text-gray-700 text-center py-3 rounded-lg hover:bg-gray-200 transition-colors font-semibold">
                         📧 Get More Info
                       </a>
                     </div>

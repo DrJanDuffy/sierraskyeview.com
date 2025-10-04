@@ -4,21 +4,21 @@ import Link from "next/link";
 
 const Community: NextPage = () => {
   const amenities = [
-    { icon: "🏞️", title: "Central Clubhouse", description: "Stunning central clubhouse for community events" },
-    { icon: "🏊", title: "Pools", description: "Resort-style swimming pools and water features" },
-    { icon: "🏃", title: "Parks & Trails", description: "Beautiful parks and walking trails throughout" },
-    { icon: "🏀", title: "Sports Courts", description: "Sports courts and fields for active living" },
-    { icon: "🎯", title: "Playgrounds", description: "Recreational playgrounds for families" },
-    { icon: "🏫", title: "Schools", description: "Neighborhood schools within the community" }
+    { icon: "🏞️", title: "Recreation Center", description: "A recreational playground with inspiring scenery and emotionally appealing setting" },
+    { icon: "🏊", title: "Fitness Center", description: "State-of-the-art fitness facilities for active living" },
+    { icon: "🏃", title: "Parks & Trails", description: "Beautiful parks and walking trails throughout the 1,700-acre community" },
+    { icon: "🏀", title: "Sports Courts & Fields", description: "Sports courts and fields for active living and community engagement" },
+    { icon: "🎯", title: "Splash Pads", description: "Family-friendly splash pads and water features" },
+    { icon: "🏫", title: "Neighborhood Schools", description: "Convenient access to local schools within the community" }
   ];
 
   const nearbyAttractions = [
-    { icon: "🏪", title: "Sprouts Farmers Market", distance: "5 Miles", description: "Fresh organic groceries and health foods" },
-    { icon: "🛒", title: "Smith's Food and Drug", distance: "8 Miles", description: "Full-service grocery store and pharmacy" },
-    { icon: "🏬", title: "Montecito Marketplace", distance: "6 Miles", description: "Shopping center with retail and dining" },
-    { icon: "🍽️", title: "Mimi's Cafe", distance: "6 Miles", description: "Casual dining with American comfort food" },
-    { icon: "☕", title: "Starbucks", distance: "7 Miles", description: "Coffee and light meals" },
-    { icon: "🏫", title: "Local Schools", distance: "2 Miles", description: "William & Mary Scherbenbach Elementary, Arbor View High School, and more" }
+    { icon: "🏪", title: "Sprouts Farmers Market", distance: "Las Vegas, NV 89128", description: "Fresh organic groceries and health foods" },
+    { icon: "🛒", title: "Smith's Food and Drug", distance: "Las Vegas, NV 89106", description: "Full-service grocery store and pharmacy" },
+    { icon: "🏬", title: "Montecito Marketplace", distance: "Las Vegas, NV 89149", description: "Shopping center with retail and dining" },
+    { icon: "🍽️", title: "Mimi's Cafe", distance: "Las Vegas, NV 89149", description: "Casual dining with American comfort food" },
+    { icon: "☕", title: "Starbucks", distance: "Las Vegas, NV 89102", description: "Coffee and light meals" },
+    { icon: "🏫", title: "Local Schools", distance: "Nearby", description: "William & Mary Scherbenbach Elementary, James Bilbray Elementary, Kenneth Divich Elementary, Ralph Cadwallader Middle School, Edmundo Escobedo Middle School, Arbor View High School, Somerset Academy-Skye Canyon Campus" }
   ];
 
   return (
@@ -150,7 +150,7 @@ const Community: NextPage = () => {
                       <div>
                         <div className="flex items-center">
                           <h4 className="font-semibold text-gray-900">{attraction.title}</h4>
-                          <span className="ml-2 text-blue-600 font-semibold">{attraction.distance}</span>
+                          <span className="ml-2 text-blue-600 font-semibold text-sm">{attraction.distance}</span>
                         </div>
                         <p className="text-gray-600 text-sm">{attraction.description}</p>
                       </div>

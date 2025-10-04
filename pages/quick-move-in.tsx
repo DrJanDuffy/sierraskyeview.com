@@ -15,25 +15,11 @@ const QuickMoveIn: NextPage = () => {
       garage: "2",
       price: "$447,690",
       estCompletion: "December 2024",
-      features: ["Laundry Room Cabinets", "Tile Flooring", "Patio cover", "42\" upper cabinets at kitchen (Java)", "Full kitchen backsplash", "Two-tone interior paint", "Upgraded kitchen appliances"],
+      features: ["Open Floor Plan", "Optional separate tub/shower at primary bath", "Two-tone interior paint", "Laundry room with upper cabinets", "Generous center island", "Walk-in pantry"],
       status: "Available"
     },
     {
       id: 2,
-      address: "9002 Rimerton ST",
-      lot: "SRA021",
-      floorPlan: "Residence 1602",
-      sqft: "1,602",
-      bedrooms: "3",
-      bathrooms: "2.5",
-      garage: "2",
-      price: "$419,990",
-      estCompletion: "November 2024",
-      features: ["Two-tone paint", "LVP Flooring", "Smart home package"],
-      status: "Pending"
-    },
-    {
-      id: 3,
       address: "9026 Rimerton ST",
       lot: "SRA015",
       floorPlan: "Residence 1602",
@@ -43,8 +29,22 @@ const QuickMoveIn: NextPage = () => {
       garage: "2",
       price: "$453,940",
       estCompletion: "December 2024",
-      features: ["Separate tub/shower at primary bath", "Open-concept layout", "Generous center island", "Walk-in pantry", "Private owner's suite"],
+      features: ["Optional separate tub/shower at primary bath", "Open-concept layout", "Generous center island", "Walk-in pantry", "Private owner's suite", "Two-tone interior paint"],
       status: "Available"
+    },
+    {
+      id: 3,
+      address: "9002 Rimerton ST",
+      lot: "SRA021",
+      floorPlan: "Residence 1602",
+      sqft: "1,602",
+      bedrooms: "3",
+      bathrooms: "2.5",
+      garage: "2",
+      price: "$419,990",
+      estCompletion: "November 2024",
+      features: ["Two-tone paint", "Open Floor Plan", "Century Connect® package"],
+      status: "Pending"
     },
     {
       id: 4,
@@ -57,7 +57,7 @@ const QuickMoveIn: NextPage = () => {
       garage: "2",
       price: "$488,290",
       estCompletion: "December 2024",
-      features: ["Downstairs Den", "LVP Flooring", "Premium finishes"],
+      features: ["Optional Downstairs Bed", "Downstairs Den", "LVP Flooring", "Premium finishes", "Largest floor plan"],
       status: "Available"
     }
   ];
@@ -92,7 +92,7 @@ const QuickMoveIn: NextPage = () => {
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
             </div>
             <div className="md:hidden">
-              <button className="text-gray-700">
+              <button className="text-gray-700" aria-label="Open menu">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>

@@ -64,7 +64,7 @@ const Home: NextPage = () => {
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
             </div>
             <div className="md:hidden">
-              <button className="text-gray-700">
+              <button className="text-gray-700" aria-label="Open menu">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
@@ -83,7 +83,7 @@ const Home: NextPage = () => {
               Sierra at Skyeview - New Homes in Las Vegas
             </h1>
             <p className="text-xl md:text-2xl mb-4">
-              Now Selling! Starting at $447,690 - Two-Story Homes up to 1,965 sq ft
+              Now Selling! Starting at $419,990 - Two-Story Homes up to 1,965 sq ft
             </p>
             <p className="text-lg mb-8">
               Expert Guidance from Dr. Jan Duffy | Century Communities Partnership
@@ -133,7 +133,7 @@ const Home: NextPage = () => {
                 Sierra at Skyeview Floor Plans - Now Selling!
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Limited Availability! Choose from 3 two-story floor plans with 3 bedrooms and up to 1,965 sq. ft. Each home features expansive living spaces, premium finishes, and smart tech included with the Century Connect® package. Quick move-in homes available from $447,690 to $453,940.
+                Limited Availability! Choose from 3 two-story floor plans with 3 bedrooms and up to 1,965 sq. ft. Each home features expansive living spaces, premium finishes, and smart tech included with the Century Connect® package. Starting from $419,990.
               </p>
             </div>
 
@@ -145,7 +145,7 @@ const Home: NextPage = () => {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 1602</h3>
-                  <p className="text-blue-600 font-semibold text-lg mb-4">From $447,690</p>
+                  <p className="text-blue-600 font-semibold text-lg mb-4">From $419,990</p>
                   <div className="grid grid-cols-2 gap-4 mb-4 text-sm">
                     <div>
                       <span className="font-semibold">1,602</span><br />
