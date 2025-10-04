@@ -76,10 +76,10 @@ const Home: NextPage = () => {
           <div className="absolute inset-0 bg-black opacity-40"></div>
           <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Sierra Skyview - Luxury New Homes in Skye Canyon
+              Sierra at Skyeview - New Homes in Las Vegas
             </h1>
             <p className="text-xl md:text-2xl mb-4">
-              Now Selling! Starting at $459,790 - Luxury Homes in Gated Community
+              Now Selling! Starting at $419,990 - Two-Story Homes up to 1,965 sq ft
             </p>
             <p className="text-lg mb-8">
               Expert Guidance from Dr. Jan Duffy | Century Communities Partnership
@@ -108,7 +108,7 @@ const Home: NextPage = () => {
               🚨 LIMITED AVAILABILITY - ACT FAST!
             </h2>
             <p className="text-lg mb-4">
-              Only 3 floor plans remaining! Sierra Skyview is selling out fast. Get your VIP tour with Dr. Jan Duffy before these luxury homes are gone.
+              Only 3 floor plans remaining! Sierra at Skyeview is selling out fast. Get your VIP tour with Dr. Jan Duffy before these homes are gone.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -126,10 +126,10 @@ const Home: NextPage = () => {
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Sierra Skyview Floor Plans - Now Selling!
+                Sierra at Skyeview Floor Plans - Now Selling!
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Limited Availability! Choose from 3 two-story floor plans with 3 to 5 bedrooms and up to 2,119 sq. ft. Each home features expansive living spaces, premium finishes, and smart tech included with the Century Connect® package.
+                Limited Availability! Choose from 3 two-story floor plans with 3 bedrooms and up to 1,965 sq. ft. Each home features expansive living spaces, premium finishes, and smart tech included with the Century Connect® package.
               </p>
             </div>
 
@@ -140,15 +140,15 @@ const Home: NextPage = () => {
                   <span className="text-blue-600 font-semibold">Floor Plan Image</span>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 1792</h3>
-                  <p className="text-blue-600 font-semibold text-lg mb-4">From $459,790</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 1602</h3>
+                  <p className="text-blue-600 font-semibold text-lg mb-4">From $419,990</p>
                   <div className="grid grid-cols-2 gap-4 mb-4 text-sm">
                     <div>
-                      <span className="font-semibold">1,792</span><br />
+                      <span className="font-semibold">1,602</span><br />
                       <span className="text-gray-600">Square Feet</span>
                     </div>
                     <div>
-                      <span className="font-semibold">3-4</span><br />
+                      <span className="font-semibold">3</span><br />
                       <span className="text-gray-600">Bedrooms</span>
                     </div>
                     <div>
@@ -172,11 +172,11 @@ const Home: NextPage = () => {
                   <span className="text-blue-600 font-semibold">Floor Plan Image</span>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 1943</h3>
-                  <p className="text-blue-600 font-semibold text-lg mb-4">From $469,790</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 1708</h3>
+                  <p className="text-blue-600 font-semibold text-lg mb-4">From $429,990</p>
                   <div className="grid grid-cols-2 gap-4 mb-4 text-sm">
                     <div>
-                      <span className="font-semibold">1,943</span><br />
+                      <span className="font-semibold">1,708</span><br />
                       <span className="text-gray-600">Square Feet</span>
                     </div>
                     <div>
@@ -204,11 +204,11 @@ const Home: NextPage = () => {
                   <span className="text-blue-600 font-semibold">Floor Plan Image</span>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 2119</h3>
-                  <p className="text-blue-600 font-semibold text-lg mb-4">From $479,790</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 1965</h3>
+                  <p className="text-blue-600 font-semibold text-lg mb-4">From $449,990</p>
                   <div className="grid grid-cols-2 gap-4 mb-4 text-sm">
                     <div>
-                      <span className="font-semibold">2,119</span><br />
+                      <span className="font-semibold">1,965</span><br />
                       <span className="text-gray-600">Square Feet</span>
                     </div>
                     <div>
@@ -238,10 +238,10 @@ const Home: NextPage = () => {
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Sierra Skyview Community Gallery
+                Sierra at Skyeview Community Gallery
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Explore the stunning homes and beautiful community at Sierra Skyview. From modern exteriors to luxurious interiors, discover why Sierra Skyview is the perfect place to call home in Skye Canyon.
+                Explore the stunning homes and beautiful community at Sierra at Skyeview. From modern exteriors to luxurious interiors, discover why Sierra at Skyeview is the perfect place to call home in Skye Canyon.
               </p>
             </div>
 
@@ -302,10 +302,10 @@ const Home: NextPage = () => {
         <section className="py-16 bg-red-600 text-white">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              🚨 DON'T MISS OUT - SIERRA SKYVIEW IS SELLING FAST!
+              🚨 DON'T MISS OUT - SIERRA AT SKYEVIEW IS SELLING FAST!
             </h2>
             <p className="text-lg mb-8">
-              Only 3 floor plans remaining! Get VIP access to Sierra Skyview with Dr. Jan Duffy's expert guidance. Schedule your private tour today before these luxury homes are gone forever.
+              Only 3 floor plans remaining! Get VIP access to Sierra at Skyeview with Dr. Jan Duffy's expert guidance. Schedule your private tour today before these homes are gone forever.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -324,7 +324,7 @@ const Home: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Sierra Skyview</h3>
+              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview</h3>
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>

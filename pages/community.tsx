@@ -4,30 +4,30 @@ import Link from "next/link";
 
 const Community: NextPage = () => {
   const amenities = [
-    { icon: "🏞️", title: "Skye Canyon Park", description: "Beautiful parks and recreational facilities" },
-    { icon: "🏊", title: "Community Pool", description: "Resort-style swimming pool and spa" },
-    { icon: "🏃", title: "Walking Trails", description: "Scenic walking and jogging trails" },
-    { icon: "🏀", title: "Sports Courts", description: "Basketball and tennis courts" },
-    { icon: "🎯", title: "Clubhouse", description: "Community clubhouse for events" },
-    { icon: "🛒", title: "Shopping", description: "Nearby shopping and dining options" }
+    { icon: "🏞️", title: "Central Clubhouse", description: "Stunning central clubhouse for community events" },
+    { icon: "🏊", title: "Pools", description: "Resort-style swimming pools and water features" },
+    { icon: "🏃", title: "Parks & Trails", description: "Beautiful parks and walking trails throughout" },
+    { icon: "🏀", title: "Sports Courts", description: "Sports courts and fields for active living" },
+    { icon: "🎯", title: "Playgrounds", description: "Recreational playgrounds for families" },
+    { icon: "🏫", title: "Schools", description: "Neighborhood schools within the community" }
   ];
 
   const nearbyAttractions = [
-    { icon: "🏔️", title: "Mount Charleston", distance: "35 Miles", description: "Alpine escape with skiing and hiking" },
-    { icon: "🎰", title: "Las Vegas Strip", distance: "20 Miles", description: "World-class entertainment and dining" },
-    { icon: "🛍️", title: "Premium Outlets", distance: "15 Miles", description: "Shopping and dining destinations" },
-    { icon: "🏌️", title: "Golf Courses", distance: "5 Miles", description: "Championship golf courses nearby" },
-    { icon: "🎭", title: "Downtown Las Vegas", distance: "25 Miles", description: "Arts, culture, and entertainment" },
-    { icon: "✈️", title: "McCarran Airport", distance: "30 Miles", description: "Easy access to air travel" }
+    { icon: "🏪", title: "Sprouts Farmers Market", distance: "5 Miles", description: "Fresh organic groceries and health foods" },
+    { icon: "🛒", title: "Smith's Food and Drug", distance: "8 Miles", description: "Full-service grocery store and pharmacy" },
+    { icon: "🏬", title: "Montecito Marketplace", distance: "6 Miles", description: "Shopping center with retail and dining" },
+    { icon: "🍽️", title: "Mimi's Cafe", distance: "6 Miles", description: "Casual dining with American comfort food" },
+    { icon: "☕", title: "Starbucks", distance: "7 Miles", description: "Coffee and light meals" },
+    { icon: "🏫", title: "Local Schools", distance: "2 Miles", description: "Quality education within the community" }
   ];
 
   return (
     <>
       <Head>
-        <title>Community - Sierra Skyview | Dr. Jan Duffy</title>
-        <meta name="description" content="Discover the beautiful community of Sierra Skyview in Skye Canyon, Las Vegas. Premium amenities, great location, and luxury lifestyle." />
-        <meta property="og:title" content="Community - Sierra Skyview" />
-        <meta property="og:description" content="Discover the beautiful community of Sierra Skyview in Skye Canyon, Las Vegas. Premium amenities and luxury lifestyle." />
+        <title>Community - Sierra at Skyeview | Dr. Jan Duffy</title>
+        <meta name="description" content="Discover the beautiful community of Sierra at Skyeview in Skye Canyon, Las Vegas. 1,700-acre master-planned community with premium amenities." />
+        <meta property="og:title" content="Community - Sierra at Skyeview" />
+        <meta property="og:description" content="Discover the beautiful community of Sierra at Skyeview in Skye Canyon, Las Vegas. 1,700-acre master-planned community with premium amenities." />
       </Head>
 
       {/* Navigation */}
@@ -56,10 +56,10 @@ const Community: NextPage = () => {
         <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Sierra Skyview Community
+              Sierra at Skyeview Community
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Discover the beautiful community of Sierra Skyview in Skye Canyon, Las Vegas. Experience luxury living with premium amenities, great location, and a vibrant lifestyle.
+              Discover the beautiful community of Sierra at Skyeview in Skye Canyon, Las Vegas. Experience luxury living in a 1,700-acre master-planned community with premium amenities and vibrant lifestyle.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -80,7 +80,7 @@ const Community: NextPage = () => {
                 Explore the Stunning Homes and Beautiful Community
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                From modern exteriors to luxurious interiors, discover why Sierra Skyview is the perfect place to call home in Skye Canyon. Experience the exceptional quality and attention to detail that defines our luxury new construction homes.
+                From modern exteriors to luxurious interiors, discover why Sierra at Skyeview is the perfect place to call home in Skye Canyon. Experience the exceptional quality and attention to detail that defines our luxury new construction homes.
               </p>
             </div>
 
@@ -108,7 +108,7 @@ const Community: NextPage = () => {
                 🏘️ Community Features
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Sierra Skyview offers an exceptional lifestyle with world-class amenities and convenient access to everything Skye Canyon and Las Vegas have to offer.
+                Sierra at Skyeview offers an exceptional lifestyle within Skye Canyon's 1,700-acre master-planned community with world-class amenities and convenient access to everything Las Vegas has to offer.
               </p>
             </div>
 
@@ -132,7 +132,7 @@ const Community: NextPage = () => {
                 Prime Skye Canyon Location
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Strategically located in Skye Canyon, Sierra Skyview offers unparalleled access to recreation, entertainment, and convenience.
+                Strategically located in Skye Canyon's 1,700-acre master-planned community, Sierra at Skyeview offers unparalleled access to recreation, entertainment, and convenience.
               </p>
             </div>
 
@@ -169,7 +169,7 @@ const Community: NextPage = () => {
                 🌳 Amenities & Lifestyle
               </h2>
               <p className="text-lg mb-8 max-w-3xl mx-auto">
-                Experience the perfect balance of suburban tranquility and urban excitement at Sierra Skyview.
+                Experience the perfect balance of suburban tranquility and urban excitement at Sierra at Skyeview within Skye Canyon's 1,700-acre master-planned community.
               </p>
             </div>
 
@@ -201,7 +201,7 @@ const Community: NextPage = () => {
                 🏠 Smart Home Tech
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Every home at Sierra Skyview comes equipped with the Century Connect® smart home package for modern convenience and energy efficiency.
+                Every home at Sierra at Skyeview comes equipped with the Century Connect® smart home package for modern convenience and energy efficiency.
               </p>
             </div>
 

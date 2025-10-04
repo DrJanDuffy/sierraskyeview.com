@@ -6,54 +6,58 @@ const FloorPlans: NextPage = () => {
   const floorPlans = [
     {
       id: 1,
-      name: "Residence 1792",
-      price: "From $459,790",
-      sqft: "1,792",
-      bedrooms: "3-4",
+      name: "Residence 1602",
+      price: "From $419,990",
+      sqft: "1,602",
+      bedrooms: "3",
       bathrooms: "2.5",
       garage: "2",
-      image: "/floorplan-1792.jpg",
+      image: "/floorplan-1602.jpg",
       features: [
-        "Two-story foyer with courtyard entrance",
-        "Wide-open great room and well-appointed kitchen",
-        "Spacious center island and large walk-in pantry",
-        "Charming dining area with direct patio access",
-        "Expansive loft and convenient laundry room",
-        "Private primary suite with deluxe bath"
+        "Open Floor Plan design",
+        "Modern kitchen with island",
+        "Spacious great room",
+        "Upstairs loft area",
+        "Primary suite with walk-in closet",
+        "LVP Flooring throughout"
       ],
       popular: false
     },
     {
       id: 2,
-      name: "Residence 1943",
-      price: "From $469,790",
-      sqft: "1,943",
+      name: "Residence 1708",
+      price: "From $429,990",
+      sqft: "1,708",
       bedrooms: "3",
       bathrooms: "2.5",
       garage: "2",
-      image: "/floorplan-1943.jpg",
+      image: "/floorplan-1708.jpg",
       features: [
-        "Expansive Primary Suite with luxury amenities",
-        "Model Now Open for viewing",
-        "Enhanced kitchen with premium appliances",
-        "Flexible living spaces for family activities"
+        "Stunning Model available for viewing",
+        "Loft area for flexible living",
+        "Enhanced kitchen with premium finishes",
+        "Spacious primary suite",
+        "Modern open concept design",
+        "Upgraded features throughout"
       ],
       popular: true
     },
     {
       id: 3,
-      name: "Residence 2119",
-      price: "From $479,790",
-      sqft: "2,119",
+      name: "Residence 1965",
+      price: "From $449,990",
+      sqft: "1,965",
       bedrooms: "3",
       bathrooms: "2.5",
       garage: "2",
-      image: "/floorplan-2119.jpg",
+      image: "/floorplan-1965.jpg",
       features: [
-        "Modeled Downstairs Den for flexible living",
+        "Optional Downstairs Bed for flexibility",
         "Largest floor plan in the community",
         "Spacious great room perfect for entertaining",
-        "Gourmet kitchen with large island"
+        "Gourmet kitchen with large island",
+        "Expansive primary suite",
+        "Downstairs Den for additional living space"
       ],
       popular: false
     }
@@ -62,10 +66,10 @@ const FloorPlans: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Floor Plans - Sierra Skyview | Dr. Jan Duffy</title>
-        <meta name="description" content="Explore luxury floor plans at Sierra Skyview in Skye Canyon. 3 beautiful two-story homes from $459,790. Expert guidance from Dr. Jan Duffy." />
-        <meta property="og:title" content="Floor Plans - Sierra Skyview" />
-        <meta property="og:description" content="Explore luxury floor plans at Sierra Skyview in Skye Canyon. 3 beautiful two-story homes from $459,790." />
+        <title>Floor Plans - Sierra at Skyeview | Dr. Jan Duffy</title>
+        <meta name="description" content="Explore luxury floor plans at Sierra at Skyeview in Skye Canyon. 3 beautiful two-story homes from $419,990. Expert guidance from Dr. Jan Duffy." />
+        <meta property="og:title" content="Floor Plans - Sierra at Skyeview" />
+        <meta property="og:description" content="Explore luxury floor plans at Sierra at Skyeview in Skye Canyon. 3 beautiful two-story homes from $419,990." />
       </Head>
 
       {/* Navigation */}
@@ -74,7 +78,7 @@ const FloorPlans: NextPage = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Link href="/" className="text-2xl font-bold text-blue-600">
-                Sierra Skyview
+                Sierra at Skyeview
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -94,10 +98,10 @@ const FloorPlans: NextPage = () => {
         <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Sierra Skyview Floor Plans - Now Selling!
+              Sierra at Skyeview Floor Plans - Now Selling!
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Limited Availability! Choose from 3 two-story floor plans with 3 to 5 bedrooms and up to 2,119 sq. ft. Each home features expansive living spaces, premium finishes, and smart tech included with the Century Connect® package.
+              Limited Availability! Choose from 3 two-story floor plans with 3 bedrooms and up to 1,965 sq. ft. Each home features expansive living spaces, premium finishes, and smart tech included with the Century Connect® package.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
