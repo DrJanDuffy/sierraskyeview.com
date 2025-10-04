@@ -57,9 +57,9 @@ const Services: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Services - Sierra Skyview | Dr. Jan Duffy</title>
+        <title>Services - Sierra at Skyeview | Dr. Jan Duffy</title>
         <meta name="description" content="Professional real estate services from Dr. Jan Duffy. New home construction guidance, buyer representation, and Century Communities partnership expertise." />
-        <meta property="og:title" content="Services - Sierra Skyview" />
+        <meta property="og:title" content="Services - Sierra at Skyeview" />
         <meta property="og:description" content="Professional real estate services from Dr. Jan Duffy. New home construction guidance and buyer representation expertise." />
       </Head>
 
@@ -69,13 +69,14 @@ const Services: NextPage = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Link href="/" className="text-2xl font-bold text-blue-600">
-                Sierra Skyview
+                Sierra at Skyeview
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">
               <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
               <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Floor Plans</Link>
               <Link href="/community" className="text-gray-700 hover:text-blue-600 font-medium">Community</Link>
+              <Link href="/mortgage-calculator" className="text-gray-700 hover:text-blue-600 font-medium">Mortgage Calculator</Link>
               <Link href="/services" className="text-blue-600 font-medium">Services</Link>
               <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Dr. Jan</Link>
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>

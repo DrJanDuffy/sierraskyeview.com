@@ -27,9 +27,9 @@ const Contact: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Contact Dr. Jan Duffy - Sierra Skyview | Real Estate Expert</title>
+        <title>Contact Dr. Jan Duffy - Sierra at Skyeview | Real Estate Expert</title>
         <meta name="description" content="Contact Dr. Jan Duffy for expert real estate guidance. Call (702) 500-1955 or email drjan@sierraskyeview.com for your new home construction needs." />
-        <meta property="og:title" content="Contact Dr. Jan Duffy - Sierra Skyview" />
+        <meta property="og:title" content="Contact Dr. Jan Duffy - Sierra at Skyeview" />
         <meta property="og:description" content="Contact Dr. Jan Duffy for expert real estate guidance. Call (702) 500-1955 or email drjan@sierraskyeview.com." />
       </Head>
 
@@ -39,13 +39,14 @@ const Contact: NextPage = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Link href="/" className="text-2xl font-bold text-blue-600">
-                Sierra Skyview
+                Sierra at Skyeview
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">
               <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
               <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Floor Plans</Link>
               <Link href="/community" className="text-gray-700 hover:text-blue-600 font-medium">Community</Link>
+              <Link href="/mortgage-calculator" className="text-gray-700 hover:text-blue-600 font-medium">Mortgage Calculator</Link>
               <Link href="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
               <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Dr. Jan</Link>
               <Link href="/contact" className="text-blue-600 font-medium">Contact</Link>
@@ -61,9 +62,9 @@ const Contact: NextPage = () => {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Contact Dr. Jan Duffy
             </h1>
-            <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Ready to start your new home journey? Get in touch with Dr. Jan Duffy for expert guidance and VIP access to Sierra Skyview.
-            </p>
+              <p className="text-xl mb-8 max-w-3xl mx-auto">
+                Ready to start your new home journey? Get in touch with Dr. Jan Duffy for expert guidance and VIP access to Sierra at Skyeview.
+              </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 Call NOW: (702) 500-1955
@@ -232,15 +233,15 @@ const Contact: NextPage = () => {
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Visit Sierra Skyview
+                Visit Sierra at Skyeview
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Located in beautiful Skye Canyon, Sierra Skyview offers easy access to all that Las Vegas has to offer.
+                Located in beautiful Skye Canyon's 1,700-acre master-planned community, Sierra at Skyeview offers easy access to all that Las Vegas has to offer.
               </p>
             </div>
 
             <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-              <span className="text-gray-500">Interactive Map - Sierra Skyview Location</span>
+              <span className="text-gray-500">Interactive Map - Sierra at Skyeview Location</span>
             </div>
           </div>
         </section>
@@ -252,7 +253,7 @@ const Contact: NextPage = () => {
               Ready to Start Your New Home Journey?
             </h2>
             <p className="text-lg mb-8">
-              Don't wait! Sierra Skyview is selling fast. Contact Dr. Jan Duffy today for VIP access and expert guidance.
+              Don't wait! Sierra at Skyeview is selling fast. Contact Dr. Jan Duffy today for VIP access and expert guidance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">

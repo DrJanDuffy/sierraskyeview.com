@@ -6,9 +6,9 @@ const About: NextPage = () => {
   return (
     <>
       <Head>
-        <title>About Dr. Jan Duffy - Sierra Skyview | Real Estate Expert</title>
+        <title>About Dr. Jan Duffy - Sierra at Skyeview | Real Estate Expert</title>
         <meta name="description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and Century Communities partnerships in Las Vegas." />
-        <meta property="og:title" content="About Dr. Jan Duffy - Sierra Skyview" />
+        <meta property="og:title" content="About Dr. Jan Duffy - Sierra at Skyeview" />
         <meta property="og:description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and Century Communities partnerships." />
       </Head>
 
@@ -18,13 +18,14 @@ const About: NextPage = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Link href="/" className="text-2xl font-bold text-blue-600">
-                Sierra Skyview
+                Sierra at Skyeview
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">
               <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
               <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Floor Plans</Link>
               <Link href="/community" className="text-gray-700 hover:text-blue-600 font-medium">Community</Link>
+              <Link href="/mortgage-calculator" className="text-gray-700 hover:text-blue-600 font-medium">Mortgage Calculator</Link>
               <Link href="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
               <Link href="/about" className="text-blue-600 font-medium">About Dr. Jan</Link>
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
@@ -63,7 +64,7 @@ const About: NextPage = () => {
                   Meet Dr. Jan Duffy
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  Dr. Jan Duffy is a Featured New Home Construction & Buyer Representation Specialist, proudly representing Century Communities—one of the nation's top 10 homebuilders—at Sierra Skyview in Skye Canyon, Las Vegas, NV.
+                  Dr. Jan Duffy is a Featured New Home Construction & Buyer Representation Specialist, proudly representing Century Communities—one of the nation's top 10 homebuilders—at Sierra at Skyeview in Skye Canyon, Las Vegas, NV.
                 </p>
                 <p className="text-lg text-gray-600 mb-6">
                   With deep expertise in the Las Vegas real estate market and a proven track record of success, Dr. Jan Duffy provides expert guidance to homebuyers seeking luxury new construction homes. Her VIP partnership with Century Communities gives clients exclusive access to the best lots, early phase releases, and expert negotiation power.

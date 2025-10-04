@@ -13,14 +13,14 @@ class MyDocument extends Document {
           <meta property="og:site_name" content="sierraskyeview.com" />
           <meta
             property="og:description"
-            content="Sierra Skye View - Beautiful landscape photography showcasing the Sierra Nevada mountains."
+            content="Sierra at Skyeview - Luxury New Homes in Skye Canyon, Las Vegas. Expert guidance from Dr. Jan Duffy. Starting at $419,990 with Century Communities partnership."
           />
-          <meta property="og:title" content="Sierra Skye View Photography" />
+          <meta property="og:title" content="Sierra at Skyeview - Luxury New Homes in Skye Canyon" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Sierra Skye View Photography" />
+          <meta name="twitter:title" content="Sierra at Skyeview - Luxury New Homes in Skye Canyon" />
           <meta
             name="twitter:description"
-            content="Sierra Skye View - Beautiful landscape photography showcasing the Sierra Nevada mountains."
+            content="Sierra at Skyeview - Luxury New Homes in Skye Canyon, Las Vegas. Expert guidance from Dr. Jan Duffy."
           />
         </Head>
         <body className="bg-black antialiased">
