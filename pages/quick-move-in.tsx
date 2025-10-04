@@ -110,9 +110,15 @@ const QuickMoveIn: NextPage = () => {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Quick Move-In Homes Available Now
             </h1>
-            <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Don't wait months for construction! Discover move-in ready homes at Sierra at Skyeview in Skye Canyon, Las Vegas. Get expert guidance from Dr. Jan Duffy for Century Communities new homes available for immediate occupancy.
-            </p>
+            <div className="flex flex-col items-center gap-4 mb-8">
+              <p className="text-xl max-w-3xl mx-auto">
+                Don't wait months for construction! Discover move-in ready homes at Sierra at Skyeview in Skye Canyon, Las Vegas. Get expert guidance from Dr. Jan Duffy for Century Communities new homes available for immediate occupancy.
+              </p>
+              <div className="flex items-center gap-3">
+                <span className="text-gray-300">Built by</span>
+                <img src="/century-communities-logo.png" alt="Century Communities" className="h-6" />
+              </div>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 Check Availability: (702) 500-1955

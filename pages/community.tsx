@@ -84,9 +84,15 @@ const Community: NextPage = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                 Explore the Stunning Homes and Beautiful Community
               </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                From modern exteriors to luxurious interiors, discover why Sierra at Skyeview is the perfect place to call home in Skye Canyon. Experience the exceptional quality and attention to detail that defines our luxury new construction homes.
-              </p>
+              <div className="flex flex-col items-center gap-4">
+                <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                  From modern exteriors to luxurious interiors, discover why Sierra at Skyeview is the perfect place to call home in Skye Canyon. Experience the exceptional quality and attention to detail that defines our luxury new construction homes.
+                </p>
+                <div className="flex items-center gap-3">
+                  <span className="text-gray-600">Built by</span>
+                  <img src="/century-communities-logo.png" alt="Century Communities" className="h-6" />
+                </div>
+              </div>
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">

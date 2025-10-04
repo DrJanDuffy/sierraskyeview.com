@@ -109,9 +109,15 @@ const FloorPlans: NextPage = () => {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Sierra at Skyeview Floor Plans - Now Selling!
             </h1>
-            <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Limited Availability! Choose from 3 two-story floor plans with 3 bedrooms and up to 1,965 sq. ft. Each home features expansive living spaces, premium finishes, and smart tech included with the Century Connect® package. Starting from $419,990.
-            </p>
+            <div className="flex flex-col items-center gap-4 mb-8">
+              <p className="text-xl max-w-3xl mx-auto">
+                Limited Availability! Choose from 3 two-story floor plans with 3 bedrooms and up to 1,965 sq. ft. Each home features expansive living spaces, premium finishes, and smart tech included with the Century Connect® package. Starting from $419,990.
+              </p>
+              <div className="flex items-center gap-3">
+                <span className="text-gray-300">Built by</span>
+                <img src="/century-communities-logo.png" alt="Century Communities" className="h-6" />
+              </div>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 Call NOW: (702) 500-1955

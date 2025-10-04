@@ -86,9 +86,11 @@ const Home: NextPage = () => {
             <p className="text-xl md:text-2xl mb-4">
               Now Selling! Starting at $419,990 - Two-Story Homes up to 1,965 sq ft
             </p>
-            <p className="text-lg mb-8">
-              Expert Guidance from Dr. Jan Duffy | Century Communities Partnership
-            </p>
+            <div className="flex items-center justify-center gap-4 mb-8">
+              <p className="text-lg">Expert Guidance from Dr. Jan Duffy</p>
+              <span className="text-2xl">|</span>
+              <img src="/century-communities-logo.png" alt="Century Communities" className="h-8" />
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 Call NOW: (702) 500-1955
@@ -387,11 +389,15 @@ const Home: NextPage = () => {
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
-              <p className="text-gray-300">
+              <p className="text-gray-300 mb-4">
                 8925 Vanhoy Creek St.<br />
                 Las Vegas, NV 89166<br />
                 (702) 500-1955
               </p>
+              <div className="flex items-center gap-3">
+                <span className="text-gray-300 text-sm">Built by</span>
+                <img src="/century-communities-logo.png" alt="Century Communities" className="h-6" />
+              </div>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
