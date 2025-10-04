@@ -14,12 +14,12 @@ const FloorPlans: NextPage = () => {
       garage: "2",
       image: "/floorplan-1602.jpg",
       features: [
-        "Open Floor Plan design",
-        "Modern kitchen with island",
-        "Spacious great room",
-        "Upstairs loft area",
-        "Primary suite with walk-in closet",
-        "LVP Flooring throughout"
+        "Open-concept layout connecting great room, nook, and kitchen",
+        "Generous center island and walk-in pantry",
+        "Private owner's suite with walk-in closet plus slider closet",
+        "Dual vanities and walk-in shower in primary bath",
+        "Laundry room with upper cabinets",
+        "Two-tone interior paint throughout"
       ],
       popular: false
     },

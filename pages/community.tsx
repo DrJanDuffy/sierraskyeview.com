@@ -18,7 +18,7 @@ const Community: NextPage = () => {
     { icon: "🏬", title: "Montecito Marketplace", distance: "6 Miles", description: "Shopping center with retail and dining" },
     { icon: "🍽️", title: "Mimi's Cafe", distance: "6 Miles", description: "Casual dining with American comfort food" },
     { icon: "☕", title: "Starbucks", distance: "7 Miles", description: "Coffee and light meals" },
-    { icon: "🏫", title: "Local Schools", distance: "2 Miles", description: "Quality education within the community" }
+    { icon: "🏫", title: "Local Schools", distance: "2 Miles", description: "William & Mary Scherbenbach Elementary, Arbor View High School, and more" }
   ];
 
   return (

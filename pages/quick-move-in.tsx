@@ -6,6 +6,20 @@ const QuickMoveIn: NextPage = () => {
   const availableHomes = [
     {
       id: 1,
+      address: "8990 Rimerton ST",
+      lot: "SRA024",
+      floorPlan: "Residence 1602",
+      sqft: "1,602",
+      bedrooms: "3",
+      bathrooms: "2.5",
+      garage: "2",
+      price: "$444,240",
+      estCompletion: "November 2024",
+      features: ["Laundry Room Cabinets", "Tile Flooring", "Patio cover", "42\" upper cabinets at kitchen (Java)", "Full kitchen backsplash", "Two-tone interior paint", "Upgraded kitchen appliances"],
+      status: "Available"
+    },
+    {
+      id: 2,
       address: "9002 Rimerton ST",
       lot: "SRA021",
       floorPlan: "Residence 1602",
@@ -19,7 +33,7 @@ const QuickMoveIn: NextPage = () => {
       status: "Pending"
     },
     {
-      id: 2,
+      id: 3,
       address: "9018 Rimerton ST",
       lot: "SRA017",
       floorPlan: "Residence 1965",
