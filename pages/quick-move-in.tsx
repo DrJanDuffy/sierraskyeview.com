@@ -302,6 +302,11 @@ const QuickMoveIn: NextPage = () => {
                         {home.mlsNumber && (
                           <p className="text-sm text-gray-600">MLS: {home.mlsNumber}</p>
                         )}
+                        {home.hoa && (
+                          <p className="text-sm text-blue-600 font-medium">
+                            HOA: {home.hoa.fee} {home.hoa.frequency}
+                          </p>
+                        )}
                       </div>
                     </div>
 
