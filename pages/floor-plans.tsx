@@ -1,0 +1,283 @@
+import type { NextPage } from "next";
+import Head from "next/head";
+import Link from "next/link";
+
+const FloorPlans: NextPage = () => {
+  const floorPlans = [
+    {
+      id: 1,
+      name: "Residence 1792",
+      price: "From $459,790",
+      sqft: "1,792",
+      bedrooms: "3-4",
+      bathrooms: "2.5",
+      garage: "2",
+      image: "/floorplan-1792.jpg",
+      features: [
+        "Two-story foyer with courtyard entrance",
+        "Wide-open great room and well-appointed kitchen",
+        "Spacious center island and large walk-in pantry",
+        "Charming dining area with direct patio access",
+        "Expansive loft and convenient laundry room",
+        "Private primary suite with deluxe bath"
+      ],
+      popular: false
+    },
+    {
+      id: 2,
+      name: "Residence 1943",
+      price: "From $469,790",
+      sqft: "1,943",
+      bedrooms: "3",
+      bathrooms: "2.5",
+      garage: "2",
+      image: "/floorplan-1943.jpg",
+      features: [
+        "Expansive Primary Suite with luxury amenities",
+        "Model Now Open for viewing",
+        "Enhanced kitchen with premium appliances",
+        "Flexible living spaces for family activities"
+      ],
+      popular: true
+    },
+    {
+      id: 3,
+      name: "Residence 2119",
+      price: "From $479,790",
+      sqft: "2,119",
+      bedrooms: "3",
+      bathrooms: "2.5",
+      garage: "2",
+      image: "/floorplan-2119.jpg",
+      features: [
+        "Modeled Downstairs Den for flexible living",
+        "Largest floor plan in the community",
+        "Spacious great room perfect for entertaining",
+        "Gourmet kitchen with large island"
+      ],
+      popular: false
+    }
+  ];
+
+  return (
+    <>
+      <Head>
+        <title>Floor Plans - Sierra Skyview | Dr. Jan Duffy</title>
+        <meta name="description" content="Explore luxury floor plans at Sierra Skyview in Skye Canyon. 3 beautiful two-story homes from $459,790. Expert guidance from Dr. Jan Duffy." />
+        <meta property="og:title" content="Floor Plans - Sierra Skyview" />
+        <meta property="og:description" content="Explore luxury floor plans at Sierra Skyview in Skye Canyon. 3 beautiful two-story homes from $459,790." />
+      </Head>
+
+      {/* Navigation */}
+      <nav className="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex justify-between items-center py-4">
+            <div className="flex items-center">
+              <Link href="/" className="text-2xl font-bold text-blue-600">
+                Sierra Skyview
+              </Link>
+            </div>
+            <div className="hidden md:flex space-x-8">
+              <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
+              <Link href="/floor-plans" className="text-blue-600 font-medium">Floor Plans</Link>
+              <Link href="/community" className="text-gray-700 hover:text-blue-600 font-medium">Community</Link>
+              <Link href="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
+              <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Dr. Jan</Link>
+              <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main className="pt-16">
+        {/* Hero Section */}
+        <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
+          <div className="max-w-7xl mx-auto px-4 text-center">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              Sierra Skyview Floor Plans - Now Selling!
+            </h1>
+            <p className="text-xl mb-8 max-w-3xl mx-auto">
+              Limited Availability! Choose from 3 two-story floor plans with 3 to 5 bedrooms and up to 2,119 sq. ft. Each home features expansive living spaces, premium finishes, and smart tech included with the Century Connect® package.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                📞 Call NOW: (702) 500-1955
+              </a>
+              <a href="mailto:drjan@sierraskyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+                📧 Email Dr. Jan
+              </a>
+            </div>
+          </div>
+        </section>
+
+        {/* Floor Plans Grid */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="grid lg:grid-cols-3 gap-8">
+              {floorPlans.map((plan) => (
+                <div key={plan.id} className="bg-white rounded-lg shadow-lg overflow-hidden relative">
+                  {plan.popular && (
+                    <div className="absolute top-4 left-4 bg-red-600 text-white px-3 py-1 rounded-full text-sm font-semibold z-10">
+                      MOST POPULAR
+                    </div>
+                  )}
+                  
+                  <div className="h-64 bg-blue-100 flex items-center justify-center relative">
+                    <span className="text-blue-600 font-semibold">Floor Plan Image</span>
+                  </div>
+                  
+                  <div className="p-6">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-2">{plan.name}</h3>
+                    <p className="text-blue-600 font-semibold text-xl mb-4">{plan.price}</p>
+                    
+                    <div className="grid grid-cols-2 gap-4 mb-6">
+                      <div className="text-center p-3 bg-gray-50 rounded-lg">
+                        <div className="text-2xl font-bold text-gray-900">{plan.sqft}</div>
+                        <div className="text-sm text-gray-600">Square Feet</div>
+                      </div>
+                      <div className="text-center p-3 bg-gray-50 rounded-lg">
+                        <div className="text-2xl font-bold text-gray-900">{plan.bedrooms}</div>
+                        <div className="text-sm text-gray-600">Bedrooms</div>
+                      </div>
+                      <div className="text-center p-3 bg-gray-50 rounded-lg">
+                        <div className="text-2xl font-bold text-gray-900">{plan.bathrooms}</div>
+                        <div className="text-sm text-gray-600">Bathrooms</div>
+                      </div>
+                      <div className="text-center p-3 bg-gray-50 rounded-lg">
+                        <div className="text-2xl font-bold text-gray-900">{plan.garage}</div>
+                        <div className="text-sm text-gray-600">Car Garage</div>
+                      </div>
+                    </div>
+
+                    <div className="mb-6">
+                      <h4 className="font-semibold text-gray-900 mb-3">Key Features:</h4>
+                      <ul className="space-y-2">
+                        {plan.features.map((feature, index) => (
+                          <li key={index} className="flex items-start">
+                            <span className="text-green-600 mr-2">✓</span>
+                            <span className="text-gray-700">{feature}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    <div className="space-y-3">
+                      <a href="tel:7025001955" className="block w-full bg-blue-600 text-white text-center py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold">
+                        📞 Schedule Tour
+                      </a>
+                      <a href="mailto:drjan@sierraskyeview.com" className="block w-full bg-transparent border-2 border-blue-600 text-blue-600 text-center py-3 rounded-lg hover:bg-blue-600 hover:text-white transition-colors font-semibold">
+                        📧 Get More Info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Century Connect Features */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Century Connect® Smart Home Package
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Every home at Sierra Skyview comes with the innovative Century Connect® package, featuring smart home technology and modern conveniences.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="text-center">
+                <div className="text-4xl mb-4">🏠</div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Smart Home Technology</h3>
+                <p className="text-gray-600">Integrated smart home features for convenience and energy efficiency.</p>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl mb-4">🔧</div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Premium Finishes</h3>
+                <p className="text-gray-600">High-quality materials and finishes throughout your home.</p>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl mb-4">⚡</div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Energy Efficient</h3>
+                <p className="text-gray-600">Modern construction techniques for optimal energy performance.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Call to Action */}
+        <section className="py-16 bg-red-600 text-white">
+          <div className="max-w-7xl mx-auto px-4 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              ⚡ ACT NOW - LIMITED TIME OFFER!
+            </h2>
+            <p className="text-lg mb-8">
+              Get VIP access to Sierra Skyview floor plans with Dr. Jan Duffy's expert guidance. Schedule your private tour today!
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
+                📞 CALL NOW: (702) 500-1955
+              </a>
+              <a href="mailto:drjan@sierraskyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+                📧 EMAIL DR. JAN
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white py-12">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="grid md:grid-cols-4 gap-8">
+            <div>
+              <h3 className="text-xl font-bold mb-4">Sierra Skyview</h3>
+              <p className="text-gray-300 mb-4">
+                Featured New Home Construction & Buyer Representation Specialist
+              </p>
+              <p className="text-gray-300">
+                5060 Wind Springs Street<br />
+                North Las Vegas, NV 89031<br />
+                (702) 500-1955
+              </p>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+              <div className="space-y-2">
+                <Link href="/" className="block text-gray-300 hover:text-white">Home</Link>
+                <Link href="/floor-plans" className="block text-blue-400">Floor Plans</Link>
+                <Link href="/community" className="block text-gray-300 hover:text-white">Community</Link>
+                <Link href="/services" className="block text-gray-300 hover:text-white">Services</Link>
+              </div>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-4">Contact Dr. Jan Duffy</h4>
+              <div className="space-y-2 text-gray-300">
+                <p><strong>Primary Phone:</strong><br />(702) 500-1955</p>
+                <p><strong>Email:</strong><br />drjan@sierraskyeview.com</p>
+                <p><strong>Nevada License:</strong><br />S.0197614</p>
+              </div>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-4">Business Hours</h4>
+              <div className="text-gray-300">
+                <p>Monday-Sunday: 10:00 AM - 6:00 PM</p>
+                <p className="mt-4 text-sm">
+                  Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+            <p>&copy; 2025 Sierra Skyview | Homes by Dr Jan Duffy. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </>
+  );
+};
+
+export default FloorPlans;
