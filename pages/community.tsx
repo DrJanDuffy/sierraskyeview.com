@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const Community: NextPage = () => {
   const amenities = [
-    { icon: "🏞️", title: "Recreation Center", description: "A recreational playground with inspiring scenery and emotionally appealing setting" },
-    { icon: "🏊", title: "Fitness Center", description: "State-of-the-art fitness facilities for active living" },
+    { icon: "🏞️", title: "Recreation Center", description: "A recreational playground with inspiring scenery and an emotionally appealing setting" },
+    { icon: "🏊", title: "Fitness Center", description: "State-of-the-art fitness facilities for active living and wellness" },
     { icon: "🏃", title: "Parks & Trails", description: "Beautiful parks and walking trails throughout the 1,700-acre community" },
     { icon: "🏀", title: "Sports Courts & Fields", description: "Sports courts and fields for active living and community engagement" },
-    { icon: "🎯", title: "Splash Pads", description: "Family-friendly splash pads and water features" },
+    { icon: "🎯", title: "Splash Pads", description: "Family-friendly splash pads and water features for all ages" },
     { icon: "🏫", title: "Neighborhood Schools", description: "Convenient access to local schools within the community" }
   ];
 
@@ -88,7 +88,7 @@ const Community: NextPage = () => {
               Sierra at Skyeview Community
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Discover the beautiful community of Sierra at Skyeview in Skye Canyon, Las Vegas. Experience luxury living in a 1,700-acre master-planned community with premium amenities and vibrant lifestyle.
+              Discover new Skyeview homes for sale in Las Vegas, NV, at Sierra at Skyeview! Offering exciting, two-story floor plans with up to 1,965 square feet, Sierra at Skyeview is the perfect place to plant roots. Residents enjoy incredible amenities at this 1,700-acre neighborhood, from a stunning central clubhouse to pools, parks, playgrounds, and much more.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -97,6 +97,82 @@ const Community: NextPage = () => {
               <Link href="/floor-plans" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 🏠 View Floor Plans
               </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Community Amenities Overview */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Community Amenities
+              </h2>
+              <p className="text-lg text-gray-600 max-w-4xl mx-auto">
+                A recreational playground with inspiring scenery and an emotionally appealing setting, Skye Canyon's 1,700 acres are designed for a more engaged community—where work-life balance, a sense of well-being, and a vital active life are the norm. Living here, you'll enjoy incredible amenities including:
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="bg-gray-50 rounded-lg p-6 text-center">
+                <div className="text-3xl mb-3">🏊</div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Stunning Central Clubhouse</h3>
+                <p className="text-gray-600 text-sm">A beautiful clubhouse as the heart of community life</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-6 text-center">
+                <div className="text-3xl mb-3">🏊‍♀️</div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Community Pools</h3>
+                <p className="text-gray-600 text-sm">Resort-style pools for relaxation and recreation</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-6 text-center">
+                <div className="text-3xl mb-3">🌳</div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Parks & Green Spaces</h3>
+                <p className="text-gray-600 text-sm">Beautiful parks throughout the 1,700-acre community</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-6 text-center">
+                <div className="text-3xl mb-3">🎪</div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Playgrounds</h3>
+                <p className="text-gray-600 text-sm">Family-friendly playgrounds for children of all ages</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-6 text-center">
+                <div className="text-3xl mb-3">🏃‍♂️</div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Trails & Walking Paths</h3>
+                <p className="text-gray-600 text-sm">Extensive trail system for walking, jogging, and biking</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-6 text-center">
+                <div className="text-3xl mb-3">🎯</div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Splash Pads</h3>
+                <p className="text-gray-600 text-sm">Water features and splash pads for cooling off</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-6 text-center">
+                <div className="text-3xl mb-3">🏀</div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Sports Courts & Fields</h3>
+                <p className="text-gray-600 text-sm">Basketball courts, tennis courts, and sports fields</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-6 text-center">
+                <div className="text-3xl mb-3">🏫</div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Neighborhood Schools</h3>
+                <p className="text-gray-600 text-sm">Convenient access to quality educational facilities</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-6 text-center">
+                <div className="text-3xl mb-3">💪</div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Fitness Center</h3>
+                <p className="text-gray-600 text-sm">State-of-the-art fitness facilities for active living</p>
+              </div>
+            </div>
+
+            <div className="text-center mt-12">
+              <p className="text-lg text-gray-700 mb-6">
+                <strong>Contact us and let us help you find your dream home here!</strong>
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="tel:7025001955" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                  📞 Call Dr. Jan: (702) 500-1955
+                </a>
+                <a href="mailto:DrJanSells@SierraSkyeview.com" className="bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors">
+                  📧 Email for More Info
+                </a>
+              </div>
             </div>
           </div>
         </section>
@@ -146,7 +222,7 @@ const Community: NextPage = () => {
                 🏘️ Community Features
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Sierra at Skyeview offers an exceptional lifestyle within Skye Canyon's 1,700-acre master-planned community with world-class amenities and convenient access to everything Las Vegas has to offer.
+                Sierra at Skyeview offers an exceptional lifestyle within Skye Canyon's 1,700-acre master-planned community. A recreational playground with inspiring scenery and an emotionally appealing setting, Skye Canyon is designed for a more engaged community—where work-life balance, a sense of well-being, and a vital active life are the norm.
               </p>
             </div>
 
@@ -216,7 +292,7 @@ const Community: NextPage = () => {
                 🌳 Amenities & Lifestyle
               </h2>
               <p className="text-lg mb-8 max-w-3xl mx-auto">
-                Experience the perfect balance of suburban tranquility and urban excitement at Sierra at Skyeview within Skye Canyon's 1,700-acre master-planned community.
+                A recreational playground with inspiring scenery and an emotionally appealing setting, Skye Canyon's 1,700 acres are designed for a more engaged community—where work-life balance, a sense of well-being, and a vital active life are the norm. Living here, you'll enjoy a recreation center, a fitness center, parks, trails, splash pads, sports courts and fields, neighborhood schools and more!
               </p>
             </div>
 
