@@ -1,5 +1,7 @@
 import type { GetServerSideProps } from "next";
 
+const RobotsTxt = () => null;
+
 const robots = `
 User-agent: *
 Allow: /
