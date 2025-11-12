@@ -6,7 +6,6 @@ const ModelResidence1965Redirect = () => {
   const router = useRouter();
 
   useEffect(() => {
-    // Redirect to the correct URL
     router.replace('/model-1965');
   }, [router]);
 
@@ -31,3 +30,5 @@ const ModelResidence1965Redirect = () => {
 };
 
 export default ModelResidence1965Redirect;
+
+

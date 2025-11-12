@@ -31,3 +31,5 @@ const ModelResidence1602Redirect = () => {
 };
 
 export default ModelResidence1602Redirect;
+
+

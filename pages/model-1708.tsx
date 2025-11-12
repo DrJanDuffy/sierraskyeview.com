@@ -171,6 +171,7 @@ const Model1708: NextPage = () => {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2025 Sierra Skyview | Homes by Dr Jan Duffy. All rights reserved.</p>
+            <p className="text-gray-400 mt-2">Dr. Jan Duffy | Nevada Real Estate License #S.0197614 | Berkshire Hathaway HomeServices</p>
           </div>
         </div>
       </footer>
@@ -179,6 +180,9 @@ const Model1708: NextPage = () => {
 };
 
 export default Model1708;
+
+
+
 
 
 
