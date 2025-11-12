@@ -6,7 +6,7 @@ const Model1708: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Residence 1708 Availability | Sierra at Skyeview RealScout Search</title>
+        <title>Residence 1708 Availability | Sierra at Skyeview Home Finder</title>
         <meta
           name="description"
           content="Access live availability, pricing, incentives, and lot releases for Residence 1708 at Sierra at Skyeview through Dr. Jan Duffy's curated RealScout search."
@@ -51,7 +51,8 @@ const Model1708: NextPage = () => {
               Residence 1708: Real-Time Availability & Pricing
             </h1>
             <p className="text-xl max-w-3xl mx-auto mb-8">
-              Use Dr. Jan Duffy's RealScout search to follow every Residence 1708 release—pricing updates, incentives, construction milestones, photos, and lot status delivered straight from Century Communities.
+              Use Dr. Jan Duffy's private home finder to follow every Residence 1708 release—pricing updates, incentives, construction milestones, photos, and lot status delivered straight from Century Communities.
+              <span className="sr-only">Powered by RealScout</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -66,7 +67,8 @@ const Model1708: NextPage = () => {
                 rel="noopener noreferrer"
                 className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
               >
-                🔍 View Residence 1708 on RealScout
+                🔍 Explore Residence 1708 Availability
+                <span className="sr-only">RealScout link</span>
               </a>
             </div>
           </div>
@@ -75,12 +77,12 @@ const Model1708: NextPage = () => {
         <section className="py-16 bg-white">
           <div className="max-w-5xl mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              What You'll Find in the RealScout Collection
+              What You'll Find in the Live Home Finder
             </h2>
             <div className="grid md:grid-cols-3 gap-6 text-left">
               <div className="bg-gray-50 rounded-lg shadow p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">Live Releases & Lot Maps</h3>
-                <p className="text-gray-600">Monitor which Residence 1708 homesites are available, reserved, or on deck—updated in real time.</p>
+                <p className="text-gray-600">Track which Residence 1708 homesites are released, reserved, or coming soon with real-time updates from Century Communities.</p>
               </div>
               <div className="bg-gray-50 rounded-lg shadow p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">Pricing, Photos & Incentives</h3>
@@ -98,7 +100,8 @@ const Model1708: NextPage = () => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
               >
-                🔍 Open RealScout Search
+                🔍 Launch the Live Home Finder
+                <span className="sr-only">RealScout link</span>
               </a>
             </div>
           </div>
@@ -136,11 +139,8 @@ const Model1708: NextPage = () => {
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
-              <p className="text-gray-300">
-                8925 Vanhoy Creek St.<br />
-                Las Vegas, NV 89166<br />
-                (702) 500-1955
-              </p>
+              <p className="text-gray-300 mb-4">Call to schedule: (702) 500-1955</p>
+              <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>

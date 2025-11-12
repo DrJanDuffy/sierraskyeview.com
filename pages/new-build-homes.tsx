@@ -96,7 +96,8 @@ const NewBuildHomes: NextPage = () => {
                 rel="noopener noreferrer"
                 className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
               >
-                🔍 See What's Available in Sierra Skyeview
+                🔍 Explore Available Homes & Quick Closings
+                <span className="sr-only">Powered by RealScout</span>
               </a>
             </div>
           </div>
@@ -141,7 +142,8 @@ const NewBuildHomes: NextPage = () => {
               Browse Every Home & Quick Move-In Opportunity
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Use Dr. Jan Duffy&apos;s RealScout link to explore current releases, homes under construction, standing inventory, pricing changes, and incentives. No PDFs—just real-time data direct from the Century Communities sales system.
+              Use Dr. Jan Duffy&apos;s private home finder to explore current releases, homes under construction, standing inventory, pricing changes, and incentives. No PDFs—just real-time data direct from the Century Communities sales system.
+              <span className="sr-only">This experience uses RealScout technology</span>
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-left mb-10">
               <div className="bg-gray-50 rounded-lg p-6 shadow">
@@ -163,7 +165,8 @@ const NewBuildHomes: NextPage = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
             >
-              🔍 See What's Available in Sierra Skyeview
+              🔍 Launch the Live Home Finder
+              <span className="sr-only">RealScout link</span>
             </a>
           </div>
         </section>
@@ -208,7 +211,8 @@ const NewBuildHomes: NextPage = () => {
                 Sierra at Skyeview at Skye Canyon - New Homes in Las Vegas
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Located at 8925 Vanhoy Creek St., Las Vegas, NV 89166, Sierra at Skyeview offers exceptional new build homes within the prestigious Skye Canyon master-planned community.
+                Located in Skye Canyon, Las Vegas, Sierra at Skyeview offers exceptional new build homes within the prestigious master-planned community.
+                <span className="sr-only">Community address: 8925 Vanhoy Creek St., Las Vegas, NV 89166</span>
               </p>
             </div>
 
@@ -400,11 +404,8 @@ const NewBuildHomes: NextPage = () => {
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
-              <p className="text-gray-300">
-                8925 Vanhoy Creek St.<br />
-                Las Vegas, NV 89166<br />
-                (702) 500-1955
-              </p>
+              <p className="text-gray-300 mb-4">Call to schedule: (702) 500-1955</p>
+              <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>

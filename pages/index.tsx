@@ -168,7 +168,7 @@ const Home: NextPage = () => {
                 rel="noopener noreferrer"
                 className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
               >
-                🏠 See What's Available in Sierra Skyeview
+                🏠 Explore Active Homes & Quick Closings
               </a>
             </div>
           </div>
@@ -181,7 +181,8 @@ const Home: NextPage = () => {
               🚨 LIMITED AVAILABILITY - ACT FAST!
             </h2>
             <p className="text-lg mb-4">
-              Discover the most up-to-date Homes and quick-move opportunities curated by Dr. Jan Duffy on RealScout.
+              Discover the most up-to-date Homes and quick-move opportunities curated by Dr. Jan Duffy&apos;s private home finder.
+              <span className="sr-only">Powered by RealScout</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -193,7 +194,7 @@ const Home: NextPage = () => {
                 rel="noopener noreferrer"
                 className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors"
               >
-                👀 See What's Available in Sierra Skyeview
+                👀 Browse Current Availability Online
               </a>
             </div>
           </div>
@@ -206,7 +207,8 @@ const Home: NextPage = () => {
               Explore Every Floor Plan & Homesite in One Place
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Access Dr. Jan Duffy&apos;s curated RealScout search for Century Communities at Sierra at Skyeview. See current Homes, elevations, quick move-in opportunities, photos, pricing, and availability updated in real time.
+              Access Dr. Jan Duffy&apos;s private home finder for Century Communities at Sierra at Skyeview. See current Homes, elevations, quick move-in opportunities, photos, pricing, and availability updated in real time.
+              <span className="sr-only">Powered by RealScout</span>
             </p>
             <a
               href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
@@ -214,7 +216,7 @@ const Home: NextPage = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
             >
-              🔍 See What's Available in Sierra Skyeview
+              🔍 Open the Live Home Finder
             </a>
           </div>
         </section>

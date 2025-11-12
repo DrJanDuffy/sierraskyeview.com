@@ -280,10 +280,11 @@ const MortgageCalculator: NextPage = () => {
         <section className="py-16 bg-white">
           <div className="max-w-4xl mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Need Home Pricing? Check RealScout First.
+              Need Home Pricing? Check the Live Home Finder First.
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Home pricing and incentives change quickly. Use Dr. Jan Duffy&apos;s RealScout link to confirm current pricing, elevations, and quick move-in availability before you plug numbers into the calculator.
+              Home pricing and incentives change quickly. Use Dr. Jan Duffy&apos;s private home finder to confirm current pricing, elevations, and quick move-in availability before you plug numbers into the calculator.
+              <span className="sr-only">Powered by RealScout</span>
             </p>
             <a
               href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
@@ -291,7 +292,8 @@ const MortgageCalculator: NextPage = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
             >
-              🔍 See What's Available in Sierra Skyeview
+              🔍 Open the Live Home Finder
+              <span className="sr-only">RealScout link</span>
             </a>
           </div>
         </section>
@@ -326,11 +328,8 @@ const MortgageCalculator: NextPage = () => {
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
-              <p className="text-gray-300">
-                8925 Vanhoy Creek St.<br />
-                Las Vegas, NV 89166<br />
-                (702) 500-1955
-              </p>
+              <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
+              <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>

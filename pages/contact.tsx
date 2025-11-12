@@ -250,11 +250,8 @@ const Contact: NextPage = () => {
                     <div className="text-2xl mr-4">📍</div>
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900 mb-2">Address</h3>
-                      <p className="text-gray-600">
-                        Sierra Skyview Sales Office<br />
-                        8925 Vanhoy Creek St.<br />
-                        Las Vegas, NV 89166
-                      </p>
+                      <p className="text-gray-600">Call for location details</p>
+                      <p className="sr-only">Sierra Skyview Sales Office, 8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
                     </div>
                   </div>
 
@@ -345,11 +342,8 @@ const Contact: NextPage = () => {
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
-              <p className="text-gray-300">
-                8925 Vanhoy Creek St.<br />
-                Las Vegas, NV 89166<br />
-                (702) 500-1955
-              </p>
+              <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
+              <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>

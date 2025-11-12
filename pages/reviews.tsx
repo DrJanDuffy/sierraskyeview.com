@@ -253,7 +253,8 @@ const Reviews: NextPage = () => {
                 Sierra at Skyeview represents the pinnacle of new home construction in Las Vegas, offering three thoughtfully designed two-story Homes within the prestigious Skye Canyon master-planned community. This Century Communities development provides residents with access to world-class amenities, beautiful mountain views, and a vibrant community lifestyle that's unmatched in the Las Vegas Valley.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Located at 8925 Vanhoy Creek St., Las Vegas, NV 89166, Sierra at Skyeview offers new homes starting from $419,990. The community features three Homes: Residence 1602 (1,602 sq ft, 3 bed, 2.5 bath), Residence 1708 (1,708 sq ft, 3 bed, 2.5 bath), and Residence 1965 (1,965 sq ft, 3 bed, 2.5 bath). Each home includes modern finishes, smart home technology, and access to Skye Canyon's incredible amenities including parks, trails, recreational facilities, and neighborhood schools.
+                Nestled in Skye Canyon, Sierra at Skyeview offers new homes starting from $419,990. The community features three Homes: Residence 1602 (1,602 sq ft, 3 bed, 2.5 bath), Residence 1708 (1,708 sq ft, 3 bed, 2.5 bath), and Residence 1965 (1,965 sq ft, 3 bed, 2.5 bath). Each home includes modern finishes, smart home technology, and access to Skye Canyon's incredible amenities including parks, trails, recreational facilities, and neighborhood schools.
+                <span className="sr-only">Community address: 8925 Vanhoy Creek St., Las Vegas, NV 89166</span>
               </p>
               <p className="text-lg text-gray-600">
                 Dr. Jan Duffy's independent representation ensures that homebuyers receive VIP treatment, early insight into the best lots, and expert guidance throughout the entire home buying process. Her Nevada real estate license (S.0197614) and deep knowledge of the Las Vegas market make her the ideal choice for anyone considering a new home at Sierra at Skyeview.
@@ -417,11 +418,8 @@ const Reviews: NextPage = () => {
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
-              <p className="text-gray-300">
-                8925 Vanhoy Creek St.<br />
-                Las Vegas, NV 89166<br />
-                (702) 500-1955
-              </p>
+              <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
+              <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>

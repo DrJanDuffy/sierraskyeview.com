@@ -6,7 +6,7 @@ const FloorPlans: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Sierra at Skyeview Homes & Inventory | RealScout Search</title>
+        <title>Sierra at Skyeview Homes & Inventory | Live Home Finder</title>
         <meta name="description" content="Browse every Sierra at Skyeview floor plan and quick move-in home through Dr. Jan Duffy's curated RealScout search. Real-time availability, pricing, photos, and more." />
         <meta property="og:title" content="Sierra at Skyeview Homes & Inventory" />
         <meta property="og:description" content="View current Homes and quick move-in homes via Dr. Jan Duffy's RealScout search for Century Communities at Sierra at Skyeview." />
@@ -72,8 +72,9 @@ const FloorPlans: NextPage = () => {
               Explore Sierra at Skyeview Homes & Move-In Homes
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
-              <p className="text-xl max-w-3xl mx-auto">
-                Instantly see every available floor plan, elevation, quick move-in opportunity, pricing update, and builder incentive using Dr. Jan Duffy&apos;s RealScout home search. Updated in real time directly from Century Communities.
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Instantly see every available floor plan, elevation, quick move-in opportunity, pricing update, and builder incentive using Dr. Jan Duffy&apos;s private home finder. Updated in real time directly from Century Communities.
+                <span className="sr-only">Powered by RealScout</span>
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -89,7 +90,8 @@ const FloorPlans: NextPage = () => {
                 rel="noopener noreferrer"
                 className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
               >
-                🔍 See What's Available in Sierra Skyeview
+                🔍 Explore Available Homes & Quick Closings
+                <span className="sr-only">Powered by RealScout</span>
               </a>
             </div>
           </div>
@@ -102,7 +104,8 @@ const FloorPlans: NextPage = () => {
               One Click to Every Home & Quick Move-In
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Skip outdated PDFs and static brochures. The RealScout collection keeps you updated with real-time inventory direct from the Century Communities sales database, including:
+              Skip outdated PDFs and static brochures. Dr. Jan&apos;s private home finder keeps you updated with real-time inventory direct from the Century Communities sales database, including:
+              <span className="sr-only">This experience uses RealScout technology</span>
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-left mb-10">
               <div className="bg-white rounded-lg shadow p-6">
@@ -124,7 +127,8 @@ const FloorPlans: NextPage = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
             >
-              🔍 Open Dr. Jan&apos;s RealScout Search
+              🔍 Launch the Live Home Finder
+              <span className="sr-only">RealScout link</span>
             </a>
           </div>
         </section>
@@ -159,11 +163,8 @@ const FloorPlans: NextPage = () => {
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
-              <p className="text-gray-300">
-                8925 Vanhoy Creek St.<br />
-                Las Vegas, NV 89166<br />
-                (702) 500-1955
-              </p>
+              <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
+              <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>

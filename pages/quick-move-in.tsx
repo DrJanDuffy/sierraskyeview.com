@@ -266,6 +266,7 @@ const QuickMoveIn: NextPage = () => {
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 These carefully selected homes are available for quick move-in at Sierra at Skyeview in Skye Canyon. Each home features premium finishes, smart home technology, and access to world-class community amenities.
+                <span className="sr-only">Community address: 8925 Vanhoy Creek St., Las Vegas, NV 89166</span>
               </p>
             </div>
 
@@ -435,7 +436,8 @@ const QuickMoveIn: NextPage = () => {
                           rel="noopener noreferrer"
                           className="w-full bg-blue-600 text-white text-center py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm flex items-center justify-center gap-2"
                         >
-                          🏠 View Full Listing Details
+                          🏠 View Detailed Listing Information
+                          <span className="sr-only">RealScout link</span>
                           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                           </svg>
@@ -450,132 +452,150 @@ const QuickMoveIn: NextPage = () => {
         </section>
 
         {/* RealScout Integration */}
-        <section className="py-16 bg-blue-50">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                🏠 Advanced Home Search with RealScout
-              </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Get detailed property information, market analysis, and personalized recommendations through Dr. Jan Duffy's RealScout platform. Access comprehensive listing data, neighborhood insights, and expert guidance all in one place.
-              </p>
-            </div>
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-6xl mx-auto px-4">
+            <div className="bg-white rounded-2xl shadow-xl p-10 md:p-14">
+              <div className="md:flex md:items-center md:justify-between mb-8">
+                <div>
+                  <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    🏠 Advanced Home Search with Dr. Jan
+                  </h2>
+                  <p className="text-lg text-gray-600 mb-6 max-w-2xl">
+                    Get detailed property information, market analysis, and personalized recommendations through Dr. Jan Duffy's private home finder. Access comprehensive listing data, neighborhood insights, and expert guidance all in one place.
+                    <span className="sr-only">This service uses RealScout</span>
+                  </p>
+                </div>
+                <div className="flex-shrink-0">
+                  <a
+                    href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold text-lg transition-colors"
+                  >
+                    🔍 Start Your Personalized Home Finder
+                    <span className="sr-only">RealScout link</span>
+                  </a>
+                </div>
+              </div>
 
-            <div className="grid md:grid-cols-3 gap-8 mb-12">
-              <div className="bg-white rounded-lg p-6 shadow-lg text-center">
-                <div className="text-4xl mb-4">📊</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Market Analysis</h3>
-                <p className="text-gray-600">Get detailed market data, price trends, and neighborhood comparisons to make informed decisions.</p>
+              <div className="grid md:grid-cols-3 gap-8 mb-12">
+                <div className="bg-white rounded-lg p-6 shadow-lg text-center">
+                  <div className="text-4xl mb-4">📊</div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Market Analysis</h3>
+                  <p className="text-gray-600">Get detailed market data, price trends, and neighborhood comparisons to make informed decisions.</p>
+                </div>
+                <div className="bg-white rounded-lg p-6 shadow-lg text-center">
+                  <div className="text-4xl mb-4">🔍</div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Detailed Listings</h3>
+                  <p className="text-gray-600">Access comprehensive property details, photos, Homes, and neighborhood information in one platform.</p>
+                </div>
+                <div className="bg-white rounded-lg p-6 shadow-lg text-center">
+                  <div className="text-4xl mb-4">🤝</div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Expert Guidance</h3>
+                  <p className="text-gray-600">Work directly with Dr. Jan Duffy for personalized recommendations and professional real estate expertise.</p>
+                </div>
               </div>
-              <div className="bg-white rounded-lg p-6 shadow-lg text-center">
-                <div className="text-4xl mb-4">🔍</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Detailed Listings</h3>
-                <p className="text-gray-600">Access comprehensive property details, photos, Homes, and neighborhood information in one platform.</p>
-              </div>
-              <div className="bg-white rounded-lg p-6 shadow-lg text-center">
-                <div className="text-4xl mb-4">🤝</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Expert Guidance</h3>
-                <p className="text-gray-600">Work directly with Dr. Jan Duffy for personalized recommendations and professional real estate expertise.</p>
-              </div>
-            </div>
 
-            <div className="text-center">
-              <a 
-                href="https://drjanduffy.realscout.com/homesearch/listings/p-8990-rimerton-street-las-vegas-89166-glvartrestle-875"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors text-lg"
-              >
-                🏠 View 8990 Rimerton Street on RealScout
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </a>
-            </div>
-            
-            {/* 8990 Rimerton Street Gallery */}
-            <div className="mt-16">
-              <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
-                📸 8990 Rimerton Street Photo Gallery
-              </h3>
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                <div className="group cursor-pointer">
-                  <img 
-                    src="/8990-rimerton-street-exterior.jpg" 
-                    alt="8990 Rimerton Street exterior view"
-                    className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                    loading="lazy"
-                  />
-                  <p className="text-sm text-gray-600 mt-2 text-center">Exterior View</p>
-                </div>
-                <div className="group cursor-pointer">
-                  <img 
-                    src="/8990-rimerton-kitchen.jpg" 
-                    alt="Modern kitchen with island"
-                    className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                    loading="lazy"
-                  />
-                  <p className="text-sm text-gray-600 mt-2 text-center">Modern Kitchen</p>
-                </div>
-                <div className="group cursor-pointer">
-                  <img 
-                    src="/8990-rimerton-living-room.jpg" 
-                    alt="Open concept living room"
-                    className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                    loading="lazy"
-                  />
-                  <p className="text-sm text-gray-600 mt-2 text-center">Living Room</p>
-                </div>
-                <div className="group cursor-pointer">
-                  <img 
-                    src="/8990-rimerton-master-bedroom.jpg" 
-                    alt="Master bedroom"
-                    className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                    loading="lazy"
-                  />
-                  <p className="text-sm text-gray-600 mt-2 text-center">Master Bedroom</p>
-                </div>
-                <div className="group cursor-pointer">
-                  <img 
-                    src="/8990-rimerton-bathroom.jpg" 
-                    alt="Modern bathroom"
-                    className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                    loading="lazy"
-                  />
-                  <p className="text-sm text-gray-600 mt-2 text-center">Modern Bathroom</p>
-                </div>
-                <div className="group cursor-pointer">
-                  <img 
-                    src="/8990-rimerton-garage.jpg" 
-                    alt="Two-car garage"
-                    className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                    loading="lazy"
-                  />
-                  <p className="text-sm text-gray-600 mt-2 text-center">Two-Car Garage</p>
-                </div>
-                <div className="group cursor-pointer">
-                  <img 
-                    src="/8990-rimerton-neighborhood.jpg" 
-                    alt="Sierra at Skyeview neighborhood"
-                    className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                    loading="lazy"
-                  />
-                  <p className="text-sm text-gray-600 mt-2 text-center">Neighborhood</p>
-                </div>
-              </div>
-              
-              <div className="text-center mt-8">
+              <div className="text-center">
                 <a 
                   href="https://drjanduffy.realscout.com/homesearch/listings/p-8990-rimerton-street-las-vegas-89166-glvartrestle-875"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
+                  className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors text-lg"
                 >
-                  🏠 View All Photos on RealScout
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  🏠 View 8990 Rimerton Street Details
+                  <span className="sr-only">Listing hosted on RealScout</span>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
                 </a>
+              </div>
+              
+              {/* 8990 Rimerton Street Gallery */}
+              <div className="mt-16">
+                <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
+                  📸 8990 Rimerton Street Photo Gallery
+                </h3>
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                  <div className="group cursor-pointer">
+                    <img 
+                      src="/8990-rimerton-street-exterior.jpg" 
+                      alt="8990 Rimerton Street exterior view"
+                      className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                    <p className="text-sm text-gray-600 mt-2 text-center">Exterior View</p>
+                  </div>
+                  <div className="group cursor-pointer">
+                    <img 
+                      src="/8990-rimerton-kitchen.jpg" 
+                      alt="Modern kitchen with island"
+                      className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                    <p className="text-sm text-gray-600 mt-2 text-center">Modern Kitchen</p>
+                  </div>
+                  <div className="group cursor-pointer">
+                    <img 
+                      src="/8990-rimerton-living-room.jpg" 
+                      alt="Open concept living room"
+                      className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                    <p className="text-sm text-gray-600 mt-2 text-center">Living Room</p>
+                  </div>
+                  <div className="group cursor-pointer">
+                    <img 
+                      src="/8990-rimerton-master-bedroom.jpg" 
+                      alt="Master bedroom"
+                      className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                    <p className="text-sm text-gray-600 mt-2 text-center">Master Bedroom</p>
+                  </div>
+                  <div className="group cursor-pointer">
+                    <img 
+                      src="/8990-rimerton-bathroom.jpg" 
+                      alt="Modern bathroom"
+                      className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                    <p className="text-sm text-gray-600 mt-2 text-center">Modern Bathroom</p>
+                  </div>
+                  <div className="group cursor-pointer">
+                    <img 
+                      src="/8990-rimerton-garage.jpg" 
+                      alt="Two-car garage"
+                      className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                    <p className="text-sm text-gray-600 mt-2 text-center">Two-Car Garage</p>
+                  </div>
+                  <div className="group cursor-pointer">
+                    <img 
+                      src="/8990-rimerton-neighborhood.jpg" 
+                      alt="Sierra at Skyeview neighborhood"
+                      className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                    <p className="text-sm text-gray-600 mt-2 text-center">Neighborhood</p>
+                  </div>
+                </div>
+                
+                <div className="text-center mt-8">
+                  <a 
+                    href="https://drjanduffy.realscout.com/homesearch/listings/p-8990-rimerton-street-las-vegas-89166-glvartrestle-875"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
+                  >
+                    🏠 View Full Photo Gallery
+                    <span className="sr-only">Photos hosted on RealScout</span>
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -762,7 +782,8 @@ const QuickMoveIn: NextPage = () => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
               >
-                🏠 View All Photos on RealScout
+                🏠 View Full Photo Gallery
+                <span className="sr-only">Photos hosted on RealScout</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
@@ -859,7 +880,8 @@ const QuickMoveIn: NextPage = () => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
               >
-                🏠 View All Photos on RealScout
+                🏠 View Full Photo Gallery
+                <span className="sr-only">Photos hosted on RealScout</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
@@ -975,11 +997,8 @@ const QuickMoveIn: NextPage = () => {
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
-              <p className="text-gray-300">
-                8925 Vanhoy Creek St.<br />
-                Las Vegas, NV 89166<br />
-                (702) 500-1955
-              </p>
+              <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
+              <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
