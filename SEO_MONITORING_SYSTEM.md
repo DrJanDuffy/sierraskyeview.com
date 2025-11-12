@@ -323,7 +323,7 @@ Market Share: 23% (+3%)
 2. **Link Building**
    - Identify high-authority local sites
    - Create linkable assets
-   - Develop partnership opportunities
+   - Develop collaborative opportunities
 
 3. **Technical SEO**
    - Implement advanced schema markup

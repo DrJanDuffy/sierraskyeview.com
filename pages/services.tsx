@@ -30,14 +30,14 @@ const Services: NextPage = () => {
     },
     {
       icon: "🎯",
-      title: "Century Communities Partnership",
-      description: "Exclusive partnership providing VIP access and insider knowledge of Century Communities.",
+      title: "Century Communities Buyer Advocacy",
+      description: "Independent representation with deep Century Communities insight to help you secure the right home.",
       features: [
-        "Early phase access",
-        "Priority lot selection",
-        "VIP builder relationships",
-        "Exclusive incentives",
-        "Expert negotiation power"
+        "Early phase updates",
+        "Priority lot strategies",
+        "Collaborative builder relationships",
+        "Exclusive buyer incentives",
+        "Negotiation focused on your interests"
       ]
     },
     {
@@ -58,7 +58,7 @@ const Services: NextPage = () => {
     <>
       <Head>
         <title>Services - Sierra at Skyeview | Dr. Jan Duffy</title>
-        <meta name="description" content="Professional real estate services from Dr. Jan Duffy. New home construction guidance, buyer representation, and Century Communities partnership expertise." />
+        <meta name="description" content="Professional real estate services from Dr. Jan Duffy. New home construction guidance, buyer representation, and independent advocacy for Century Communities buyers." />
         <meta property="og:title" content="Services - Sierra at Skyeview" />
         <meta property="og:description" content="Professional real estate services from Dr. Jan Duffy. New home construction guidance and buyer representation expertise." />
       </Head>
@@ -97,7 +97,7 @@ const Services: NextPage = () => {
               Professional Real Estate Services
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Expert guidance from Dr. Jan Duffy for all your real estate needs. Specializing in new home construction, buyer representation, and Century Communities partnerships.
+              Expert guidance from Dr. Jan Duffy for all your real estate needs. Specializing in new home construction, buyer representation, and Century Communities buyer advocacy.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -159,8 +159,8 @@ const Services: NextPage = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="text-4xl mb-4">🤝</div>
-                <h3 className="text-xl font-bold mb-2">Century Communities Partnership</h3>
-                <p className="text-gray-300">I work directly with Century Communities to give you insider access while representing YOUR interests, not theirs.</p>
+                <h3 className="text-xl font-bold mb-2">Century Communities Buyer Advocacy</h3>
+                <p className="text-gray-300">I collaborate with Century Communities while exclusively representing YOUR interests as an independent agent.</p>
               </div>
               <div className="text-center">
                 <div className="text-4xl mb-4">📊</div>
@@ -188,10 +188,10 @@ const Services: NextPage = () => {
             </div>
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                ⭐ VIP CENTURY COMMUNITIES PARTNERSHIP ⭐
+                ⭐ CENTURY COMMUNITIES INSIDER ACCESS ⭐
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy's VIP Century Communities partnership delivers exclusive access, priority lot selection, and expert negotiation backed by premier relationships.
+                Dr. Jan Duffy offers insider insight into Century Communities—with independent representation, priority lot strategies, and expert negotiation backed by trusted relationships.
               </p>
             </div>
 

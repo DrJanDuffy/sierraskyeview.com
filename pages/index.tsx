@@ -11,7 +11,7 @@ const Home: NextPage = () => {
     {
       title: "Sierra Skyview - Luxury New Homes in Skye Canyon",
       subtitle: "Now Selling! Starting at $459,790 - Luxury Homes in Gated Community",
-      description: "Expert Guidance from Dr. Jan Duffy | Century Communities Partnership",
+      description: "Expert Guidance from Dr. Jan Duffy | Century Communities Buyer Advocacy",
       image: "/hero-1.jpg"
     },
     {
@@ -58,7 +58,7 @@ const Home: NextPage = () => {
               "@context": "https://schema.org",
               "@type": "RealEstateAgent",
               "name": "Dr. Jan Duffy",
-              "description": "Expert real estate agent specializing in new home construction and Century Communities partnerships in Las Vegas",
+              "description": "Expert real estate agent specializing in new home construction and independent advocacy for Century Communities buyers in Las Vegas",
               "url": "https://sierraskyeview.com",
               "telephone": "(702) 500-1955",
               "email": "DrJanSells@SierraSkyeview.com",

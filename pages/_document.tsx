@@ -13,7 +13,7 @@ class MyDocument extends Document {
           <meta property="og:site_name" content="sierraskyeview.com" />
           <meta
             property="og:description"
-            content="Sierra at Skyeview - Luxury New Homes in Skye Canyon, Las Vegas. Expert guidance from Dr. Jan Duffy. Starting at $419,990 with Century Communities partnership."
+            content="Sierra at Skyeview - Luxury New Homes in Skye Canyon, Las Vegas. Expert guidance from independent buyer advocate Dr. Jan Duffy. Starting at $419,990."
           />
           <meta property="og:title" content="Sierra at Skyeview - Luxury New Homes in Skye Canyon" />
           <meta name="twitter:card" content="summary_large_image" />

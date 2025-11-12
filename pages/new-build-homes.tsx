@@ -366,7 +366,7 @@ const NewBuildHomes: NextPage = () => {
           </div>
         </section>
 
-        {/* Dr. Jan Duffy Partnership Benefits */}
+        {/* Dr. Jan Duffy Buyer Advocacy Benefits */}
         <section className="py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
@@ -374,13 +374,13 @@ const NewBuildHomes: NextPage = () => {
                 Why Choose Dr. Jan Duffy for New Build Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy's partnership with Century Communities provides exclusive benefits and expert guidance for new build home buyers at Sierra at Skyeview.
+                Dr. Jan Duffy's independent advocacy—paired with her close collaboration with Century Communities teams—provides exclusive benefits and expert guidance for new build home buyers at Sierra at Skyeview.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-12">
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Exclusive Partnership Benefits</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">Exclusive Buyer Benefits</h3>
                 <div className="space-y-4">
                   <div className="flex items-start">
                     <div className="text-2xl mr-4">🎯</div>
@@ -393,14 +393,14 @@ const NewBuildHomes: NextPage = () => {
                     <div className="text-2xl mr-4">💰</div>
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 mb-2">Special Pricing & Incentives</h4>
-                      <p className="text-gray-600">Access to exclusive pricing, builder incentives, and upgrade packages not available to other buyers.</p>
+                      <p className="text-gray-600">Access to exclusive pricing, builder incentives, and upgrade packages not always available to other buyers.</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <div className="text-2xl mr-4">📋</div>
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 mb-2">Streamlined Process</h4>
-                      <p className="text-gray-600">Direct communication with Century Communities ensures smooth coordination throughout the build process.</p>
+                      <p className="text-gray-600">Close collaboration with Century Communities ensures smooth coordination throughout the build process.</p>
                     </div>
                   </div>
                   <div className="flex items-start">

@@ -41,7 +41,7 @@ const Contact: NextPage = () => {
               "@context": "https://schema.org",
               "@type": "RealEstateAgent",
               "name": "Dr. Jan Duffy",
-              "description": "Expert real estate agent specializing in new home construction and Century Communities partnerships in Las Vegas",
+              "description": "Expert real estate agent specializing in new home construction and independent advocacy for Century Communities buyers in Las Vegas",
               "url": "https://sierraskyeview.com",
               "telephone": "(702) 500-1955",
               "email": "DrJanSells@SierraSkyeview.com",

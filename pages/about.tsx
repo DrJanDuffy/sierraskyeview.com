@@ -7,9 +7,9 @@ const About: NextPage = () => {
     <>
       <Head>
         <title>About Dr. Jan Duffy - Sierra at Skyeview | Real Estate Expert</title>
-        <meta name="description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and Century Communities partnerships in Las Vegas." />
+        <meta name="description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and independent advocacy for Century Communities buyers in Las Vegas." />
         <meta property="og:title" content="About Dr. Jan Duffy - Sierra at Skyeview" />
-        <meta property="og:description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and Century Communities partnerships." />
+        <meta property="og:description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and independent advocacy for Century Communities buyers." />
       </Head>
 
       {/* Navigation */}
@@ -46,7 +46,7 @@ const About: NextPage = () => {
               About Dr. Jan Duffy
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Your trusted real estate expert specializing in new home construction and Century Communities partnerships in Las Vegas
+              Your trusted real estate expert specializing in new home construction and Century Communities buyer representation in Las Vegas
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -75,10 +75,10 @@ const About: NextPage = () => {
                   Meet Dr. Jan Duffy
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  Dr. Jan Duffy is a Featured New Home Construction & Buyer Representation Specialist, proudly representing Century Communities—one of the nation's top 10 homebuilders—at Sierra at Skyeview in Skye Canyon, Las Vegas, NV.
+                  Dr. Jan Duffy is a Featured New Home Construction & Buyer Representation Specialist, proudly representing homebuyers interested in Century Communities—one of the nation's top 10 homebuilders—at Sierra at Skyeview in Skye Canyon, Las Vegas, NV.
                 </p>
                 <p className="text-lg text-gray-600 mb-6">
-                  With deep expertise in the Las Vegas real estate market and a proven track record of success, Dr. Jan Duffy provides expert guidance to homebuyers seeking luxury new construction homes. Her VIP partnership with Century Communities gives clients exclusive access to the best lots, early phase releases, and expert negotiation power.
+                  With deep expertise in the Las Vegas real estate market and a proven track record of success, Dr. Jan Duffy provides expert guidance to homebuyers seeking luxury new construction homes. Her close working relationships with Century Communities sales teams give clients early insight into the best lots, upcoming releases, and negotiation opportunities—all while she remains the buyer's independent advocate.
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-center">
@@ -87,7 +87,7 @@ const About: NextPage = () => {
                   </div>
                   <div className="flex items-center">
                     <span className="text-green-600 mr-3">✓</span>
-                    <span className="text-gray-700">Century Communities VIP Partner</span>
+                    <span className="text-gray-700">Century Communities Buyer Advocate</span>
                   </div>
                   <div className="flex items-center">
                     <span className="text-green-600 mr-3">✓</span>
@@ -126,8 +126,8 @@ const About: NextPage = () => {
               </div>
               <div className="bg-white rounded-lg p-8 shadow-lg text-center">
                 <div className="text-4xl mb-4">🤝</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Century Communities Partnership</h3>
-                <p className="text-gray-600">VIP partnership providing exclusive access and insider knowledge of Century Communities developments.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Century Communities Buyer Advocacy</h3>
+                <p className="text-gray-600">Independent advocacy providing insider knowledge of Century Communities developments while protecting your interests.</p>
               </div>
               <div className="bg-white rounded-lg p-8 shadow-lg text-center">
                 <div className="text-4xl mb-4">🎯</div>
@@ -153,8 +153,8 @@ const About: NextPage = () => {
             <div className="grid md:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="text-4xl mb-4">🤝</div>
-                <h3 className="text-xl font-bold mb-2">Century Communities Partnership</h3>
-                <p className="text-gray-300">I work directly with Century Communities to give you insider access while representing YOUR interests, not theirs.</p>
+                <h3 className="text-xl font-bold mb-2">Century Communities Buyer Advocacy</h3>
+                <p className="text-gray-300">I collaborate with Century Communities teams to give you insider access while exclusively representing YOUR interests.</p>
               </div>
               <div className="text-center">
                 <div className="text-4xl mb-4">📊</div>
@@ -198,7 +198,7 @@ const About: NextPage = () => {
               <div className="bg-gray-50 rounded-lg p-6">
                 <div className="text-yellow-400 mb-4">⭐⭐⭐⭐⭐</div>
                 <p className="text-gray-600 mb-4">
-                  "We couldn't have asked for a better real estate agent. Dr. Jan's knowledge of the Las Vegas market and her VIP access to Century Communities was invaluable."
+                  "We couldn't have asked for a better real estate agent. Dr. Jan's knowledge of the Las Vegas market and her insider access to Century Communities communities was invaluable."
                 </p>
                 <p className="font-semibold text-gray-900">- Robert & Lisa Chen</p>
               </div>
@@ -220,7 +220,7 @@ const About: NextPage = () => {
               Ready to Work With Dr. Jan Duffy?
             </h2>
             <p className="text-lg mb-8">
-              Experience the difference that expert guidance and VIP partnerships can make in your new home buying journey.
+              Experience the difference that expert guidance and independent buyer advocacy can make in your new home buying journey.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">

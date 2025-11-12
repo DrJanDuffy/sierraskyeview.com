@@ -30,14 +30,14 @@ Google My Business is crucial for local SEO and helps your business appear in Go
 
 ### 2.1 Business Description
 **Primary Description (750 characters max):**
-"Dr. Jan Duffy is a Featured New Home Construction & Buyer Representation Specialist, proudly representing Century Communities at Sierra at Skyeview in Skye Canyon, Las Vegas. With Nevada License S.0197614, Dr. Jan provides expert guidance for luxury new construction homes starting at $419,990. Specializing in Century Communities partnerships, market expertise, and negotiation power for the Las Vegas metro area."
+"Dr. Jan Duffy is a Featured New Home Construction & Buyer Representation Specialist, proudly advocating for homebuyers interested in Century Communities at Sierra at Skyeview in Skye Canyon, Las Vegas. With Nevada License S.0197614, Dr. Jan provides expert guidance for luxury new construction homes starting at $419,990. Specializing in independent advocacy for Century Communities buyers, market expertise, and negotiation power for the Las Vegas metro area."
 
 ### 2.2 Additional Categories
 - Real Estate Consultant
 - New Home Sales
 - Property Management
 - Real Estate Investment
-- Century Communities Agent
+- Century Communities Buyer Specialist
 
 ### 2.3 Services Offered
 - New Home Construction Consultation
@@ -46,12 +46,12 @@ Google My Business is crucial for local SEO and helps your business appear in Go
 - Mortgage Guidance
 - Home Inspection Coordination
 - Closing Assistance
-- Century Communities VIP Access
+- Century Communities Insider Access
 
 ### 2.4 Attributes
 - ✅ Women-owned
 - ✅ Licensed Professional
-- ✅ Century Communities Partner
+- ✅ Century Communities Buyer Advocate
 - ✅ New Construction Specialist
 - ✅ Free Consultation
 - ✅ Bilingual (if applicable)

@@ -872,7 +872,7 @@ const QuickMoveIn: NextPage = () => {
           </div>
         </section>
 
-        {/* Dr. Jan Duffy Partnership */}
+        {/* Dr. Jan Duffy Buyer Advocacy */}
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
@@ -880,13 +880,13 @@ const QuickMoveIn: NextPage = () => {
                 Why Work With Dr. Jan Duffy for Quick Move-In Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy's partnership with Century Communities provides exclusive access to quick move-in homes and expert guidance throughout the home buying process.
+                Dr. Jan Duffy's independent advocacy, combined with her close working relationships at Century Communities, provides early insight into quick move-in homes and expert guidance throughout the home buying process.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Century Communities Partnership Benefits</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">Century Communities Buyer Benefits</h3>
                 <div className="space-y-4">
                   <div className="flex items-start">
                     <div className="text-2xl mr-4">🤝</div>
@@ -899,14 +899,14 @@ const QuickMoveIn: NextPage = () => {
                     <div className="text-2xl mr-4">💰</div>
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 mb-2">Better Pricing</h4>
-                      <p className="text-gray-600">Access to special pricing, incentives, and upgrades that may not be available to other buyers through Dr. Jan's partnership.</p>
+                      <p className="text-gray-600">Access to special pricing, incentives, and upgrades that may not be available to other buyers thanks to Dr. Jan's buyer-focused advocacy.</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <div className="text-2xl mr-4">📋</div>
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 mb-2">Streamlined Process</h4>
-                      <p className="text-gray-600">Direct communication with Century Communities ensures a smooth, efficient home buying experience for quick move-in homes.</p>
+                      <p className="text-gray-600">Close collaboration with Century Communities teams ensures a smooth, efficient home buying experience for quick move-in homes.</p>
                     </div>
                   </div>
                 </div>
