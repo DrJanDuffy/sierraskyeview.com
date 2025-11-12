@@ -228,7 +228,6 @@ const Contact: NextPage = () => {
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900 mb-2">Phone</h3>
                       <p className="text-gray-600 mb-2">Dr. Jan Duffy: (702) 500-1955</p>
-                      <p className="text-gray-600 mb-2">Century Communities Sales: (702) 730-4335</p>
                       <p className="text-gray-600">Urgent: (702) 222-1964</p>
                       <a href="tel:7025001955" className="text-blue-600 hover:text-blue-700 font-semibold">
                         Call Now
