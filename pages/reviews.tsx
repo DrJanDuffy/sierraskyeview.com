@@ -158,14 +158,16 @@ const Reviews: NextPage = () => {
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">
-              <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
-              <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Homes</Link>
-              <Link href="/community" className="text-gray-700 hover:text-blue-600 font-medium">Community</Link>
+              <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Available Homes</Link>
+              <Link href="/community" className="text-gray-700 hover:text-blue-600 font-medium">Skye Canyon Guide</Link>
               <Link href="/mortgage-calculator" className="text-gray-700 hover:text-blue-600 font-medium">Mortgage Calculator</Link>
+              <Link href="/quick-move-in" className="text-gray-700 hover:text-blue-600 font-medium">Quick Move-In</Link>
+              <Link href="/new-build-homes" className="text-gray-700 hover:text-blue-600 font-medium">New Construction</Link>
+              <Link href="/reviews" className="text-blue-600 font-semibold">Reviews</Link>
               <Link href="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
               <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Dr. Jan</Link>
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
-              <Link href="/qa" className="text-gray-700 hover:text-blue-600 font-medium">Q&A</Link>
+              <Link href="/qa" className="text-gray-700 hover:text-blue-600 font-medium">Q&amp;A</Link>
             </div>
             <div className="md:hidden">
               <button className="text-gray-700" aria-label="Open menu">
@@ -418,16 +420,34 @@ const Reviews: NextPage = () => {
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
+              <p className="text-gray-300 mb-4 text-sm leading-relaxed">
+                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent Century Communities advocate Dr. Jan Duffy.
+              </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <div className="space-y-2">
-                <Link href="/" className="block text-gray-300 hover:text-white">Home</Link>
-                <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Homes</Link>
-                <Link href="/community" className="block text-gray-300 hover:text-white">Community</Link>
-                <Link href="/reviews" className="block text-gray-300 hover:text-white">Reviews</Link>
+                <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Available Homes</Link>
+                <Link href="/community" className="block text-gray-300 hover:text-white">Skye Canyon Guide</Link>
+                <Link href="/reviews" className="block text-blue-400">Buyer Success Stories</Link>
+                <Link href="/services" className="block text-gray-300 hover:text-white">Buyer Advocacy Services</Link>
+              </div>
+              <h5 className="text-sm font-semibold text-gray-200 mt-6 uppercase tracking-wide">Buyer Resources</h5>
+              <div className="space-y-2 text-sm">
+                <Link href="/services" className="block text-gray-400 hover:text-white">Las Vegas New Construction Tips</Link>
+                <Link href="/community" className="block text-gray-400 hover:text-white">Skye Canyon Amenities &amp; Lifestyle</Link>
+                <Link href="/mortgage-calculator" className="block text-gray-400 hover:text-white">New Home Financing Calculator</Link>
+                <a
+                  href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block text-gray-400 hover:text-white"
+                >
+                  View Live Sierra Skyeview Inventory
+                  <span className="sr-only">Powered by RealScout</span>
+                </a>
               </div>
             </div>
             <div>
