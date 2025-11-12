@@ -43,10 +43,13 @@ const About: NextPage = () => {
         <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              About Dr. Jan Duffy
+              Dr. Jan Duffy: Your Century Communities Buyer Advocate at Sierra at Skyeview
             </h1>
-            <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Your trusted real estate expert specializing in new home construction and Century Communities buyer representation in Las Vegas
+            <p className="text-xl mb-6 max-w-3xl mx-auto">
+              New construction moves in weeks, not months. You need someone who knows which lots appreciate fastest, what upgrades to fund versus skip, how to negotiate incentives Century doesn’t advertise, and why your contract matters more than the sales pitch. With 20+ years in Las Vegas real estate, Dr. Jan works directly with Century’s team—she spots opportunity other buyers miss. Let her walk you through every option before you sign anything.
+            </p>
+            <p className="text-sm uppercase tracking-wide text-blue-100 mb-6">
+              Nevada License S.0197614 | New Construction Specialist | Las Vegas Real Estate Expert
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -91,11 +94,11 @@ const About: NextPage = () => {
                   </div>
                   <div className="flex items-center">
                     <span className="text-green-600 mr-3">✓</span>
-                    <span className="text-gray-700">Las Vegas Real Estate Specialist</span>
+                    <span className="text-gray-700">Las Vegas Real Estate Expert</span>
                   </div>
                   <div className="flex items-center">
                     <span className="text-green-600 mr-3">✓</span>
-                    <span className="text-gray-700">New Home Construction Expert</span>
+                    <span className="text-gray-700">New Construction Specialist</span>
                   </div>
                 </div>
               </div>
