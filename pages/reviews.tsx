@@ -326,6 +326,7 @@ const Reviews: NextPage = () => {
               </h2>
               <p className="text-lg mb-8">
                 Dr. Jan Duffy's expertise and dedicated Century Communities buyer advocacy provide unmatched advantages for new home buyers at Sierra at Skyeview.
+              </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-12">
