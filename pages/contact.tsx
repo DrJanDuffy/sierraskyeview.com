@@ -373,7 +373,6 @@ const Contact: NextPage = () => {
               <h4 className="text-lg font-semibold mb-4">Business Hours</h4>
               <div className="text-gray-300">
                 <p>Dr. Jan Duffy: Monday-Sunday 10:00 AM - 6:00 PM</p>
-                <p>Century Communities Sales: Mon-Thu & Sat 10:00 AM - 6:00 PM, Fri 12:00 PM - 6:00 PM, Sun 10:00 AM - 6:00 PM</p>
                 <p className="mt-4 text-sm">
                   Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
                 </p>
