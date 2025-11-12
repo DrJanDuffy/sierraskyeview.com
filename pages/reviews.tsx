@@ -24,7 +24,7 @@ const Reviews: NextPage = () => {
       rating: 5,
       date: "November 2024",
       source: "Google Reviews",
-      content: "Working with Dr. Jan Duffy was the best decision we made when buying at Sierra at Skyeview. Her knowledge of the Las Vegas market and Skye Canyon community is unmatched. She showed us comparable communities and helped us understand the true value. Her Century Communities relationships gave us early access to floor plans and VIP treatment. Highly recommend!",
+      content: "Working with Dr. Jan Duffy was the best decision we made when buying at Sierra at Skyeview. Her knowledge of the Las Vegas market and Skye Canyon community is unmatched. She showed us comparable communities and helped us understand the true value. Her Century Communities relationships gave us early access to Homes and VIP treatment. Highly recommend!",
       verified: true,
       floorPlan: "Residence 1708",
       purchasePrice: "$429,990"
@@ -159,7 +159,7 @@ const Reviews: NextPage = () => {
             </div>
             <div className="hidden md:flex space-x-8">
               <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
-              <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Floor Plans</Link>
+              <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Homes</Link>
               <Link href="/community" className="text-gray-700 hover:text-blue-600 font-medium">Community</Link>
               <Link href="/mortgage-calculator" className="text-gray-700 hover:text-blue-600 font-medium">Mortgage Calculator</Link>
               <Link href="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
@@ -250,10 +250,10 @@ const Reviews: NextPage = () => {
             <div className="bg-white rounded-lg p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Sierra at Skyeview at Skye Canyon - New Homes in Las Vegas</h3>
               <p className="text-lg text-gray-600 mb-6">
-                Sierra at Skyeview represents the pinnacle of new home construction in Las Vegas, offering three thoughtfully designed two-story floor plans within the prestigious Skye Canyon master-planned community. This Century Communities development provides residents with access to world-class amenities, beautiful mountain views, and a vibrant community lifestyle that's unmatched in the Las Vegas Valley.
+                Sierra at Skyeview represents the pinnacle of new home construction in Las Vegas, offering three thoughtfully designed two-story Homes within the prestigious Skye Canyon master-planned community. This Century Communities development provides residents with access to world-class amenities, beautiful mountain views, and a vibrant community lifestyle that's unmatched in the Las Vegas Valley.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Located at 8925 Vanhoy Creek St., Las Vegas, NV 89166, Sierra at Skyeview offers new homes starting from $419,990. The community features three floor plans: Residence 1602 (1,602 sq ft, 3 bed, 2.5 bath), Residence 1708 (1,708 sq ft, 3 bed, 2.5 bath), and Residence 1965 (1,965 sq ft, 3 bed, 2.5 bath). Each home includes modern finishes, smart home technology, and access to Skye Canyon's incredible amenities including parks, trails, recreational facilities, and neighborhood schools.
+                Located at 8925 Vanhoy Creek St., Las Vegas, NV 89166, Sierra at Skyeview offers new homes starting from $419,990. The community features three Homes: Residence 1602 (1,602 sq ft, 3 bed, 2.5 bath), Residence 1708 (1,708 sq ft, 3 bed, 2.5 bath), and Residence 1965 (1,965 sq ft, 3 bed, 2.5 bath). Each home includes modern finishes, smart home technology, and access to Skye Canyon's incredible amenities including parks, trails, recreational facilities, and neighborhood schools.
               </p>
               <p className="text-lg text-gray-600">
                 Dr. Jan Duffy's independent representation ensures that homebuyers receive VIP treatment, early insight into the best lots, and expert guidance throughout the entire home buying process. Her Nevada real estate license (S.0197614) and deep knowledge of the Las Vegas market make her the ideal choice for anyone considering a new home at Sierra at Skyeview.
@@ -427,7 +427,7 @@ const Reviews: NextPage = () => {
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <div className="space-y-2">
                 <Link href="/" className="block text-gray-300 hover:text-white">Home</Link>
-                <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Floor Plans</Link>
+                <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Homes</Link>
                 <Link href="/community" className="block text-gray-300 hover:text-white">Community</Link>
                 <Link href="/reviews" className="block text-gray-300 hover:text-white">Reviews</Link>
               </div>
@@ -460,5 +460,6 @@ const Reviews: NextPage = () => {
 };
 
 export default Reviews;
+
 
 

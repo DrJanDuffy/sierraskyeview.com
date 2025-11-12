@@ -177,8 +177,8 @@ Upload high-quality photos in these categories:
 **Q: What are the HOA fees at Sierra at Skyeview?**
 **A:** The HOA fees are approximately $83 per month, which includes access to all Skye Canyon amenities including the community pool, fitness center, parks, and recreational facilities.
 
-**Q: What floor plans are available?**
-**A:** Sierra at Skyeview offers three beautiful floor plans: Residence 1602 (1,602 sq ft), Residence 1708 (1,708 sq ft), and Residence 1965 (1,965 sq ft). All homes feature modern open-concept designs.
+**Q: What Homes are available?**
+**A:** Sierra at Skyeview offers three beautiful Homes: Residence 1602 (1,602 sq ft), Residence 1708 (1,708 sq ft), and Residence 1965 (1,965 sq ft). All homes feature modern open-concept designs.
 
 **Q: When will construction be completed?**
 **A:** Construction timelines vary by lot, but most homes are completed within 4-6 months. We have quick move-in homes available now for immediate occupancy.
@@ -317,5 +317,6 @@ Upload high-quality photos in these categories:
 ---
 
 *This guide should be reviewed and updated monthly to ensure optimal performance and alignment with Google's latest features and best practices.*
+
 
 

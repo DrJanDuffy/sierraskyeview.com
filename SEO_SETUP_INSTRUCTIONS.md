@@ -86,7 +86,7 @@ Submit business to:
 
 ### Long-tail Keywords
 - "new homes Skye Canyon Las Vegas"
-- "Sierra at Skyeview floor plans"
+- "Sierra at Skyeview Homes"
 - "Century Communities Skye Canyon"
 - "Las Vegas new home construction"
 - "Skye Canyon real estate agent"
@@ -125,5 +125,6 @@ Submit business to:
 ---
 
 *This document should be updated regularly as SEO strategies evolve and new opportunities arise.*
+
 
 

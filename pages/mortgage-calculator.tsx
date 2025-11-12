@@ -56,7 +56,7 @@ const MortgageCalculator: NextPage = () => {
             </div>
             <div className="hidden md:flex space-x-8">
               <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
-              <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Floor Plans</Link>
+              <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Homes</Link>
               <Link href="/community" className="text-gray-700 hover:text-blue-600 font-medium">Community</Link>
               <Link href="/mortgage-calculator" className="text-blue-600 font-medium">Mortgage Calculator</Link>
               <Link href="/quick-move-in" className="text-gray-700 hover:text-blue-600 font-medium">Quick Move-In</Link>
@@ -93,7 +93,7 @@ const MortgageCalculator: NextPage = () => {
                 📞 Get Pre-Approved: (702) 500-1955
               </a>
               <Link href="/floor-plans" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
-                View Floor Plans
+                View Homes
               </Link>
             </div>
           </div>
@@ -291,7 +291,7 @@ const MortgageCalculator: NextPage = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
             >
-              🔍 View Floor Plans on RealScout
+              🔍 View Homes on RealScout
             </a>
           </div>
         </section>
@@ -336,7 +336,7 @@ const MortgageCalculator: NextPage = () => {
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <div className="space-y-2">
                 <Link href="/" className="block text-gray-300 hover:text-white">Home</Link>
-                <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Floor Plans</Link>
+                <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Homes</Link>
                 <Link href="/community" className="block text-gray-300 hover:text-white">Community</Link>
                 <Link href="/mortgage-calculator" className="block text-gray-300 hover:text-white">Mortgage Calculator</Link>
               </div>
@@ -369,5 +369,6 @@ const MortgageCalculator: NextPage = () => {
 };
 
 export default MortgageCalculator;
+
 
 

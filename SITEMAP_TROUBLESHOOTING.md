@@ -71,7 +71,7 @@ Validate the sitemap XML:
 
 ### Priority Structure:
 - **1.0:** Homepage (most important)
-- **0.9:** Floor plans (high priority)
+- **0.9:** Homes (high priority)
 - **0.8:** Community, services, quick move-in, new build homes, model pages
 - **0.7:** About, contact, reviews, redirect pages
 - **0.6:** Mortgage calculator, Q&A
@@ -170,5 +170,6 @@ If issues persist:
 ---
 
 *This guide should be updated as new pages are added or sitemap structure changes.*
+
 
 

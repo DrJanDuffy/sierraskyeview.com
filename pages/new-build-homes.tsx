@@ -51,7 +51,7 @@ const NewBuildHomes: NextPage = () => {
             </div>
             <div className="hidden md:flex space-x-8">
               <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
-              <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Floor Plans</Link>
+              <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Homes</Link>
               <Link href="/community" className="text-gray-700 hover:text-blue-600 font-medium">Community</Link>
               <Link href="/mortgage-calculator" className="text-gray-700 hover:text-blue-600 font-medium">Mortgage Calculator</Link>
               <Link href="/new-build-homes" className="text-blue-600 font-medium">New Build Homes</Link>
@@ -96,7 +96,7 @@ const NewBuildHomes: NextPage = () => {
                 rel="noopener noreferrer"
                 className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
               >
-                🔍 View Floor Plans on RealScout
+                🔍 View Homes on RealScout
               </a>
             </div>
           </div>
@@ -146,7 +146,7 @@ const NewBuildHomes: NextPage = () => {
             <div className="grid md:grid-cols-3 gap-6 text-left mb-10">
               <div className="bg-gray-50 rounded-lg p-6 shadow">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">Live Inventory</h3>
-                <p className="text-gray-600">See which floor plans and elevations are available now or about to release.</p>
+                <p className="text-gray-600">See which Homes and elevations are available now or about to release.</p>
               </div>
               <div className="bg-gray-50 rounded-lg p-6 shadow">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">Photos & Tours</h3>
@@ -163,7 +163,7 @@ const NewBuildHomes: NextPage = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
             >
-              🔍 Explore Floor Plans on RealScout
+              🔍 Explore Homes on RealScout
             </a>
           </div>
         </section>
@@ -410,7 +410,7 @@ const NewBuildHomes: NextPage = () => {
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <div className="space-y-2">
                 <Link href="/" className="block text-gray-300 hover:text-white">Home</Link>
-                <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Floor Plans</Link>
+                <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Homes</Link>
                 <Link href="/community" className="block text-gray-300 hover:text-white">Community</Link>
                 <Link href="/new-build-homes" className="block text-gray-300 hover:text-white">New Build Homes</Link>
               </div>
@@ -443,5 +443,6 @@ const NewBuildHomes: NextPage = () => {
 };
 
 export default NewBuildHomes;
+
 
 

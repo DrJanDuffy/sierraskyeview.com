@@ -32,7 +32,7 @@
 
 ### High Priority (0.8-1.0)
 1. **Homepage** - https://sierraskyeview.com/ (Priority: 1.0)
-2. **Floor Plans** - https://sierraskyeview.com/floor-plans (Priority: 0.9)
+2. **Homes** - https://sierraskyeview.com/floor-plans (Priority: 0.9)
 3. **Community** - https://sierraskyeview.com/community (Priority: 0.8)
 4. **Services** - https://sierraskyeview.com/services (Priority: 0.8)
 5. **Quick Move-In** - https://sierraskyeview.com/quick-move-in (Priority: 0.8)
@@ -172,5 +172,6 @@ For technical support:
 ---
 
 *This document will be updated as the sitemap status changes.*
+
 
 

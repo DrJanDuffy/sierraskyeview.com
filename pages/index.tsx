@@ -16,7 +16,7 @@ const Home: NextPage = () => {
     },
     {
       title: "Limited Availability - Act Fast!",
-      subtitle: "Only 3 floor plans remaining! Sierra Skyview is selling out fast.",
+      subtitle: "Only 3 Homes remaining! Sierra Skyview is selling out fast.",
       description: "Get your VIP tour with Dr. Jan Duffy before these luxury homes are gone.",
       image: "/hero-2.jpg"
     }
@@ -119,7 +119,7 @@ const Home: NextPage = () => {
             </div>
             <div className="hidden md:flex space-x-8">
               <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
-              <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Floor Plans</Link>
+              <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Homes</Link>
               <Link href="/community" className="text-gray-700 hover:text-blue-600 font-medium">Community</Link>
               <Link href="/mortgage-calculator" className="text-gray-700 hover:text-blue-600 font-medium">Mortgage Calculator</Link>
               <Link href="/quick-move-in" className="text-gray-700 hover:text-blue-600 font-medium">Quick Move-In</Link>
@@ -168,7 +168,7 @@ const Home: NextPage = () => {
                 rel="noopener noreferrer"
                 className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
               >
-                🏠 View RealScout Floor Plans
+                🏠 View RealScout Homes
               </a>
             </div>
             <p className="mt-4 text-lg font-semibold">
@@ -184,7 +184,7 @@ const Home: NextPage = () => {
               🚨 LIMITED AVAILABILITY - ACT FAST!
             </h2>
             <p className="text-lg mb-4">
-              Discover the most up-to-date floor plans and quick-move opportunities curated by Dr. Jan Duffy on RealScout.
+              Discover the most up-to-date Homes and quick-move opportunities curated by Dr. Jan Duffy on RealScout.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -196,7 +196,7 @@ const Home: NextPage = () => {
                 rel="noopener noreferrer"
                 className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors"
               >
-                👀 VIEW REALSCOUT FLOOR PLANS
+                👀 VIEW REALSCOUT Homes
               </a>
             </div>
           </div>
@@ -209,7 +209,7 @@ const Home: NextPage = () => {
               Explore Every Floor Plan & Homesite in One Place
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Access Dr. Jan Duffy&apos;s curated RealScout search for Century Communities at Sierra at Skyeview. See current floor plans, elevations, quick move-in opportunities, photos, pricing, and availability updated in real time.
+              Access Dr. Jan Duffy&apos;s curated RealScout search for Century Communities at Sierra at Skyeview. See current Homes, elevations, quick move-in opportunities, photos, pricing, and availability updated in real time.
             </p>
             <a
               href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
@@ -217,7 +217,7 @@ const Home: NextPage = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
             >
-              🔍 View Floor Plans on RealScout
+              🔍 View Homes on RealScout
             </a>
           </div>
         </section>
@@ -351,7 +351,7 @@ const Home: NextPage = () => {
               🚨 DON'T MISS OUT - SIERRA AT SKYEVIEW IS SELLING FAST!
             </h2>
             <p className="text-lg mb-8">
-              Only 3 floor plans remaining! Get VIP access to Sierra at Skyeview with Dr. Jan Duffy's expert guidance. Schedule your private tour today before these homes are gone forever.
+              Only 3 Homes remaining! Get VIP access to Sierra at Skyeview with Dr. Jan Duffy's expert guidance. Schedule your private tour today before these homes are gone forever.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -384,7 +384,7 @@ const Home: NextPage = () => {
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <div className="space-y-2">
                 <Link href="/" className="block text-gray-300 hover:text-white">Home</Link>
-                <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Floor Plans</Link>
+                <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Homes</Link>
                 <Link href="/community" className="block text-gray-300 hover:text-white">Community</Link>
                 <Link href="/services" className="block text-gray-300 hover:text-white">Services</Link>
               </div>
@@ -417,5 +417,6 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
 
 

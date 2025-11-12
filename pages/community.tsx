@@ -65,7 +65,7 @@ const Community: NextPage = () => {
             </div>
             <div className="hidden md:flex space-x-8">
               <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
-              <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Floor Plans</Link>
+              <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Homes</Link>
               <Link href="/community" className="text-blue-600 font-medium">Community</Link>
               <Link href="/mortgage-calculator" className="text-gray-700 hover:text-blue-600 font-medium">Mortgage Calculator</Link>
               <Link href="/quick-move-in" className="text-gray-700 hover:text-blue-600 font-medium">Quick Move-In</Link>
@@ -88,7 +88,7 @@ const Community: NextPage = () => {
               Sierra at Skyeview Community
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Discover new Skyeview homes for sale in Las Vegas, NV, at Sierra at Skyeview! Offering exciting, two-story floor plans with up to 1,965 square feet, Sierra at Skyeview is the perfect place to plant roots. Residents enjoy incredible amenities at this 1,700-acre neighborhood, from a stunning central clubhouse to pools, parks, playgrounds, and much more.
+              Discover new Skyeview homes for sale in Las Vegas, NV, at Sierra at Skyeview! Offering exciting, two-story Homes with up to 1,965 square feet, Sierra at Skyeview is the perfect place to plant roots. Residents enjoy incredible amenities at this 1,700-acre neighborhood, from a stunning central clubhouse to pools, parks, playgrounds, and much more.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -100,7 +100,7 @@ const Community: NextPage = () => {
                 rel="noopener noreferrer"
                 className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors"
               >
-                🏠 View RealScout Floor Plans
+                🏠 View RealScout Homes
               </a>
             </div>
           </div>
@@ -588,7 +588,7 @@ const Community: NextPage = () => {
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <div className="space-y-2">
                 <Link href="/" className="block text-gray-300 hover:text-white">Home</Link>
-                <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Floor Plans</Link>
+                <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Homes</Link>
                 <Link href="/community" className="block text-blue-400">Community</Link>
                 <Link href="/services" className="block text-gray-300 hover:text-white">Services</Link>
               </div>
@@ -621,5 +621,6 @@ const Community: NextPage = () => {
 };
 
 export default Community;
+
 
 

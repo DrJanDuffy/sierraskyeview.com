@@ -21,7 +21,7 @@ const QA: NextPage = () => {
     },
     {
       question: "What are the starting prices for homes at Sierra at Skyeview?",
-      answer: "Sierra at Skyeview offers three floor plans starting from $419,990. Residence 1602 (1,602 sq ft) starts at $419,990, Residence 1708 (1,708 sq ft) starts at $429,990, and Residence 1965 (1,965 sq ft) starts at $449,990. These are two-story homes with 3 bedrooms and 2.5 bathrooms, featuring open-concept layouts and premium finishes."
+      answer: "Sierra at Skyeview offers three Homes starting from $419,990. Residence 1602 (1,602 sq ft) starts at $419,990, Residence 1708 (1,708 sq ft) starts at $429,990, and Residence 1965 (1,965 sq ft) starts at $449,990. These are two-story homes with 3 bedrooms and 2.5 bathrooms, featuring open-concept layouts and premium finishes."
     },
     {
       question: "Is Skye Canyon a gated community?",
@@ -93,7 +93,7 @@ const QA: NextPage = () => {
     },
     {
       question: "What is the resale value potential for Sierra at Skyeview homes?",
-      answer: "Sierra at Skyeview homes offer strong resale value potential due to their location in the growing Skye Canyon master-planned community, high-quality construction by Century Communities, desirable floor plans, and access to premium amenities. The community's proximity to Mount Charleston and Las Vegas provides long-term appeal to both outdoor enthusiasts and urban professionals."
+      answer: "Sierra at Skyeview homes offer strong resale value potential due to their location in the growing Skye Canyon master-planned community, high-quality construction by Century Communities, desirable Homes, and access to premium amenities. The community's proximity to Mount Charleston and Las Vegas provides long-term appeal to both outdoor enthusiasts and urban professionals."
     }
   ];
 
@@ -135,7 +135,7 @@ const QA: NextPage = () => {
             </div>
             <div className="hidden md:flex space-x-8">
               <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
-              <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Floor Plans</Link>
+              <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Homes</Link>
               <Link href="/community" className="text-gray-700 hover:text-blue-600 font-medium">Community</Link>
               <Link href="/mortgage-calculator" className="text-gray-700 hover:text-blue-600 font-medium">Mortgage Calculator</Link>
               <Link href="/quick-move-in" className="text-gray-700 hover:text-blue-600 font-medium">Quick Move-In</Link>
@@ -259,7 +259,7 @@ const QA: NextPage = () => {
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <div className="space-y-2">
                 <Link href="/" className="block text-gray-300 hover:text-white">Home</Link>
-                <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Floor Plans</Link>
+                <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Homes</Link>
                 <Link href="/community" className="block text-gray-300 hover:text-white">Community</Link>
                 <Link href="/qa" className="block text-blue-400">Q&A</Link>
               </div>
@@ -292,5 +292,6 @@ const QA: NextPage = () => {
 };
 
 export default QA;
+
 
 

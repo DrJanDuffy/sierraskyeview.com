@@ -214,7 +214,7 @@ const QuickMoveIn: NextPage = () => {
             </div>
             <div className="hidden md:flex space-x-8">
               <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
-              <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Floor Plans</Link>
+              <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Homes</Link>
               <Link href="/community" className="text-gray-700 hover:text-blue-600 font-medium">Community</Link>
               <Link href="/mortgage-calculator" className="text-gray-700 hover:text-blue-600 font-medium">Mortgage Calculator</Link>
               <Link href="/quick-move-in" className="text-blue-600 font-medium">Quick Move-In</Link>
@@ -470,7 +470,7 @@ const QuickMoveIn: NextPage = () => {
               <div className="bg-white rounded-lg p-6 shadow-lg text-center">
                 <div className="text-4xl mb-4">🔍</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Detailed Listings</h3>
-                <p className="text-gray-600">Access comprehensive property details, photos, floor plans, and neighborhood information in one platform.</p>
+                <p className="text-gray-600">Access comprehensive property details, photos, Homes, and neighborhood information in one platform.</p>
               </div>
               <div className="bg-white rounded-lg p-6 shadow-lg text-center">
                 <div className="text-4xl mb-4">🤝</div>
@@ -985,7 +985,7 @@ const QuickMoveIn: NextPage = () => {
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <div className="space-y-2">
                 <Link href="/" className="block text-gray-300 hover:text-white">Home</Link>
-                <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Floor Plans</Link>
+                <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Homes</Link>
                 <Link href="/community" className="block text-gray-300 hover:text-white">Community</Link>
                 <Link href="/quick-move-in" className="block text-gray-300 hover:text-white">Quick Move-In</Link>
               </div>
@@ -1018,5 +1018,6 @@ const QuickMoveIn: NextPage = () => {
 };
 
 export default QuickMoveIn;
+
 
 
