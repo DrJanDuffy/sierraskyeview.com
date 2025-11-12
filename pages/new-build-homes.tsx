@@ -30,39 +30,6 @@ const NewBuildHomes: NextPage = () => {
     }
   ];
 
-  const floorPlans = [
-    {
-      name: "Residence 1602",
-      sqft: "1,602",
-      bedrooms: "3",
-      bathrooms: "2.5",
-      garage: "2",
-      startingPrice: "$419,990",
-      features: ["Open floor plan", "Modern kitchen with island", "Upstairs loft", "Primary suite with walk-in closet"],
-      constructionTime: "12-16 weeks"
-    },
-    {
-      name: "Residence 1708", 
-      sqft: "1,708",
-      bedrooms: "3",
-      bathrooms: "2.5",
-      garage: "2",
-      startingPrice: "$429,990",
-      features: ["Loft area", "Enhanced kitchen", "Spacious primary suite", "Modern open concept"],
-      constructionTime: "12-16 weeks"
-    },
-    {
-      name: "Residence 1965",
-      sqft: "1,965", 
-      bedrooms: "3",
-      bathrooms: "2.5",
-      garage: "2",
-      startingPrice: "$449,990",
-      features: ["Optional downstairs bed", "Largest floor plan", "Gourmet kitchen", "Expansive primary suite"],
-      constructionTime: "14-18 weeks"
-    }
-  ];
-
   return (
     <>
       <Head>
@@ -115,10 +82,6 @@ const NewBuildHomes: NextPage = () => {
               <p className="text-xl max-w-3xl mx-auto">
                 Discover exceptional new build homes at Sierra at Skyeview in Skye Canyon, Las Vegas. Century Communities new construction with Dr. Jan Duffy's expert guidance, VIP access, and exclusive benefits.
               </p>
-              <div className="flex items-center gap-3">
-                <span className="text-gray-300">Built by</span>
-                <img src="/century-communities-logo.png" alt="Century Communities" className="h-6" />
-              </div>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -127,6 +90,14 @@ const NewBuildHomes: NextPage = () => {
               <Link href="/contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 Get VIP Access
               </Link>
+              <a
+                href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
+              >
+                🔍 View Floor Plans on RealScout
+              </a>
             </div>
           </div>
         </section>
@@ -163,88 +134,37 @@ const NewBuildHomes: NextPage = () => {
           </div>
         </section>
 
-        {/* Available Floor Plans */}
+        {/* RealScout Floor Plan Access */}
         <section className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                New Build Floor Plans Available Now
-              </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Choose from three exceptional floor plans designed for modern living at Sierra at Skyeview in Skye Canyon.
-              </p>
+          <div className="max-w-5xl mx-auto px-4 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              Browse Every Floor Plan & Quick Move-In Opportunity
+            </h2>
+            <p className="text-lg text-gray-600 mb-8">
+              Use Dr. Jan Duffy&apos;s RealScout link to explore current releases, homes under construction, standing inventory, pricing changes, and incentives. No PDFs—just real-time data direct from the Century Communities sales system.
+            </p>
+            <div className="grid md:grid-cols-3 gap-6 text-left mb-10">
+              <div className="bg-gray-50 rounded-lg p-6 shadow">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Live Inventory</h3>
+                <p className="text-gray-600">See which floor plans and elevations are available now or about to release.</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-6 shadow">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Photos & Tours</h3>
+                <p className="text-gray-600">Browse gallery images, virtual tours, and lot-specific details to narrow your shortlist.</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-6 shadow">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Alerts & Follow-Up</h3>
+                <p className="text-gray-600">Request showings or turn on alerts so you know the moment a new home matches your criteria.</p>
+              </div>
             </div>
-
-            <div className="mb-12 text-center">
-              <img 
-                src="/new-home-construction.jpg" 
-                alt="New home construction process at Sierra at Skyeview by Century Communities" 
-                className="w-full max-w-4xl mx-auto h-64 object-cover rounded-lg shadow-lg mb-8"
-              />
-            </div>
-            <div className="grid md:grid-cols-3 gap-8">
-              {floorPlans.map((plan, index) => (
-                <div key={index} className="bg-gray-50 rounded-lg p-6 shadow-lg">
-        <div className="h-48 rounded-lg overflow-hidden mb-4">
-          <img
-            src={plan.name === "Residence 1602" ? "/residence-1602-floor-plan.jpg" :
-                 plan.name === "Residence 1708" ? "/residence-1708-floor-plan.jpg" :
-                 "/residence-1965-floor-plan.jpg"}
-            alt={`${plan.name} floor plan`}
-            className="w-full h-full object-cover"
-          />
-        </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">{plan.name}</h3>
-                  <p className="text-2xl font-bold text-blue-600 mb-4">Starting at {plan.startingPrice}</p>
-                  
-                  <div className="grid grid-cols-2 gap-4 mb-4 text-sm">
-                    <div>
-                      <span className="font-semibold">{plan.sqft}</span><br />
-                      <span className="text-gray-600">Square Feet</span>
-                    </div>
-                    <div>
-                      <span className="font-semibold">{plan.bedrooms}</span><br />
-                      <span className="text-gray-600">Bedrooms</span>
-                    </div>
-                    <div>
-                      <span className="font-semibold">{plan.bathrooms}</span><br />
-                      <span className="text-gray-600">Bathrooms</span>
-                    </div>
-                    <div>
-                      <span className="font-semibold">{plan.garage}</span><br />
-                      <span className="text-gray-600">Car Garage</span>
-                    </div>
-                  </div>
-
-                  <div className="mb-4">
-                    <h4 className="font-semibold text-gray-900 mb-2">Key Features:</h4>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      {plan.features.map((feature, featureIndex) => (
-                        <li key={featureIndex} className="flex items-center">
-                          <span className="text-green-500 mr-2">✓</span>
-                          {feature}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div className="mb-4">
-                    <p className="text-sm text-gray-600">
-                      <strong>Construction Time:</strong> {plan.constructionTime}
-                    </p>
-                  </div>
-
-                  <div className="flex space-x-2">
-                    <a href="tel:7025001955" className="flex-1 bg-blue-600 text-white text-center py-3 rounded-lg hover:bg-blue-700 transition-colors">
-                      📞 Start Building
-                    </a>
-                    <Link href="/floor-plans" className="flex-1 bg-gray-200 text-gray-800 text-center py-3 rounded-lg hover:bg-gray-300 transition-colors">
-                      View Details
-                    </Link>
-                  </div>
-                </div>
-              ))}
-            </div>
+            <a
+              href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
+            >
+              🔍 Explore Floor Plans on RealScout
+            </a>
           </div>
         </section>
 
@@ -463,7 +383,7 @@ const NewBuildHomes: NextPage = () => {
               <a href="tel:7025001955" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 START BUILDING: (702) 500-1955
               </a>
-              <a href="mailto:DrJanSells@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 EMAIL DR. JAN
               </a>
             </div>
@@ -499,7 +419,7 @@ const NewBuildHomes: NextPage = () => {
               <h4 className="text-lg font-semibold mb-4">Contact Dr. Jan Duffy</h4>
               <div className="space-y-2 text-gray-300">
                 <p><strong>Primary Phone:</strong><br />(702) 500-1955</p>
-                <p><strong>Email:</strong><br />DrJanSells@SierraSkyeview.com</p>
+                <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
                 <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>
             </div>
@@ -523,3 +443,5 @@ const NewBuildHomes: NextPage = () => {
 };
 
 export default NewBuildHomes;
+
+

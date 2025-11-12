@@ -245,10 +245,6 @@ const QuickMoveIn: NextPage = () => {
               <p className="text-xl max-w-3xl mx-auto">
                 Don't wait months for construction! Discover move-in ready homes at Sierra at Skyeview in Skye Canyon, Las Vegas. Currently available: Residence 1602 starting at $420,240 with 1,602 sqft. Get expert guidance from Dr. Jan Duffy for Century Communities new homes available for immediate occupancy.
               </p>
-              <div className="flex items-center gap-3">
-                <span className="text-gray-300">Built by</span>
-                <img src="/century-communities-logo.png" alt="Century Communities" className="h-6" />
-              </div>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -926,7 +922,7 @@ const QuickMoveIn: NextPage = () => {
                     <div className="text-2xl mr-4">📧</div>
                     <div>
                       <p className="font-semibold text-gray-900">Email</p>
-                      <a href="mailto:DrJanSells@SierraSkyeview.com" className="text-blue-600 hover:text-blue-700">DrJanSells@SierraSkyeview.com</a>
+                      <a href="mailto:DrDuffy@SierraSkyeview.com" className="text-blue-600 hover:text-blue-700">DrDuffy@SierraSkyeview.com</a>
                     </div>
                   </div>
                   <div className="flex items-center">
@@ -962,7 +958,7 @@ const QuickMoveIn: NextPage = () => {
               <a href="tel:7025001955" className="bg-white text-green-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 CHECK AVAILABILITY: (702) 500-1955
               </a>
-              <a href="mailto:DrJanSells@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 EMAIL DR. JAN
               </a>
             </div>
@@ -998,7 +994,7 @@ const QuickMoveIn: NextPage = () => {
               <h4 className="text-lg font-semibold mb-4">Contact Dr. Jan Duffy</h4>
               <div className="space-y-2 text-gray-300">
                 <p><strong>Primary Phone:</strong><br />(702) 500-1955</p>
-                <p><strong>Email:</strong><br />DrJanSells@SierraSkyeview.com</p>
+                <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
                 <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>
             </div>
@@ -1022,3 +1018,5 @@ const QuickMoveIn: NextPage = () => {
 };
 
 export default QuickMoveIn;
+
+

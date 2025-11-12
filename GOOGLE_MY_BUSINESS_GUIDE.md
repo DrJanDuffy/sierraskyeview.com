@@ -309,7 +309,7 @@ Upload high-quality photos in these categories:
 
 **Dr. Jan Duffy Real Estate**  
 **Phone:** (702) 500-1955  
-**Email:** DrJanSells@SierraSkyeview.com  
+**Email:** DrDuffy@SierraSkyeview.com  
 **Address:** 8925 Vanhoy Creek St., Las Vegas, NV 89166  
 **Website:** https://sierraskyeview.com  
 **Google My Business:** [Link to profile]
@@ -317,3 +317,5 @@ Upload high-quality photos in these categories:
 ---
 
 *This guide should be reviewed and updated monthly to ensure optimal performance and alignment with Google's latest features and best practices.*
+
+

@@ -6,10 +6,16 @@ const Model1708: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Residence 1708 - Sierra at Skyeview | Dr. Jan Duffy</title>
-        <meta name="description" content="Residence 1708 at Sierra at Skyeview - 1,708 sq ft, 3 bed, 2.5 bath starting from $429,990. Stunning model with loft. Expert guidance from Dr. Jan Duffy." />
-        <meta property="og:title" content="Residence 1708 - Sierra at Skyeview" />
-        <meta property="og:description" content="Residence 1708 at Sierra at Skyeview - 1,708 sq ft, 3 bed, 2.5 bath starting from $429,990." />
+        <title>Residence 1708 Availability | Sierra at Skyeview RealScout Search</title>
+        <meta
+          name="description"
+          content="Access live availability, pricing, incentives, and lot releases for Residence 1708 at Sierra at Skyeview through Dr. Jan Duffy's curated RealScout search."
+        />
+        <meta property="og:title" content="Residence 1708 Availability | Sierra at Skyeview" />
+        <meta
+          property="og:description"
+          content="View real-time Residence 1708 inventory, pricing, and incentives via Dr. Jan Duffy's RealScout search."
+        />
       </Head>
 
       {/* Navigation */}
@@ -39,244 +45,83 @@ const Model1708: NextPage = () => {
       </nav>
 
       <main className="pt-16">
-        {/* Hero Section */}
         <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
-          <div className="max-w-7xl mx-auto px-4 text-center">
+          <div className="max-w-5xl mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Residence 1708 - Stunning Model with Loft
+              Residence 1708: Real-Time Availability & Pricing
             </h1>
-            <div className="flex flex-col items-center gap-4 mb-8">
-              <p className="text-xl max-w-3xl mx-auto">
-                Starting from $429,990 - 1,708 sq ft, 3 bed, 2.5 bath two-story home with loft and premium finishes.
-              </p>
-              <div className="flex items-center gap-3">
-                <span className="text-gray-300">Built by</span>
-                <img src="/century-communities-logo.png" alt="Century Communities" className="h-6" />
-              </div>
-            </div>
+            <p className="text-xl max-w-3xl mx-auto mb-8">
+              Use Dr. Jan Duffy's RealScout search to follow every Residence 1708 release—pricing updates, incentives, construction milestones, photos, and lot status delivered straight from Century Communities.
+            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 Call NOW: (702) 500-1955
               </a>
-              <a href="mailto:DrJanSells@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 Email Dr. Jan
+              </a>
+              <a
+                href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
+              >
+                🔍 View Residence 1708 on RealScout
               </a>
             </div>
           </div>
         </section>
 
-        {/* Model Details */}
-        <section className="py-16 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="grid lg:grid-cols-2 gap-12">
-              {/* Model Image */}
-              <div className="bg-white rounded-lg shadow-lg p-8">
-        <div className="h-96 rounded-lg overflow-hidden mb-6">
-          <img
-            src="/luxury-living-room.jpg"
-            alt="Residence 1708 Spacious Living Room"
-            className="w-full h-full object-cover"
-          />
-        </div>
-                <div className="text-center">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Key Specifications</h3>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600">1,708</div>
-                      <div className="text-gray-600">Square Feet</div>
-                    </div>
-                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600">3</div>
-                      <div className="text-gray-600">Bedrooms</div>
-                    </div>
-                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600">2.5</div>
-                      <div className="text-gray-600">Bathrooms</div>
-                    </div>
-                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600">2</div>
-                      <div className="text-gray-600">Car Garage</div>
-                    </div>
-                  </div>
-                </div>
+        <section className="py-16 bg-white">
+          <div className="max-w-5xl mx-auto px-4 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              What You'll Find in the RealScout Collection
+            </h2>
+            <div className="grid md:grid-cols-3 gap-6 text-left">
+              <div className="bg-gray-50 rounded-lg shadow p-6">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Live Releases & Lot Maps</h3>
+                <p className="text-gray-600">Monitor which Residence 1708 homesites are available, reserved, or on deck—updated in real time.</p>
               </div>
-
-              {/* Features */}
-              <div className="bg-white rounded-lg shadow-lg p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Key Features</h3>
-                <ul className="space-y-4">
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-3 text-xl">✓</span>
-                    <span className="text-gray-700">Stunning Model available for viewing</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-3 text-xl">✓</span>
-                    <span className="text-gray-700">Loft area for flexible living space</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-3 text-xl">✓</span>
-                    <span className="text-gray-700">Enhanced kitchen with premium finishes</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-3 text-xl">✓</span>
-                    <span className="text-gray-700">Spacious primary suite</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-3 text-xl">✓</span>
-                    <span className="text-gray-700">Modern open concept design</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-3 text-xl">✓</span>
-                    <span className="text-gray-700">Upgraded features throughout</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-3 text-xl">✓</span>
-                    <span className="text-gray-700">Two-story design with shared private driveways</span>
-                  </li>
-                </ul>
-
-                <div className="mt-8 p-6 bg-blue-50 rounded-lg">
-                  <h4 className="text-lg font-semibold text-blue-900 mb-2">Century Connect® Package Included</h4>
-                  <p className="text-blue-800 text-sm">
-                    Every home comes with smart home technology, premium finishes, and energy-efficient features.
-                  </p>
-                </div>
-
-                <div className="mt-8">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Lifestyle Benefits</h4>
-                  <p className="text-gray-700 mb-4">
-                    Residence 1708 stands out as the most popular floor plan for good reason - it perfectly balances functionality with flexibility. The stunning loft area provides endless possibilities for customization, whether you envision it as a home office, playroom, media room, or additional bedroom. This versatility makes it ideal for growing families, remote workers, or anyone who values adaptable living spaces.
-                  </p>
-                  <p className="text-gray-700 mb-4">
-                    The enhanced kitchen design features premium finishes and an upgraded island, making it the heart of the home for both daily living and entertaining. The open-concept layout seamlessly connects all main living areas, creating a sense of flow that enhances both comfort and functionality. With 1,708 square feet of thoughtfully designed space, this home offers room to grow without feeling overwhelming.
-                  </p>
-                  <p className="text-gray-700">
-                    Located in Sierra at Skyeview within the Skye Canyon master-planned community, residents enjoy access to world-class amenities including hiking trails, community pools, and fitness centers. The higher elevation provides cooler temperatures and beautiful mountain views, while still being conveniently located near shopping, dining, and entertainment options. This home represents exceptional value in the Las Vegas market, with strong potential for appreciation in the rapidly growing Skye Canyon area.
-                  </p>
-                </div>
-
-                <div className="mt-8">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Why Choose Residence 1708</h4>
-                  <p className="text-gray-700 mb-4">
-                    Residence 1708's popularity stems from its perfect balance of space, functionality, and value. The loft area provides the flexibility that modern families demand, whether you need a home office, playroom, or additional sleeping space. This adaptability means your home can grow and change with your family's needs, eliminating the need for costly renovations or moves as your lifestyle evolves.
-                  </p>
-                  <p className="text-gray-700 mb-4">
-                    The enhanced kitchen design features premium finishes and an upgraded island that serves as both a functional workspace and a social gathering point. The open-concept layout ensures that whether you're cooking, entertaining, or relaxing, you're always connected to the heart of your home. This thoughtful design creates a sense of togetherness that enhances family life and makes entertaining effortless.
-                  </p>
-                  <p className="text-gray-700">
-                    The two-story design provides clear separation between living and sleeping areas, creating privacy and quiet when needed while maintaining the open, connected feel that modern homebuyers desire. The shared private driveways add to the community feel while providing convenient access and reduced street traffic. This thoughtful design element creates a more intimate neighborhood atmosphere that enhances the overall living experience.
-                  </p>
-                </div>
-
-                <div className="mt-8">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Construction & Quality</h4>
-                  <p className="text-gray-700 mb-4">
-                    Century Communities' reputation for quality construction and attention to detail is evident throughout Residence 1708. The builder's commitment to using premium materials and modern construction techniques ensures your home will stand the test of time. From energy-efficient windows and insulation to high-quality flooring and fixtures, every detail is designed to provide lasting value and comfort.
-                  </p>
-                  <p className="text-gray-700 mb-4">
-                    The Century Connect® smart home package includes advanced technology that enhances convenience, security, and energy efficiency. Smart thermostats, security systems, and energy monitoring features help reduce utility costs while providing peace of mind. These modern amenities not only improve daily living but also increase the home's appeal to future buyers, protecting your investment.
-                  </p>
-                  <p className="text-gray-700">
-                    The comprehensive warranty coverage provides additional peace of mind, ensuring that any construction issues are addressed promptly and professionally. Century Communities' commitment to customer satisfaction extends beyond the sale, with ongoing support and maintenance resources available to homeowners. This level of service and support adds significant value to your homeownership experience.
-                  </p>
-                </div>
-
-                <div className="mt-8">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Customization Options</h4>
-                  <p className="text-gray-700 mb-4">
-                    Residence 1708 offers numerous customization options to make your home truly unique. From flooring selections and cabinet finishes to lighting fixtures and hardware choices, you can personalize your space to reflect your style and preferences. The loft area provides additional opportunities for customization, whether you prefer built-in shelving, additional electrical outlets, or specialized lighting for your intended use.
-                  </p>
-                  <p className="text-gray-700 mb-4">
-                    Century Communities' design center offers a wide range of upgrade options, including premium appliances, upgraded countertops, and enhanced flooring materials. These customization choices allow you to create a home that perfectly suits your lifestyle and aesthetic preferences. Dr. Jan Duffy can help you navigate the selection process, ensuring you make choices that add value and appeal to your specific needs.
-                  </p>
-                  <p className="text-gray-700">
-                    The builder's experienced design consultants work with you to create a cohesive look throughout your home, from the kitchen and bathrooms to the living areas and bedrooms. This professional guidance ensures that your customization choices work together harmoniously, creating a home that feels both personal and professionally designed. The result is a unique home that reflects your personality while maintaining broad appeal for future resale.
-                  </p>
-                </div>
-
-                <div className="mt-8">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Energy Efficiency & Sustainability</h4>
-                  <p className="text-gray-700 mb-4">
-                    Residence 1708 incorporates modern energy-efficient features that reduce utility costs and environmental impact. High-efficiency HVAC systems, energy-efficient windows, and proper insulation work together to minimize energy consumption while maintaining comfort. These features not only save money on monthly utility bills but also contribute to a more sustainable lifestyle.
-                  </p>
-                  <p className="text-gray-700 mb-4">
-                    The Century Connect® smart home package includes smart thermostats and energy monitoring systems that help you optimize your home's energy use. These intelligent systems learn your preferences and automatically adjust settings to maximize efficiency without sacrificing comfort. The result is a home that's both environmentally conscious and cost-effective to operate.
-                  </p>
-                  <p className="text-gray-700">
-                    Century Communities' commitment to sustainable building practices extends beyond energy efficiency to include water-saving fixtures, low-VOC materials, and construction waste reduction. These environmentally responsible choices create a healthier living environment while reducing your carbon footprint. The combination of energy efficiency and sustainability features makes Residence 1708 an excellent choice for environmentally conscious homebuyers.
-                  </p>
-                </div>
+              <div className="bg-gray-50 rounded-lg shadow p-6">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Pricing, Photos & Incentives</h3>
+                <p className="text-gray-600">Review pricing adjustments, incentive packages, construction stages, and fresh photo galleries curated by Dr. Jan.</p>
               </div>
+              <div className="bg-gray-50 rounded-lg shadow p-6">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Alerts & Private Tours</h3>
+                <p className="text-gray-600">Request private tours, ask questions, or enable instant alerts the moment new Residence 1708 opportunities release.</p>
+              </div>
+            </div>
+            <div className="mt-10">
+              <a
+                href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
+              >
+                🔍 Open RealScout Search
+              </a>
             </div>
           </div>
         </section>
 
-        {/* Residence 1708 Q&A Section */}
-        <section className="py-16 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Residence 1708 Questions & Answers
-              </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Get answers to common questions about the Residence 1708 floor plan and stunning loft features.
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-white rounded-lg p-6 shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">What makes the loft area special?</h3>
-                <p className="text-gray-700 mb-4">
-                  The stunning loft area provides flexible living space that can be used as a home office, playroom, media room, or additional bedroom, adding versatility to your home.
-                </p>
-              </div>
-
-              <div className="bg-white rounded-lg p-6 shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Why is Residence 1708 most popular?</h3>
-                <p className="text-gray-700 mb-4">
-                  Residence 1708 offers the perfect balance of space and features with 1,708 sq ft, enhanced kitchen with premium finishes, and the coveted loft area for flexible living.
-                </p>
-              </div>
-
-              <div className="bg-white rounded-lg p-6 shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">What upgrades are available?</h3>
-                <p className="text-gray-700 mb-4">
-                  Century Communities offers various customization options and upgrades. Dr. Jan Duffy can help you explore available options to personalize your home.
-                </p>
-              </div>
-
-              <div className="bg-white rounded-lg p-6 shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Is this model available for viewing?</h3>
-                <p className="text-gray-700 mb-4">
-                  Yes! Residence 1708 is available as a stunning model home for viewing. Contact Dr. Jan Duffy to schedule your private tour of this beautiful home.
-                </p>
-              </div>
-            </div>
-
-            <div className="text-center">
-              <Link href="/qa" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                View All Questions & Answers
-              </Link>
-            </div>
-          </div>
-        </section>
-
-        {/* Call to Action */}
         <section className="py-16 bg-red-600 text-white">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              ⚡ ACT NOW - RESIDENCE 1708 IS SELLING FAST!
+              Ready to Reserve Residence 1708?
             </h2>
             <p className="text-lg mb-8">
-              Starting from $429,990. Get VIP access to Residence 1708 with Dr. Jan Duffy's expert guidance. Schedule your private tour today!
+              Partner with Dr. Jan Duffy for unbiased guidance, negotiation leverage, and a concierge experience from first visit through closing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 CALL NOW: (702) 500-1955
               </a>
-              <a href="mailto:DrJanSells@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 EMAIL DR. JAN
               </a>
+              <Link href="/contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+                📋 CONTACT FORM
+              </Link>
             </div>
           </div>
         </section>
@@ -310,7 +155,7 @@ const Model1708: NextPage = () => {
               <h4 className="text-lg font-semibold mb-4">Contact Dr. Jan Duffy</h4>
               <div className="space-y-2 text-gray-300">
                 <p><strong>Primary Phone:</strong><br />(702) 500-1955</p>
-                <p><strong>Email:</strong><br />DrJanSells@SierraSkyeview.com</p>
+                <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
                 <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>
             </div>
@@ -334,3 +179,5 @@ const Model1708: NextPage = () => {
 };
 
 export default Model1708;
+
+

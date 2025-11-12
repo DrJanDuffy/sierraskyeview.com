@@ -166,9 +166,11 @@ curl -I https://sierraskyeview.com/sitemap.xml
 
 For technical support:
 - **Website:** https://sierraskyeview.com
-- **Email:** DrJanSells@SierraSkyeview.com
+- **Email:** DrDuffy@SierraSkyeview.com
 - **Phone:** (702) 500-1955
 
 ---
 
 *This document will be updated as the sitemap status changes.*
+
+

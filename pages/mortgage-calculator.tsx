@@ -276,71 +276,23 @@ const MortgageCalculator: NextPage = () => {
           </div>
         </section>
 
-        {/* Quick Floor Plan Estimates */}
+        {/* RealScout Floor Plan Link */}
         <section className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Quick Estimates for Sierra at Skyeview Floor Plans
-              </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Get instant estimates for our available floor plans. Contact Dr. Jan Duffy for personalized financing options and pre-approval.
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-gray-50 rounded-lg p-6 text-center">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 1602</h3>
-                <p className="text-2xl font-bold text-blue-600 mb-4">From $419,990</p>
-                <div className="text-sm text-gray-600 mb-4">
-                  <p>1,602 sq ft • 3 bed • 2.5 bath</p>
-                  <p>Est. Payment: ~$2,700/month*</p>
-                </div>
-                <button 
-                  onClick={() => setHomePrice(419990)}
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors"
-                >
-                  Use in Calculator
-                </button>
-              </div>
-
-              <div className="bg-gray-50 rounded-lg p-6 text-center">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 1708</h3>
-                <p className="text-2xl font-bold text-blue-600 mb-4">From $429,990</p>
-                <div className="text-sm text-gray-600 mb-4">
-                  <p>1,708 sq ft • 3 bed • 2.5 bath</p>
-                  <p>Est. Payment: ~$2,800/month*</p>
-                </div>
-                <button 
-                  onClick={() => setHomePrice(429990)}
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors"
-                >
-                  Use in Calculator
-                </button>
-              </div>
-
-              <div className="bg-gray-50 rounded-lg p-6 text-center">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 1965</h3>
-                <p className="text-2xl font-bold text-blue-600 mb-4">From $449,990</p>
-                <div className="text-sm text-gray-600 mb-4">
-                  <p>1,965 sq ft • 3 bed • 2.5 bath</p>
-                  <p>Est. Payment: ~$3,100/month*</p>
-                </div>
-                <button 
-                  onClick={() => setHomePrice(449990)}
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors"
-                >
-                  Use in Calculator
-                </button>
-              </div>
-            </div>
-
-            <div className="text-center mt-8">
-              <p className="text-sm text-gray-500">
-                *Estimates based on 20% down payment, 30-year loan, 7.5% interest rate, 0.6% property tax, and $1,200 annual insurance. 
-                Actual payments may vary. Based on current pricing: Residence 1602 from $419,990, Residence 1708 from $429,990, Residence 1965 from $449,990.
-              </p>
-            </div>
+          <div className="max-w-4xl mx-auto px-4 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Need Floor Plan Pricing? Check RealScout First.
+            </h2>
+            <p className="text-lg text-gray-600 mb-8">
+              Home pricing and incentives change quickly. Use Dr. Jan Duffy&apos;s RealScout link to confirm current pricing, elevations, and quick move-in availability before you plug numbers into the calculator.
+            </p>
+            <a
+              href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
+            >
+              🔍 View Floor Plans on RealScout
+            </a>
           </div>
         </section>
 
@@ -357,7 +309,7 @@ const MortgageCalculator: NextPage = () => {
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 GET PRE-APPROVED: (702) 500-1955
               </a>
-              <a href="mailto:DrJanSells@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 EMAIL DR. JAN
               </a>
             </div>
@@ -393,7 +345,7 @@ const MortgageCalculator: NextPage = () => {
               <h4 className="text-lg font-semibold mb-4">Contact Dr. Jan Duffy</h4>
               <div className="space-y-2 text-gray-300">
                 <p><strong>Primary Phone:</strong><br />(702) 500-1955</p>
-                <p><strong>Email:</strong><br />DrJanSells@SierraSkyeview.com</p>
+                <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
                 <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>
             </div>
@@ -417,3 +369,5 @@ const MortgageCalculator: NextPage = () => {
 };
 
 export default MortgageCalculator;
+
+

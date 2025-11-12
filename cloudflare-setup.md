@@ -235,9 +235,11 @@ curl -X POST "https://api.cloudflare.com/client/v4/zones/6da0cfdcbf41ec231cc5e2d
 
 For technical support:
 - **Website:** https://sierraskyeview.com
-- **Email:** DrJanSells@SierraSkyeview.com
+- **Email:** DrDuffy@SierraSkyeview.com
 - **Phone:** (702) 500-1955
 
 ---
 
 *This configuration will ensure proper sitemap handling for Google Search Console.*
+
+

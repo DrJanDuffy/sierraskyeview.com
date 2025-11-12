@@ -94,9 +94,14 @@ const Community: NextPage = () => {
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 Schedule Tour: (702) 500-1955
               </a>
-              <Link href="/floor-plans" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
-                🏠 View Floor Plans
-              </Link>
+              <a
+                href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors"
+              >
+                🏠 View RealScout Floor Plans
+              </a>
             </div>
           </div>
         </section>
@@ -169,7 +174,7 @@ const Community: NextPage = () => {
                 <a href="tel:7025001955" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                   📞 Call Dr. Jan: (702) 500-1955
                 </a>
-                <a href="mailto:DrJanSells@SierraSkyeview.com" className="bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors">
+                <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors">
                   📧 Email for More Info
                 </a>
               </div>
@@ -188,10 +193,6 @@ const Community: NextPage = () => {
                 <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                   From modern exteriors to luxurious interiors, discover why Sierra at Skyeview is the perfect place to call home in Skye Canyon. Experience the exceptional quality and attention to detail that defines our luxury new construction homes.
                 </p>
-                <div className="flex items-center gap-3">
-                  <span className="text-gray-600">Built by</span>
-                  <img src="/century-communities-logo.png" alt="Century Communities" className="h-6" />
-                </div>
               </div>
             </div>
 
@@ -557,7 +558,7 @@ const Community: NextPage = () => {
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 Call Dr. Jan: (702) 500-1955
               </a>
-              <a href="mailto:DrJanSells@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 Email for Tour Info
               </a>
               <Link href="/contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -596,7 +597,7 @@ const Community: NextPage = () => {
               <h4 className="text-lg font-semibold mb-4">Contact Dr. Jan Duffy</h4>
               <div className="space-y-2 text-gray-300">
                 <p><strong>Primary Phone:</strong><br />(702) 500-1955</p>
-                <p><strong>Email:</strong><br />DrJanSells@SierraSkyeview.com</p>
+                <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
                 <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>
             </div>
@@ -620,3 +621,5 @@ const Community: NextPage = () => {
 };
 
 export default Community;
+
+

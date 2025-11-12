@@ -28,9 +28,9 @@ const Contact: NextPage = () => {
     <>
       <Head>
         <title>Contact Dr. Jan Duffy - Sierra at Skyeview | Real Estate Expert</title>
-        <meta name="description" content="Contact Dr. Jan Duffy for expert real estate guidance. Call (702) 500-1955 or email DrJanSells@SierraSkyeview.com for your new home construction needs." />
+        <meta name="description" content="Contact Dr. Jan Duffy for expert real estate guidance. Call (702) 500-1955 or email DrDuffy@SierraSkyeview.com for your new home construction needs." />
         <meta property="og:title" content="Contact Dr. Jan Duffy - Sierra at Skyeview" />
-        <meta property="og:description" content="Contact Dr. Jan Duffy for expert real estate guidance. Call (702) 500-1955 or email DrJanSells@SierraSkyeview.com." />
+        <meta property="og:description" content="Contact Dr. Jan Duffy for expert real estate guidance. Call (702) 500-1955 or email DrDuffy@SierraSkyeview.com." />
         <link rel="canonical" href="https://sierraskyeview.com/contact" />
         
         {/* Contact Schema */}
@@ -44,7 +44,7 @@ const Contact: NextPage = () => {
               "description": "Expert real estate agent specializing in new home construction and independent advocacy for Century Communities buyers in Las Vegas",
               "url": "https://sierraskyeview.com",
               "telephone": "(702) 500-1955",
-              "email": "DrJanSells@SierraSkyeview.com",
+              "email": "DrDuffy@SierraSkyeview.com",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "8925 Vanhoy Creek St.",
@@ -131,7 +131,7 @@ const Contact: NextPage = () => {
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 Call NOW: (702) 500-1955
               </a>
-              <a href="mailto:DrJanSells@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 Email Dr. Jan
               </a>
             </div>
@@ -240,8 +240,8 @@ const Contact: NextPage = () => {
                     <div className="text-2xl mr-4">📧</div>
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900 mb-2">Email</h3>
-                      <p className="text-gray-600 mb-2">DrJanSells@SierraSkyeview.com</p>
-                      <a href="mailto:DrJanSells@SierraSkyeview.com" className="text-blue-600 hover:text-blue-700 font-semibold">
+                      <p className="text-gray-600 mb-2">DrDuffy@SierraSkyeview.com</p>
+                      <a href="mailto:DrDuffy@SierraSkyeview.com" className="text-blue-600 hover:text-blue-700 font-semibold">
                         Send Email
                       </a>
                     </div>
@@ -329,7 +329,7 @@ const Contact: NextPage = () => {
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 CALL NOW: (702) 500-1955
               </a>
-              <a href="mailto:DrJanSells@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 EMAIL DR. JAN
               </a>
             </div>
@@ -365,7 +365,7 @@ const Contact: NextPage = () => {
               <h4 className="text-lg font-semibold mb-4">Contact Dr. Jan Duffy</h4>
               <div className="space-y-2 text-gray-300">
                 <p><strong>Primary Phone:</strong><br />(702) 500-1955</p>
-                <p><strong>Email:</strong><br />DrJanSells@SierraSkyeview.com</p>
+                <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
                 <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>
             </div>
@@ -390,3 +390,5 @@ const Contact: NextPage = () => {
 };
 
 export default Contact;
+
+

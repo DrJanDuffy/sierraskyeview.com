@@ -6,10 +6,16 @@ const Model1602: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Residence 1602 - Sierra at Skyeview | Dr. Jan Duffy</title>
-        <meta name="description" content="Residence 1602 at Sierra at Skyeview - 1,602 sq ft, 3 bed, 2.5 bath starting from $419,990. Open floor plan with premium finishes. Expert guidance from Dr. Jan Duffy." />
-        <meta property="og:title" content="Residence 1602 - Sierra at Skyeview" />
-        <meta property="og:description" content="Residence 1602 at Sierra at Skyeview - 1,602 sq ft, 3 bed, 2.5 bath starting from $419,990." />
+        <title>Residence 1602 Availability | Sierra at Skyeview RealScout Search</title>
+        <meta
+          name="description"
+          content="Access live availability, pricing, incentives, and lot releases for Residence 1602 at Sierra at Skyeview through Dr. Jan Duffy's curated RealScout search."
+        />
+        <meta property="og:title" content="Residence 1602 Availability | Sierra at Skyeview" />
+        <meta
+          property="og:description"
+          content="View real-time Residence 1602 inventory, pricing, and incentives via Dr. Jan Duffy's RealScout search."
+        />
       </Head>
 
       {/* Navigation */}
@@ -39,248 +45,83 @@ const Model1602: NextPage = () => {
       </nav>
 
       <main className="pt-16">
-        {/* Hero Section */}
         <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
-          <div className="max-w-7xl mx-auto px-4 text-center">
+          <div className="max-w-5xl mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Residence 1602 - Open Floor Plan
+              Residence 1602: Real-Time Availability & Pricing
             </h1>
-            <div className="flex flex-col items-center gap-4 mb-8">
-              <p className="text-xl max-w-3xl mx-auto">
-                Starting from $419,990 - 1,602 sq ft, 3 bed, 2.5 bath two-story home with open-concept design and premium finishes.
-              </p>
-              <div className="flex items-center gap-3">
-                <span className="text-gray-300">Built by</span>
-                <img src="/century-communities-logo.png" alt="Century Communities" className="h-6" />
-              </div>
-            </div>
+            <p className="text-xl max-w-3xl mx-auto mb-8">
+              Use Dr. Jan Duffy's RealScout search to monitor every Residence 1602 release at Sierra at Skyeview—pricing, incentives, construction timelines, photos, and lot status updated directly from Century Communities.
+            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 Call NOW: (702) 500-1955
               </a>
-              <a href="mailto:DrJanSells@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 Email Dr. Jan
+              </a>
+              <a
+                href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
+              >
+                🔍 View Residence 1602 on RealScout
               </a>
             </div>
           </div>
         </section>
 
-        {/* Model Details */}
-        <section className="py-16 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="grid lg:grid-cols-2 gap-12">
-              {/* Model Image */}
-              <div className="bg-white rounded-lg shadow-lg p-8">
-        <div className="h-96 rounded-lg overflow-hidden mb-6">
-          <img
-            src="/luxury-kitchen.jpg"
-            alt="Residence 1602 Modern Kitchen"
-            className="w-full h-full object-cover"
-          />
-        </div>
-                <div className="text-center">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Key Specifications</h3>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600">1,602</div>
-                      <div className="text-gray-600">Square Feet</div>
-                    </div>
-                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600">3</div>
-                      <div className="text-gray-600">Bedrooms</div>
-                    </div>
-                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600">2.5</div>
-                      <div className="text-gray-600">Bathrooms</div>
-                    </div>
-                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600">2</div>
-                      <div className="text-gray-600">Car Garage</div>
-                    </div>
-                  </div>
-                </div>
+        <section className="py-16 bg-white">
+          <div className="max-w-5xl mx-auto px-4 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              What You'll Find in the RealScout Collection
+            </h2>
+            <div className="grid md:grid-cols-3 gap-6 text-left">
+              <div className="bg-gray-50 rounded-lg shadow p-6">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Live Releases & Lot Maps</h3>
+                <p className="text-gray-600">Track which Residence 1602 homesites are released, reserved, or coming soon with real-time updates from Century Communities.</p>
               </div>
-
-              {/* Features */}
-              <div className="bg-white rounded-lg shadow-lg p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Key Features</h3>
-                <ul className="space-y-4">
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-3 text-xl">✓</span>
-                    <span className="text-gray-700">Open Floor Plan design with seamless flow</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-3 text-xl">✓</span>
-                    <span className="text-gray-700">Open-concept layout connecting great room, nook, and kitchen</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-3 text-xl">✓</span>
-                    <span className="text-gray-700">Generous center island and walk-in pantry</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-3 text-xl">✓</span>
-                    <span className="text-gray-700">Private owner's suite with walk-in closet plus slider closet</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-3 text-xl">✓</span>
-                    <span className="text-gray-700">Dual vanities and walk-in shower in primary bath</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-3 text-xl">✓</span>
-                    <span className="text-gray-700">Optional separate tub/shower at primary bath</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-3 text-xl">✓</span>
-                    <span className="text-gray-700">Laundry room with upper cabinets</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-green-600 mr-3 text-xl">✓</span>
-                    <span className="text-gray-700">Two-tone interior paint throughout</span>
-                  </li>
-                </ul>
-
-                <div className="mt-8 p-6 bg-blue-50 rounded-lg">
-                  <h4 className="text-lg font-semibold text-blue-900 mb-2">Century Connect® Package Included</h4>
-                  <p className="text-blue-800 text-sm">
-                    Every home comes with smart home technology, premium finishes, and energy-efficient features.
-                  </p>
-                </div>
-
-                <div className="mt-8">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Lifestyle Benefits</h4>
-                  <p className="text-gray-700 mb-4">
-                    Residence 1602 offers the perfect balance of comfort and functionality for modern living. The open floor plan creates a sense of spaciousness that belies its efficient 1,602 square feet, making it ideal for entertaining guests or enjoying quiet family time. The thoughtful design maximizes natural light flow throughout the main living areas, creating a bright and welcoming atmosphere that enhances daily living.
-                  </p>
-                  <p className="text-gray-700 mb-4">
-                    Located in the prestigious Sierra at Skyeview community, this home provides access to all the amenities of the larger Skye Canyon master-planned community. Residents enjoy proximity to hiking trails, community pools, fitness centers, and parks, making it perfect for active lifestyles. The higher elevation location offers cooler temperatures and stunning mountain views compared to the Las Vegas valley floor, providing a unique living experience.
-                  </p>
-                  <p className="text-gray-700">
-                    The Century Connect® smart home package included with every home ensures modern convenience and energy efficiency. From smart thermostats to security systems, you'll have the latest technology at your fingertips. This home represents excellent value in the Las Vegas market, with strong appreciation potential in the growing Skye Canyon area. The combination of quality construction, prime location, and modern amenities makes Residence 1602 an exceptional choice for homebuyers seeking the best of Las Vegas living.
-                  </p>
-                </div>
-
-                <div className="mt-8">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Investment Potential</h4>
-                  <p className="text-gray-700 mb-4">
-                    Residence 1602 offers exceptional investment potential in one of Las Vegas's fastest-growing areas. Skye Canyon's master-planned community status ensures continued development and infrastructure improvements, which historically drive property values upward. The community's location at higher elevation provides natural advantages that maintain property desirability, including cooler temperatures and reduced utility costs compared to valley floor locations.
-                  </p>
-                  <p className="text-gray-700 mb-4">
-                    The Century Communities brand reputation for quality construction and modern design ensures lasting value and appeal to future buyers. With new home construction prices starting from $419,990, this represents an excellent entry point into the Las Vegas real estate market. The combination of limited availability, prime location, and quality construction creates a strong foundation for long-term appreciation.
-                  </p>
-                  <p className="text-gray-700">
-                    Dr. Jan Duffy's expertise in the local market provides invaluable insight into timing, pricing, and negotiation strategies that can maximize your investment return. Her independent representation ensures you receive unbiased guidance focused on your best interests, not the builder's sales goals. This professional approach helps secure the best possible terms and pricing for your new home investment.
-                  </p>
-                </div>
-
-                <div className="mt-8">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Community Features & Amenities</h4>
-                  <p className="text-gray-700 mb-4">
-                    Sierra at Skyeview residents enjoy access to the extensive amenities of the Skye Canyon master-planned community, including over 50 miles of hiking and biking trails, multiple parks and playgrounds, and the Skye Center recreation complex. The community's focus on outdoor living and fitness creates an active, healthy lifestyle for residents of all ages. The higher elevation location provides natural advantages including cleaner air, cooler temperatures, and stunning mountain views.
-                  </p>
-                  <p className="text-gray-700 mb-4">
-                    The community's proximity to major employment centers, shopping, dining, and entertainment options ensures convenience while maintaining the peaceful, suburban feel that makes Skye Canyon so desirable. With easy access to the Las Vegas Strip, downtown Las Vegas, and major highways, residents can enjoy the best of both worlds - quiet community living with urban amenities just minutes away.
-                  </p>
-                  <p className="text-gray-700">
-                    The master-planned community approach ensures coordinated development, maintained property values, and continued investment in community infrastructure. This planned growth strategy creates a stable, desirable neighborhood that attracts quality residents and maintains high property values over time. The combination of natural beauty, modern amenities, and strategic location makes Sierra at Skyeview an exceptional choice for discerning homebuyers.
-                  </p>
-                </div>
-
-                <div className="mt-8">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Financing & Incentives</h4>
-                  <p className="text-gray-700 mb-4">
-                    Century Communities offers attractive financing options and incentives to make your dream home more affordable. With competitive interest rates and flexible down payment programs, qualifying buyers can secure favorable terms that fit their budget. The builder's preferred lenders understand the new construction process and can streamline the financing experience, making your home buying journey as smooth as possible.
-                  </p>
-                  <p className="text-gray-700 mb-4">
-                    Dr. Jan Duffy works closely with qualified lenders to help you explore all available financing options, including conventional loans, FHA, VA, and USDA programs. Her expertise in the local market and builder relationships can help you secure the best possible rates and terms. Additionally, she can guide you through various incentive programs that may be available, including closing cost assistance and rate buy-downs.
-                  </p>
-                  <p className="text-gray-700">
-                    The new construction financing process differs from purchasing an existing home, and having an experienced agent like Dr. Jan Duffy ensures you understand all the nuances. From construction draws to final closing, she'll be there every step of the way to protect your interests and ensure a successful transaction. Her independent representation means you'll receive unbiased advice focused solely on your best interests.
-                  </p>
-                </div>
-
-                <div className="mt-8">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Construction Timeline & Process</h4>
-                  <p className="text-gray-700 mb-4">
-                    Understanding the construction timeline is crucial when purchasing a new home. Century Communities typically completes homes within 4-6 months of breaking ground, depending on weather conditions and material availability. The construction process follows a systematic approach, with regular updates provided to keep you informed of progress throughout the build.
-                  </p>
-                  <p className="text-gray-700 mb-4">
-                    The construction process begins with site preparation and foundation work, followed by framing, electrical, plumbing, and HVAC installation. Interior finishes, including flooring, cabinetry, and fixtures, are completed in the final phases. Throughout construction, you'll have opportunities to visit the site and see your home take shape, creating excitement and anticipation for your move-in date.
-                  </p>
-                  <p className="text-gray-700">
-                    Dr. Jan Duffy coordinates with the builder throughout the construction process to ensure everything proceeds according to schedule and meets your expectations. From pre-construction meetings to final walk-throughs, she'll be your advocate every step of the way. Her experience with Century Communities' construction process ensures you understand what to expect and when to expect it, minimizing surprises and ensuring a smooth transition to your new home.
-                  </p>
-                </div>
+              <div className="bg-gray-50 rounded-lg shadow p-6">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Pricing, Photos & Incentives</h3>
+                <p className="text-gray-600">Review current pricing, incentive packages, construction stages, and photo galleries curated by Dr. Jan.</p>
               </div>
+              <div className="bg-gray-50 rounded-lg shadow p-6">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Alerts & Private Tours</h3>
+                <p className="text-gray-600">Request a private tour, ask questions, or enable instant alerts when new Residence 1602 opportunities are released.</p>
+              </div>
+            </div>
+            <div className="mt-10">
+              <a
+                href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
+              >
+                🔍 Open RealScout Search
+              </a>
             </div>
           </div>
         </section>
 
-        {/* Residence 1602 Q&A Section */}
-        <section className="py-16 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Residence 1602 Questions & Answers
-              </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Get answers to common questions about the Residence 1602 floor plan and features.
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-white rounded-lg p-6 shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">What makes Residence 1602 unique?</h3>
-                <p className="text-gray-700 mb-4">
-                  Residence 1602 features an open floor plan design with seamless flow between the great room, nook, and kitchen, plus optional separate tub/shower at primary bath.
-                </p>
-              </div>
-
-              <div className="bg-white rounded-lg p-6 shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">What's included in the primary suite?</h3>
-                <p className="text-gray-700 mb-4">
-                  The primary suite includes a walk-in closet plus slider closet, dual vanities, walk-in shower, and optional separate tub/shower for added luxury.
-                </p>
-              </div>
-
-              <div className="bg-white rounded-lg p-6 shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Are there storage options?</h3>
-                <p className="text-gray-700 mb-4">
-                  Yes! Residence 1602 includes a generous center island, walk-in pantry, and laundry room with upper cabinets for ample storage throughout.
-                </p>
-              </div>
-
-              <div className="bg-white rounded-lg p-6 shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">What finishes are included?</h3>
-                <p className="text-gray-700 mb-4">
-                  Two-tone interior paint throughout plus the Century Connect® package with smart home technology and premium finishes throughout the home.
-                </p>
-              </div>
-            </div>
-
-            <div className="text-center">
-              <Link href="/qa" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                View All Questions & Answers
-              </Link>
-            </div>
-          </div>
-        </section>
-
-        {/* Call to Action */}
         <section className="py-16 bg-red-600 text-white">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              ⚡ ACT NOW - RESIDENCE 1602 IS SELLING FAST!
+              Ready to Reserve Residence 1602?
             </h2>
             <p className="text-lg mb-8">
-              Starting from $419,990. Get VIP access to Residence 1602 with Dr. Jan Duffy's expert guidance. Schedule your private tour today!
+              Dr. Jan Duffy represents home buyers—not the builder. Connect for strategy, negotiation, and concierge support from first visit through closing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 CALL NOW: (702) 500-1955
               </a>
-              <a href="mailto:DrJanSells@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 EMAIL DR. JAN
               </a>
+              <Link href="/contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+                📋 CONTACT FORM
+              </Link>
             </div>
           </div>
         </section>
@@ -314,7 +155,7 @@ const Model1602: NextPage = () => {
               <h4 className="text-lg font-semibold mb-4">Contact Dr. Jan Duffy</h4>
               <div className="space-y-2 text-gray-300">
                 <p><strong>Primary Phone:</strong><br />(702) 500-1955</p>
-                <p><strong>Email:</strong><br />DrJanSells@SierraSkyeview.com</p>
+                <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
                 <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>
             </div>
@@ -338,3 +179,5 @@ const Model1602: NextPage = () => {
 };
 
 export default Model1602;
+
+

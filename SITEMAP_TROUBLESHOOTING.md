@@ -164,9 +164,11 @@ Validate the sitemap XML:
 
 If issues persist:
 - **Website:** https://sierraskyeview.com
-- **Email:** DrJanSells@SierraSkyeview.com
+- **Email:** DrDuffy@SierraSkyeview.com
 - **Phone:** (702) 500-1955
 
 ---
 
 *This guide should be updated as new pages are added or sitemap structure changes.*
+
+

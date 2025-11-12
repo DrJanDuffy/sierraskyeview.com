@@ -118,10 +118,12 @@ Submit business to:
 ## Contact Information for SEO Setup
 
 - **Website**: https://sierraskyeview.com
-- **Email**: DrJanSells@SierraSkyeview.com
+- **Email**: DrDuffy@SierraSkyeview.com
 - **Phone**: (702) 500-1955
 - **Address**: 8925 Vanhoy Creek St., Las Vegas, NV 89166
 
 ---
 
 *This document should be updated regularly as SEO strategies evolve and new opportunities arise.*
+
+

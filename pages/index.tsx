@@ -61,7 +61,7 @@ const Home: NextPage = () => {
               "description": "Expert real estate agent specializing in new home construction and independent advocacy for Century Communities buyers in Las Vegas",
               "url": "https://sierraskyeview.com",
               "telephone": "(702) 500-1955",
-              "email": "DrJanSells@SierraSkyeview.com",
+              "email": "DrDuffy@SierraSkyeview.com",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "8925 Vanhoy Creek St.",
@@ -154,19 +154,22 @@ const Home: NextPage = () => {
             </p>
             <div className="flex items-center justify-center gap-4 mb-8">
               <p className="text-lg">Expert Guidance from Dr. Jan Duffy</p>
-              <span className="text-2xl">|</span>
-              <img src="/century-communities-logo.png" alt="Century Communities" className="h-8" />
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 Call NOW: (702) 500-1955
               </a>
-              <a href="mailto:DrJanSells@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 Email Dr. Jan
               </a>
-              <Link href="/floor-plans" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
-                🏠 View Floor Plans
-              </Link>
+              <a
+                href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
+              >
+                🏠 View RealScout Floor Plans
+              </a>
             </div>
             <p className="mt-4 text-lg font-semibold">
               8925 Vanhoy Creek St., Las Vegas, NV 89166
@@ -181,140 +184,41 @@ const Home: NextPage = () => {
               🚨 LIMITED AVAILABILITY - ACT FAST!
             </h2>
             <p className="text-lg mb-4">
-              Only 3 floor plans remaining! Sierra at Skyeview is selling out fast. Get your VIP tour with Dr. Jan Duffy before these homes are gone.
+              Discover the most up-to-date floor plans and quick-move opportunities curated by Dr. Jan Duffy on RealScout.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 SECURE YOUR HOME: (702) 500-1955
               </a>
-              <Link href="/floor-plans" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
-                👀 VIEW AVAILABLE FLOOR PLANS
-              </Link>
+              <a
+                href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors"
+              >
+                👀 VIEW REALSCOUT FLOOR PLANS
+              </a>
             </div>
           </div>
         </section>
 
-        {/* Floor Plans Preview */}
+        {/* Floor Plan Search CTA */}
         <section className="py-16 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Sierra at Skyeview Floor Plans - Now Selling!
-              </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Limited Availability! Choose from 3 two-story floor plans with 3 bedrooms and up to 1,965 sq. ft. Each home features expansive living spaces, premium finishes, and smart tech included with the Century Connect® package. Starting from $419,990.
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-8">
-              {/* Floor Plan 1 */}
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="h-48 relative overflow-hidden">
-                  <img 
-                    src="/floorplan-1602-new.jpg" 
-                    alt="Residence 1602 Floor Plan"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 1602</h3>
-                  <p className="text-blue-600 font-semibold text-lg mb-4">From $419,990</p>
-                  <div className="grid grid-cols-2 gap-4 mb-4 text-sm">
-                    <div>
-                      <span className="font-semibold">1,602</span><br />
-                      <span className="text-gray-600">Square Feet</span>
-                    </div>
-                    <div>
-                      <span className="font-semibold">3</span><br />
-                      <span className="text-gray-600">Bedrooms</span>
-                    </div>
-                    <div>
-                      <span className="font-semibold">2.5</span><br />
-                      <span className="text-gray-600">Bathrooms</span>
-                    </div>
-                    <div>
-                      <span className="font-semibold">2</span><br />
-                      <span className="text-gray-600">Car Garage</span>
-                    </div>
-                  </div>
-                  <Link href="/floor-plans" className="block w-full bg-blue-600 text-white text-center py-3 rounded-lg hover:bg-blue-700 transition-colors">
-                    View Details
-                  </Link>
-                </div>
-              </div>
-
-              {/* Floor Plan 2 */}
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="h-48 relative overflow-hidden">
-                  <img 
-                    src="/floorplan-1708-new.jpg" 
-                    alt="Residence 1708 Floor Plan"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 1708</h3>
-                  <p className="text-blue-600 font-semibold text-lg mb-4">From $429,990</p>
-                  <div className="grid grid-cols-2 gap-4 mb-4 text-sm">
-                    <div>
-                      <span className="font-semibold">1,708</span><br />
-                      <span className="text-gray-600">Square Feet</span>
-                    </div>
-                    <div>
-                      <span className="font-semibold">3</span><br />
-                      <span className="text-gray-600">Bedrooms</span>
-                    </div>
-                    <div>
-                      <span className="font-semibold">2.5</span><br />
-                      <span className="text-gray-600">Bathrooms</span>
-                    </div>
-                    <div>
-                      <span className="font-semibold">2</span><br />
-                      <span className="text-gray-600">Car Garage</span>
-                    </div>
-                  </div>
-                  <Link href="/floor-plans" className="block w-full bg-blue-600 text-white text-center py-3 rounded-lg hover:bg-blue-700 transition-colors">
-                    View Details
-                  </Link>
-                </div>
-              </div>
-
-              {/* Floor Plan 3 */}
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="h-48 relative overflow-hidden">
-                  <img 
-                    src="/floorplan-1965-new.jpg" 
-                    alt="Residence 1965 Floor Plan"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Residence 1965</h3>
-                  <p className="text-blue-600 font-semibold text-lg mb-4">From $449,990</p>
-                  <div className="grid grid-cols-2 gap-4 mb-4 text-sm">
-                    <div>
-                      <span className="font-semibold">1,965</span><br />
-                      <span className="text-gray-600">Square Feet</span>
-                    </div>
-                    <div>
-                      <span className="font-semibold">3</span><br />
-                      <span className="text-gray-600">Bedrooms</span>
-                    </div>
-                    <div>
-                      <span className="font-semibold">2.5</span><br />
-                      <span className="text-gray-600">Bathrooms</span>
-                    </div>
-                    <div>
-                      <span className="font-semibold">2</span><br />
-                      <span className="text-gray-600">Car Garage</span>
-                    </div>
-                  </div>
-                  <Link href="/floor-plans" className="block w-full bg-blue-600 text-white text-center py-3 rounded-lg hover:bg-blue-700 transition-colors">
-                    View Details
-            </Link>
-                </div>
-              </div>
-            </div>
+          <div className="max-w-5xl mx-auto px-4 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              Explore Every Floor Plan & Homesite in One Place
+            </h2>
+            <p className="text-lg text-gray-600 mb-8">
+              Access Dr. Jan Duffy&apos;s curated RealScout search for Century Communities at Sierra at Skyeview. See current floor plans, elevations, quick move-in opportunities, photos, pricing, and availability updated in real time.
+            </p>
+            <a
+              href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
+            >
+              🔍 View Floor Plans on RealScout
+            </a>
           </div>
         </section>
 
@@ -453,7 +357,7 @@ const Home: NextPage = () => {
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 SECURE YOUR HOME NOW (702) 500-1955
               </a>
-              <a href="mailto:DrJanSells@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 EMAIL DR. JAN
               </a>
             </div>
@@ -475,10 +379,6 @@ const Home: NextPage = () => {
                 Las Vegas, NV 89166<br />
                 (702) 500-1955
               </p>
-              <div className="flex items-center gap-3">
-                <span className="text-gray-300 text-sm">Built by</span>
-                <img src="/century-communities-logo.png" alt="Century Communities" className="h-6" />
-              </div>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
@@ -493,7 +393,7 @@ const Home: NextPage = () => {
               <h4 className="text-lg font-semibold mb-4">Contact Dr. Jan Duffy</h4>
               <div className="space-y-2 text-gray-300">
                 <p><strong>Primary Phone:</strong><br />(702) 500-1955</p>
-                <p><strong>Email:</strong><br />DrJanSells@SierraSkyeview.com</p>
+                <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
                 <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>
             </div>
@@ -517,3 +417,5 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+
