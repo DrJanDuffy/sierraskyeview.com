@@ -96,7 +96,7 @@ const NewBuildHomes: NextPage = () => {
                 rel="noopener noreferrer"
                 className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
               >
-                🔍 View Homes on RealScout
+                🔍 See What's Available in Sierra Skyeview
               </a>
             </div>
           </div>
@@ -138,7 +138,7 @@ const NewBuildHomes: NextPage = () => {
         <section className="py-16 bg-white">
           <div className="max-w-5xl mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Browse Every Floor Plan & Quick Move-In Opportunity
+              Browse Every Home & Quick Move-In Opportunity
             </h2>
             <p className="text-lg text-gray-600 mb-8">
               Use Dr. Jan Duffy&apos;s RealScout link to explore current releases, homes under construction, standing inventory, pricing changes, and incentives. No PDFs—just real-time data direct from the Century Communities sales system.
@@ -163,7 +163,7 @@ const NewBuildHomes: NextPage = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
             >
-              🔍 Explore Homes on RealScout
+              🔍 See What's Available in Sierra Skyeview
             </a>
           </div>
         </section>

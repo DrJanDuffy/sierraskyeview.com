@@ -100,7 +100,7 @@ const Community: NextPage = () => {
                 rel="noopener noreferrer"
                 className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors"
               >
-                🏠 View RealScout Homes
+                🏠 See What's Available in Sierra Skyeview
               </a>
             </div>
           </div>

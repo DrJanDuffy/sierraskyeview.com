@@ -93,7 +93,7 @@ const MortgageCalculator: NextPage = () => {
                 📞 Get Pre-Approved: (702) 500-1955
               </a>
               <Link href="/floor-plans" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
-                View Homes
+                See What's Available in Sierra Skyeview
               </Link>
             </div>
           </div>
@@ -280,7 +280,7 @@ const MortgageCalculator: NextPage = () => {
         <section className="py-16 bg-white">
           <div className="max-w-4xl mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Need Floor Plan Pricing? Check RealScout First.
+              Need Home Pricing? Check RealScout First.
             </h2>
             <p className="text-lg text-gray-600 mb-8">
               Home pricing and incentives change quickly. Use Dr. Jan Duffy&apos;s RealScout link to confirm current pricing, elevations, and quick move-in availability before you plug numbers into the calculator.
@@ -291,7 +291,7 @@ const MortgageCalculator: NextPage = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
             >
-              🔍 View Homes on RealScout
+              🔍 See What's Available in Sierra Skyeview
             </a>
           </div>
         </section>
