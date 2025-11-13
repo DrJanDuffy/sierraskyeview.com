@@ -375,7 +375,7 @@ const Community: NextPage = () => {
                 />
                 <div className="absolute top-6 left-6 bg-blue-600 text-white rounded-lg p-4 shadow-lg">
                   <h4 className="font-bold text-lg">📍 Sierra at Skyeview</h4>
-                  <p className="text-sm opacity-90">Premium Century Communities homes</p>
+                  <p className="text-sm opacity-90">Premium new construction homes</p>
                   <p className="text-xs opacity-75 mt-1">Starting from $419,990</p>
                 </div>
               </div>
@@ -579,7 +579,7 @@ const Community: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent Century Communities advocate Dr. Jan Duffy.
+                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
@@ -621,7 +621,7 @@ const Community: NextPage = () => {
               <div className="text-gray-300">
                 <p>Monday-Sunday: 10:00 AM - 6:00 PM</p>
                 <p className="mt-4 text-sm">
-                  Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
+                  Independent real estate resource. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
                 </p>
               </div>
             </div>

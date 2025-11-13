@@ -197,10 +197,10 @@ const QuickMoveIn: NextPage = () => {
     <>
       <Head>
         <title>Quick Move-In Homes Available | Sierra at Skyeview at Skye Canyon | Homes by Dr. Jan Duffy</title>
-        <meta name="description" content="Quick move-in homes available now at Sierra at Skyeview Skye Canyon Las Vegas. Residence 1602 starting at $420,240 with 1,602 sqft. Expert guidance from Dr. Jan Duffy for Century Communities new homes ready for immediate occupancy." />
+        <meta name="description" content="Quick move-in homes available now at Sierra at Skyeview Skye Canyon Las Vegas. Residence 1602 starting at $420,240 with 1,602 sqft. Expert guidance from Dr. Jan Duffy for new homes ready for immediate occupancy." />
         <meta property="og:title" content="Quick Move-In Homes Available | Sierra at Skyeview at Skye Canyon" />
         <meta property="og:description" content="Discover quick move-in homes available now at Sierra at Skyeview in Skye Canyon, Las Vegas. New homes ready for immediate occupancy." />
-        <meta name="keywords" content="quick move-in homes Las Vegas, Sierra at Skyeview available homes, Skye Canyon new homes ready, Century Communities move-in ready, Las Vegas new construction available" />
+        <meta name="keywords" content="quick move-in homes Las Vegas, Sierra at Skyeview available homes, Skye Canyon new homes ready, Las Vegas new construction available" />
       </Head>
 
       {/* Navigation */}
@@ -244,7 +244,7 @@ const QuickMoveIn: NextPage = () => {
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
               <p className="text-xl max-w-3xl mx-auto">
-                Don't wait months for construction! Discover move-in ready homes at Sierra at Skyeview in Skye Canyon, Las Vegas. Currently available: Residence 1602 starting at $420,240 with 1,602 sqft. Get expert guidance from Dr. Jan Duffy for Century Communities new homes available for immediate occupancy.
+                Don't wait months for construction! Discover move-in ready homes at Sierra at Skyeview in Skye Canyon, Las Vegas. Currently available: Residence 1602 starting at $420,240 with 1,602 sqft. Get expert guidance from Dr. Jan Duffy for new homes available for immediate occupancy.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -628,7 +628,7 @@ const QuickMoveIn: NextPage = () => {
               <div className="text-center">
                 <div className="text-4xl mb-4">🎨</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Premium Finishes</h3>
-                <p className="text-gray-600">These homes feature carefully selected upgrades and finishes that showcase the quality and craftsmanship of Century Communities.</p>
+                      <p className="text-gray-600">These homes feature carefully selected upgrades and finishes that showcase the quality and craftsmanship of Sierra at Skyeview.</p>
               </div>
             </div>
           </div>
@@ -899,13 +899,13 @@ const QuickMoveIn: NextPage = () => {
                 Why Work With Dr. Jan Duffy for Quick Move-In Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy's independent advocacy, combined with her close working relationships at Century Communities, provides early insight into quick move-in homes and expert guidance throughout the home buying process.
+                Dr. Jan Duffy's independent advocacy, combined with her close working relationships with the builder, provides early insight into quick move-in homes and expert guidance throughout the home buying process.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Century Communities Buyer Benefits</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">Sierra at Skyeview Buyer Benefits</h3>
                 <div className="space-y-4">
                   <div className="flex items-start">
                     <div className="text-2xl mr-4">🤝</div>
@@ -925,7 +925,7 @@ const QuickMoveIn: NextPage = () => {
                     <div className="text-2xl mr-4">📋</div>
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 mb-2">Streamlined Process</h4>
-                      <p className="text-gray-600">Close collaboration with Century Communities teams ensures a smooth, efficient home buying experience for quick move-in homes.</p>
+                      <p className="text-gray-600">Close collaboration with the builder's teams ensures a smooth, efficient home buying experience for quick move-in homes.</p>
                     </div>
                   </div>
                 </div>
@@ -999,7 +999,7 @@ const QuickMoveIn: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent Century Communities advocate Dr. Jan Duffy.
+                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
@@ -1041,7 +1041,7 @@ const QuickMoveIn: NextPage = () => {
               <div className="text-gray-300">
                 <p>Monday-Sunday: 10:00 AM - 6:00 PM</p>
                 <p className="mt-4 text-sm">
-                  Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
+                  Independent real estate resource. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
                 </p>
               </div>
             </div>

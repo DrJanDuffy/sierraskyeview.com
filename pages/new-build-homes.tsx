@@ -34,10 +34,10 @@ const NewBuildHomes: NextPage = () => {
     <>
       <Head>
         <title>New Build Homes Available Now | Sierra at Skyeview at Skye Canyon | Homes by Dr. Jan Duffy</title>
-        <meta name="description" content="Explore new build homes available now at Sierra at Skyeview in Skye Canyon, Las Vegas. Century Communities new construction with Dr. Jan Duffy's expert guidance and VIP access." />
+        <meta name="description" content="Explore new build homes available now at Sierra at Skyeview in Skye Canyon, Las Vegas. New construction with Dr. Jan Duffy's expert guidance and VIP access." />
         <meta property="og:title" content="New Build Homes Available Now | Sierra at Skyeview at Skye Canyon" />
-        <meta property="og:description" content="Explore new build homes available now at Sierra at Skyeview in Skye Canyon, Las Vegas. Century Communities new construction with expert guidance." />
-        <meta name="keywords" content="new build homes Las Vegas, Sierra at Skyeview new construction, Century Communities new homes, Skye Canyon new builds, Las Vegas new home construction, Dr. Jan Duffy new homes" />
+        <meta property="og:description" content="Explore new build homes available now at Sierra at Skyeview in Skye Canyon, Las Vegas. New construction with expert guidance." />
+        <meta name="keywords" content="new build homes Las Vegas, Sierra at Skyeview new construction, Skye Canyon new builds, Las Vegas new home construction, Dr. Jan Duffy new homes" />
       </Head>
 
       {/* Navigation */}
@@ -81,7 +81,7 @@ const NewBuildHomes: NextPage = () => {
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
               <p className="text-xl max-w-3xl mx-auto">
-                Discover exceptional new build homes at Sierra at Skyeview in Skye Canyon, Las Vegas. Century Communities new construction with Dr. Jan Duffy's expert guidance, VIP access, and exclusive benefits.
+                Discover exceptional new build homes at Sierra at Skyeview in Skye Canyon, Las Vegas. New construction with Dr. Jan Duffy's expert guidance, VIP access, and exclusive benefits.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -130,7 +130,7 @@ const NewBuildHomes: NextPage = () => {
               <div className="bg-white rounded-lg p-6 shadow-lg text-center">
                 <div className="text-4xl mb-4">🛡️</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Builder Warranty</h3>
-                <p className="text-gray-600">Comprehensive warranty coverage from Century Communities, one of America's most trusted homebuilders.</p>
+                <p className="text-gray-600">Comprehensive warranty coverage from the builder, ensuring quality and peace of mind.</p>
               </div>
             </div>
           </div>
@@ -143,7 +143,7 @@ const NewBuildHomes: NextPage = () => {
               Browse Every Home & Quick Move-In Opportunity
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Use Dr. Jan Duffy&apos;s private home finder to explore current releases, homes under construction, standing inventory, pricing changes, and incentives. No PDFs—just real-time data direct from the Century Communities sales system.
+              Use Dr. Jan Duffy&apos;s private home finder to explore current releases, homes under construction, standing inventory, pricing changes, and incentives. No PDFs—just real-time data direct from the builder's sales system.
               <span className="sr-only">This experience uses RealScout technology</span>
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-left mb-10">
@@ -176,11 +176,11 @@ const NewBuildHomes: NextPage = () => {
         <section className="py-16 bg-blue-900 text-white">
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Century Communities Construction Process
+                <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                New Home Construction Process
               </h2>
               <p className="text-lg mb-8">
-                Century Communities follows a proven construction process to ensure quality, efficiency, and timely completion of your new home at Sierra at Skyeview.
+                The builder follows a proven construction process to ensure quality, efficiency, and timely completion of your new home at Sierra at Skyeview.
               </p>
             </div>
 
@@ -258,12 +258,12 @@ const NewBuildHomes: NextPage = () => {
               </div>
               
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Century Communities Quality & Warranty</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">Quality Construction & Warranty</h3>
                 <p className="text-gray-600 mb-4">
-                  Century Communities is one of America's most trusted homebuilders, with over 30 years of experience in creating exceptional new homes. Their commitment to quality, innovation, and customer satisfaction is evident in every home they build.
+                  All new build homes at Sierra at Skyeview are constructed with quality materials and craftsmanship. The builder's commitment to quality, innovation, and customer satisfaction is evident in every home.
                 </p>
                 <p className="text-gray-600 mb-6">
-                  All new build homes at Sierra at Skyeview come with comprehensive warranty coverage, including structural warranty, systems warranty, and workmanship warranty. Century Communities stands behind their construction with dedicated customer service and warranty support.
+                  All new build homes at Sierra at Skyeview come with comprehensive warranty coverage, including structural warranty, systems warranty, and workmanship warranty. The builder stands behind their construction with dedicated customer service and warranty support.
                 </p>
                 <div className="bg-white rounded-lg p-6 shadow-lg">
                   <h4 className="text-lg font-semibold text-gray-900 mb-4">Warranty Coverage Includes:</h4>
@@ -299,7 +299,7 @@ const NewBuildHomes: NextPage = () => {
                 Why Choose Dr. Jan Duffy for New Build Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy's independent advocacy—paired with her close collaboration with Century Communities teams—provides exclusive benefits and expert guidance for new build home buyers at Sierra at Skyeview.
+                Dr. Jan Duffy's independent advocacy—paired with her close collaboration with the builder's teams—provides exclusive benefits and expert guidance for new build home buyers at Sierra at Skyeview.
               </p>
             </div>
 
@@ -325,7 +325,7 @@ const NewBuildHomes: NextPage = () => {
                     <div className="text-2xl mr-4">📋</div>
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 mb-2">Streamlined Process</h4>
-                      <p className="text-gray-600">Close collaboration with Century Communities ensures smooth coordination throughout the build process.</p>
+                      <p className="text-gray-600">Close collaboration with the builder ensures smooth coordination throughout the build process.</p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -406,7 +406,7 @@ const NewBuildHomes: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent Century Communities advocate Dr. Jan Duffy.
+                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300 mb-4">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
@@ -448,7 +448,7 @@ const NewBuildHomes: NextPage = () => {
               <div className="text-gray-300">
                 <p>Monday-Sunday: 10:00 AM - 6:00 PM</p>
                 <p className="mt-4 text-sm">
-                  Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
+                  Independent real estate resource. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
                 </p>
               </div>
             </div>

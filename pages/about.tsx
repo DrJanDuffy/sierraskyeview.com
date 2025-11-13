@@ -7,9 +7,9 @@ const About: NextPage = () => {
     <>
       <Head>
         <title>About Dr. Jan Duffy - Sierra at Skyeview | Real Estate Expert</title>
-        <meta name="description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and independent advocacy for Century Communities buyers in Las Vegas." />
+        <meta name="description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and independent advocacy for Sierra at Skyeview buyers in Las Vegas." />
         <meta property="og:title" content="About Dr. Jan Duffy - Sierra at Skyeview" />
-        <meta property="og:description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and independent advocacy for Century Communities buyers." />
+        <meta property="og:description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and independent advocacy for Sierra at Skyeview buyers." />
       </Head>
 
       {/* Navigation */}
@@ -42,10 +42,10 @@ const About: NextPage = () => {
         <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Dr. Jan Duffy: Your Century Communities Buyer Advocate at Sierra at Skyeview
+              Dr. Jan Duffy: Your Sierra at Skyeview Buyer Advocate
             </h1>
             <p className="text-xl mb-6 max-w-3xl mx-auto">
-              New construction moves in weeks, not months. You need someone who knows which lots appreciate fastest, what upgrades to fund versus skip, how to negotiate incentives Century doesn’t advertise, and why your contract matters more than the sales pitch. With 20+ years in Las Vegas real estate, Dr. Jan works directly with Century’s team—she spots opportunity other buyers miss. Let her walk you through every option before you sign anything.
+              New construction moves in weeks, not months. You need someone who knows which lots appreciate fastest, what upgrades to fund versus skip, how to negotiate incentives the builder doesn't advertise, and why your contract matters more than the sales pitch. With 20+ years in Las Vegas real estate, Dr. Jan works directly with the builder's team—she spots opportunity other buyers miss. Let her walk you through every option before you sign anything.
             </p>
             <p className="text-sm uppercase tracking-wide text-blue-100 mb-6">
               Nevada License S.0197614 | New Construction Specialist | Las Vegas Real Estate Expert
@@ -77,10 +77,10 @@ const About: NextPage = () => {
                   Meet Dr. Jan Duffy
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  Dr. Jan Duffy is a Featured New Home Construction & Buyer Representation Specialist, proudly representing homebuyers interested in Century Communities—one of the nation's top 10 homebuilders—at Sierra at Skyeview in Skye Canyon, Las Vegas, NV.
+                  Dr. Jan Duffy is a Featured New Home Construction & Buyer Representation Specialist, proudly representing homebuyers interested in new homes at Sierra at Skyeview in Skye Canyon, Las Vegas, NV.
                 </p>
                 <p className="text-lg text-gray-600 mb-6">
-                  With deep expertise in the Las Vegas real estate market and a proven track record of success, Dr. Jan Duffy provides expert guidance to homebuyers seeking luxury new construction homes. Her close working relationships with Century Communities sales teams give clients early insight into the best lots, upcoming releases, and negotiation opportunities—all while she remains the buyer's independent advocate.
+                  With deep expertise in the Las Vegas real estate market and a proven track record of success, Dr. Jan Duffy provides expert guidance to homebuyers seeking luxury new construction homes. Her close working relationships with the builder's sales teams give clients early insight into the best lots, upcoming releases, and negotiation opportunities—all while she remains the buyer's independent advocate.
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-center">
@@ -89,7 +89,7 @@ const About: NextPage = () => {
                   </div>
                   <div className="flex items-center">
                     <span className="text-green-600 mr-3">✓</span>
-                    <span className="text-gray-700">Century Communities Buyer Advocate</span>
+                    <span className="text-gray-700">Sierra at Skyeview Buyer Advocate</span>
                   </div>
                   <div className="flex items-center">
                     <span className="text-green-600 mr-3">✓</span>
@@ -128,8 +128,8 @@ const About: NextPage = () => {
               </div>
               <div className="bg-white rounded-lg p-8 shadow-lg text-center">
                 <div className="text-4xl mb-4">🤝</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Century Communities Buyer Advocacy</h3>
-                <p className="text-gray-600">Independent advocacy providing insider knowledge of Century Communities developments while protecting your interests.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Sierra at Skyeview Buyer Advocacy</h3>
+                <p className="text-gray-600">Independent advocacy providing insider knowledge of Sierra at Skyeview while protecting your interests.</p>
               </div>
               <div className="bg-white rounded-lg p-8 shadow-lg text-center">
                 <div className="text-4xl mb-4">🎯</div>
@@ -155,8 +155,8 @@ const About: NextPage = () => {
             <div className="grid md:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="text-4xl mb-4">🤝</div>
-                <h3 className="text-xl font-bold mb-2">Century Communities Buyer Advocacy</h3>
-                <p className="text-gray-300">I collaborate with Century Communities teams to give you insider access while exclusively representing YOUR interests.</p>
+                <h3 className="text-xl font-bold mb-2">Sierra at Skyeview Buyer Advocacy</h3>
+                <p className="text-gray-300">I collaborate with the builder's teams to give you insider access while exclusively representing YOUR interests.</p>
               </div>
               <div className="text-center">
                 <div className="text-4xl mb-4">📊</div>
@@ -193,14 +193,14 @@ const About: NextPage = () => {
               <div className="bg-gray-50 rounded-lg p-6">
                 <div className="text-yellow-400 mb-4">⭐⭐⭐⭐⭐</div>
                 <p className="text-gray-600 mb-4">
-                  "Dr. Jan Duffy made our new home buying process seamless. Her expertise with Century Communities and negotiation skills saved us thousands of dollars."
+                  "Dr. Jan Duffy made our new home buying process seamless. Her expertise with new construction and negotiation skills saved us thousands of dollars."
                 </p>
                 <p className="font-semibold text-gray-900">- Sarah & Mike Johnson</p>
               </div>
               <div className="bg-gray-50 rounded-lg p-6">
                 <div className="text-yellow-400 mb-4">⭐⭐⭐⭐⭐</div>
                 <p className="text-gray-600 mb-4">
-                  "We couldn't have asked for a better real estate agent. Dr. Jan's knowledge of the Las Vegas market and her insider access to Century Communities communities was invaluable."
+                  "We couldn't have asked for a better real estate agent. Dr. Jan's knowledge of the Las Vegas market and her insider access to new construction communities was invaluable."
                 </p>
                 <p className="font-semibold text-gray-900">- Robert & Lisa Chen</p>
               </div>
@@ -249,7 +249,7 @@ const About: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent Century Communities advocate Dr. Jan Duffy.
+                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
@@ -291,7 +291,7 @@ const About: NextPage = () => {
               <div className="text-gray-300">
                 <p>Monday-Sunday: 10:00 AM - 6:00 PM</p>
                 <p className="mt-4 text-sm">
-                  Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
+                  Independent real estate resource. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
                 </p>
               </div>
             </div>

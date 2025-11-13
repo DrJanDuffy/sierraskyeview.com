@@ -44,74 +44,52 @@ const Model1602: NextPage = () => {
       </nav>
 
       <main className="pt-16">
-        <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
-          <div className="max-w-5xl mx-auto px-4 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+        {/* Hero Section */}
+        <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-12">
+          <div className="max-w-7xl mx-auto px-4 text-center">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
               Residence 1602: Real-Time Availability & Pricing
             </h1>
-            <p className="text-xl max-w-3xl mx-auto mb-8">
-              Use Dr. Jan Duffy's private home finder to monitor every Residence 1602 release at Sierra at Skyeview—pricing, incentives, construction timelines, photos, and lot status updated directly from Century Communities.
+            <p className="text-xl max-w-3xl mx-auto mb-6">
+              Explore every Residence 1602 release in real time via Dr. Jan Duffy's private home finder.
               <span className="sr-only">Powered by RealScout</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-                📞 Call NOW: (702) 500-1955
+              <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold transition-colors text-sm">
+                📞 Call: (702) 500-1955
               </a>
-              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 py-2 rounded-lg font-semibold transition-colors text-sm">
                 📧 Email Dr. Jan
               </a>
-              <a
-                href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
-              >
-                🔍 Explore Residence 1602 Availability
-                <span className="sr-only">RealScout link</span>
-              </a>
             </div>
           </div>
         </section>
 
-        <section className="py-16 bg-white">
-          <div className="max-w-5xl mx-auto px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              What You'll Find in the Live Home Finder
-            </h2>
-            <div className="grid md:grid-cols-3 gap-6 text-left">
-              <div className="bg-gray-50 rounded-lg shadow p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">Live Releases & Lot Maps</h3>
-                <p className="text-gray-600">Track which Residence 1602 homesites are released, reserved, or coming soon with real-time updates from Century Communities.</p>
-              </div>
-              <div className="bg-gray-50 rounded-lg shadow p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">Pricing, Photos & Incentives</h3>
-                <p className="text-gray-600">Review current pricing, incentive packages, construction stages, and photo galleries curated by Dr. Jan.</p>
-              </div>
-              <div className="bg-gray-50 rounded-lg shadow p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">Alerts & Private Tours</h3>
-                <p className="text-gray-600">Request a private tour, ask questions, or enable instant alerts when new Residence 1602 opportunities are released.</p>
-              </div>
-            </div>
-            <div className="mt-10">
-              <a
-                href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
-              >
-                🔍 Launch the Live Home Finder
-                <span className="sr-only">RealScout link</span>
-              </a>
+        {/* RealScout Office Widget */}
+        <section className="py-8 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="bg-gray-50 rounded-lg shadow-lg overflow-hidden" style={{ minHeight: '800px' }}>
+              <iframe
+                src="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
+                width="100%"
+                height="800"
+                style={{ border: 0 }}
+                title="RealScout Home Search - Residence 1602 Availability"
+                allowFullScreen
+                loading="lazy"
+                className="w-full"
+              ></iframe>
             </div>
           </div>
         </section>
 
-        <section className="py-16 bg-red-600 text-white">
+        {/* Contact CTA */}
+        <section className="py-12 bg-red-600 text-white">
           <div className="max-w-7xl mx-auto px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
               Ready to Reserve Residence 1602?
             </h2>
-            <p className="text-lg mb-8">
+            <p className="text-lg mb-6">
               Dr. Jan Duffy represents home buyers—not the builder. Connect for strategy, negotiation, and concierge support from first visit through closing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -139,7 +117,7 @@ const Model1602: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent Century Communities advocate Dr. Jan Duffy.
+                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300 mb-4">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
@@ -181,7 +159,7 @@ const Model1602: NextPage = () => {
               <div className="text-gray-300">
                 <p>Monday-Sunday: 10:00 AM - 6:00 PM</p>
                 <p className="mt-4 text-sm">
-                  Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
+                  Independent real estate resource. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
                 </p>
               </div>
             </div>

@@ -30,8 +30,8 @@ const Services: NextPage = () => {
     },
     {
       icon: "🎯",
-      title: "Century Communities Buyer Advocacy",
-      description: "Independent representation with deep Century Communities insight to help you secure the right home.",
+      title: "Sierra at Skyeview Buyer Advocacy",
+      description: "Independent representation with deep insight into Sierra at Skyeview to help you secure the right home.",
       features: [
         "Early phase updates",
         "Priority lot strategies",
@@ -54,13 +54,44 @@ const Services: NextPage = () => {
     }
   ];
 
+  const servicesStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Sierra at Skyeview Real Estate Services",
+    "itemListElement": services.map((service, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "item": {
+        "@type": "Service",
+        "name": service.title,
+        "description": service.description,
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Dr. Jan Duffy Real Estate",
+          "areaServed": {
+            "@type": "City",
+            "name": "Las Vegas"
+          },
+          "serviceArea": {
+            "@type": "AdministrativeArea",
+            "name": "Nevada"
+          }
+        }
+      }
+    }))
+  };
+
   return (
     <>
       <Head>
         <title>Services - Sierra at Skyeview | Dr. Jan Duffy</title>
-        <meta name="description" content="Professional real estate services from Dr. Jan Duffy. New home construction guidance, buyer representation, and independent advocacy for Century Communities buyers." />
+        <meta name="description" content="Professional real estate services from Dr. Jan Duffy. New home construction guidance, buyer representation, and independent advocacy for Sierra at Skyeview buyers." />
         <meta property="og:title" content="Services - Sierra at Skyeview" />
         <meta property="og:description" content="Professional real estate services from Dr. Jan Duffy. New home construction guidance and buyer representation expertise." />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesStructuredData) }}
+        />
       </Head>
 
       {/* Navigation */}
@@ -96,7 +127,7 @@ const Services: NextPage = () => {
               Professional Real Estate Services
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Expert guidance from Dr. Jan Duffy for all your real estate needs. Specializing in new home construction, buyer representation, and Century Communities buyer advocacy.
+              Expert guidance from Dr. Jan Duffy for all your real estate needs. Specializing in new home construction, buyer representation, and Sierra at Skyeview buyer advocacy.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -158,8 +189,8 @@ const Services: NextPage = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="text-4xl mb-4">🤝</div>
-                <h3 className="text-xl font-bold mb-2">Century Communities Buyer Advocacy</h3>
-                <p className="text-gray-300">I collaborate with Century Communities while exclusively representing YOUR interests as an independent agent.</p>
+                <h3 className="text-xl font-bold mb-2">Sierra at Skyeview Buyer Advocacy</h3>
+                <p className="text-gray-300">I collaborate with the builder while exclusively representing YOUR interests as an independent agent.</p>
               </div>
               <div className="text-center">
                 <div className="text-4xl mb-4">📊</div>
@@ -187,10 +218,10 @@ const Services: NextPage = () => {
             </div>
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                ⭐ CENTURY COMMUNITIES INSIDER ACCESS ⭐
+                ⭐ SIERRA AT SKYEVIEW INSIDER ACCESS ⭐
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy offers insider insight into Century Communities—with independent representation, priority lot strategies, and expert negotiation backed by trusted relationships.
+                Dr. Jan Duffy offers insider insight into Sierra at Skyeview—with independent representation, priority lot strategies, and expert negotiation backed by trusted relationships.
               </p>
             </div>
 
@@ -290,7 +321,7 @@ const Services: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent Century Communities advocate Dr. Jan Duffy.
+                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
@@ -332,7 +363,7 @@ const Services: NextPage = () => {
               <div className="text-gray-300">
                 <p>Monday-Sunday: 10:00 AM - 6:00 PM</p>
                 <p className="mt-4 text-sm">
-                  Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
+                  Independent real estate resource. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
                 </p>
               </div>
             </div>

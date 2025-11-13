@@ -65,7 +65,7 @@ const QA: NextPage = () => {
     },
     {
       question: "How does Dr. Jan Duffy help with the home buying process?",
-      answer: "Dr. Jan Duffy provides expert, unbiased guidance as an independent real estate agent specializing in new home construction. She works directly with Century Communities to give buyers insider access while representing their interests, not the builder's. With Nevada License S.0197614, she offers market expertise, negotiation power, and deep knowledge of Skye Canyon and the entire Las Vegas metro area."
+      answer: "Dr. Jan Duffy provides expert, unbiased guidance as an independent real estate agent specializing in new home construction. She works directly with the builder to give buyers insider access while representing their interests, not the builder's. With Nevada License S.0197614, she offers market expertise, negotiation power, and deep knowledge of Skye Canyon and the entire Las Vegas metro area."
     },
     {
       question: "What is the highest temperature ever recorded in Las Vegas?",
@@ -93,7 +93,7 @@ const QA: NextPage = () => {
     },
     {
       question: "What is the resale value potential for Sierra at Skyeview homes?",
-      answer: "Sierra at Skyeview homes offer strong resale value potential due to their location in the growing Skye Canyon master-planned community, high-quality construction by Century Communities, desirable Homes, and access to premium amenities. The community's proximity to Mount Charleston and Las Vegas provides long-term appeal to both outdoor enthusiasts and urban professionals."
+      answer: "Sierra at Skyeview homes offer strong resale value potential due to their location in the growing Skye Canyon master-planned community, high-quality construction, desirable Homes, and access to premium amenities. The community's proximity to Mount Charleston and Las Vegas provides long-term appeal to both outdoor enthusiasts and urban professionals."
     }
   ];
 
@@ -117,7 +117,7 @@ const QA: NextPage = () => {
         <meta name="description" content="Get answers to frequently asked questions about Sierra at Skyeview homes, HOA fees, amenities, pricing, and more. Expert guidance from Dr. Jan Duffy." />
         <meta property="og:title" content="Frequently Asked Questions - Sierra at Skyeview" />
         <meta property="og:description" content="Get answers to frequently asked questions about Sierra at Skyeview homes, HOA fees, amenities, pricing, and more." />
-        <meta name="keywords" content="Sierra at Skyeview FAQ, Skye Canyon questions, Las Vegas new homes FAQ, HOA fees, Century Communities, Dr. Jan Duffy" />
+        <meta name="keywords" content="Sierra at Skyeview FAQ, Skye Canyon questions, Las Vegas new homes FAQ, HOA fees, Dr. Jan Duffy" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -249,7 +249,7 @@ const QA: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent Century Communities advocate Dr. Jan Duffy.
+                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300 mb-4">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
@@ -291,7 +291,7 @@ const QA: NextPage = () => {
               <div className="text-gray-300">
                 <p>Monday-Sunday: 10:00 AM - 6:00 PM</p>
                 <p className="mt-4 text-sm">
-                  Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
+                  Independent real estate resource. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
                 </p>
               </div>
             </div>

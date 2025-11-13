@@ -11,7 +11,7 @@ const Home: NextPage = () => {
     {
       title: "Sierra Skyview - Luxury New Homes in Skye Canyon",
       subtitle: "Now Selling! Starting at $459,790 - Luxury Homes in Gated Community",
-      description: "Expert Guidance from Dr. Jan Duffy | Century Communities Buyer Advocacy",
+      description: "Expert Guidance from Dr. Jan Duffy | Sierra at Skyeview Buyer Advocacy",
       image: "/hero-1.jpg"
     },
     {
@@ -33,9 +33,9 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Sierra at Skyeview New Homes | Skye Canyon Las Vegas | Dr. Jan Duffy Real Estate</title>
-        <meta name="description" content="Luxury new homes at Sierra at Skyeview in Skye Canyon, Las Vegas NV. Century Communities homes starting at $419,990. Expert real estate guidance from Dr. Jan Duffy. Quick move-in homes available now." />
+        <meta name="description" content="Luxury new homes at Sierra at Skyeview in Skye Canyon, Las Vegas NV. New homes starting at $419,990. Expert real estate guidance from Dr. Jan Duffy. Quick move-in homes available now." />
         <meta property="og:title" content="Sierra at Skyeview New Homes | Skye Canyon Las Vegas | Dr. Jan Duffy Real Estate" />
-        <meta property="og:description" content="Luxury new homes at Sierra at Skyeview in Skye Canyon, Las Vegas NV. Century Communities homes starting at $419,990. Expert real estate guidance from Dr. Jan Duffy." />
+        <meta property="og:description" content="Luxury new homes at Sierra at Skyeview in Skye Canyon, Las Vegas NV. New homes starting at $419,990. Expert real estate guidance from Dr. Jan Duffy." />
         <meta property="og:image" content="https://sierraskyeview.com/luxury-home-exterior.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@DrJanSells" />
         <meta name="twitter:title" content="Sierra at Skyeview New Homes | Skye Canyon Las Vegas | Dr. Jan Duffy Real Estate" />
-        <meta name="twitter:description" content="Luxury new homes at Sierra at Skyeview in Skye Canyon, Las Vegas NV. Century Communities homes starting at $419,990." />
+        <meta name="twitter:description" content="Luxury new homes at Sierra at Skyeview in Skye Canyon, Las Vegas NV. New homes starting at $419,990." />
         <meta name="twitter:image" content="https://sierraskyeview.com/luxury-home-exterior.jpg" />
         <link rel="canonical" href="https://sierraskyeview.com/" />
         
@@ -58,7 +58,7 @@ const Home: NextPage = () => {
               "@context": "https://schema.org",
               "@type": "RealEstateAgent",
               "name": "Dr. Jan Duffy",
-              "description": "Expert real estate agent specializing in new home construction and independent advocacy for Century Communities buyers in Las Vegas",
+              "description": "Expert real estate agent specializing in new home construction and independent advocacy for Sierra at Skyeview buyers in Las Vegas",
               "url": "https://sierraskyeview.com",
               "telephone": "(702) 500-1955",
               "email": "DrDuffy@SierraSkyeview.com",
@@ -206,7 +206,7 @@ const Home: NextPage = () => {
               Explore Every Floor Plan & Homesite in One Place
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Access Dr. Jan Duffy&apos;s private home finder for Century Communities at Sierra at Skyeview. See current Homes, elevations, quick move-in opportunities, photos, pricing, and availability updated in real time.
+              Access Dr. Jan Duffy&apos;s private home finder for Sierra at Skyeview. See current Homes, elevations, quick move-in opportunities, photos, pricing, and availability updated in real time.
               <span className="sr-only">Powered by RealScout</span>
             </p>
             <a
@@ -266,8 +266,8 @@ const Home: NextPage = () => {
             <div className="grid md:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="text-4xl mb-4">🤝</div>
-                <h3 className="text-xl font-bold mb-2">Century Communities Partnership</h3>
-                <p className="text-gray-300">I work directly with Century Communities to give you insider access while representing YOUR interests, not theirs.</p>
+                <h3 className="text-xl font-bold mb-2">Builder Partnership</h3>
+                <p className="text-gray-300">I work directly with the builder to give you insider access while representing YOUR interests, not theirs.</p>
               </div>
               <div className="text-center">
                 <div className="text-4xl mb-4">📊</div>
@@ -373,7 +373,7 @@ const Home: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent Century Communities advocate Dr. Jan Duffy.
+                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300 mb-4">(702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
@@ -415,7 +415,7 @@ const Home: NextPage = () => {
               <div className="text-gray-300">
                 <p>Monday-Sunday: 10:00 AM - 6:00 PM</p>
                 <p className="mt-4 text-sm">
-                  Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
+                  Independent real estate resource. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
                 </p>
               </div>
             </div>

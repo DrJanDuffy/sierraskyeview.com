@@ -9,7 +9,7 @@ const FloorPlans: NextPage = () => {
         <title>Sierra at Skyeview Homes & Inventory | Live Home Finder</title>
         <meta name="description" content="Browse every Sierra at Skyeview floor plan and quick move-in home through Dr. Jan Duffy's curated RealScout search. Real-time availability, pricing, photos, and more." />
         <meta property="og:title" content="Sierra at Skyeview Homes & Inventory" />
-        <meta property="og:description" content="View current Homes and quick move-in homes via Dr. Jan Duffy's RealScout search for Century Communities at Sierra at Skyeview." />
+        <meta property="og:description" content="View current Homes and quick move-in homes via Dr. Jan Duffy's RealScout search for Sierra at Skyeview." />
         <link rel="canonical" href="https://sierraskyeview.com/floor-plans" />
         
         {/* Breadcrumb Schema */}
@@ -72,7 +72,7 @@ const FloorPlans: NextPage = () => {
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Instantly see every available floor plan, elevation, quick move-in opportunity, pricing update, and builder incentive using Dr. Jan Duffy&apos;s private home finder. Updated in real time directly from Century Communities.
+                Instantly see every available floor plan, elevation, quick move-in opportunity, pricing update, and builder incentive using Dr. Jan Duffy&apos;s private home finder. Updated in real time directly from the builder.
                 <span className="sr-only">Powered by RealScout</span>
               </p>
             </div>
@@ -103,7 +103,7 @@ const FloorPlans: NextPage = () => {
               One Click to Every Home & Quick Move-In
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Skip outdated PDFs and static brochures. Dr. Jan&apos;s private home finder keeps you updated with real-time inventory direct from the Century Communities sales database, including:
+              Skip outdated PDFs and static brochures. Dr. Jan&apos;s private home finder keeps you updated with real-time inventory direct from the builder's sales database, including:
               <span className="sr-only">This experience uses RealScout technology</span>
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-left mb-10">
@@ -139,7 +139,7 @@ const FloorPlans: NextPage = () => {
               ⚡ ACT NOW - LIMITED TIME OFFER!
             </h2>
             <p className="text-lg mb-8">
-              Get VIP access to Sierra Skyview Homes with Dr. Jan Duffy's expert guidance. Schedule your private tour today!
+              Get VIP access to Sierra at Skyeview with Dr. Jan Duffy's expert guidance. Schedule your private tour today!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -163,7 +163,7 @@ const FloorPlans: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent Century Communities advocate Dr. Jan Duffy.
+                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
@@ -205,7 +205,7 @@ const FloorPlans: NextPage = () => {
               <div className="text-gray-300">
                 <p>Monday-Sunday: 10:00 AM - 6:00 PM</p>
                 <p className="mt-4 text-sm">
-                  Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
+                  Independent real estate resource. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
                 </p>
               </div>
             </div>

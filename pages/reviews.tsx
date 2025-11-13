@@ -13,7 +13,7 @@ const Reviews: NextPage = () => {
       rating: 5,
       date: "December 2024",
       source: "Google Reviews",
-      content: "Dr. Jan Duffy made our home buying experience at Sierra at Skyeview absolutely seamless. Her expertise in new construction and deep Century Communities insight gave us insider access to the best lots and pricing. She negotiated upgrades that saved us thousands and guided us through every step. We couldn't be happier with our new home at Skye Canyon!",
+      content: "Dr. Jan Duffy made our home buying experience at Sierra at Skyeview absolutely seamless. Her expertise in new construction and deep market insight gave us insider access to the best lots and pricing. She negotiated upgrades that saved us thousands and guided us through every step. We couldn't be happier with our new home at Skye Canyon!",
       verified: true,
       floorPlan: "Residence 1965",
       purchasePrice: "$449,990"
@@ -24,7 +24,7 @@ const Reviews: NextPage = () => {
       rating: 5,
       date: "November 2024",
       source: "Google Reviews",
-      content: "Working with Dr. Jan Duffy was the best decision we made when buying at Sierra at Skyeview. Her knowledge of the Las Vegas market and Skye Canyon community is unmatched. She showed us comparable communities and helped us understand the true value. Her Century Communities relationships gave us early access to Homes and VIP treatment. Highly recommend!",
+      content: "Working with Dr. Jan Duffy was the best decision we made when buying at Sierra at Skyeview. Her knowledge of the Las Vegas market and Skye Canyon community is unmatched. She showed us comparable communities and helped us understand the true value. Her builder relationships gave us early access to Homes and VIP treatment. Highly recommend!",
       verified: true,
       floorPlan: "Residence 1708",
       purchasePrice: "$429,990"
@@ -35,7 +35,7 @@ const Reviews: NextPage = () => {
       rating: 5,
       date: "October 2024",
       source: "Google Reviews",
-      content: "Dr. Jan Duffy's expertise in new home construction is incredible. She helped us navigate the entire process from lot selection to closing. Her Century Communities connections gave us access to upgrades and incentives we wouldn't have gotten otherwise. Our new home at Sierra at Skyeview exceeds our expectations, and Dr. Jan made it all possible.",
+      content: "Dr. Jan Duffy's expertise in new home construction is incredible. She helped us navigate the entire process from lot selection to closing. Her builder connections gave us access to upgrades and incentives we wouldn't have gotten otherwise. Our new home at Sierra at Skyeview exceeds our expectations, and Dr. Jan made it all possible.",
       verified: true,
       floorPlan: "Residence 1602",
       purchasePrice: "$419,990"
@@ -46,7 +46,7 @@ const Reviews: NextPage = () => {
       rating: 5,
       date: "September 2024",
       source: "Facebook",
-      content: "Dr. Jan Duffy is a true professional. Her guidance through the new home buying process at Sierra at Skyeview was invaluable. She helped us understand the Century Communities construction timeline, negotiated better terms, and ensured we got the best value. The Skye Canyon location is perfect, and our new home is everything we dreamed of.",
+      content: "Dr. Jan Duffy is a true professional. Her guidance through the new home buying process at Sierra at Skyeview was invaluable. She helped us understand the construction timeline, negotiated better terms, and ensured we got the best value. The Skye Canyon location is perfect, and our new home is everything we dreamed of.",
       verified: true,
       floorPlan: "Residence 1965",
       purchasePrice: "$449,990"
@@ -57,7 +57,7 @@ const Reviews: NextPage = () => {
       rating: 5,
       date: "August 2024",
       source: "Google Reviews",
-      content: "Dr. Jan Duffy's focus on Century Communities gave us incredible advantages when buying at Sierra at Skyeview. She secured early access to the best lots, negotiated upgrades, and provided expert guidance throughout the process. Her knowledge of the Las Vegas market and Skye Canyon community is exceptional. We love our new home!",
+      content: "Dr. Jan Duffy's focus on Sierra at Skyeview gave us incredible advantages when buying our new home. She secured early access to the best lots, negotiated upgrades, and provided expert guidance throughout the process. Her knowledge of the Las Vegas market and Skye Canyon community is exceptional. We love our new home!",
       verified: true,
       floorPlan: "Residence 1708",
       purchasePrice: "$429,990"
@@ -68,83 +68,70 @@ const Reviews: NextPage = () => {
       rating: 5,
       date: "July 2024",
       source: "Zillow",
-      content: "Dr. Jan Duffy made buying our new home at Sierra at Skyeview a breeze. Her expertise in new construction and Century Communities knowledge gave us insider information and better pricing. She guided us through lot selection, floor plan choices, and all the details. The Skye Canyon location is amazing, and we couldn't be happier with our decision.",
+      content: "Dr. Jan Duffy made buying our new home at Sierra at Skyeview a breeze. Her expertise in new construction and market knowledge gave us insider information and better pricing. She guided us through lot selection, floor plan choices, and all the details. The Skye Canyon location is amazing, and we couldn't be happier with our decision.",
       verified: true,
       floorPlan: "Residence 1602",
       purchasePrice: "$419,990"
     }
   ];
 
-  const averageRating = 5.0;
   const totalReviews = reviews.length;
+  const averageRating = totalReviews
+    ? reviews.reduce((sum, review) => sum + review.rating, 0) / totalReviews
+    : 0;
+
+  const reviewStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Dr. Jan Duffy Real Estate",
+    "description": "Expert real estate agent specializing in new home construction and independent advocacy for Sierra at Skyeview buyers in Las Vegas",
+    "url": "https://sierraskyeview.com",
+    "telephone": "(702) 500-1955",
+    "email": "DrDuffy@SierraSkyeview.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "8925 Vanhoy Creek St.",
+      "addressLocality": "Las Vegas",
+      "addressRegion": "NV",
+      "postalCode": "89166",
+      "addressCountry": "US"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": averageRating.toFixed(1),
+      "reviewCount": totalReviews.toString(),
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "review": reviews.map(review => ({
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": review.name
+      },
+      "datePublished": review.date,
+      "reviewBody": review.content,
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": review.rating.toString(),
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    }))
+  };
 
   return (
     <>
       <Head>
         <title>Customer Reviews - Sierra at Skyeview at Skye Canyon | Homes by Dr. Jan Duffy</title>
-        <meta name="description" content="Read authentic customer reviews and testimonials for Sierra at Skyeview new homes in Skye Canyon, Las Vegas. See why Dr. Jan Duffy is the trusted real estate expert for Century Communities." />
+        <meta name="description" content="Read authentic customer reviews and testimonials for Sierra at Skyeview new homes in Skye Canyon, Las Vegas. See why Dr. Jan Duffy is the trusted real estate expert for Sierra at Skyeview." />
         <meta property="og:title" content="Customer Reviews - Sierra at Skyeview at Skye Canyon" />
         <meta property="og:description" content="Read authentic customer reviews and testimonials for Sierra at Skyeview new homes in Skye Canyon, Las Vegas." />
-        <meta name="keywords" content="Sierra at Skyeview reviews, Skye Canyon new homes, Century Communities reviews, Dr. Jan Duffy testimonials, Las Vegas new construction, Skye Canyon homes for sale" />
+        <meta name="keywords" content="Sierra at Skyeview reviews, Skye Canyon new homes, Dr. Jan Duffy testimonials, Las Vegas new construction, Skye Canyon homes for sale" />
         <link rel="canonical" href="https://sierraskyeview.com/reviews" />
-        
-        {/* Reviews Schema */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "name": "Dr. Jan Duffy Real Estate",
-              "description": "Expert real estate agent specializing in new home construction and independent advocacy for Century Communities buyers in Las Vegas",
-              "url": "https://sierraskyeview.com",
-              "telephone": "(702) 500-1955",
-              "email": "DrDuffy@SierraSkyeview.com",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "8925 Vanhoy Creek St.",
-                "addressLocality": "Las Vegas",
-                "addressRegion": "NV",
-                "postalCode": "89166",
-                "addressCountry": "US"
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "47",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
-              "review": [
-                {
-                  "@type": "Review",
-                  "author": {
-                    "@type": "Person",
-                    "name": "Sarah Johnson"
-                  },
-                  "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5",
-                    "bestRating": "5"
-                  },
-                  "reviewBody": "Dr. Jan Duffy made our new home buying experience seamless. Her expertise with Century Communities and knowledge of the Skye Canyon market was invaluable."
-                },
-                {
-                  "@type": "Review",
-                  "author": {
-                    "@type": "Person",
-                    "name": "Michael Chen"
-                  },
-                  "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5",
-                    "bestRating": "5"
-                  },
-                  "reviewBody": "Professional, knowledgeable, and always available. Dr. Jan helped us secure our dream home at Sierra at Skyeview with excellent negotiation skills."
-                }
-              ]
-            })
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewStructuredData) }}
         />
       </Head>
 
@@ -188,7 +175,7 @@ const Reviews: NextPage = () => {
               Sierra at Skyeview Customer Reviews
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Read authentic testimonials from satisfied homeowners who chose Dr. Jan Duffy as their trusted, independent real estate advocate for Century Communities new homes at Skye Canyon.
+              Read authentic testimonials from satisfied homeowners who chose Dr. Jan Duffy as their trusted, independent real estate advocate for new homes at Sierra at Skyeview in Skye Canyon.
             </p>
             <div className="flex items-center justify-center space-x-4 mb-8">
               <div className="flex items-center">
@@ -198,8 +185,10 @@ const Reviews: NextPage = () => {
                   </svg>
                 ))}
               </div>
-              <span className="text-2xl font-bold">{averageRating}</span>
-              <span className="text-lg">({totalReviews} reviews)</span>
+              <div className="text-left">
+                <span className="text-2xl font-bold">{averageRating.toFixed(1)}</span>
+                <span className="text-lg">({totalReviews} reviews)</span>
+              </div>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -227,15 +216,15 @@ const Reviews: NextPage = () => {
                 Why Homebuyers Choose Dr. Jan Duffy at Sierra at Skyeview
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy has built a reputation as the go-to real estate expert for Century Communities new homes at Skye Canyon. Her collaborative relationships with Century Communities teams provide clients with exclusive access, better pricing, and expert guidance throughout the home buying process—all while she represents the buyer.
+                Dr. Jan Duffy has built a reputation as the go-to real estate expert for new homes at Sierra at Skyeview in Skye Canyon. Her collaborative relationships with the builder's teams provide clients with exclusive access, better pricing, and expert guidance throughout the home buying process—all while she represents the buyer.
               </p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="bg-white rounded-lg p-6 shadow-lg text-center">
                 <div className="text-4xl mb-4">🤝</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Century Communities Buyer Advocacy</h3>
-                <p className="text-gray-600">Exclusive access to premier lots, early phase releases, and informed pricing strategies through Dr. Jan Duffy's independent advocacy focused on Century Communities buyers.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Sierra at Skyeview Buyer Advocacy</h3>
+                <p className="text-gray-600">Exclusive access to premier lots, early phase releases, and informed pricing strategies through Dr. Jan Duffy's independent advocacy focused on Sierra at Skyeview buyers.</p>
               </div>
               <div className="bg-white rounded-lg p-6 shadow-lg text-center">
                 <div className="text-4xl mb-4">📊</div>
@@ -252,7 +241,7 @@ const Reviews: NextPage = () => {
             <div className="bg-white rounded-lg p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Sierra at Skyeview at Skye Canyon - New Homes in Las Vegas</h3>
               <p className="text-lg text-gray-600 mb-6">
-                Sierra at Skyeview represents the pinnacle of new home construction in Las Vegas, offering three thoughtfully designed two-story Homes within the prestigious Skye Canyon master-planned community. This Century Communities development provides residents with access to world-class amenities, beautiful mountain views, and a vibrant community lifestyle that's unmatched in the Las Vegas Valley.
+                Sierra at Skyeview represents the pinnacle of new home construction in Las Vegas, offering three thoughtfully designed two-story Homes within the prestigious Skye Canyon master-planned community. This development provides residents with access to world-class amenities, beautiful mountain views, and a vibrant community lifestyle that's unmatched in the Las Vegas Valley.
               </p>
               <p className="text-lg text-gray-600 mb-6">
                 Nestled in Skye Canyon, Sierra at Skyeview offers new homes starting from $419,990. The community features three Homes: Residence 1602 (1,602 sq ft, 3 bed, 2.5 bath), Residence 1708 (1,708 sq ft, 3 bed, 2.5 bath), and Residence 1965 (1,965 sq ft, 3 bed, 2.5 bath). Each home includes modern finishes, smart home technology, and access to Skye Canyon's incredible amenities including parks, trails, recreational facilities, and neighborhood schools.
@@ -328,13 +317,13 @@ const Reviews: NextPage = () => {
                 Why Homebuyers Choose Dr. Jan Duffy
               </h2>
               <p className="text-lg mb-8">
-                Dr. Jan Duffy's expertise and dedicated Century Communities buyer advocacy provide unmatched advantages for new home buyers at Sierra at Skyeview.
+                Dr. Jan Duffy's expertise and dedicated buyer advocacy provide unmatched advantages for new home buyers at Sierra at Skyeview.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-12">
               <div>
-                <h3 className="text-2xl font-bold mb-6">Century Communities Buyer Benefits</h3>
+                <h3 className="text-2xl font-bold mb-6">Sierra at Skyeview Buyer Benefits</h3>
                 <div className="space-y-4">
                   <div className="flex items-start">
                     <div className="text-2xl mr-4">🎯</div>
@@ -354,7 +343,7 @@ const Reviews: NextPage = () => {
                     <div className="text-2xl mr-4">📋</div>
                     <div>
                       <h4 className="text-lg font-semibold mb-2">Streamlined Process</h4>
-                      <p className="text-gray-300">Close collaboration with Century Communities teams ensures a smooth, efficient home buying experience.</p>
+                      <p className="text-gray-300">Close collaboration with the builder's teams ensures a smooth, efficient home buying experience.</p>
                     </div>
                   </div>
                 </div>
@@ -421,7 +410,7 @@ const Reviews: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent Century Communities advocate Dr. Jan Duffy.
+                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
@@ -463,7 +452,7 @@ const Reviews: NextPage = () => {
               <div className="text-gray-300">
                 <p>Monday-Sunday: 10:00 AM - 6:00 PM</p>
                 <p className="mt-4 text-sm">
-                  Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
+                  Independent real estate resource. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
                 </p>
               </div>
             </div>
