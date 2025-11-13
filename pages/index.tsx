@@ -113,9 +113,9 @@ const Home: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
-              <Link href="/" className="text-2xl font-bold text-blue-600">
-                Sierra at Skyeview Homes
-              </Link>
+              <a href="tel:7025001955" className="text-2xl font-bold text-blue-600">
+                (702) 500-1955
+              </a>
             </div>
             <div className="hidden md:flex space-x-8">
               <Link href="/floor-plans" className="text-gray-700 hover:text-blue-600 font-medium">Available Homes</Link>
