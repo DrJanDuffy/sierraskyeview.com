@@ -3,7 +3,7 @@ import Document, { Head, Html, Main, NextScript } from "next/document";
 const ORGANIZATION_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Sierra at Skyeview",
+  "name": "Sierra at Skyeview Homes",
   "url": "https://www.sierraskyeview.com",
   "logo": "https://www.sierraskyeview.com/favicon.ico",
   "contactPoint": {
@@ -18,7 +18,7 @@ const ORGANIZATION_SCHEMA = {
 const WEBSITE_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Sierra at Skyeview",
+  "name": "Sierra at Skyeview Homes",
   "url": "https://www.sierraskyeview.com",
   "publisher": {
     "@type": "Organization",
@@ -39,19 +39,19 @@ class MyDocument extends Document {
           <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
           <meta
             name="description"
-            content="Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy."
+            content="Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy."
           />
-          <meta property="og:site_name" content="Sierra at Skyeview" />
+          <meta property="og:site_name" content="Sierra at Skyeview Homes" />
           <meta
             property="og:description"
-            content="Discover Sierra at Skyeview new construction homes in Skye Canyon, Las Vegas with expert guidance from Dr. Jan Duffy."
+            content="Discover Sierra at Skyeview Homes new construction homes in Skye Canyon, Las Vegas with expert guidance from Dr. Jan Duffy."
           />
-          <meta property="og:title" content="Sierra at Skyeview - New Construction Homes in Skye Canyon" />
+          <meta property="og:title" content="Sierra at Skyeview Homes - New Construction Homes in Skye Canyon" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Sierra at Skyeview - New Construction Homes in Skye Canyon" />
+          <meta name="twitter:title" content="Sierra at Skyeview Homes - New Construction Homes in Skye Canyon" />
           <meta
             name="twitter:description"
-            content="Independent buyer advocacy from Dr. Jan Duffy for Sierra at Skyeview homes in Skye Canyon, Las Vegas."
+            content="Independent buyer advocacy from Dr. Jan Duffy for Sierra at Skyeview Homes in Skye Canyon, Las Vegas."
           />
           <script
             type="application/ld+json"

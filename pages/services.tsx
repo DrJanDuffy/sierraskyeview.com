@@ -30,8 +30,8 @@ const Services: NextPage = () => {
     },
     {
       icon: "🎯",
-      title: "Sierra at Skyeview Buyer Advocacy",
-      description: "Independent representation with deep insight into Sierra at Skyeview to help you secure the right home.",
+      title: "Sierra at Skyeview Homes Buyer Advocacy",
+      description: "Independent representation with deep insight into Sierra at Skyeview Homes to help you secure the right home.",
       features: [
         "Early phase updates",
         "Priority lot strategies",
@@ -57,7 +57,7 @@ const Services: NextPage = () => {
   const servicesStructuredData = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Sierra at Skyeview Real Estate Services",
+    "name": "Sierra at Skyeview Homes Real Estate Services",
     "itemListElement": services.map((service, index) => ({
       "@type": "ListItem",
       "position": index + 1,
@@ -84,9 +84,9 @@ const Services: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Services - Sierra at Skyeview | Dr. Jan Duffy</title>
-        <meta name="description" content="Professional real estate services from Dr. Jan Duffy. New home construction guidance, buyer representation, and independent advocacy for Sierra at Skyeview buyers." />
-        <meta property="og:title" content="Services - Sierra at Skyeview" />
+        <title>Services - Sierra at Skyeview Homes | Dr. Jan Duffy</title>
+        <meta name="description" content="Professional real estate services from Dr. Jan Duffy. New home construction guidance, buyer representation, and independent advocacy for Sierra at Skyeview Homes buyers." />
+        <meta property="og:title" content="Services - Sierra at Skyeview Homes" />
         <meta property="og:description" content="Professional real estate services from Dr. Jan Duffy. New home construction guidance and buyer representation expertise." />
         <script
           type="application/ld+json"
@@ -100,7 +100,7 @@ const Services: NextPage = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Link href="/" className="text-2xl font-bold text-blue-600">
-                Sierra at Skyeview
+                Sierra at Skyeview Homes
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -127,7 +127,7 @@ const Services: NextPage = () => {
               Professional Real Estate Services
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Expert guidance from Dr. Jan Duffy for all your real estate needs. Specializing in new home construction, buyer representation, and Sierra at Skyeview buyer advocacy.
+              Expert guidance from Dr. Jan Duffy for all your real estate needs. Specializing in new home construction, buyer representation, and Sierra at Skyeview Homes buyer advocacy.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -189,7 +189,7 @@ const Services: NextPage = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="text-4xl mb-4">🤝</div>
-                <h3 className="text-xl font-bold mb-2">Sierra at Skyeview Buyer Advocacy</h3>
+                <h3 className="text-xl font-bold mb-2">Sierra at Skyeview Homes Buyer Advocacy</h3>
                 <p className="text-gray-300">I collaborate with the builder while exclusively representing YOUR interests as an independent agent.</p>
               </div>
               <div className="text-center">
@@ -212,7 +212,7 @@ const Services: NextPage = () => {
             <div className="mb-12 text-center">
               <img 
                 src="/real-estate-services.jpg" 
-                alt="Professional real estate services by Dr. Jan Duffy at Sierra at Skyeview" 
+                alt="Professional real estate services by Dr. Jan Duffy at Sierra at Skyeview Homes" 
                 className="w-full max-w-4xl mx-auto h-64 object-cover rounded-lg shadow-lg mb-8"
               />
             </div>
@@ -221,7 +221,7 @@ const Services: NextPage = () => {
                 ⭐ SIERRA AT SKYEVIEW INSIDER ACCESS ⭐
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy offers insider insight into Sierra at Skyeview—with independent representation, priority lot strategies, and expert negotiation backed by trusted relationships.
+                Dr. Jan Duffy offers insider insight into Sierra at Skyeview Homes—with independent representation, priority lot strategies, and expert negotiation backed by trusted relationships.
               </p>
             </div>
 
@@ -316,12 +316,12 @@ const Services: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview</h3>
+              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview Homes</h3>
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
+                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>

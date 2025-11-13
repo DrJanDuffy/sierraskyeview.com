@@ -16,16 +16,16 @@ const QA: NextPage = () => {
 
   const faqs = [
     {
-      question: "How much are the HOA fees at Sierra at Skyeview?",
-      answer: "The monthly HOA fee for Skye Canyon master community is approximately $83. Sierra at Skyeview may have additional sub-HOA fees. These fees contribute to maintaining community amenities including the recreation center, fitness center, parks, trails, sports courts, splash pads, and neighborhood schools. The exact fees can vary and may change annually based on community budget needs."
+      question: "How much are the HOA fees at Sierra at Skyeview Homes?",
+      answer: "The monthly HOA fee for Skye Canyon master community is approximately $83. Sierra at Skyeview Homes may have additional sub-HOA fees. These fees contribute to maintaining community amenities including the recreation center, fitness center, parks, trails, sports courts, splash pads, and neighborhood schools. The exact fees can vary and may change annually based on community budget needs."
     },
     {
-      question: "What are the starting prices for homes at Sierra at Skyeview?",
-      answer: "Sierra at Skyeview offers three Homes starting from $419,990. Residence 1602 (1,602 sq ft) starts at $419,990, Residence 1708 (1,708 sq ft) starts at $429,990, and Residence 1965 (1,965 sq ft) starts at $449,990. These are two-story homes with 3 bedrooms and 2.5 bathrooms, featuring open-concept layouts and premium finishes."
+      question: "What are the starting prices for homes at Sierra at Skyeview Homes?",
+      answer: "Sierra at Skyeview Homes offers three Homes starting from $419,990. Residence 1602 (1,602 sq ft) starts at $419,990, Residence 1708 (1,708 sq ft) starts at $429,990, and Residence 1965 (1,965 sq ft) starts at $449,990. These are two-story homes with 3 bedrooms and 2.5 bathrooms, featuring open-concept layouts and premium finishes."
     },
     {
       question: "Is Skye Canyon a gated community?",
-      answer: "Skye Canyon offers an excellent blend of comfort, convenience, and natural beauty. Many of the newer communities within Skye Canyon, including Sierra at Skyeview, offer gated access for added security. The master-planned community spans 1,700 acres and includes multiple neighborhoods with varying levels of security features."
+      answer: "Skye Canyon offers an excellent blend of comfort, convenience, and natural beauty. Many of the newer communities within Skye Canyon, including Sierra at Skyeview Homes, offer gated access for added security. The master-planned community spans 1,700 acres and includes multiple neighborhoods with varying levels of security features."
     },
     {
       question: "What amenities are available in Skye Canyon?",
@@ -33,35 +33,35 @@ const QA: NextPage = () => {
     },
     {
       question: "How many homes will be in Skye Canyon when completed?",
-      answer: "Upon completion, Skye Canyon will feature approximately 6,500 homes across four meticulously planned phases. The community is currently in active development with Sierra at Skyeview being one of the newer neighborhoods offering luxury two-story homes."
+      answer: "Upon completion, Skye Canyon will feature approximately 6,500 homes across four meticulously planned phases. The community is currently in active development with Sierra at Skyeview Homes being one of the newer neighborhoods offering luxury two-story homes."
     },
     {
-      question: "What schools are near Sierra at Skyeview?",
-      answer: "Sierra at Skyeview is conveniently located near several excellent schools including William & Mary Scherbenbach Elementary School, James Bilbray Elementary School, Kenneth Divich Elementary School, Ralph Cadwallader Middle School, Edmundo Escobedo Middle School, Arbor View High School, and Somerset Academy-Skye Canyon Campus Charter School."
+      question: "What schools are near Sierra at Skyeview Homes?",
+      answer: "Sierra at Skyeview Homes is conveniently located near several excellent schools including William & Mary Scherbenbach Elementary School, James Bilbray Elementary School, Kenneth Divich Elementary School, Ralph Cadwallader Middle School, Edmundo Escobedo Middle School, Arbor View High School, and Somerset Academy-Skye Canyon Campus Charter School."
     },
     {
       question: "What is included in the Century Connect® package?",
-      answer: "Every home at Sierra at Skyeview comes with the Century Connect® package, featuring smart home technology, premium finishes, and energy-efficient features. This includes integrated smart home systems for convenience and energy efficiency, high-quality materials and finishes throughout the home, and modern construction techniques for optimal energy performance."
+      answer: "Every home at Sierra at Skyeview Homes comes with the Century Connect® package, featuring smart home technology, premium finishes, and energy-efficient features. This includes integrated smart home systems for convenience and energy efficiency, high-quality materials and finishes throughout the home, and modern construction techniques for optimal energy performance."
     },
     {
-      question: "Are there quick move-in homes available at Sierra at Skyeview?",
-      answer: "Yes! Sierra at Skyeview has several quick move-in homes available. Currently available lots include SRA024 (8990 Rimerton ST) at $447,690, SRA015 (9026 Rimerton ST) at $453,940, and SRA017 (9018 Rimerton ST) at $488,290. Estimated completion dates range from November to December 2024."
+      question: "Are there quick move-in homes available at Sierra at Skyeview Homes?",
+      answer: "Yes! Sierra at Skyeview Homes has several quick move-in homes available. Currently available lots include SRA024 (8990 Rimerton ST) at $447,690, SRA015 (9026 Rimerton ST) at $453,940, and SRA017 (9018 Rimerton ST) at $488,290. Estimated completion dates range from November to December 2024."
     },
     {
-      question: "What makes Sierra at Skyeview different from other Las Vegas communities?",
-      answer: "Sierra at Skyeview offers thoughtfully designed two-story homes with shared private driveways that bring ease and connection to Sky Canyon living. Located at 3,000+ foot elevation, the community provides stunning mountain views, cooler temperatures, and access to Mount Charleston just 30 minutes away. The homes feature open-concept layouts, premium finishes, and smart home technology included."
+      question: "What makes Sierra at Skyeview Homes different from other Las Vegas communities?",
+      answer: "Sierra at Skyeview Homes offers thoughtfully designed two-story homes with shared private driveways that bring ease and connection to Sky Canyon living. Located at 3,000+ foot elevation, the community provides stunning mountain views, cooler temperatures, and access to Mount Charleston just 30 minutes away. The homes feature open-concept layouts, premium finishes, and smart home technology included."
     },
     {
-      question: "How close is Sierra at Skyeview to the Las Vegas Strip?",
-      answer: "Sierra at Skyeview is located approximately 20 miles from the Las Vegas Strip, providing easy access to world-class entertainment, dining, and culture while maintaining the tranquility of master-planned community living. The community offers the perfect balance of suburban comfort and urban excitement."
+      question: "How close is Sierra at Skyeview Homes to the Las Vegas Strip?",
+      answer: "Sierra at Skyeview Homes is located approximately 20 miles from the Las Vegas Strip, providing easy access to world-class entertainment, dining, and culture while maintaining the tranquility of master-planned community living. The community offers the perfect balance of suburban comfort and urban excitement."
     },
     {
       question: "What is the elevation of Skye Canyon?",
       answer: "Skye Canyon is located at a 3,000+ foot elevation, which provides residents with cooler temperatures compared to the Las Vegas valley floor. This higher elevation location offers stunning mountain views and a more comfortable climate, especially during the hot summer months."
     },
     {
-      question: "What shopping and dining options are available near Sierra at Skyeview?",
-      answer: "Sierra at Skyeview residents enjoy convenient access to shopping and dining including Sprouts Farmers Market, Smith's Food and Drug, Montecito Marketplace, Lowe's Home Improvement, Mimi's Cafe, Market Grille Cafe, Buffalo Wild Wings, Baby Stacks Cafe, Michoacan Mexican Restaurant, Starbucks, Cafe Rio, Tropical Smoothie Cafe, Thai Spoon, and Menchie's Frozen Yogurt."
+      question: "What shopping and dining options are available near Sierra at Skyeview Homes?",
+      answer: "Sierra at Skyeview Homes residents enjoy convenient access to shopping and dining including Sprouts Farmers Market, Smith's Food and Drug, Montecito Marketplace, Lowe's Home Improvement, Mimi's Cafe, Market Grille Cafe, Buffalo Wild Wings, Baby Stacks Cafe, Michoacan Mexican Restaurant, Starbucks, Cafe Rio, Tropical Smoothie Cafe, Thai Spoon, and Menchie's Frozen Yogurt."
     },
     {
       question: "How does Dr. Jan Duffy help with the home buying process?",
@@ -69,15 +69,15 @@ const QA: NextPage = () => {
     },
     {
       question: "What is the highest temperature ever recorded in Las Vegas?",
-      answer: "The hottest temperature ever recorded in Las Vegas is 120°F (49°C), which occurred on July 7, 2024. This new record shattered the previous all-time high of 117°F. However, Sierra at Skyeview's 3,000+ foot elevation provides residents with cooler temperatures and a more comfortable climate."
+      answer: "The hottest temperature ever recorded in Las Vegas is 120°F (49°C), which occurred on July 7, 2024. This new record shattered the previous all-time high of 117°F. However, Sierra at Skyeview Homes's 3,000+ foot elevation provides residents with cooler temperatures and a more comfortable climate."
     },
     {
       question: "What is the coldest temperature ever recorded in Las Vegas?",
       answer: "The coldest temperature ever recorded in Las Vegas was 8°F (-13°C) on January 13, 1963. While winter nights can drop below freezing, this represents a severe and uncommon cold outbreak. The typical winter low for Las Vegas is around 37°F (3°C) in January."
     },
     {
-      question: "Is Mount Charleston accessible from Sierra at Skyeview?",
-      answer: "Yes! Mount Charleston is easily accessible from Sierra at Skyeview, located just 30 minutes away. This provides residents with access to alpine recreation including skiing, hiking, and temperatures that are 20°F cooler than the Las Vegas valley. The Spring Mountains National Recreation Area offers year-round outdoor activities."
+      question: "Is Mount Charleston accessible from Sierra at Skyeview Homes?",
+      answer: "Yes! Mount Charleston is easily accessible from Sierra at Skyeview Homes, located just 30 minutes away. This provides residents with access to alpine recreation including skiing, hiking, and temperatures that are 20°F cooler than the Las Vegas valley. The Spring Mountains National Recreation Area offers year-round outdoor activities."
     },
     {
       question: "What makes Skye Canyon different from Summerlin?",
@@ -88,12 +88,12 @@ const QA: NextPage = () => {
       answer: "Living at Skye Canyon's 3,000+ foot elevation provides several environmental benefits including cleaner air quality, cooler temperatures (reducing cooling costs), less air pollution, and access to natural landscapes. The higher elevation also provides stunning mountain views and a more pleasant year-round climate."
     },
     {
-      question: "What financing options are available for Sierra at Skyeview homes?",
-      answer: "Sierra at Skyeview works with various lenders and financing options. Dr. Jan Duffy can help connect buyers with pre-approval resources and financing specialists. The community accepts conventional loans, FHA loans, VA loans, and other financing programs. Contact Dr. Jan at (702) 500-1955 for personalized financing guidance."
+      question: "What financing options are available for Sierra at Skyeview Homes?",
+      answer: "Sierra at Skyeview Homes works with various lenders and financing options. Dr. Jan Duffy can help connect buyers with pre-approval resources and financing specialists. The community accepts conventional loans, FHA loans, VA loans, and other financing programs. Contact Dr. Jan at (702) 500-1955 for personalized financing guidance."
     },
     {
-      question: "What is the resale value potential for Sierra at Skyeview homes?",
-      answer: "Sierra at Skyeview homes offer strong resale value potential due to their location in the growing Skye Canyon master-planned community, high-quality construction, desirable Homes, and access to premium amenities. The community's proximity to Mount Charleston and Las Vegas provides long-term appeal to both outdoor enthusiasts and urban professionals."
+      question: "What is the resale value potential for Sierra at Skyeview Homes?",
+      answer: "Sierra at Skyeview Homes offer strong resale value potential due to their location in the growing Skye Canyon master-planned community, high-quality construction, desirable Homes, and access to premium amenities. The community's proximity to Mount Charleston and Las Vegas provides long-term appeal to both outdoor enthusiasts and urban professionals."
     }
   ];
 
@@ -113,11 +113,11 @@ const QA: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Frequently Asked Questions - Sierra at Skyeview | Dr. Jan Duffy</title>
-        <meta name="description" content="Get answers to frequently asked questions about Sierra at Skyeview homes, HOA fees, amenities, pricing, and more. Expert guidance from Dr. Jan Duffy." />
-        <meta property="og:title" content="Frequently Asked Questions - Sierra at Skyeview" />
-        <meta property="og:description" content="Get answers to frequently asked questions about Sierra at Skyeview homes, HOA fees, amenities, pricing, and more." />
-        <meta name="keywords" content="Sierra at Skyeview FAQ, Skye Canyon questions, Las Vegas new homes FAQ, HOA fees, Dr. Jan Duffy" />
+        <title>Frequently Asked Questions - Sierra at Skyeview Homes | Dr. Jan Duffy</title>
+        <meta name="description" content="Get answers to frequently asked questions about Sierra at Skyeview Homes, HOA fees, amenities, pricing, and more. Expert guidance from Dr. Jan Duffy." />
+        <meta property="og:title" content="Frequently Asked Questions - Sierra at Skyeview Homes" />
+        <meta property="og:description" content="Get answers to frequently asked questions about Sierra at Skyeview Homes, HOA fees, amenities, pricing, and more." />
+        <meta name="keywords" content="Sierra at Skyeview Homes FAQ, Skye Canyon questions, Las Vegas new homes FAQ, HOA fees, Dr. Jan Duffy" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -130,7 +130,7 @@ const QA: NextPage = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Link href="/" className="text-2xl font-bold text-blue-600">
-                Sierra at Skyeview
+                Sierra at Skyeview Homes
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -164,7 +164,7 @@ const QA: NextPage = () => {
               Frequently Asked Questions
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Get answers to the most common questions about Sierra at Skyeview homes, community amenities, pricing, and the home buying process with Dr. Jan Duffy.
+              Get answers to the most common questions about Sierra at Skyeview Homes, community amenities, pricing, and the home buying process with Dr. Jan Duffy.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -225,7 +225,7 @@ const QA: NextPage = () => {
               Still Have Questions?
             </h2>
             <p className="text-lg mb-8">
-              Dr. Jan Duffy is here to help! Get expert guidance on Sierra at Skyeview homes and the home buying process.
+              Dr. Jan Duffy is here to help! Get expert guidance on Sierra at Skyeview Homes and the home buying process.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -244,12 +244,12 @@ const QA: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview</h3>
+              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview Homes</h3>
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
+                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300 mb-4">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>

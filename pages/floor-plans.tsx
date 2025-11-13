@@ -7,9 +7,9 @@ const FloorPlans: NextPage = () => {
     <>
       <Head>
         <title>Sierra at Skyeview Homes & Inventory | Live Home Finder</title>
-        <meta name="description" content="Browse every Sierra at Skyeview floor plan and quick move-in home through Dr. Jan Duffy's curated RealScout search. Real-time availability, pricing, photos, and more." />
+        <meta name="description" content="Browse every Sierra at Skyeview Homes floor plan and quick move-in home through Dr. Jan Duffy's curated RealScout search. Real-time availability, pricing, photos, and more." />
         <meta property="og:title" content="Sierra at Skyeview Homes & Inventory" />
-        <meta property="og:description" content="View current Homes and quick move-in homes via Dr. Jan Duffy's RealScout search for Sierra at Skyeview." />
+        <meta property="og:description" content="View current Homes and quick move-in homes via Dr. Jan Duffy's RealScout search for Sierra at Skyeview Homes." />
         <link rel="canonical" href="https://sierraskyeview.com/floor-plans" />
         
         {/* Breadcrumb Schema */}
@@ -44,7 +44,7 @@ const FloorPlans: NextPage = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Link href="/" className="text-2xl font-bold text-blue-600">
-                Sierra at Skyeview
+                Sierra at Skyeview Homes
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -139,7 +139,7 @@ const FloorPlans: NextPage = () => {
               ⚡ ACT NOW - LIMITED TIME OFFER!
             </h2>
             <p className="text-lg mb-8">
-              Get VIP access to Sierra at Skyeview with Dr. Jan Duffy's expert guidance. Schedule your private tour today!
+              Get VIP access to Sierra at Skyeview Homes with Dr. Jan Duffy's expert guidance. Schedule your private tour today!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -158,12 +158,12 @@ const FloorPlans: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview</h3>
+              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview Homes</h3>
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
+                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>

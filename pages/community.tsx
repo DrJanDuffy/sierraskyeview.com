@@ -24,10 +24,10 @@ const Community: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Sierra at Skyeview Community | Skye Canyon Las Vegas | Dr. Jan Duffy</title>
-        <meta name="description" content="Discover Sierra at Skyeview community in Skye Canyon Las Vegas. 1,700-acre master-planned community with resort-style amenities, parks, and top-rated schools. Expert guidance from Dr. Jan Duffy." />
-        <meta property="og:title" content="Community - Sierra at Skyeview" />
-        <meta property="og:description" content="Discover the beautiful community of Sierra at Skyeview in Skye Canyon, Las Vegas. 1,700-acre master-planned community with premium amenities." />
+        <title>Sierra at Skyeview Homes Community | Skye Canyon Las Vegas | Dr. Jan Duffy</title>
+        <meta name="description" content="Discover Sierra at Skyeview Homes community in Skye Canyon Las Vegas. 1,700-acre master-planned community with resort-style amenities, parks, and top-rated schools. Expert guidance from Dr. Jan Duffy." />
+        <meta property="og:title" content="Community - Sierra at Skyeview Homes" />
+        <meta property="og:description" content="Discover the beautiful community of Sierra at Skyeview Homes in Skye Canyon, Las Vegas. 1,700-acre master-planned community with premium amenities." />
         <link rel="canonical" href="https://sierraskyeview.com/community" />
         
         {/* Video Schema for Virtual Tours */}
@@ -37,8 +37,8 @@ const Community: NextPage = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "VideoObject",
-              "name": "Sierra at Skyeview Community Virtual Tour",
-              "description": "Take a virtual tour of Sierra at Skyeview community in Skye Canyon, Las Vegas. See the beautiful homes, amenities, and lifestyle that awaits you in this master-planned community.",
+              "name": "Sierra at Skyeview Homes Community Virtual Tour",
+              "description": "Take a virtual tour of Sierra at Skyeview Homes community in Skye Canyon, Las Vegas. See the beautiful homes, amenities, and lifestyle that awaits you in this master-planned community.",
               "thumbnailUrl": "https://sierraskyeview.com/skye-canyon-master-plan.jpg",
               "uploadDate": "2025-01-27",
               "duration": "PT3M30S",
@@ -60,7 +60,7 @@ const Community: NextPage = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Link href="/" className="text-2xl font-bold text-blue-600">
-                Sierra at Skyeview
+                Sierra at Skyeview Homes
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -84,10 +84,10 @@ const Community: NextPage = () => {
         <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Sierra at Skyeview Community
+              Sierra at Skyeview Homes Community
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Discover new Skyeview homes for sale in Las Vegas, NV, at Sierra at Skyeview! Offering exciting, two-story Homes with up to 1,965 square feet, Sierra at Skyeview is the perfect place to plant roots. Residents enjoy incredible amenities at this 1,700-acre neighborhood, from a stunning central clubhouse to pools, parks, playgrounds, and much more.
+              Discover new Skyeview homes for sale in Las Vegas, NV, at Sierra at Skyeview Homes! Offering exciting, two-story Homes with up to 1,965 square feet, Sierra at Skyeview Homes is the perfect place to plant roots. Residents enjoy incredible amenities at this 1,700-acre neighborhood, from a stunning central clubhouse to pools, parks, playgrounds, and much more.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -190,7 +190,7 @@ const Community: NextPage = () => {
               </h2>
               <div className="flex flex-col items-center gap-4">
                 <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                  From modern exteriors to luxurious interiors, discover why Sierra at Skyeview is the perfect place to call home in Skye Canyon. Experience the exceptional quality and attention to detail that defines our luxury new construction homes.
+                  From modern exteriors to luxurious interiors, discover why Sierra at Skyeview Homes is the perfect place to call home in Skye Canyon. Experience the exceptional quality and attention to detail that defines our luxury new construction homes.
                 </p>
               </div>
             </div>
@@ -222,7 +222,7 @@ const Community: NextPage = () => {
                 🏘️ Community Features
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Sierra at Skyeview offers an exceptional lifestyle within Skye Canyon's 1,700-acre master-planned community. A recreational playground with inspiring scenery and an emotionally appealing setting, Skye Canyon is designed for a more engaged community—where work-life balance, a sense of well-being, and a vital active life are the norm.
+                Sierra at Skyeview Homes offers an exceptional lifestyle within Skye Canyon's 1,700-acre master-planned community. A recreational playground with inspiring scenery and an emotionally appealing setting, Skye Canyon is designed for a more engaged community—where work-life balance, a sense of well-being, and a vital active life are the norm.
               </p>
             </div>
 
@@ -246,7 +246,7 @@ const Community: NextPage = () => {
                 Prime Skye Canyon Location
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Strategically located in Skye Canyon's 1,700-acre master-planned community, Sierra at Skyeview offers unparalleled access to recreation, entertainment, and convenience.
+                Strategically located in Skye Canyon's 1,700-acre master-planned community, Sierra at Skyeview Homes offers unparalleled access to recreation, entertainment, and convenience.
               </p>
             </div>
 
@@ -271,12 +271,12 @@ const Community: NextPage = () => {
               <div className="relative">
                 <img 
                   src="/skye-canyon-community-map.jpg" 
-                  alt="Skye Canyon Master Planned Community Map showing neighborhoods, amenities, and Sierra at Skyeview location" 
+                  alt="Skye Canyon Master Planned Community Map showing neighborhoods, amenities, and Sierra at Skyeview Homes location" 
                   className="w-full h-96 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300" 
                   loading="lazy"
                 />
                 <div className="absolute top-4 left-4 bg-white bg-opacity-90 rounded-lg p-3">
-                  <h4 className="font-bold text-gray-900 text-sm">Sierra at Skyeview</h4>
+                  <h4 className="font-bold text-gray-900 text-sm">Sierra at Skyeview Homes</h4>
                   <p className="text-xs text-gray-600">Premium new construction homes</p>
                 </div>
               </div>
@@ -324,7 +324,7 @@ const Community: NextPage = () => {
                 🏠 Smart Home Tech
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Every home at Sierra at Skyeview comes equipped with the Century Connect® smart home package for modern convenience and energy efficiency.
+                Every home at Sierra at Skyeview Homes comes equipped with the Century Connect® smart home package for modern convenience and energy efficiency.
               </p>
             </div>
 
@@ -361,7 +361,7 @@ const Community: NextPage = () => {
                 🗺️ Explore Skye Canyon Master Plan
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Discover the 1,700-acre master-planned community where Sierra at Skyeview is located. This comprehensive map shows neighborhoods, amenities, schools, and recreational facilities throughout Skye Canyon.
+                Discover the 1,700-acre master-planned community where Sierra at Skyeview Homes is located. This comprehensive map shows neighborhoods, amenities, schools, and recreational facilities throughout Skye Canyon.
               </p>
             </div>
 
@@ -369,12 +369,12 @@ const Community: NextPage = () => {
               <div className="relative">
                 <img 
                   src="/skye-canyon-community-map.jpg" 
-                  alt="Skye Canyon Master Planned Community Map showing neighborhoods, amenities, parks, schools, and Sierra at Skyeview location in Las Vegas" 
+                  alt="Skye Canyon Master Planned Community Map showing neighborhoods, amenities, parks, schools, and Sierra at Skyeview Homes location in Las Vegas" 
                   className="w-full h-auto object-contain" 
                   loading="lazy"
                 />
                 <div className="absolute top-6 left-6 bg-blue-600 text-white rounded-lg p-4 shadow-lg">
-                  <h4 className="font-bold text-lg">📍 Sierra at Skyeview</h4>
+                  <h4 className="font-bold text-lg">📍 Sierra at Skyeview Homes</h4>
                   <p className="text-sm opacity-90">Premium new construction homes</p>
                   <p className="text-xs opacity-75 mt-1">Starting from $419,990</p>
                 </div>
@@ -432,10 +432,10 @@ const Community: NextPage = () => {
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                📍 Visit Sierra at Skyeview
+                📍 Visit Sierra at Skyeview Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Located in the heart of Skye Canyon, Sierra at Skyeview offers easy access to the Las Vegas Strip, Downtown Las Vegas, and major employment centers.
+                Located in the heart of Skye Canyon, Sierra at Skyeview Homes offers easy access to the Las Vegas Strip, Downtown Las Vegas, and major employment centers.
               </p>
             </div>
 
@@ -511,7 +511,7 @@ const Community: NextPage = () => {
               <div className="bg-gray-50 rounded-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Is Skye Canyon a gated community?</h3>
                 <p className="text-gray-700 mb-4">
-                  Many newer communities within Skye Canyon, including Sierra at Skyeview, offer gated access for added security and exclusivity.
+                  Many newer communities within Skye Canyon, including Sierra at Skyeview Homes, offer gated access for added security and exclusivity.
                 </p>
               </div>
 
@@ -574,12 +574,12 @@ const Community: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview</h3>
+              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview Homes</h3>
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
+                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>

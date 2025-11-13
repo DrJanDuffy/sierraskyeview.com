@@ -33,11 +33,11 @@ const NewBuildHomes: NextPage = () => {
   return (
     <>
       <Head>
-        <title>New Build Homes Available Now | Sierra at Skyeview at Skye Canyon | Homes by Dr. Jan Duffy</title>
-        <meta name="description" content="Explore new build homes available now at Sierra at Skyeview in Skye Canyon, Las Vegas. New construction with Dr. Jan Duffy's expert guidance and VIP access." />
-        <meta property="og:title" content="New Build Homes Available Now | Sierra at Skyeview at Skye Canyon" />
-        <meta property="og:description" content="Explore new build homes available now at Sierra at Skyeview in Skye Canyon, Las Vegas. New construction with expert guidance." />
-        <meta name="keywords" content="new build homes Las Vegas, Sierra at Skyeview new construction, Skye Canyon new builds, Las Vegas new home construction, Dr. Jan Duffy new homes" />
+        <title>New Build Homes Available Now | Sierra at Skyeview Homes at Skye Canyon | Homes by Dr. Jan Duffy</title>
+        <meta name="description" content="Explore new build homes available now at Sierra at Skyeview Homes in Skye Canyon, Las Vegas. New construction with Dr. Jan Duffy's expert guidance and VIP access." />
+        <meta property="og:title" content="New Build Homes Available Now | Sierra at Skyeview Homes at Skye Canyon" />
+        <meta property="og:description" content="Explore new build homes available now at Sierra at Skyeview Homes in Skye Canyon, Las Vegas. New construction with expert guidance." />
+        <meta name="keywords" content="new build homes Las Vegas, Sierra at Skyeview Homes new construction, Skye Canyon new builds, Las Vegas new home construction, Dr. Jan Duffy new homes" />
       </Head>
 
       {/* Navigation */}
@@ -46,7 +46,7 @@ const NewBuildHomes: NextPage = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Link href="/" className="text-2xl font-bold text-blue-600">
-                Sierra at Skyeview
+                Sierra at Skyeview Homes
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -81,7 +81,7 @@ const NewBuildHomes: NextPage = () => {
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
               <p className="text-xl max-w-3xl mx-auto">
-                Discover exceptional new build homes at Sierra at Skyeview in Skye Canyon, Las Vegas. New construction with Dr. Jan Duffy's expert guidance, VIP access, and exclusive benefits.
+                Discover exceptional new build homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas. New construction with Dr. Jan Duffy's expert guidance, VIP access, and exclusive benefits.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -109,7 +109,7 @@ const NewBuildHomes: NextPage = () => {
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Why Choose New Build Homes at Sierra at Skyeview
+                Why Choose New Build Homes at Sierra at Skyeview Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 New build homes offer the latest in design, technology, and energy efficiency, perfectly tailored to modern living in Skye Canyon's master-planned community.
@@ -120,7 +120,7 @@ const NewBuildHomes: NextPage = () => {
               <div className="bg-white rounded-lg p-6 shadow-lg text-center">
                 <div className="text-4xl mb-4">🏠</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Customizable Design</h3>
-                <p className="text-gray-600">Choose from premium finishes, upgrades, and design options to create your perfect home at Sierra at Skyeview.</p>
+                <p className="text-gray-600">Choose from premium finishes, upgrades, and design options to create your perfect home at Sierra at Skyeview Homes.</p>
               </div>
               <div className="bg-white rounded-lg p-6 shadow-lg text-center">
                 <div className="text-4xl mb-4">⚡</div>
@@ -180,7 +180,7 @@ const NewBuildHomes: NextPage = () => {
                 New Home Construction Process
               </h2>
               <p className="text-lg mb-8">
-                The builder follows a proven construction process to ensure quality, efficiency, and timely completion of your new home at Sierra at Skyeview.
+                The builder follows a proven construction process to ensure quality, efficiency, and timely completion of your new home at Sierra at Skyeview Homes.
               </p>
             </div>
 
@@ -204,15 +204,15 @@ const NewBuildHomes: NextPage = () => {
           </div>
         </section>
 
-        {/* Sierra at Skyeview Community Information */}
+        {/* Sierra at Skyeview Homes Community Information */}
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Sierra at Skyeview at Skye Canyon - New Homes in Las Vegas
+                Sierra at Skyeview Homes at Skye Canyon - New Homes in Las Vegas
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Located in Skye Canyon, Las Vegas, Sierra at Skyeview offers exceptional new build homes within the prestigious master-planned community.
+                Located in Skye Canyon, Las Vegas, Sierra at Skyeview Homes offers exceptional new build homes within the prestigious master-planned community.
                 <span className="sr-only">Community address: 8925 Vanhoy Creek St., Las Vegas, NV 89166</span>
               </p>
             </div>
@@ -221,7 +221,7 @@ const NewBuildHomes: NextPage = () => {
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Skye Canyon Master-Planned Community</h3>
                 <p className="text-gray-600 mb-4">
-                  Sierra at Skyeview is part of Skye Canyon's 1,700-acre master-planned community, offering residents access to world-class amenities, beautiful mountain views, and a vibrant community lifestyle that's unmatched in the Las Vegas Valley.
+                  Sierra at Skyeview Homes is part of Skye Canyon's 1,700-acre master-planned community, offering residents access to world-class amenities, beautiful mountain views, and a vibrant community lifestyle that's unmatched in the Las Vegas Valley.
                 </p>
                 <p className="text-gray-600 mb-6">
                   The community features parks, trails, recreational facilities, neighborhood schools, and a stunning central clubhouse. Residents enjoy a perfect balance of suburban tranquility and urban convenience, with easy access to shopping, dining, and entertainment throughout Las Vegas.
@@ -260,10 +260,10 @@ const NewBuildHomes: NextPage = () => {
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Quality Construction & Warranty</h3>
                 <p className="text-gray-600 mb-4">
-                  All new build homes at Sierra at Skyeview are constructed with quality materials and craftsmanship. The builder's commitment to quality, innovation, and customer satisfaction is evident in every home.
+                  All new build homes at Sierra at Skyeview Homes are constructed with quality materials and craftsmanship. The builder's commitment to quality, innovation, and customer satisfaction is evident in every home.
                 </p>
                 <p className="text-gray-600 mb-6">
-                  All new build homes at Sierra at Skyeview come with comprehensive warranty coverage, including structural warranty, systems warranty, and workmanship warranty. The builder stands behind their construction with dedicated customer service and warranty support.
+                  All new build homes at Sierra at Skyeview Homes come with comprehensive warranty coverage, including structural warranty, systems warranty, and workmanship warranty. The builder stands behind their construction with dedicated customer service and warranty support.
                 </p>
                 <div className="bg-white rounded-lg p-6 shadow-lg">
                   <h4 className="text-lg font-semibold text-gray-900 mb-4">Warranty Coverage Includes:</h4>
@@ -299,7 +299,7 @@ const NewBuildHomes: NextPage = () => {
                 Why Choose Dr. Jan Duffy for New Build Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy's independent advocacy—paired with her close collaboration with the builder's teams—provides exclusive benefits and expert guidance for new build home buyers at Sierra at Skyeview.
+                Dr. Jan Duffy's independent advocacy—paired with her close collaboration with the builder's teams—provides exclusive benefits and expert guidance for new build home buyers at Sierra at Skyeview Homes.
               </p>
             </div>
 
@@ -382,7 +382,7 @@ const NewBuildHomes: NextPage = () => {
               Start Building Your Dream Home Today!
             </h2>
             <p className="text-lg mb-8">
-              Don't wait! New build homes at Sierra at Skyeview are in high demand. Contact Dr. Jan Duffy today to get VIP access and start your new home construction.
+              Don't wait! New build homes at Sierra at Skyeview Homes are in high demand. Contact Dr. Jan Duffy today to get VIP access and start your new home construction.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -401,12 +401,12 @@ const NewBuildHomes: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview</h3>
+              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview Homes</h3>
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
+                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300 mb-4">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>

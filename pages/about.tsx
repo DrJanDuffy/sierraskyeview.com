@@ -6,10 +6,10 @@ const About: NextPage = () => {
   return (
     <>
       <Head>
-        <title>About Dr. Jan Duffy - Sierra at Skyeview | Real Estate Expert</title>
-        <meta name="description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and independent advocacy for Sierra at Skyeview buyers in Las Vegas." />
-        <meta property="og:title" content="About Dr. Jan Duffy - Sierra at Skyeview" />
-        <meta property="og:description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and independent advocacy for Sierra at Skyeview buyers." />
+        <title>About Dr. Jan Duffy - Sierra at Skyeview Homes | Real Estate Expert</title>
+        <meta name="description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and independent advocacy for Sierra at Skyeview Homes buyers in Las Vegas." />
+        <meta property="og:title" content="About Dr. Jan Duffy - Sierra at Skyeview Homes" />
+        <meta property="og:description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and independent advocacy for Sierra at Skyeview Homes buyers." />
       </Head>
 
       {/* Navigation */}
@@ -18,7 +18,7 @@ const About: NextPage = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Link href="/" className="text-2xl font-bold text-blue-600">
-                Sierra at Skyeview
+                Sierra at Skyeview Homes
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -42,7 +42,7 @@ const About: NextPage = () => {
         <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Dr. Jan Duffy: Your Sierra at Skyeview Buyer Advocate
+              Dr. Jan Duffy: Your Sierra at Skyeview Homes Buyer Advocate
             </h1>
             <p className="text-xl mb-6 max-w-3xl mx-auto">
               New construction moves in weeks, not months. You need someone who knows which lots appreciate fastest, what upgrades to fund versus skip, how to negotiate incentives the builder doesn't advertise, and why your contract matters more than the sales pitch. With 20+ years in Las Vegas real estate, Dr. Jan works directly with the builder's team—she spots opportunity other buyers miss. Let her walk you through every option before you sign anything.
@@ -77,7 +77,7 @@ const About: NextPage = () => {
                   Meet Dr. Jan Duffy
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  Dr. Jan Duffy is a Featured New Home Construction & Buyer Representation Specialist, proudly representing homebuyers interested in new homes at Sierra at Skyeview in Skye Canyon, Las Vegas, NV.
+                  Dr. Jan Duffy is a Featured New Home Construction & Buyer Representation Specialist, proudly representing homebuyers interested in new homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas, NV.
                 </p>
                 <p className="text-lg text-gray-600 mb-6">
                   With deep expertise in the Las Vegas real estate market and a proven track record of success, Dr. Jan Duffy provides expert guidance to homebuyers seeking luxury new construction homes. Her close working relationships with the builder's sales teams give clients early insight into the best lots, upcoming releases, and negotiation opportunities—all while she remains the buyer's independent advocate.
@@ -89,7 +89,7 @@ const About: NextPage = () => {
                   </div>
                   <div className="flex items-center">
                     <span className="text-green-600 mr-3">✓</span>
-                    <span className="text-gray-700">Sierra at Skyeview Buyer Advocate</span>
+                    <span className="text-gray-700">Sierra at Skyeview Homes Buyer Advocate</span>
                   </div>
                   <div className="flex items-center">
                     <span className="text-green-600 mr-3">✓</span>
@@ -128,8 +128,8 @@ const About: NextPage = () => {
               </div>
               <div className="bg-white rounded-lg p-8 shadow-lg text-center">
                 <div className="text-4xl mb-4">🤝</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Sierra at Skyeview Buyer Advocacy</h3>
-                <p className="text-gray-600">Independent advocacy providing insider knowledge of Sierra at Skyeview while protecting your interests.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Sierra at Skyeview Homes Buyer Advocacy</h3>
+                <p className="text-gray-600">Independent advocacy providing insider knowledge of Sierra at Skyeview Homes while protecting your interests.</p>
               </div>
               <div className="bg-white rounded-lg p-8 shadow-lg text-center">
                 <div className="text-4xl mb-4">🎯</div>
@@ -155,7 +155,7 @@ const About: NextPage = () => {
             <div className="grid md:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="text-4xl mb-4">🤝</div>
-                <h3 className="text-xl font-bold mb-2">Sierra at Skyeview Buyer Advocacy</h3>
+                <h3 className="text-xl font-bold mb-2">Sierra at Skyeview Homes Buyer Advocacy</h3>
                 <p className="text-gray-300">I collaborate with the builder's teams to give you insider access while exclusively representing YOUR interests.</p>
               </div>
               <div className="text-center">
@@ -244,12 +244,12 @@ const About: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview</h3>
+              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview Homes</h3>
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
+                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>

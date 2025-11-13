@@ -11,7 +11,7 @@ const Home: NextPage = () => {
     {
       title: "Sierra Skyview - Luxury New Homes in Skye Canyon",
       subtitle: "Now Selling! Starting at $459,790 - Luxury Homes in Gated Community",
-      description: "Expert Guidance from Dr. Jan Duffy | Sierra at Skyeview Buyer Advocacy",
+      description: "Expert Guidance from Dr. Jan Duffy | Sierra at Skyeview Homes Buyer Advocacy",
       image: "/hero-1.jpg"
     },
     {
@@ -32,21 +32,21 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Sierra at Skyeview New Homes | Skye Canyon Las Vegas | Dr. Jan Duffy Real Estate</title>
-        <meta name="description" content="Luxury new homes at Sierra at Skyeview in Skye Canyon, Las Vegas NV. New homes starting at $419,990. Expert real estate guidance from Dr. Jan Duffy. Quick move-in homes available now." />
-        <meta property="og:title" content="Sierra at Skyeview New Homes | Skye Canyon Las Vegas | Dr. Jan Duffy Real Estate" />
-        <meta property="og:description" content="Luxury new homes at Sierra at Skyeview in Skye Canyon, Las Vegas NV. New homes starting at $419,990. Expert real estate guidance from Dr. Jan Duffy." />
+        <title>Sierra at Skyeview Homes | Skye Canyon Las Vegas | Dr. Jan Duffy Real Estate</title>
+        <meta name="description" content="Luxury new homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas NV. New homes starting at $419,990. Expert real estate guidance from Dr. Jan Duffy. Quick move-in homes available now." />
+        <meta property="og:title" content="Sierra at Skyeview Homes | Skye Canyon Las Vegas | Dr. Jan Duffy Real Estate" />
+        <meta property="og:description" content="Luxury new homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas NV. New homes starting at $419,990. Expert real estate guidance from Dr. Jan Duffy." />
         <meta property="og:image" content="https://sierraskyeview.com/luxury-home-exterior.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:url" content="https://sierraskyeview.com/" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Sierra at Skyeview" />
+        <meta property="og:site_name" content="Sierra at Skyeview Homes" />
         <meta property="og:locale" content="en_US" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@DrJanSells" />
-        <meta name="twitter:title" content="Sierra at Skyeview New Homes | Skye Canyon Las Vegas | Dr. Jan Duffy Real Estate" />
-        <meta name="twitter:description" content="Luxury new homes at Sierra at Skyeview in Skye Canyon, Las Vegas NV. New homes starting at $419,990." />
+        <meta name="twitter:title" content="Sierra at Skyeview Homes | Skye Canyon Las Vegas | Dr. Jan Duffy Real Estate" />
+        <meta name="twitter:description" content="Luxury new homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas NV. New homes starting at $419,990." />
         <meta name="twitter:image" content="https://sierraskyeview.com/luxury-home-exterior.jpg" />
         <link rel="canonical" href="https://sierraskyeview.com/" />
         
@@ -58,7 +58,7 @@ const Home: NextPage = () => {
               "@context": "https://schema.org",
               "@type": "RealEstateAgent",
               "name": "Dr. Jan Duffy",
-              "description": "Expert real estate agent specializing in new home construction and independent advocacy for Sierra at Skyeview buyers in Las Vegas",
+              "description": "Expert real estate agent specializing in new home construction and independent advocacy for Sierra at Skyeview Homes buyers in Las Vegas",
               "url": "https://sierraskyeview.com",
               "telephone": "(702) 500-1955",
               "email": "DrDuffy@SierraSkyeview.com",
@@ -85,7 +85,7 @@ const Home: NextPage = () => {
               },
               "hasOfferCatalog": {
                 "@type": "OfferCatalog",
-                "name": "Sierra at Skyeview New Homes",
+                "name": "Sierra at Skyeview Homes",
                 "itemListElement": [
                   {
                     "@type": "Offer",
@@ -114,7 +114,7 @@ const Home: NextPage = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Link href="/" className="text-2xl font-bold text-blue-600">
-                Sierra at Skyeview
+                Sierra at Skyeview Homes
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -146,7 +146,7 @@ const Home: NextPage = () => {
           <div className="absolute inset-0 bg-black opacity-40"></div>
           <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Sierra at Skyeview - New Homes in Las Vegas
+              Sierra at Skyeview Homes - New Construction in Las Vegas
             </h1>
             <p className="text-xl md:text-2xl mb-4">
               Now Selling! Starting at $419,990 - Two-Story Homes up to 1,965 sq ft
@@ -206,7 +206,7 @@ const Home: NextPage = () => {
               Explore Every Floor Plan & Homesite in One Place
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Access Dr. Jan Duffy&apos;s private home finder for Sierra at Skyeview. See current Homes, elevations, quick move-in opportunities, photos, pricing, and availability updated in real time.
+              Access Dr. Jan Duffy&apos;s private home finder for Sierra at Skyeview Homes. See current Homes, elevations, quick move-in opportunities, photos, pricing, and availability updated in real time.
               <span className="sr-only">Powered by RealScout</span>
             </p>
             <a
@@ -225,15 +225,15 @@ const Home: NextPage = () => {
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Sierra at Skyeview Community Gallery
+                Sierra at Skyeview Homes Gallery
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Explore the stunning homes and beautiful community at Sierra at Skyeview. From modern exteriors to luxurious interiors, discover why Sierra at Skyeview is the perfect place to call home in Skye Canyon.
+                Explore the stunning homes and beautiful community at Sierra at Skyeview Homes. From modern exteriors to luxurious interiors, discover why Sierra at Skyeview Homes is the perfect place to call home in Skye Canyon.
               </p>
             </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <img src="/luxury-home-exterior.jpg" alt="Luxury home exterior at Sierra at Skyeview" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
+          <img src="/luxury-home-exterior.jpg" alt="Luxury home exterior at Sierra at Skyeview Homes" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
           <img src="/luxury-kitchen.jpg" alt="Modern luxury kitchen with premium appliances" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
           <img src="/luxury-living-room.jpg" alt="Spacious luxury living room with modern design" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
           <img src="/luxury-master-bedroom.jpg" alt="Elegant master bedroom with premium finishes" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
@@ -296,7 +296,7 @@ const Home: NextPage = () => {
                 Frequently Asked Questions
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Get quick answers to common questions about Sierra at Skyeview homes and community.
+                Get quick answers to common questions about Sierra at Skyeview Homes and community.
               </p>
             </div>
 
@@ -304,7 +304,7 @@ const Home: NextPage = () => {
               <div className="bg-gray-50 rounded-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">What are the HOA fees?</h3>
                 <p className="text-gray-700 mb-4">
-                  Skye Canyon master community HOA fee is approximately $83/month. Sierra at Skyeview may have additional sub-HOA fees for enhanced amenities.
+                  Skye Canyon master community HOA fee is approximately $83/month. Sierra at Skyeview Homes may have additional sub-HOA fees for enhanced amenities.
                 </p>
                 <a href="/qa" className="text-blue-600 hover:text-blue-700 font-semibold">View all HOA questions →</a>
               </div>
@@ -349,7 +349,7 @@ const Home: NextPage = () => {
               🚨 DON'T MISS OUT - SIERRA AT SKYEVIEW IS SELLING FAST!
             </h2>
             <p className="text-lg mb-8">
-              Only 3 Homes remaining! Get VIP access to Sierra at Skyeview with Dr. Jan Duffy's expert guidance. Schedule your private tour today before these homes are gone forever.
+              Only 3 Homes remaining! Get VIP access to Sierra at Skyeview Homes with Dr. Jan Duffy's expert guidance. Schedule your private tour today before these homes are gone forever.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -368,12 +368,12 @@ const Home: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview</h3>
+              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview Homes</h3>
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
+                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300 mb-4">(702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>

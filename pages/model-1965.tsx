@@ -6,12 +6,12 @@ const Model1965: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Residence 1965 Availability | Sierra at Skyeview Home Finder</title>
+        <title>Residence 1965 Availability | Sierra at Skyeview Homes Finder</title>
         <meta
           name="description"
-          content="Access live availability, pricing, incentives, and lot releases for Residence 1965 at Sierra at Skyeview through Dr. Jan Duffy's curated RealScout search."
+          content="Access live availability, pricing, incentives, and lot releases for Residence 1965 at Sierra at Skyeview Homes through Dr. Jan Duffy's curated RealScout search."
         />
-        <meta property="og:title" content="Residence 1965 Availability | Sierra at Skyeview" />
+        <meta property="og:title" content="Residence 1965 Availability | Sierra at Skyeview Homes" />
         <meta
           property="og:description"
           content="View real-time Residence 1965 inventory, pricing, and incentives via Dr. Jan Duffy's RealScout search."
@@ -24,7 +24,7 @@ const Model1965: NextPage = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Link href="/" className="text-2xl font-bold text-blue-600">
-                Sierra at Skyeview
+                Sierra at Skyeview Homes
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -112,12 +112,12 @@ const Model1965: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview</h3>
+              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview Homes</h3>
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
+                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300 mb-4">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>

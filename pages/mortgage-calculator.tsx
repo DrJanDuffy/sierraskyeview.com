@@ -39,10 +39,10 @@ const MortgageCalculator: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Mortgage Calculator - Sierra at Skyeview | Dr. Jan Duffy</title>
-        <meta name="description" content="Calculate your monthly mortgage payment for Sierra at Skyeview homes. Expert guidance from Dr. Jan Duffy." />
-        <meta property="og:title" content="Mortgage Calculator - Sierra at Skyeview" />
-        <meta property="og:description" content="Calculate your monthly mortgage payment for Sierra at Skyeview homes." />
+        <title>Mortgage Calculator - Sierra at Skyeview Homes | Dr. Jan Duffy</title>
+        <meta name="description" content="Calculate your monthly mortgage payment for Sierra at Skyeview Homes. Expert guidance from Dr. Jan Duffy." />
+        <meta property="og:title" content="Mortgage Calculator - Sierra at Skyeview Homes" />
+        <meta property="og:description" content="Calculate your monthly mortgage payment for Sierra at Skyeview Homes." />
       </Head>
 
       {/* Navigation */}
@@ -51,7 +51,7 @@ const MortgageCalculator: NextPage = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Link href="/" className="text-2xl font-bold text-blue-600">
-                Sierra at Skyeview
+                Sierra at Skyeview Homes
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -85,7 +85,7 @@ const MortgageCalculator: NextPage = () => {
               Mortgage Calculator
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Calculate your monthly mortgage payment for Sierra at Skyeview homes. Get personalized estimates and expert guidance from Dr. Jan Duffy.
+              Calculate your monthly mortgage payment for Sierra at Skyeview Homes. Get personalized estimates and expert guidance from Dr. Jan Duffy.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -104,7 +104,7 @@ const MortgageCalculator: NextPage = () => {
             <div className="mb-12 text-center">
               <img 
                 src="/mortgage-consultation.jpg" 
-                alt="Professional mortgage consultation services for Sierra at Skyeview homebuyers" 
+                alt="Professional mortgage consultation services for Sierra at Skyeview Homes homebuyers" 
                 className="w-full max-w-4xl mx-auto h-64 object-cover rounded-lg shadow-lg mb-8"
               />
             </div>
@@ -304,7 +304,7 @@ const MortgageCalculator: NextPage = () => {
               Ready to Get Pre-Approved?
             </h2>
             <p className="text-lg mb-8">
-              Don't wait! Sierra at Skyeview is selling fast. Get pre-approved today with Dr. Jan Duffy's expert guidance and lender network.
+              Don't wait! Sierra at Skyeview Homes is selling fast. Get pre-approved today with Dr. Jan Duffy's expert guidance and lender network.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -323,12 +323,12 @@ const MortgageCalculator: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview</h3>
+              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview Homes</h3>
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
+                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
@@ -376,7 +376,7 @@ const MortgageCalculator: NextPage = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Sierra at Skyeview | Homes by Dr Jan Duffy. All rights reserved.</p>
+            <p>&copy; 2025 Sierra at Skyeview Homes | Homes by Dr Jan Duffy. All rights reserved.</p>
             <p className="text-gray-400 mt-2">Dr. Jan Duffy | Nevada Real Estate License #S.0197614 | Berkshire Hathaway HomeServices</p>
           </div>
         </div>

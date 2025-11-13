@@ -27,9 +27,9 @@ const Contact: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Contact Dr. Jan Duffy - Sierra at Skyeview | Real Estate Expert</title>
+        <title>Contact Dr. Jan Duffy - Sierra at Skyeview Homes | Real Estate Expert</title>
         <meta name="description" content="Contact Dr. Jan Duffy for expert real estate guidance. Call (702) 500-1955 or email DrDuffy@SierraSkyeview.com for your new home construction needs." />
-        <meta property="og:title" content="Contact Dr. Jan Duffy - Sierra at Skyeview" />
+        <meta property="og:title" content="Contact Dr. Jan Duffy - Sierra at Skyeview Homes" />
         <meta property="og:description" content="Contact Dr. Jan Duffy for expert real estate guidance. Call (702) 500-1955 or email DrDuffy@SierraSkyeview.com." />
         <link rel="canonical" href="https://sierraskyeview.com/contact" />
         
@@ -41,7 +41,7 @@ const Contact: NextPage = () => {
               "@context": "https://schema.org",
               "@type": "RealEstateAgent",
               "name": "Dr. Jan Duffy",
-              "description": "Expert real estate agent specializing in new home construction and independent advocacy for Sierra at Skyeview buyers in Las Vegas",
+              "description": "Expert real estate agent specializing in new home construction and independent advocacy for Sierra at Skyeview Homes buyers in Las Vegas",
               "url": "https://sierraskyeview.com",
               "telephone": "(702) 500-1955",
               "email": "DrDuffy@SierraSkyeview.com",
@@ -97,7 +97,7 @@ const Contact: NextPage = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Link href="/" className="text-2xl font-bold text-blue-600">
-                Sierra at Skyeview
+                Sierra at Skyeview Homes
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -124,7 +124,7 @@ const Contact: NextPage = () => {
               Contact Dr. Jan Duffy
             </h1>
               <p className="text-xl mb-8 max-w-3xl mx-auto">
-                Ready to start your new home journey? Get in touch with Dr. Jan Duffy for expert guidance and VIP access to Sierra at Skyeview.
+                Ready to start your new home journey? Get in touch with Dr. Jan Duffy for expert guidance and VIP access to Sierra at Skyeview Homes.
               </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -292,21 +292,21 @@ const Contact: NextPage = () => {
             <div className="mb-12 text-center">
               <img 
                 src="/contact-office.jpg" 
-                alt="Contact Dr. Jan Duffy for Sierra at Skyeview new homes consultation" 
+                alt="Contact Dr. Jan Duffy for Sierra at Skyeview Homes consultation" 
                 className="w-full max-w-4xl mx-auto h-64 object-cover rounded-lg shadow-lg mb-8"
               />
             </div>
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Visit Sierra at Skyeview
+                Visit Sierra at Skyeview Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Located in beautiful Skye Canyon's 1,700-acre master-planned community, Sierra at Skyeview offers easy access to all that Las Vegas has to offer.
+                Located in beautiful Skye Canyon's 1,700-acre master-planned community, Sierra at Skyeview Homes offers easy access to all that Las Vegas has to offer.
               </p>
             </div>
 
             <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-              <span className="text-gray-500">Interactive Map - Sierra at Skyeview Location</span>
+              <span className="text-gray-500">Interactive Map - Sierra at Skyeview Homes Location</span>
             </div>
           </div>
         </section>
@@ -318,7 +318,7 @@ const Contact: NextPage = () => {
               Ready to Start Your New Home Journey?
             </h2>
             <p className="text-lg mb-8">
-              Don't wait! Sierra at Skyeview is selling fast. Contact Dr. Jan Duffy today for VIP access and expert guidance.
+              Don't wait! Sierra at Skyeview Homes is selling fast. Contact Dr. Jan Duffy today for VIP access and expert guidance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -337,12 +337,12 @@ const Contact: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview</h3>
+              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview Homes</h3>
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
+                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
@@ -390,7 +390,7 @@ const Contact: NextPage = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Sierra at Skyeview | Homes by Dr Jan Duffy. All rights reserved.</p>
+            <p>&copy; 2025 Sierra at Skyeview Homes | Homes by Dr Jan Duffy. All rights reserved.</p>
             <p className="text-gray-400 mt-2">Dr. Jan Duffy | Nevada Real Estate License #S.0197614 | Berkshire Hathaway HomeServices</p>
           </div>
         </div>

@@ -6,11 +6,11 @@ const QuickMoveIn: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Quick Move-In Homes Available | Sierra at Skyeview at Skye Canyon | Homes by Dr. Jan Duffy</title>
-        <meta name="description" content="Quick move-in homes available now at Sierra at Skyeview Skye Canyon Las Vegas. Residence 1602 starting at $420,240 with 1,602 sqft. Expert guidance from Dr. Jan Duffy for new homes ready for immediate occupancy." />
-        <meta property="og:title" content="Quick Move-In Homes Available | Sierra at Skyeview at Skye Canyon" />
-        <meta property="og:description" content="Discover quick move-in homes available now at Sierra at Skyeview in Skye Canyon, Las Vegas. New homes ready for immediate occupancy." />
-        <meta name="keywords" content="quick move-in homes Las Vegas, Sierra at Skyeview available homes, Skye Canyon new homes ready, Las Vegas new construction available" />
+        <title>Quick Move-In Homes Available | Sierra at Skyeview Homes at Skye Canyon | Homes by Dr. Jan Duffy</title>
+        <meta name="description" content="Quick move-in homes available now at Sierra at Skyeview Homes Skye Canyon Las Vegas. Residence 1602 starting at $420,240 with 1,602 sqft. Expert guidance from Dr. Jan Duffy for new homes ready for immediate occupancy." />
+        <meta property="og:title" content="Quick Move-In Homes Available | Sierra at Skyeview Homes at Skye Canyon" />
+        <meta property="og:description" content="Discover quick move-in homes available now at Sierra at Skyeview Homes in Skye Canyon, Las Vegas. New homes ready for immediate occupancy." />
+        <meta name="keywords" content="quick move-in homes Las Vegas, Sierra at Skyeview Homes available homes, Skye Canyon new homes ready, Las Vegas new construction available" />
       </Head>
 
       {/* Navigation */}
@@ -19,7 +19,7 @@ const QuickMoveIn: NextPage = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Link href="/" className="text-2xl font-bold text-blue-600">
-                Sierra at Skyeview
+                Sierra at Skyeview Homes
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -54,7 +54,7 @@ const QuickMoveIn: NextPage = () => {
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
               <p className="text-xl max-w-3xl mx-auto">
-                Don't wait months for construction! Discover move-in ready homes at Sierra at Skyeview in Skye Canyon, Las Vegas. Currently available: Residence 1602 starting at $420,240 with 1,602 sqft. Get expert guidance from Dr. Jan Duffy for new homes available for immediate occupancy.
+                Don't wait months for construction! Discover move-in ready homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas. Currently available: Residence 1602 starting at $420,240 with 1,602 sqft. Get expert guidance from Dr. Jan Duffy for new homes available for immediate occupancy.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -73,10 +73,10 @@ const QuickMoveIn: NextPage = () => {
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Move-In Ready Homes at Sierra at Skyeview
+                Move-In Ready Homes at Sierra at Skyeview Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Explore these carefully selected homes available for quick move-in at Sierra at Skyeview in Skye Canyon. Each home features premium finishes, smart home technology, and access to world-class community amenities.
+                Explore these carefully selected homes available for quick move-in at Sierra at Skyeview Homes in Skye Canyon. Each home features premium finishes, smart home technology, and access to world-class community amenities.
                 <span className="sr-only">Community address: 8925 Vanhoy Creek St., Las Vegas, NV 89166</span>
               </p>
             </div>
@@ -181,7 +181,7 @@ const QuickMoveIn: NextPage = () => {
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Benefits of Quick Move-In Homes at Sierra at Skyeview
+                Benefits of Quick Move-In Homes at Sierra at Skyeview Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 Quick move-in homes offer numerous advantages for buyers who want to start enjoying their new home immediately without waiting for construction completion.
@@ -192,7 +192,7 @@ const QuickMoveIn: NextPage = () => {
               <div className="text-center">
                 <div className="text-4xl mb-4">🏠</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Immediate Occupancy</h3>
-                <p className="text-gray-600">Move in right away and start enjoying your new home at Sierra at Skyeview without waiting months for construction to complete.</p>
+                <p className="text-gray-600">Move in right away and start enjoying your new home at Sierra at Skyeview Homes without waiting months for construction to complete.</p>
               </div>
               <div className="text-center">
                 <div className="text-4xl mb-4">💰</div>
@@ -202,21 +202,21 @@ const QuickMoveIn: NextPage = () => {
               <div className="text-center">
                 <div className="text-4xl mb-4">🎨</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Premium Finishes</h3>
-                      <p className="text-gray-600">These homes feature carefully selected upgrades and finishes that showcase the quality and craftsmanship of Sierra at Skyeview.</p>
+                      <p className="text-gray-600">These homes feature carefully selected upgrades and finishes that showcase the quality and craftsmanship of Sierra at Skyeview Homes.</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Sierra at Skyeview Community Details */}
+        {/* Sierra at Skyeview Homes Community Details */}
         <section className="py-16 bg-blue-900 text-white">
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Sierra at Skyeview at Skye Canyon - New Homes in Las Vegas
+                Sierra at Skyeview Homes at Skye Canyon - New Homes in Las Vegas
               </h2>
               <p className="text-lg mb-8">
-                Located at 8925 Vanhoy Creek St., Las Vegas, NV 89166, Sierra at Skyeview offers exceptional new homes within the prestigious Skye Canyon master-planned community.
+                Located at 8925 Vanhoy Creek St., Las Vegas, NV 89166, Sierra at Skyeview Homes offers exceptional new homes within the prestigious Skye Canyon master-planned community.
               </p>
             </div>
 
@@ -284,7 +284,7 @@ const QuickMoveIn: NextPage = () => {
 
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Sierra at Skyeview Buyer Benefits</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">Sierra at Skyeview Homes Buyer Benefits</h3>
                 <div className="space-y-4">
                   <div className="flex items-start">
                     <div className="text-2xl mr-4">🤝</div>
@@ -354,7 +354,7 @@ const QuickMoveIn: NextPage = () => {
               Don't Miss Out on Quick Move-In Homes!
             </h2>
             <p className="text-lg mb-8">
-              Quick move-in homes at Sierra at Skyeview are in high demand. Contact Dr. Jan Duffy today to check availability and secure your new home.
+              Quick move-in homes at Sierra at Skyeview Homes are in high demand. Contact Dr. Jan Duffy today to check availability and secure your new home.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-green-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -373,12 +373,12 @@ const QuickMoveIn: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview</h3>
+              <h3 className="text-xl font-bold mb-4">Sierra at Skyeview Homes</h3>
               <p className="text-gray-300 mb-4">
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
+                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
@@ -426,7 +426,7 @@ const QuickMoveIn: NextPage = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Sierra at Skyeview | Homes by Dr Jan Duffy. All rights reserved.</p>
+            <p>&copy; 2025 Sierra at Skyeview Homes | Homes by Dr Jan Duffy. All rights reserved.</p>
             <p className="text-gray-400 mt-2">Dr. Jan Duffy | Nevada Real Estate License #S.0197614 | Berkshire Hathaway HomeServices</p>
           </div>
         </div>
