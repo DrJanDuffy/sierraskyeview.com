@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 const About: NextPage = () => {
   return (
@@ -67,10 +68,13 @@ const About: NextPage = () => {
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="lg:order-2">
-                <img 
-                  src="/dr-jan-duffy-portrait.jpg" 
-                  alt="Dr. Jan Duffy - Professional Real Estate Agent" 
+                <Image
+                  src="/dr-jan-duffy-portrait.jpg"
+                  alt="Dr. Jan Duffy - Professional Real Estate Agent"
+                  width={600}
+                  height={400}
                   className="w-full h-96 object-cover rounded-lg shadow-lg"
+                  priority
                 />
               </div>
               <div className="lg:order-1">

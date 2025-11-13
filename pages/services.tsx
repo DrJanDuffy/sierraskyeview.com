@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 const Services: NextPage = () => {
   const services = [
@@ -211,10 +212,13 @@ const Services: NextPage = () => {
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4">
             <div className="mb-12 text-center">
-              <img 
-                src="/real-estate-services.jpg" 
-                alt="Professional real estate services by Dr. Jan Duffy at Sierra at Skyeview Homes" 
+              <Image
+                src="/real-estate-services.jpg"
+                alt="Professional real estate services by Dr. Jan Duffy at Sierra at Skyeview Homes"
+                width={800}
+                height={256}
                 className="w-full max-w-4xl mx-auto h-64 object-cover rounded-lg shadow-lg mb-8"
+                priority
               />
             </div>
             <div className="text-center mb-12">
