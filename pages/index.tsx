@@ -6,6 +6,7 @@ import Image from "next/image";
 
 const Home: NextPage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const heroSlides = [
     {
@@ -233,16 +234,76 @@ const Home: NextPage = () => {
               </p>
             </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <img src="/luxury-home-exterior.jpg" alt="Luxury home exterior at Sierra at Skyeview Homes" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
-          <img src="/luxury-kitchen.jpg" alt="Modern luxury kitchen with premium appliances" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
-          <img src="/luxury-living-room.jpg" alt="Spacious luxury living room with modern design" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
-          <img src="/luxury-master-bedroom.jpg" alt="Elegant master bedroom with premium finishes" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
-          <img src="/luxury-bathroom.jpg" alt="Luxury bathroom with modern fixtures" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
-          <img src="/community-pool-luxury.jpg" alt="Resort-style community pool at Skye Canyon" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
-          <img src="/community-fitness-center.jpg" alt="State-of-the-art community fitness center" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
-          <img src="/skye-canyon-master-plan.jpg" alt="Skye Canyon master planned community" className="aspect-square object-cover rounded-lg hover:scale-105 transition-transform duration-300" loading="lazy" />
-        </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {[
+                { src: "/9026-rimerton-street-exterior.jpg", alt: "Two-story home exterior at 9026 Rimerton Street, Sierra at Skyeview Homes" },
+                { src: "/8990-rimerton-street-exterior.jpg", alt: "Luxury home exterior at 8990 Rimerton Street, Sierra at Skyeview Homes" },
+                { src: "/9002-rimerton-street-exterior.jpg", alt: "Modern new construction home at 9002 Rimerton Street, Sierra at Skyeview Homes" },
+                { src: "/9026-rimerton-kitchen-real.jpg", alt: "Modern luxury kitchen with premium appliances at Sierra at Skyeview Homes" },
+                { src: "/9026-rimerton-living-room-real.jpg", alt: "Spacious luxury living room at Sierra at Skyeview Homes" },
+                { src: "/8990-rimerton-living-room.jpg", alt: "Beautiful living room at Sierra at Skyeview Homes" },
+                { src: "/9026-rimerton-master-bedroom-real.jpg", alt: "Elegant master bedroom with premium finishes at Sierra at Skyeview Homes" },
+                { src: "/8990-rimerton-master-bedroom.jpg", alt: "Luxury master bedroom at Sierra at Skyeview Homes" },
+                { src: "/9026-rimerton-bathroom-real.jpg", alt: "Luxury bathroom with modern fixtures at Sierra at Skyeview Homes" },
+                { src: "/8990-rimerton-bathroom.jpg", alt: "Modern bathroom at Sierra at Skyeview Homes" },
+                { src: "/9002-rimerton-kitchen.jpg", alt: "Gourmet kitchen at Sierra at Skyeview Homes" },
+                { src: "/9026-rimerton-neighborhood-real.jpg", alt: "Beautiful neighborhood at Sierra at Skyeview Homes in Skye Canyon" },
+                { src: "/8990-rimerton-neighborhood.jpg", alt: "Picturesque neighborhood streets at Sierra at Skyeview Homes" },
+                { src: "/9002-rimerton-dining.jpg", alt: "Dining area at Sierra at Skyeview Homes" },
+                { src: "/community-pool-luxury.jpg", alt: "Resort-style community pool at Skye Canyon" },
+                { src: "/skye-canyon-master-plan.jpg", alt: "Skye Canyon master planned community map" },
+              ].map((photo, index) => (
+                <div
+                  key={index}
+                  className="relative aspect-square overflow-hidden rounded-lg cursor-pointer group shadow-md hover:shadow-xl transition-all duration-300"
+                  onClick={() => setSelectedImage(photo.src)}
+                >
+                  <Image
+                    src={photo.src}
+                    alt={photo.alt}
+                    fill
+                    className="object-cover group-hover:scale-110 transition-transform duration-300"
+                    sizes="(max-width: 768px) 50vw, 25vw"
+                    loading={index < 8 ? "eager" : "lazy"}
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-opacity duration-300 flex items-center justify-center">
+                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Lightbox Modal */}
+            {selectedImage && (
+              <div
+                className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4"
+                onClick={() => setSelectedImage(null)}
+              >
+                <button
+                  className="absolute top-4 right-4 text-white hover:text-gray-300 z-10"
+                  onClick={() => setSelectedImage(null)}
+                  aria-label="Close image"
+                >
+                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+                <div className="relative max-w-7xl max-h-full" onClick={(e) => e.stopPropagation()}>
+                  <Image
+                    src={selectedImage}
+                    alt="Enlarged view"
+                    width={1200}
+                    height={800}
+                    className="max-w-full max-h-[90vh] object-contain rounded-lg"
+                    priority
+                  />
+                </div>
+              </div>
+            )}
 
             <div className="text-center mt-8">
               <Link href="/community" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
