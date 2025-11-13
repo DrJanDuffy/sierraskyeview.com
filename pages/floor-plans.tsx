@@ -71,7 +71,7 @@ const FloorPlans: NextPage = () => {
               Explore Sierra at Skyeview Homes & Move-In Homes
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              <p className="text-lg text-white max-w-3xl mx-auto leading-relaxed">
                 Instantly see every available floor plan, elevation, quick move-in opportunity, pricing update, and exclusive incentives for Sierra at Skyeview Homes in Skye Canyon using Dr. Jan Duffy's private home finder. Updated in real time with current availability for this premier 3,000+ foot elevation community.
                 <span className="sr-only">Powered by RealScout</span>
               </p>
