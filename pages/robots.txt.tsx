@@ -6,7 +6,7 @@ const robots = `
 User-agent: *
 Allow: /
 
-Sitemap: https://sierraskyeview.com/sitemap.xml
+Sitemap: https://www.sierraskyeview.com/sitemap.xml
 `;
 
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {

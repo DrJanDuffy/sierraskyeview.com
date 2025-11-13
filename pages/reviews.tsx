@@ -86,7 +86,7 @@ const Reviews: NextPage = () => {
     "@type": "LocalBusiness",
     "name": "Dr. Jan Duffy Real Estate",
     "description": "Expert real estate agent specializing in new home construction and independent advocacy for Sierra at Skyeview Homes buyers in Las Vegas",
-    "url": "https://sierraskyeview.com",
+    "url": "https://www.sierraskyeview.com",
     "telephone": "(702) 500-1955",
     "email": "DrDuffy@SierraSkyeview.com",
     "address": {
@@ -129,7 +129,7 @@ const Reviews: NextPage = () => {
         <meta property="og:title" content="Customer Reviews - Sierra at Skyeview Homes at Skye Canyon" />
         <meta property="og:description" content="Read authentic customer reviews and testimonials for Sierra at Skyeview Homes in Skye Canyon, Las Vegas." />
         <meta name="keywords" content="Sierra at Skyeview Homes reviews, Skye Canyon new homes, Dr. Jan Duffy testimonials, Las Vegas new construction, Skye Canyon homes for sale" />
-        <link rel="canonical" href="https://sierraskyeview.com/reviews" />
+        <link rel="canonical" href="https://www.sierraskyeview.com/reviews" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewStructuredData) }}

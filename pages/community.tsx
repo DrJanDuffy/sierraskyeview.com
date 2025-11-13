@@ -31,7 +31,7 @@ const Community: NextPage = () => {
         <meta name="description" content="Discover Sierra at Skyeview Homes community in Skye Canyon Las Vegas. 1,700-acre master-planned community with resort-style amenities, parks, and top-rated schools. Expert guidance from Dr. Jan Duffy." />
         <meta property="og:title" content="Community - Sierra at Skyeview Homes" />
         <meta property="og:description" content="Discover the beautiful community of Sierra at Skyeview Homes in Skye Canyon, Las Vegas. 1,700-acre master-planned community with premium amenities." />
-        <link rel="canonical" href="https://sierraskyeview.com/community" />
+        <link rel="canonical" href="https://www.sierraskyeview.com/community" />
         
         {/* Video Schema for Virtual Tours */}
         <script
@@ -42,7 +42,7 @@ const Community: NextPage = () => {
               "@type": "VideoObject",
               "name": "Sierra at Skyeview Homes Community Virtual Tour",
               "description": "Take a virtual tour of Sierra at Skyeview Homes community in Skye Canyon, Las Vegas. See the beautiful homes, amenities, and lifestyle that awaits you in this master-planned community.",
-              "thumbnailUrl": "https://sierraskyeview.com/skye-canyon-master-plan.jpg",
+              "thumbnailUrl": "https://www.sierraskyeview.com/skye-canyon-master-plan.jpg",
               "uploadDate": "2025-01-27",
               "duration": "PT3M30S",
               "contentUrl": "https://www.youtube.com/watch?v=example",
@@ -50,7 +50,7 @@ const Community: NextPage = () => {
               "publisher": {
                 "@type": "Organization",
                 "name": "Dr. Jan Duffy Real Estate",
-                "url": "https://sierraskyeview.com"
+                "url": "https://www.sierraskyeview.com"
               }
             })
           }}

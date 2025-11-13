@@ -16,6 +16,7 @@ const Model1708: NextPage = () => {
           property="og:description"
           content="View real-time Residence 1708 inventory, pricing, and incentives via Dr. Jan Duffy's RealScout search."
         />
+        <link rel="canonical" href="https://www.sierraskyeview.com/model-1708" />
       </Head>
 
       {/* Navigation */}

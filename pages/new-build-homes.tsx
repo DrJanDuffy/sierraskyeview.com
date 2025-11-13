@@ -38,6 +38,7 @@ const NewBuildHomes: NextPage = () => {
         <meta property="og:title" content="New Build Homes Available Now | Sierra at Skyeview Homes at Skye Canyon" />
         <meta property="og:description" content="Explore new build homes available now at Sierra at Skyeview Homes in Skye Canyon, Las Vegas. New construction with expert guidance." />
         <meta name="keywords" content="new build homes Las Vegas, Sierra at Skyeview Homes new construction, Skye Canyon new builds, Las Vegas new home construction, Dr. Jan Duffy new homes" />
+        <link rel="canonical" href="https://www.sierraskyeview.com/new-build-homes" />
       </Head>
 
       {/* Navigation */}

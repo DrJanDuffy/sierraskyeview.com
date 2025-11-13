@@ -16,6 +16,7 @@ const Model1965: NextPage = () => {
           property="og:description"
           content="View real-time Residence 1965 inventory, pricing, and incentives via Dr. Jan Duffy's RealScout search."
         />
+        <link rel="canonical" href="https://www.sierraskyeview.com/model-1965" />
       </Head>
 
       {/* Navigation */}

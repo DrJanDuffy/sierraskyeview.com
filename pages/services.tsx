@@ -89,6 +89,7 @@ const Services: NextPage = () => {
         <meta name="description" content="Professional real estate services from Dr. Jan Duffy. New home construction guidance, buyer representation, and independent advocacy for Sierra at Skyeview Homes buyers." />
         <meta property="og:title" content="Services - Sierra at Skyeview Homes" />
         <meta property="og:description" content="Professional real estate services from Dr. Jan Duffy. New home construction guidance and buyer representation expertise." />
+        <link rel="canonical" href="https://www.sierraskyeview.com/services" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesStructuredData) }}

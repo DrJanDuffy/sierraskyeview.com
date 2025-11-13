@@ -118,6 +118,7 @@ const QA: NextPage = () => {
         <meta property="og:title" content="Frequently Asked Questions - Sierra at Skyeview Homes" />
         <meta property="og:description" content="Get answers to frequently asked questions about Sierra at Skyeview Homes, HOA fees, amenities, pricing, and more." />
         <meta name="keywords" content="Sierra at Skyeview Homes FAQ, Skye Canyon questions, Las Vegas new homes FAQ, HOA fees, Dr. Jan Duffy" />
+        <link rel="canonical" href="https://www.sierraskyeview.com/qa" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

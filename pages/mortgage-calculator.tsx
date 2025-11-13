@@ -44,6 +44,7 @@ const MortgageCalculator: NextPage = () => {
         <meta name="description" content="Calculate your monthly mortgage payment for Sierra at Skyeview Homes. Expert guidance from Dr. Jan Duffy." />
         <meta property="og:title" content="Mortgage Calculator - Sierra at Skyeview Homes" />
         <meta property="og:description" content="Calculate your monthly mortgage payment for Sierra at Skyeview Homes." />
+        <link rel="canonical" href="https://www.sierraskyeview.com/mortgage-calculator" />
       </Head>
 
       {/* Navigation */}

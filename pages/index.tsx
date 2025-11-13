@@ -37,10 +37,10 @@ const Home: NextPage = () => {
         <meta name="description" content="Luxury new homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas NV. New homes starting at $419,990. Expert real estate guidance from Dr. Jan Duffy. Quick move-in homes available now." />
         <meta property="og:title" content="Sierra at Skyeview Homes | Skye Canyon Las Vegas | Dr. Jan Duffy Real Estate" />
         <meta property="og:description" content="Luxury new homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas NV. New homes starting at $419,990. Expert real estate guidance from Dr. Jan Duffy." />
-        <meta property="og:image" content="https://sierraskyeview.com/luxury-home-exterior.jpg" />
+        <meta property="og:image" content="https://www.sierraskyeview.com/luxury-home-exterior.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:url" content="https://sierraskyeview.com/" />
+        <meta property="og:url" content="https://www.sierraskyeview.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Sierra at Skyeview Homes" />
         <meta property="og:locale" content="en_US" />
@@ -48,8 +48,8 @@ const Home: NextPage = () => {
         <meta name="twitter:site" content="@DrJanSells" />
         <meta name="twitter:title" content="Sierra at Skyeview Homes | Skye Canyon Las Vegas | Dr. Jan Duffy Real Estate" />
         <meta name="twitter:description" content="Luxury new homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas NV. New homes starting at $419,990." />
-        <meta name="twitter:image" content="https://sierraskyeview.com/luxury-home-exterior.jpg" />
-        <link rel="canonical" href="https://sierraskyeview.com/" />
+        <meta name="twitter:image" content="https://www.sierraskyeview.com/luxury-home-exterior.jpg" />
+        <link rel="canonical" href="https://www.sierraskyeview.com/" />
         
         {/* Local Business Schema */}
         <script
@@ -60,7 +60,7 @@ const Home: NextPage = () => {
               "@type": "RealEstateAgent",
               "name": "Dr. Jan Duffy",
               "description": "Expert real estate agent specializing in new home construction and independent advocacy for Sierra at Skyeview Homes buyers in Las Vegas",
-              "url": "https://sierraskyeview.com",
+              "url": "https://www.sierraskyeview.com",
               "telephone": "(702) 500-1955",
               "email": "DrDuffy@SierraSkyeview.com",
               "address": {

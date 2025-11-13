@@ -32,7 +32,7 @@ const Contact: NextPage = () => {
         <meta name="description" content="Contact Dr. Jan Duffy for expert real estate guidance. Call (702) 500-1955 or email DrDuffy@SierraSkyeview.com for your new home construction needs." />
         <meta property="og:title" content="Contact Dr. Jan Duffy - Sierra at Skyeview Homes" />
         <meta property="og:description" content="Contact Dr. Jan Duffy for expert real estate guidance. Call (702) 500-1955 or email DrDuffy@SierraSkyeview.com." />
-        <link rel="canonical" href="https://sierraskyeview.com/contact" />
+        <link rel="canonical" href="https://www.sierraskyeview.com/contact" />
         
         {/* Contact Schema */}
         <script
@@ -43,7 +43,7 @@ const Contact: NextPage = () => {
               "@type": "RealEstateAgent",
               "name": "Dr. Jan Duffy",
               "description": "Expert real estate agent specializing in new home construction and independent advocacy for Sierra at Skyeview Homes buyers in Las Vegas",
-              "url": "https://sierraskyeview.com",
+              "url": "https://www.sierraskyeview.com",
               "telephone": "(702) 500-1955",
               "email": "DrDuffy@SierraSkyeview.com",
               "address": {

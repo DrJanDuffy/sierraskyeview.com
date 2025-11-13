@@ -36,7 +36,7 @@ class MyDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="robots" content="index, follow" />
           <link rel="icon" href="/favicon.ico" />
-          <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+          <link rel="sitemap" type="application/xml" href="https://www.sierraskyeview.com/sitemap.xml" />
           <meta
             name="description"
             content="Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by Buyer's Agent Dr. Jan Duffy."

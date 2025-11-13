@@ -11,6 +11,7 @@ const QuickMoveIn: NextPage = () => {
         <meta property="og:title" content="Quick Move-In Homes Available | Sierra at Skyeview Homes at Skye Canyon" />
         <meta property="og:description" content="Discover quick move-in homes available now at Sierra at Skyeview Homes in Skye Canyon, Las Vegas. New homes ready for immediate occupancy." />
         <meta name="keywords" content="quick move-in homes Las Vegas, Sierra at Skyeview Homes available homes, Skye Canyon new homes ready, Las Vegas new construction available" />
+        <link rel="canonical" href="https://www.sierraskyeview.com/quick-move-in" />
       </Head>
 
       {/* Navigation */}

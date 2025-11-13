@@ -11,6 +11,7 @@ const About: NextPage = () => {
         <meta name="description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and independent advocacy for Sierra at Skyeview Homes buyers in Las Vegas." />
         <meta property="og:title" content="About Dr. Jan Duffy - Sierra at Skyeview Homes" />
         <meta property="og:description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and independent advocacy for Sierra at Skyeview Homes buyers." />
+        <link rel="canonical" href="https://www.sierraskyeview.com/about" />
       </Head>
 
       {/* Navigation */}

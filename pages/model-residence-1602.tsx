@@ -16,6 +16,7 @@ const ModelResidence1602Redirect = () => {
         <title>Redirecting to Residence 1602 - Sierra at Skyeview</title>
         <meta name="description" content="Redirecting to Residence 1602 page at Sierra at Skyeview." />
         <meta httpEquiv="refresh" content="0; url=/model-1602" />
+        <link rel="canonical" href="https://www.sierraskyeview.com/model-1602" />
       </Head>
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
         <div className="text-center">

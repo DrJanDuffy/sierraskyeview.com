@@ -10,7 +10,7 @@ const FloorPlans: NextPage = () => {
         <meta name="description" content="Browse every Sierra at Skyeview Homes floor plan and quick move-in home through Dr. Jan Duffy's curated RealScout search. Real-time availability, pricing, photos, and more." />
         <meta property="og:title" content="Sierra at Skyeview Homes & Inventory" />
         <meta property="og:description" content="View current Homes and quick move-in homes via Dr. Jan Duffy's RealScout search for Sierra at Skyeview Homes." />
-        <link rel="canonical" href="https://sierraskyeview.com/floor-plans" />
+        <link rel="canonical" href="https://www.sierraskyeview.com/floor-plans" />
         
         {/* Breadcrumb Schema */}
         <script
@@ -24,13 +24,13 @@ const FloorPlans: NextPage = () => {
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://sierraskyeview.com/"
+                  "item": "https://www.sierraskyeview.com/"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "Homes",
-                  "item": "https://sierraskyeview.com/floor-plans"
+                  "item": "https://www.sierraskyeview.com/floor-plans"
                 }
               ]
             })
