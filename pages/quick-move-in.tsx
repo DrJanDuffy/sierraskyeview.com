@@ -3,196 +3,6 @@ import Head from "next/head";
 import Link from "next/link";
 
 const QuickMoveIn: NextPage = () => {
-  const availableHomes = [
-    {
-      id: 1,
-      address: "8990 Rimerton ST",
-      lot: "SRA024",
-      floorPlan: "Residence 1602",
-      sqft: "1,602",
-      bedrooms: "3",
-      bathrooms: "2.5",
-      garage: "2",
-      price: "$420,240",
-      pricePerSqft: "$262",
-      estCompletion: "Under Construction",
-      daysOnSite: "10",
-      listingDate: "Sep 18, 2025",
-      mlsNumber: "2721611",
-      realScoutUrl: "https://drjanduffy.realscout.com/homesearch/listings/p-8990-rimerton-street-las-vegas-89166-glvartrestle-875",
-      features: [
-        "Open-concept layout with great room, nook, and kitchen",
-        "Generous center island and walk-in pantry",
-        "Two secondary bedrooms upstairs with full bath",
-        "Convenient upstairs laundry room",
-        "Private owner's suite with walk-in closet and slider closet",
-        "Dual vanities and walk-in shower in master bath",
-        "Patio cover and BBQ stub",
-        "Century Home Connect smart home features",
-        "Upgraded whole house electrical package",
-        "42\" cabinets (java) with fawn glossy full backsplash",
-        "Laundry cabinet uppers",
-        "Upgraded appliance package",
-        "Two-tone paint throughout",
-        "Gas cooktop, dishwasher, disposal, microwave",
-        "Tankless water heater",
-        "Double pane, low-emissivity windows",
-        "Desert landscaping with drip irrigation",
-        "Attached 2-car garage"
-      ],
-      amenities: [
-        "Community pool and spa/hot tub",
-        "Fitness center",
-        "Clubhouse",
-        "Basketball and tennis courts",
-        "Dog park",
-        "Playground",
-        "Jogging paths"
-      ],
-      schools: [
-        "Kenneth Divich Elementary (K-5)",
-        "Edmundo Eddie Escobedo Sr Middle School (6-8)",
-        "Arbor View High School (9-12)"
-      ],
-      hoaFee: "$250 quarterly",
-      taxes: "$943 annually",
-      status: "Available",
-      yearBuilt: "2025",
-      construction: "Frame, Stucco, and Drywall",
-      roof: "Pitched and Tile"
-    },
-    {
-      id: 2,
-      address: "9026 Rimerton ST",
-      lot: "SRA015",
-      floorPlan: "Residence 1602",
-      sqft: "1,602",
-      bedrooms: "3",
-      bathrooms: "2.5",
-      garage: "2",
-      price: "$453,940",
-      pricePerSqft: "$283",
-      estCompletion: "Under Construction",
-      daysOnSite: "2",
-      listingDate: "Oct 1, 2025",
-      mlsNumber: "2722264",
-      realScoutUrl: "https://drjanduffy.realscout.com/homesearch/listings/p-9026-rimerton-street-las-vegas-89166-glvartrestle-6",
-      features: [
-        "Cul-de-sac location with charming living",
-        "Open-concept layout connecting great room, nook, and kitchen",
-        "Generous center island and walk-in pantry",
-        "Upstairs laundry room with gas dryer hookup",
-        "Private owner's suite with walk-in closet plus slider closet",
-        "Dual vanities and walk-in shower in primary bathroom",
-        "Patio cover and barbecue stub",
-        "Upgraded whole house electrical package",
-        "42\" cabinets (snow) with full backsplash",
-        "Upgraded stainless steel appliance package",
-        "Two-tone paint and upgraded LVP flooring",
-        "Double pane windows with low emissivity",
-        "Block fencing with backyard privacy",
-        "Desert landscaping with drip irrigation",
-        "Community amenities: basketball court, clubhouse, dog park, fitness center, pool"
-      ],
-      amenities: [
-        "Basketball Court",
-        "Clubhouse", 
-        "Dog Park",
-        "Fitness Center",
-        "Jogging Path",
-        "Playground",
-        "Pool",
-        "Spa/Hot Tub",
-        "Tennis Court(s)"
-      ],
-      schools: [
-        "Kenneth Divich Elementary (K-5)",
-        "Edmundo Eddie Escobedo Sr Middle School (6-8)",
-        "Arbor View High School (9-12)"
-      ],
-      hoa: {
-        fee: "$250",
-        frequency: "Quarterly",
-        includes: "Association Management"
-      },
-      taxes: "$943 annually",
-      status: "Available"
-    },
-    {
-      id: 3,
-      address: "9002 Rimerton ST",
-      lot: "SRA021",
-      floorPlan: "Residence 1602",
-      sqft: "1,602",
-      bedrooms: "3",
-      bathrooms: "2.5",
-      garage: "2",
-      price: "$426,090",
-      pricePerSqft: "$266",
-      estCompletion: "Under Construction",
-      daysOnSite: "5",
-      listingDate: "Oct 3, 2025",
-      mlsNumber: "2721528",
-      realScoutUrl: "https://drjanduffy.realscout.com/homesearch/listings/p-9002-rimerton-street-las-vegas-89166-glvartrestle-7",
-      features: [
-        "Open-concept layout connecting great room, nook, and kitchen",
-        "Generous center island and walk-in pantry",
-        "Extended kitchen island for additional workspace",
-        "Upstairs laundry room with gas dryer hookup",
-        "Private owner's suite with walk-in closet plus slider closet",
-        "Dual vanities and walk-in shower in primary bathroom",
-        "Patio cover and barbecue stub",
-        "Upgraded whole house electrical package",
-        "42\" cabinets (snow) with oyster gray full backsplash",
-        "Upgraded appliance package with stainless steel",
-        "Primary bath wall tile for enhanced aesthetics",
-        "Two-tone paint throughout home",
-        "Double pane windows with low emissivity",
-        "Block fencing with backyard privacy",
-        "Desert landscaping with drip irrigation",
-        "Community amenities: basketball court, clubhouse, dog park, pool"
-      ],
-      amenities: [
-        "Basketball Court",
-        "Clubhouse", 
-        "Dog Park",
-        "Fitness Center",
-        "Jogging Path",
-        "Playground",
-        "Pool",
-        "Spa/Hot Tub",
-        "Tennis Court(s)"
-      ],
-      schools: [
-        "Kenneth Divich Elementary (K-5)",
-        "Edmundo Eddie Escobedo Sr Middle School (6-8)",
-        "Arbor View High School (9-12)"
-      ],
-      hoa: {
-        fee: "$250",
-        frequency: "Quarterly",
-        includes: "Association Management"
-      },
-      taxes: "$943 annually",
-      status: "Available"
-    },
-    {
-      id: 4,
-      address: "9018 Rimerton ST",
-      lot: "SRA017",
-      floorPlan: "Residence 1965",
-      sqft: "1,965",
-      bedrooms: "3",
-      bathrooms: "2.5",
-      garage: "2",
-      price: "$488,290",
-      estCompletion: "December 2024",
-      realScoutUrl: null,
-      features: ["Optional Downstairs Bed", "Downstairs Den", "LVP Flooring", "Premium finishes", "Largest floor plan"],
-      status: "Available"
-    }
-  ];
-
   return (
     <>
       <Head>
@@ -258,7 +68,7 @@ const QuickMoveIn: NextPage = () => {
           </div>
         </section>
 
-        {/* Available Homes */}
+        {/* Available Homes - RealScout Widgets */}
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
@@ -266,338 +76,102 @@ const QuickMoveIn: NextPage = () => {
                 Move-In Ready Homes at Sierra at Skyeview
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                These carefully selected homes are available for quick move-in at Sierra at Skyeview in Skye Canyon. Each home features premium finishes, smart home technology, and access to world-class community amenities.
+                Explore these carefully selected homes available for quick move-in at Sierra at Skyeview in Skye Canyon. Each home features premium finishes, smart home technology, and access to world-class community amenities.
                 <span className="sr-only">Community address: 8925 Vanhoy Creek St., Las Vegas, NV 89166</span>
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8">
-              {availableHomes.map((home) => (
-                <div key={home.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
-        <div className="h-48 overflow-hidden">
-          <img
-            src={home.id === 1 ? "/8990-rimerton-street-exterior.jpg" :
-                 home.id === 2 ? "/9026-rimerton-street-exterior.jpg" :
-                 home.id === 3 ? "/9002-rimerton-street-exterior.jpg" :
-                 home.floorPlan === "Residence 1602" ? "/residence-1602-floor-plan.jpg" :
-                 home.floorPlan === "Residence 1965" ? "/residence-1965-floor-plan.jpg" :
-                 "/residence-1708-floor-plan.jpg"}
-            alt={home.id === 1 ? "8990 Rimerton Street exterior view" : 
-                 home.id === 2 ? "9026 Rimerton Street exterior view" : 
-                 home.id === 3 ? "9002 Rimerton Street exterior view" : 
-                 `${home.floorPlan} at ${home.address}`}
-            className="w-full h-full object-cover"
-          />
-        </div>
-                  <div className="p-6">
-                    <div className="flex justify-between items-start mb-4">
-                      <div>
-                        <h3 className="text-xl font-bold text-gray-900">{home.floorPlan}</h3>
-                        <p className="text-gray-600">{home.address} | Lot {home.lot}</p>
-                      </div>
-                      <span className={`px-3 py-1 rounded-full text-sm font-semibold ${
-                        home.status === 'Available' 
-                          ? 'bg-green-100 text-green-800' 
-                          : 'bg-yellow-100 text-yellow-800'
-                      }`}>
-                        {home.status}
-                      </span>
-                    </div>
-                    
-                    <div className="grid grid-cols-2 gap-4 mb-4 text-sm">
-                      <div>
-                        <span className="font-semibold">{home.sqft}</span><br />
-                        <span className="text-gray-600">Square Feet</span>
-                      </div>
-                      <div>
-                        <span className="font-semibold">{home.bedrooms}</span><br />
-                        <span className="text-gray-600">Bedrooms</span>
-                      </div>
-                      <div>
-                        <span className="font-semibold">{home.bathrooms}</span><br />
-                        <span className="text-gray-600">Bathrooms</span>
-                      </div>
-                      <div>
-                        <span className="font-semibold">{home.garage}</span><br />
-                        <span className="text-gray-600">Car Garage</span>
-                      </div>
-                    </div>
-
-                    <div className="mb-4">
-                      <div className="flex justify-between items-start">
-                        <div>
-                          <p className="text-2xl font-bold text-green-600">{home.price}</p>
-                          {home.pricePerSqft && (
-                            <p className="text-sm text-gray-600">{home.pricePerSqft} per sqft</p>
-                          )}
-                        </div>
-                        {home.daysOnSite && (
-                          <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">
-                            {home.daysOnSite} days
-                          </span>
-                        )}
-                      </div>
-                      <div className="mt-2 space-y-1">
-                        <p className="text-sm text-gray-600">Status: {home.estCompletion}</p>
-                        {home.listingDate && (
-                          <p className="text-sm text-gray-600">Listed: {home.listingDate}</p>
-                        )}
-                        {home.mlsNumber && (
-                          <p className="text-sm text-gray-600">MLS: {home.mlsNumber}</p>
-                        )}
-                        {home.hoa && (
-                          <p className="text-sm text-blue-600 font-medium">
-                            HOA: {home.hoa.fee} {home.hoa.frequency}
-                          </p>
-                        )}
-                      </div>
-                    </div>
-
-                    <div className="mb-4">
-                      <h4 className="font-semibold text-gray-900 mb-2">Key Features:</h4>
-                      <div className="flex flex-wrap gap-2">
-                        {home.features.slice(0, 6).map((feature, index) => (
-                          <span key={index} className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">
-                            {feature}
-                          </span>
-                        ))}
-                        {home.features.length > 6 && (
-                          <span className="bg-blue-100 text-blue-700 px-2 py-1 rounded text-xs">
-                            +{home.features.length - 6} more
-                          </span>
-                        )}
-                      </div>
-                    </div>
-
-                    {/* Community Amenities */}
-                    {home.amenities && (
-                      <div className="mb-4">
-                        <h4 className="font-semibold text-gray-900 mb-2">Community Amenities:</h4>
-                        <div className="flex flex-wrap gap-2">
-                          {home.amenities.slice(0, 4).map((amenity, index) => (
-                            <span key={index} className="bg-green-100 text-green-700 px-2 py-1 rounded text-xs">
-                              {amenity}
-                            </span>
-                          ))}
-                          {home.amenities.length > 4 && (
-                            <span className="bg-green-100 text-green-700 px-2 py-1 rounded text-xs">
-                              +{home.amenities.length - 4} more
-                            </span>
-                          )}
-                        </div>
-                      </div>
-                    )}
-
-                    {/* Schools */}
-                    {home.schools && (
-                      <div className="mb-4">
-                        <h4 className="font-semibold text-gray-900 mb-2">Nearby Schools:</h4>
-                        <div className="text-sm text-gray-600">
-                          {home.schools.map((school, index) => (
-                            <div key={index}>{school}</div>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-
-                    {/* HOA & Taxes */}
-                    {(home.hoaFee || home.taxes) && (
-                      <div className="mb-4 text-sm">
-                        {home.hoaFee && (
-                          <div className="flex justify-between">
-                            <span className="text-gray-600">HOA Fee:</span>
-                            <span className="font-semibold">{home.hoaFee}</span>
-                          </div>
-                        )}
-                        {home.taxes && (
-                          <div className="flex justify-between">
-                            <span className="text-gray-600">Property Tax:</span>
-                            <span className="font-semibold">{home.taxes}</span>
-                          </div>
-                        )}
-                      </div>
-                    )}
-
-                    <div className="space-y-2">
-                      {/* Primary Actions */}
-                      <div className="flex space-x-2">
-                        <a href="tel:7025001955" className="flex-1 bg-green-600 text-white text-center py-3 rounded-lg hover:bg-green-700 transition-colors">
-                          📞 Call Now
-                        </a>
-                        <Link href="/contact" className="flex-1 bg-gray-200 text-gray-800 text-center py-3 rounded-lg hover:bg-gray-300 transition-colors">
-                          📧 Inquire
-                        </Link>
-                      </div>
-                      
-                      {/* RealScout Link */}
-                      {home.realScoutUrl && (
-                        <a 
-                          href={home.realScoutUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="w-full bg-blue-600 text-white text-center py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm flex items-center justify-center gap-2"
-                        >
-                          🏠 View Detailed Listing Information
-                          <span className="sr-only">RealScout link</span>
-                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                          </svg>
-                        </a>
-                      )}
-                    </div>
-                  </div>
+            {/* 8990 Rimerton Street - RealScout Widget */}
+            <div className="mb-12">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="p-6 border-b">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">8990 Rimerton Street</h3>
+                  <p className="text-gray-600">Residence 1602 | Lot SRA024</p>
                 </div>
-              ))}
+                <div className="bg-gray-50" style={{ minHeight: '700px' }}>
+                  <iframe
+                    src="https://drjanduffy.realscout.com/homesearch/listings/p-8990-rimerton-street-las-vegas-89166-glvartrestle-875"
+                    width="100%"
+                    height="700"
+                    style={{ border: 0 }}
+                    title="RealScout Listing - 8990 Rimerton Street"
+                    allowFullScreen
+                    loading="lazy"
+                    className="w-full"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+
+            {/* 9026 Rimerton Street - RealScout Widget */}
+            <div className="mb-12">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="p-6 border-b">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">9026 Rimerton Street</h3>
+                  <p className="text-gray-600">Residence 1602 | Lot SRA015</p>
+                </div>
+                <div className="bg-gray-50" style={{ minHeight: '700px' }}>
+                  <iframe
+                    src="https://drjanduffy.realscout.com/homesearch/listings/p-9026-rimerton-street-las-vegas-89166-glvartrestle-6"
+                    width="100%"
+                    height="700"
+                    style={{ border: 0 }}
+                    title="RealScout Listing - 9026 Rimerton Street"
+                    allowFullScreen
+                    loading="lazy"
+                    className="w-full"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+
+            {/* 9002 Rimerton Street - RealScout Widget */}
+            <div className="mb-12">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="p-6 border-b">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">9002 Rimerton Street</h3>
+                  <p className="text-gray-600">Residence 1602 | Lot SRA021</p>
+                </div>
+                <div className="bg-gray-50" style={{ minHeight: '700px' }}>
+                  <iframe
+                    src="https://drjanduffy.realscout.com/homesearch/listings/p-9002-rimerton-street-las-vegas-89166-glvartrestle-7"
+                    width="100%"
+                    height="700"
+                    style={{ border: 0 }}
+                    title="RealScout Listing - 9002 Rimerton Street"
+                    allowFullScreen
+                    loading="lazy"
+                    className="w-full"
+                  ></iframe>
+                </div>
+              </div>
             </div>
           </div>
         </section>
 
-        {/* RealScout Integration */}
-        <section className="py-16 bg-gray-50">
-          <div className="max-w-6xl mx-auto px-4">
-            <div className="bg-white rounded-2xl shadow-xl p-10 md:p-14">
-              <div className="md:flex md:items-center md:justify-between mb-8">
-                <div>
-                  <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                    🏠 Advanced Home Search with Dr. Jan
-                  </h2>
-                  <p className="text-lg text-gray-600 mb-6 max-w-2xl">
-                    Get detailed property information, market analysis, and personalized recommendations through Dr. Jan Duffy's private home finder. Access comprehensive listing data, neighborhood insights, and expert guidance all in one place.
-                    <span className="sr-only">This service uses RealScout</span>
-                  </p>
-                </div>
-                <div className="flex-shrink-0">
-                  <a
-                    href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold text-lg transition-colors"
-                  >
-                    🔍 Start Your Personalized Home Finder
-                    <span className="sr-only">RealScout link</span>
-                  </a>
-                </div>
-              </div>
-
-              <div className="grid md:grid-cols-3 gap-8 mb-12">
-                <div className="bg-white rounded-lg p-6 shadow-lg text-center">
-                  <div className="text-4xl mb-4">📊</div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Market Analysis</h3>
-                  <p className="text-gray-600">Get detailed market data, price trends, and neighborhood comparisons to make informed decisions.</p>
-                </div>
-                <div className="bg-white rounded-lg p-6 shadow-lg text-center">
-                  <div className="text-4xl mb-4">🔍</div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Detailed Listings</h3>
-                  <p className="text-gray-600">Access comprehensive property details, photos, Homes, and neighborhood information in one platform.</p>
-                </div>
-                <div className="bg-white rounded-lg p-6 shadow-lg text-center">
-                  <div className="text-4xl mb-4">🤝</div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Expert Guidance</h3>
-                  <p className="text-gray-600">Work directly with Dr. Jan Duffy for personalized recommendations and professional real estate expertise.</p>
-                </div>
-              </div>
-
-              <div className="text-center">
-                <a 
-                  href="https://drjanduffy.realscout.com/homesearch/listings/p-8990-rimerton-street-las-vegas-89166-glvartrestle-875"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors text-lg"
-                >
-                  🏠 View 8990 Rimerton Street Details
-                  <span className="sr-only">Listing hosted on RealScout</span>
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                  </svg>
-                </a>
-              </div>
-              
-              {/* 8990 Rimerton Street Gallery */}
-              <div className="mt-16">
-                <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
-                  📸 8990 Rimerton Street Photo Gallery
-                </h3>
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                  <div className="group cursor-pointer">
-                    <img 
-                      src="/8990-rimerton-street-exterior.jpg" 
-                      alt="8990 Rimerton Street exterior view"
-                      className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                      loading="lazy"
-                    />
-                    <p className="text-sm text-gray-600 mt-2 text-center">Exterior View</p>
-                  </div>
-                  <div className="group cursor-pointer">
-                    <img 
-                      src="/8990-rimerton-kitchen.jpg" 
-                      alt="Modern kitchen with island"
-                      className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                      loading="lazy"
-                    />
-                    <p className="text-sm text-gray-600 mt-2 text-center">Modern Kitchen</p>
-                  </div>
-                  <div className="group cursor-pointer">
-                    <img 
-                      src="/8990-rimerton-living-room.jpg" 
-                      alt="Open concept living room"
-                      className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                      loading="lazy"
-                    />
-                    <p className="text-sm text-gray-600 mt-2 text-center">Living Room</p>
-                  </div>
-                  <div className="group cursor-pointer">
-                    <img 
-                      src="/8990-rimerton-master-bedroom.jpg" 
-                      alt="Master bedroom"
-                      className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                      loading="lazy"
-                    />
-                    <p className="text-sm text-gray-600 mt-2 text-center">Master Bedroom</p>
-                  </div>
-                  <div className="group cursor-pointer">
-                    <img 
-                      src="/8990-rimerton-bathroom.jpg" 
-                      alt="Modern bathroom"
-                      className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                      loading="lazy"
-                    />
-                    <p className="text-sm text-gray-600 mt-2 text-center">Modern Bathroom</p>
-                  </div>
-                  <div className="group cursor-pointer">
-                    <img 
-                      src="/8990-rimerton-garage.jpg" 
-                      alt="Two-car garage"
-                      className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                      loading="lazy"
-                    />
-                    <p className="text-sm text-gray-600 mt-2 text-center">Two-Car Garage</p>
-                  </div>
-                  <div className="group cursor-pointer">
-                    <img 
-                      src="/8990-rimerton-neighborhood.jpg" 
-                      alt="Sierra at Skyeview neighborhood"
-                      className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                      loading="lazy"
-                    />
-                    <p className="text-sm text-gray-600 mt-2 text-center">Neighborhood</p>
-                  </div>
-                </div>
-                
-                <div className="text-center mt-8">
-                  <a 
-                    href="https://drjanduffy.realscout.com/homesearch/listings/p-8990-rimerton-street-las-vegas-89166-glvartrestle-875"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
-                  >
-                    🏠 View Full Photo Gallery
-                    <span className="sr-only">Photos hosted on RealScout</span>
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
+        {/* RealScout Office Search Widget */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                🏠 Explore All Available Homes
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Use Dr. Jan Duffy's private home finder to explore all available homes, pricing, photos, and detailed information in real time.
+                <span className="sr-only">This service uses RealScout</span>
+              </p>
+            </div>
+            <div className="bg-gray-50 rounded-lg shadow-lg overflow-hidden" style={{ minHeight: '800px' }}>
+              <iframe
+                src="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
+                width="100%"
+                height="800"
+                style={{ border: 0 }}
+                title="RealScout Home Search - All Available Homes"
+                allowFullScreen
+                loading="lazy"
+                className="w-full"
+              ></iframe>
             </div>
           </div>
         </section>
@@ -695,201 +269,6 @@ const QuickMoveIn: NextPage = () => {
           </div>
         </section>
 
-        {/* 9026 Rimerton Street Gallery */}
-        <section className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4">
-            <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
-              📸 9026 Rimerton Street Photo Gallery
-            </h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <div className="group cursor-pointer">
-                <img 
-                  src="/9026-rimerton-street-exterior.jpg" 
-                  alt="9026 Rimerton Street exterior view"
-                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-                <p className="text-sm text-gray-600 mt-2 text-center">Exterior View</p>
-              </div>
-              <div className="group cursor-pointer">
-                <img 
-                  src="/9026-rimerton-kitchen-real.jpg" 
-                  alt="Modern kitchen with island and walk-in pantry"
-                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-                <p className="text-sm text-gray-600 mt-2 text-center">Modern Kitchen</p>
-              </div>
-              <div className="group cursor-pointer">
-                <img 
-                  src="/9026-rimerton-living-room-real.jpg" 
-                  alt="Open concept living room"
-                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-                <p className="text-sm text-gray-600 mt-2 text-center">Living Room</p>
-              </div>
-              <div className="group cursor-pointer">
-                <img 
-                  src="/9026-rimerton-dining-room.jpg" 
-                  alt="Dining room with breakfast nook"
-                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-                <p className="text-sm text-gray-600 mt-2 text-center">Dining Room</p>
-              </div>
-              <div className="group cursor-pointer">
-                <img 
-                  src="/9026-rimerton-master-bedroom-real.jpg" 
-                  alt="Master bedroom with walk-in closet"
-                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-                <p className="text-sm text-gray-600 mt-2 text-center">Master Bedroom</p>
-              </div>
-              <div className="group cursor-pointer">
-                <img 
-                  src="/9026-rimerton-bathroom-real.jpg" 
-                  alt="Master bathroom with dual vanities"
-                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-                <p className="text-sm text-gray-600 mt-2 text-center">Master Bathroom</p>
-              </div>
-              <div className="group cursor-pointer">
-                <img 
-                  src="/9026-rimerton-laundry-room.jpg" 
-                  alt="Upstairs laundry room"
-                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-                <p className="text-sm text-gray-600 mt-2 text-center">Laundry Room</p>
-              </div>
-              <div className="group cursor-pointer">
-                <img 
-                  src="/9026-rimerton-garage-real.jpg" 
-                  alt="Two-car garage"
-                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-                <p className="text-sm text-gray-600 mt-2 text-center">Two-Car Garage</p>
-              </div>
-            </div>
-            
-            <div className="text-center mt-8">
-              <a 
-                href="https://drjanduffy.realscout.com/homesearch/listings/p-9026-rimerton-street-las-vegas-89166-glvartrestle-6"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
-              >
-                🏠 View Full Photo Gallery
-                <span className="sr-only">Photos hosted on RealScout</span>
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </section>
-
-        {/* 9002 Rimerton Street Gallery */}
-        <section className="py-16 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4">
-            <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
-              📸 9002 Rimerton Street Photo Gallery
-            </h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <div className="group cursor-pointer">
-                <img 
-                  src="/9002-rimerton-street-exterior.jpg" 
-                  alt="9002 Rimerton Street exterior view"
-                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-                <p className="text-sm text-gray-600 mt-2 text-center">Exterior View</p>
-              </div>
-              <div className="group cursor-pointer">
-                <img 
-                  src="/9002-rimerton-kitchen.jpg" 
-                  alt="Modern kitchen with extended island"
-                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-                <p className="text-sm text-gray-600 mt-2 text-center">Modern Kitchen</p>
-              </div>
-              <div className="group cursor-pointer">
-                <img 
-                  src="/9002-rimerton-living-room.jpg" 
-                  alt="Open concept living room"
-                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-                <p className="text-sm text-gray-600 mt-2 text-center">Living Room</p>
-              </div>
-              <div className="group cursor-pointer">
-                <img 
-                  src="/9002-rimerton-dining.jpg" 
-                  alt="Dining room with breakfast nook"
-                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-                <p className="text-sm text-gray-600 mt-2 text-center">Dining Room</p>
-              </div>
-              <div className="group cursor-pointer">
-                <img 
-                  src="/9002-rimerton-master-bedroom.jpg" 
-                  alt="Master bedroom with walk-in closet"
-                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-                <p className="text-sm text-gray-600 mt-2 text-center">Master Bedroom</p>
-              </div>
-              <div className="group cursor-pointer">
-                <img 
-                  src="/9002-rimerton-bathroom.jpg" 
-                  alt="Master bathroom with dual vanities"
-                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-                <p className="text-sm text-gray-600 mt-2 text-center">Master Bathroom</p>
-              </div>
-              <div className="group cursor-pointer">
-                <img 
-                  src="/9002-rimerton-garage.jpg" 
-                  alt="Two-car garage"
-                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-                <p className="text-sm text-gray-600 mt-2 text-center">Two-Car Garage</p>
-              </div>
-              <div className="group cursor-pointer">
-                <img 
-                  src="/9002-rimerton-neighborhood.jpg" 
-                  alt="Sierra at Skyeview neighborhood"
-                  className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-                <p className="text-sm text-gray-600 mt-2 text-center">Neighborhood</p>
-              </div>
-            </div>
-            
-            <div className="text-center mt-8">
-              <a 
-                href="https://drjanduffy.realscout.com/homesearch/listings/p-9002-rimerton-street-las-vegas-89166-glvartrestle-7"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
-              >
-                🏠 View Full Photo Gallery
-                <span className="sr-only">Photos hosted on RealScout</span>
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </section>
 
         {/* Dr. Jan Duffy Buyer Advocacy */}
         <section className="py-16 bg-gray-50">
