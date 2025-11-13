@@ -39,7 +39,7 @@ class MyDocument extends Document {
           <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
           <meta
             name="description"
-            content="Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy."
+            content="Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by Buyer's Agent Dr. Jan Duffy."
           />
           <meta property="og:site_name" content="Sierra at Skyeview Homes" />
           <meta
@@ -51,7 +51,7 @@ class MyDocument extends Document {
           <meta name="twitter:title" content="Sierra at Skyeview Homes - New Construction Homes in Skye Canyon" />
           <meta
             name="twitter:description"
-            content="Independent buyer advocacy from Dr. Jan Duffy for Sierra at Skyeview Homes in Skye Canyon, Las Vegas."
+            content="Buyer's Agent representation from Dr. Jan Duffy for Sierra at Skyeview Homes in Skye Canyon, Las Vegas."
           />
           <script
             type="application/ld+json"

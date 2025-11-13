@@ -24,7 +24,7 @@ const Reviews: NextPage = () => {
       rating: 5,
       date: "November 2024",
       source: "Google Reviews",
-      content: "Working with Dr. Jan Duffy was the best decision we made when buying at Sierra at Skyeview Homes. Her knowledge of the Las Vegas market and Skye Canyon community is unmatched. She showed us comparable communities and helped us understand the true value. Her builder relationships gave us early access to Homes and VIP treatment. Highly recommend!",
+      content: "Working with Dr. Jan Duffy was the best decision we made when buying at Sierra at Skyeview Homes. As our Buyer's Agent, her deep knowledge of Skye Canyon's 3,000+ foot elevation community is unmatched. She showed us comparable Las Vegas communities and helped us understand the true value of living near Mount Charleston. Her buyer representation gave us early access to the best lots and VIP treatment. Highly recommend!",
       verified: true,
       floorPlan: "Residence 1708",
       purchasePrice: "$429,990"
@@ -35,7 +35,7 @@ const Reviews: NextPage = () => {
       rating: 5,
       date: "October 2024",
       source: "Google Reviews",
-      content: "Dr. Jan Duffy's expertise in new home construction is incredible. She helped us navigate the entire process from lot selection to closing. Her builder connections gave us access to upgrades and incentives we wouldn't have gotten otherwise. Our new home at Sierra at Skyeview Homes exceeds our expectations, and Dr. Jan made it all possible.",
+      content: "Dr. Jan Duffy's expertise as our Buyer's Agent for new home construction is incredible. She helped us navigate the entire process from lot selection to closing at Sierra at Skyeview Homes in Skye Canyon. Her buyer representation gave us access to upgrades and incentives we wouldn't have gotten otherwise. Our new home at this premier 3,000+ foot elevation community exceeds our expectations, and Dr. Jan made it all possible.",
       verified: true,
       floorPlan: "Residence 1602",
       purchasePrice: "$419,990"
@@ -175,7 +175,7 @@ const Reviews: NextPage = () => {
               Sierra at Skyeview Homes Customer Reviews
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Read authentic testimonials from satisfied homeowners who chose Dr. Jan Duffy as their trusted, independent real estate advocate for new homes at Sierra at Skyeview Homes in Skye Canyon.
+              Read authentic testimonials from satisfied homeowners who chose Dr. Jan Duffy as their trusted Buyer's Agent for new homes at Sierra at Skyeview Homes in Skye Canyon.
             </p>
             <div className="flex items-center justify-center space-x-4 mb-8">
               <div className="flex items-center">
@@ -216,20 +216,20 @@ const Reviews: NextPage = () => {
                 Why Homebuyers Choose Dr. Jan Duffy at Sierra at Skyeview Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy has built a reputation as the go-to real estate expert for new homes at Sierra at Skyeview Homes in Skye Canyon. Her collaborative relationships with the builder's teams provide clients with exclusive access, better pricing, and expert guidance throughout the home buying process—all while she represents the buyer.
+                Dr. Jan Duffy has built a reputation as the go-to Buyer's Agent for new homes at Sierra at Skyeview Homes in Skye Canyon. Located at 3,000+ foot elevation with stunning mountain views and access to Mount Charleston, this master-planned community offers a unique Las Vegas lifestyle. Dr. Jan's buyer representation provides clients with exclusive access, better pricing, and expert guidance throughout the home buying process—all while she exclusively represents YOUR interests, not the builder's.
               </p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="bg-white rounded-lg p-6 shadow-lg text-center">
                 <div className="text-4xl mb-4">🤝</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Sierra at Skyeview Homes Buyer Advocacy</h3>
-                <p className="text-gray-600">Exclusive access to premier lots, early phase releases, and informed pricing strategies through Dr. Jan Duffy's independent advocacy focused on Sierra at Skyeview Homes buyers.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Buyer's Agent Representation</h3>
+                <p className="text-gray-600">Exclusive access to premier lots at Sierra at Skyeview Homes in Skye Canyon, early phase releases, and informed pricing strategies through Dr. Jan Duffy's buyer representation. As your Buyer's Agent, she represents YOU—not the builder—protecting your interests in this premier 3,000+ foot elevation community.</p>
               </div>
               <div className="bg-white rounded-lg p-6 shadow-lg text-center">
                 <div className="text-4xl mb-4">📊</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Market Expertise</h3>
-                <p className="text-gray-600">Deep knowledge of Las Vegas real estate market and Skye Canyon community, helping clients make informed decisions about their new home investment.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Skye Canyon Market Expertise</h3>
+                <p className="text-gray-600">Deep knowledge of Las Vegas real estate market and Skye Canyon's unique 3,000+ foot elevation community, helping clients understand the value of living near Mount Charleston and make informed decisions about their new home investment.</p>
               </div>
               <div className="bg-white rounded-lg p-6 shadow-lg text-center">
                 <div className="text-4xl mb-4">💰</div>
@@ -317,7 +317,7 @@ const Reviews: NextPage = () => {
                 Why Homebuyers Choose Dr. Jan Duffy
               </h2>
               <p className="text-lg mb-8">
-                Dr. Jan Duffy's expertise and dedicated buyer advocacy provide unmatched advantages for new home buyers at Sierra at Skyeview Homes.
+                Dr. Jan Duffy's expertise and dedicated Buyer's Agent representation provide unmatched advantages for new home buyers at Sierra at Skyeview Homes.
               </p>
             </div>
 
@@ -343,7 +343,7 @@ const Reviews: NextPage = () => {
                     <div className="text-2xl mr-4">📋</div>
                     <div>
                       <h4 className="text-lg font-semibold mb-2">Streamlined Process</h4>
-                      <p className="text-gray-300">Close collaboration with the builder's teams ensures a smooth, efficient home buying experience.</p>
+                      <p className="text-gray-300">Buyer's Agent representation ensures a smooth, efficient home buying experience focused on your best interests at Sierra at Skyeview Homes in Skye Canyon.</p>
                     </div>
                   </div>
                 </div>
@@ -410,7 +410,7 @@ const Reviews: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
+                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by Buyer's Agent Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
@@ -421,7 +421,7 @@ const Reviews: NextPage = () => {
                 <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Available Homes</Link>
                 <Link href="/community" className="block text-gray-300 hover:text-white">Skye Canyon Guide</Link>
                 <Link href="/reviews" className="block text-blue-400">Buyer Success Stories</Link>
-                <Link href="/services" className="block text-gray-300 hover:text-white">Buyer Advocacy Services</Link>
+                <Link href="/services" className="block text-gray-300 hover:text-white">Buyer Representation Services</Link>
               </div>
               <h5 className="text-sm font-semibold text-gray-200 mt-6 uppercase tracking-wide">Buyer Resources</h5>
               <div className="space-y-2 text-sm">

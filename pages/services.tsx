@@ -9,7 +9,7 @@ const Services: NextPage = () => {
       title: "New Home Construction Guidance",
       description: "Expert guidance through the entire new construction process from lot selection to closing.",
       features: [
-        "Builder negotiation and representation",
+        "Independent buyer negotiation and representation",
         "Construction timeline management",
         "Quality control inspections",
         "Design center assistance",
@@ -30,20 +30,20 @@ const Services: NextPage = () => {
     },
     {
       icon: "🎯",
-      title: "Sierra at Skyeview Homes Buyer Advocacy",
-      description: "Independent representation with deep insight into Sierra at Skyeview Homes to help you secure the right home.",
+      title: "Buyer Representation for Sierra at Skyeview Homes",
+      description: "Buyer's Agent representation with deep insight into Sierra at Skyeview Homes to help you secure the right home.",
       features: [
-        "Early phase updates",
-        "Priority lot strategies",
-        "Collaborative builder relationships",
+        "Early phase updates for Sierra at Skyeview Homes",
+        "Priority lot strategies in Skye Canyon",
+        "Buyer's Agent representation",
         "Exclusive buyer incentives",
-        "Negotiation focused on your interests"
+        "Negotiation exclusively focused on your interests"
       ]
     },
     {
       icon: "📊",
       title: "Market Expertise",
-      description: "Deep knowledge of the Las Vegas real estate market and Skye Canyon area.",
+      description: "Deep knowledge of the Las Vegas real estate market, Skye Canyon's 3,000+ foot elevation community, and proximity to Mount Charleston.",
       features: [
         "Neighborhood analysis",
         "Investment potential assessment",
@@ -127,7 +127,7 @@ const Services: NextPage = () => {
               Professional Real Estate Services
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Expert guidance from Dr. Jan Duffy for all your real estate needs. Specializing in new home construction, buyer representation, and Sierra at Skyeview Homes buyer advocacy.
+              Expert guidance from Dr. Jan Duffy for all your real estate needs. Specializing in new home construction, buyer representation, and Buyer's Agent services for Sierra at Skyeview Homes.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -189,13 +189,13 @@ const Services: NextPage = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="text-4xl mb-4">🤝</div>
-                <h3 className="text-xl font-bold mb-2">Sierra at Skyeview Homes Buyer Advocacy</h3>
-                <p className="text-gray-300">I collaborate with the builder while exclusively representing YOUR interests as an independent agent.</p>
+                <h3 className="text-xl font-bold mb-2">Buyer's Agent Representation</h3>
+                <p className="text-gray-300">I represent YOU—not the builder. As your Buyer's Agent for Sierra at Skyeview Homes in Skye Canyon, I protect your interests while providing insider access to this premier 3,000+ foot elevation community.</p>
               </div>
               <div className="text-center">
                 <div className="text-4xl mb-4">📊</div>
-                <h3 className="text-xl font-bold mb-2">Market Expertise</h3>
-                <p className="text-gray-300">I'll show you comparable communities and help you understand true market value—not just what the builder tells you.</p>
+                <h3 className="text-xl font-bold mb-2">Skye Canyon Market Expertise</h3>
+                <p className="text-gray-300">I'll show you comparable Las Vegas communities and help you understand true market value for Skye Canyon homes—not just what sales teams tell you. My expertise includes the unique benefits of 3,000+ foot elevation living and proximity to Mount Charleston.</p>
               </div>
               <div className="text-center">
                 <div className="text-4xl mb-4">💰</div>
@@ -321,7 +321,7 @@ const Services: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
+                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by Buyer's Agent Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
@@ -331,7 +331,7 @@ const Services: NextPage = () => {
               <div className="space-y-2">
               <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Available Homes</Link>
               <Link href="/community" className="block text-gray-300 hover:text-white">Skye Canyon Guide</Link>
-              <Link href="/services" className="block text-blue-400">Buyer Advocacy Services</Link>
+              <Link href="/services" className="block text-blue-400">Buyer Representation Services</Link>
               <Link href="/qa" className="block text-gray-300 hover:text-white">Buyer FAQs</Link>
               </div>
               <h5 className="text-sm font-semibold text-gray-200 mt-6 uppercase tracking-wide">Buyer Resources</h5>

@@ -342,7 +342,7 @@ const Contact: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
+                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by Buyer's Agent Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
@@ -352,7 +352,7 @@ const Contact: NextPage = () => {
               <div className="space-y-2">
                 <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Available Homes</Link>
                 <Link href="/community" className="block text-gray-300 hover:text-white">Skye Canyon Guide</Link>
-                <Link href="/services" className="block text-gray-300 hover:text-white">Buyer Advocacy Services</Link>
+                <Link href="/services" className="block text-gray-300 hover:text-white">Buyer Representation Services</Link>
                 <Link href="/qa" className="block text-gray-300 hover:text-white">Buyer FAQs</Link>
               </div>
               <h5 className="text-sm font-semibold text-gray-200 mt-6 uppercase tracking-wide">Buyer Resources</h5>

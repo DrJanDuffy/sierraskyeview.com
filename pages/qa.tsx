@@ -40,8 +40,8 @@ const QA: NextPage = () => {
       answer: "Sierra at Skyeview Homes is conveniently located near several excellent schools including William & Mary Scherbenbach Elementary School, James Bilbray Elementary School, Kenneth Divich Elementary School, Ralph Cadwallader Middle School, Edmundo Escobedo Middle School, Arbor View High School, and Somerset Academy-Skye Canyon Campus Charter School."
     },
     {
-      question: "What is included in the Century Connect® package?",
-      answer: "Every home at Sierra at Skyeview Homes comes with the Century Connect® package, featuring smart home technology, premium finishes, and energy-efficient features. This includes integrated smart home systems for convenience and energy efficiency, high-quality materials and finishes throughout the home, and modern construction techniques for optimal energy performance."
+      question: "What smart home features are included at Sierra at Skyeview Homes?",
+      answer: "Every home at Sierra at Skyeview Homes in Skye Canyon comes with integrated smart home technology, premium finishes, and energy-efficient features. Located at 3,000+ foot elevation in the master-planned Skye Canyon community, these homes include integrated smart home systems for convenience and energy efficiency, high-quality materials and finishes throughout the home, and modern construction techniques optimized for the cooler mountain climate."
     },
     {
       question: "Are there quick move-in homes available at Sierra at Skyeview Homes?",
@@ -65,7 +65,7 @@ const QA: NextPage = () => {
     },
     {
       question: "How does Dr. Jan Duffy help with the home buying process?",
-      answer: "Dr. Jan Duffy provides expert, unbiased guidance as an independent real estate agent specializing in new home construction. She works directly with the builder to give buyers insider access while representing their interests, not the builder's. With Nevada License S.0197614, she offers market expertise, negotiation power, and deep knowledge of Skye Canyon and the entire Las Vegas metro area."
+      answer: "Dr. Jan Duffy provides expert, unbiased guidance as an independent real estate agent specializing in new home construction at Sierra at Skyeview Homes in Skye Canyon. She represents YOUR interests exclusively—not the builder's. With Nevada License S.0197614, she offers market expertise, negotiation power, and deep knowledge of Skye Canyon's unique 3,000+ foot elevation community, proximity to Mount Charleston, and the entire Las Vegas metro area."
     },
     {
       question: "What is the highest temperature ever recorded in Las Vegas?",
@@ -249,7 +249,7 @@ const QA: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by independent buyer advocate Dr. Jan Duffy.
+                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by Buyer's Agent Dr. Jan Duffy.
               </p>
               <p className="text-gray-300 mb-4">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
@@ -259,7 +259,7 @@ const QA: NextPage = () => {
               <div className="space-y-2">
                 <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Available Homes</Link>
                 <Link href="/community" className="block text-gray-300 hover:text-white">Skye Canyon Guide</Link>
-                <Link href="/services" className="block text-gray-300 hover:text-white">Buyer Advocacy Services</Link>
+                <Link href="/services" className="block text-gray-300 hover:text-white">Buyer Representation Services</Link>
                 <Link href="/qa" className="block text-blue-400">Buyer FAQs</Link>
               </div>
               <h5 className="text-sm font-semibold text-gray-200 mt-6 uppercase tracking-wide">Buyer Resources</h5>
