@@ -90,7 +90,7 @@ const Model1708: NextPage = () => {
               Ready to Reserve Residence 1708?
             </h2>
             <p className="text-lg mb-6">
-              Partner with Dr. Jan Duffy as YOUR Buyer's Agent—not the builder's. She provides unbiased guidance, negotiation leverage, and a concierge experience from first visit through closing for Sierra at Skyeview Homes in Skye Canyon. Located at 3,000+ foot elevation with stunning mountain views and access to Mount Charleston, this premier community offers a unique Las Vegas lifestyle.
+              Partner with Dr. Jan Duffy as YOUR Buyer's Agent—not the builder's. She provides unbiased guidance, negotiation leverage, and a concierge experience from first visit through closing for the Sierra at Skyeview Area in Skye Canyon. Located at 3,000+ foot elevation with stunning mountain views and access to Mount Charleston, this premier community offers a unique Las Vegas lifestyle.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -117,7 +117,7 @@ const Model1708: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by Buyer's Agent Dr. Jan Duffy.
+                The Sierra at Skyeview Area, located within Skye Canyon, connects Las Vegas home buyers with new construction opportunities, guided by Buyer's Agent Dr. Jan Duffy.
               </p>
               <p className="text-gray-300 mb-4">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>

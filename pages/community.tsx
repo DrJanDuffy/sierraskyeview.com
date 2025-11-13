@@ -222,7 +222,7 @@ const Community: NextPage = () => {
                 🏘️ Community Features
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Sierra at Skyeview Homes offers an exceptional lifestyle within Skye Canyon's 1,700-acre master-planned community. A recreational playground with inspiring scenery and an emotionally appealing setting, Skye Canyon is designed for a more engaged community—where work-life balance, a sense of well-being, and a vital active life are the norm.
+                The Sierra at Skyeview Area, located within Skye Canyon, offers an exceptional lifestyle in Skye Canyon's 1,700-acre master-planned community. A recreational playground with inspiring scenery and an emotionally appealing setting, Skye Canyon is designed for a more engaged community—where work-life balance, a sense of well-being, and a vital active life are the norm.
               </p>
             </div>
 
@@ -246,7 +246,7 @@ const Community: NextPage = () => {
                 Prime Skye Canyon Location
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Strategically located in Skye Canyon's 1,700-acre master-planned community, Sierra at Skyeview Homes offers unparalleled access to recreation, entertainment, and convenience.
+                Strategically located in Skye Canyon's 1,700-acre master-planned community, the Sierra at Skyeview Area offers unparalleled access to recreation, entertainment, and convenience.
               </p>
             </div>
 
@@ -324,7 +324,7 @@ const Community: NextPage = () => {
                 🏠 Smart Home Tech
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Every home at Sierra at Skyeview Homes in Skye Canyon comes equipped with integrated smart home technology for modern convenience and energy efficiency. Located at 3,000+ foot elevation with stunning mountain views, these homes feature premium finishes and smart systems optimized for the cooler Las Vegas mountain climate.
+                Every home in the Sierra at Skyeview Area comes equipped with integrated smart home technology for modern convenience and energy efficiency. Located at 3,000+ foot elevation in Skye Canyon with stunning mountain views, these homes feature premium finishes and smart systems optimized for the cooler Las Vegas mountain climate.
               </p>
             </div>
 
@@ -361,7 +361,7 @@ const Community: NextPage = () => {
                 🗺️ Explore Skye Canyon Master Plan
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Discover the 1,700-acre master-planned community where Sierra at Skyeview Homes is located. This comprehensive map shows neighborhoods, amenities, schools, and recreational facilities throughout Skye Canyon.
+                Discover the 1,700-acre master-planned community where the Sierra at Skyeview Area is located. This comprehensive map shows neighborhoods, amenities, schools, and recreational facilities throughout Skye Canyon.
               </p>
             </div>
 
@@ -435,7 +435,7 @@ const Community: NextPage = () => {
                 📍 Visit Sierra at Skyeview Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Located in the heart of Skye Canyon, Sierra at Skyeview Homes offers easy access to the Las Vegas Strip, Downtown Las Vegas, and major employment centers.
+                Located in the heart of Skye Canyon, the Sierra at Skyeview Area offers easy access to the Las Vegas Strip, Downtown Las Vegas, and major employment centers.
               </p>
             </div>
 
@@ -579,7 +579,7 @@ const Community: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by Buyer's Agent Dr. Jan Duffy.
+                The Sierra at Skyeview Area, located within Skye Canyon, connects Las Vegas home buyers with new construction opportunities, guided by Buyer's Agent Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>

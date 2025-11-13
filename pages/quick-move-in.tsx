@@ -54,7 +54,7 @@ const QuickMoveIn: NextPage = () => {
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
               <p className="text-xl max-w-3xl mx-auto">
-                Don't wait months for construction! Discover move-in ready homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas. Currently available: Residence 1602 starting at $420,240 with 1,602 sqft. Get expert guidance from Dr. Jan Duffy for new homes available for immediate occupancy.
+                Don't wait months for construction! Discover move-in ready homes in the Sierra at Skyeview Area, located within Skye Canyon, Las Vegas. Currently available: Residence 1602 starting at $420,240 with 1,602 sqft. Get expert guidance from Dr. Jan Duffy for new homes available for immediate occupancy.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -76,7 +76,7 @@ const QuickMoveIn: NextPage = () => {
                 Move-In Ready Homes at Sierra at Skyeview Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Explore these carefully selected homes available for quick move-in at Sierra at Skyeview Homes in Skye Canyon. Each home features premium finishes, smart home technology, and access to world-class community amenities.
+                Explore these carefully selected homes available for quick move-in in the Sierra at Skyeview Area in Skye Canyon. Each home features premium finishes, smart home technology, and access to world-class community amenities.
                 <span className="sr-only">Community address: 8925 Vanhoy Creek St., Las Vegas, NV 89166</span>
               </p>
             </div>
@@ -171,7 +171,7 @@ const QuickMoveIn: NextPage = () => {
               <div className="text-center">
                 <div className="text-4xl mb-4">🏠</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Immediate Occupancy</h3>
-                <p className="text-gray-600">Move in right away and start enjoying your new home at Sierra at Skyeview Homes without waiting months for construction to complete.</p>
+                <p className="text-gray-600">Move in right away and start enjoying your new home in the Sierra at Skyeview Area without waiting months for construction to complete.</p>
               </div>
               <div className="text-center">
                 <div className="text-4xl mb-4">💰</div>
@@ -195,7 +195,7 @@ const QuickMoveIn: NextPage = () => {
                 Sierra at Skyeview Homes at Skye Canyon - New Homes in Las Vegas
               </h2>
               <p className="text-lg mb-8">
-                Located at 8925 Vanhoy Creek St., Las Vegas, NV 89166, Sierra at Skyeview Homes offers exceptional new homes within the prestigious Skye Canyon master-planned community.
+                Located at 8925 Vanhoy Creek St., Las Vegas, NV 89166, the Sierra at Skyeview Area offers exceptional new homes within the prestigious Skye Canyon master-planned community.
               </p>
             </div>
 
@@ -257,7 +257,7 @@ const QuickMoveIn: NextPage = () => {
                 Why Work With Dr. Jan Duffy for Quick Move-In Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy's buyer representation provides early insight into quick move-in homes at Sierra at Skyeview Homes in Skye Canyon and expert guidance throughout the home buying process. Located at 3,000+ foot elevation with access to Mount Charleston, this premier community offers a unique Las Vegas lifestyle. As your Buyer's Agent, Dr. Jan represents YOUR interests exclusively—not the builder's.
+                Dr. Jan Duffy's buyer representation provides early insight into quick move-in homes in the Sierra at Skyeview Area and expert guidance throughout the home buying process. Located at 3,000+ foot elevation in Skye Canyon with access to Mount Charleston, this premier community offers a unique Las Vegas lifestyle. As your Buyer's Agent, Dr. Jan represents YOUR interests exclusively—not the builder's.
               </p>
             </div>
 
@@ -283,7 +283,7 @@ const QuickMoveIn: NextPage = () => {
                     <div className="text-2xl mr-4">📋</div>
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 mb-2">Streamlined Process</h4>
-                      <p className="text-gray-600">Buyer's Agent representation ensures a smooth, efficient home buying experience for quick move-in homes at Sierra at Skyeview Homes in Skye Canyon.</p>
+                      <p className="text-gray-600">Buyer's Agent representation ensures a smooth, efficient home buying experience for quick move-in homes in the Sierra at Skyeview Area.</p>
                     </div>
                   </div>
                 </div>
@@ -333,7 +333,7 @@ const QuickMoveIn: NextPage = () => {
               Don't Miss Out on Quick Move-In Homes!
             </h2>
             <p className="text-lg mb-8">
-              Quick move-in homes at Sierra at Skyeview Homes are in high demand. Contact Dr. Jan Duffy today to check availability and secure your new home.
+              Quick move-in homes in the Sierra at Skyeview Area are in high demand. Contact Dr. Jan Duffy today to check availability and secure your new home.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-green-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -357,7 +357,7 @@ const QuickMoveIn: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by Buyer's Agent Dr. Jan Duffy.
+                The Sierra at Skyeview Area, located within Skye Canyon, connects Las Vegas home buyers with new construction opportunities, guided by Buyer's Agent Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>

@@ -9,14 +9,14 @@ const Home: NextPage = () => {
 
   const heroSlides = [
     {
-      title: "Sierra Skyview - Luxury New Homes in Skye Canyon",
+      title: "Sierra at Skyeview Homes - Luxury New Homes in Skye Canyon",
       subtitle: "Now Selling! Starting at $459,790 - Luxury Homes in Gated Community",
       description: "Expert Guidance from Dr. Jan Duffy | Buyer's Agent for Sierra at Skyeview Homes",
       image: "/hero-1.jpg"
     },
     {
       title: "Limited Availability - Act Fast!",
-      subtitle: "Only 3 Homes remaining! Sierra Skyview is selling out fast.",
+      subtitle: "Only 3 Homes remaining! Sierra at Skyeview Homes is selling out fast.",
       description: "Get your VIP tour with Dr. Jan Duffy before these luxury homes are gone.",
       image: "/hero-2.jpg"
     }
@@ -267,7 +267,7 @@ const Home: NextPage = () => {
               <div className="text-center">
                 <div className="text-4xl mb-4">🤝</div>
                 <h3 className="text-xl font-bold mb-2">Buyer's Agent Representation</h3>
-                <p className="text-gray-300">I represent YOU—not the builder. As your Buyer's Agent for Sierra at Skyeview Homes in Skye Canyon, I provide insider access to this premier 3,000+ foot elevation community while protecting your interests.</p>
+                <p className="text-gray-300">I represent YOU—not the builder. As your Buyer's Agent for the Sierra at Skyeview Area in Skye Canyon, I provide insider access to this premier 3,000+ foot elevation community while protecting your interests.</p>
               </div>
               <div className="text-center">
                 <div className="text-4xl mb-4">📊</div>
@@ -304,7 +304,7 @@ const Home: NextPage = () => {
               <div className="bg-gray-50 rounded-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">What are the HOA fees?</h3>
                 <p className="text-gray-700 mb-4">
-                  Skye Canyon master community HOA fee is approximately $83/month. Sierra at Skyeview Homes may have additional sub-HOA fees for enhanced amenities.
+                  Skye Canyon master community HOA fee is approximately $83/month. The Sierra at Skyeview Area may have additional sub-HOA fees for enhanced amenities.
                 </p>
                 <a href="/qa" className="text-blue-600 hover:text-blue-700 font-semibold">View all HOA questions →</a>
               </div>
@@ -312,7 +312,7 @@ const Home: NextPage = () => {
               <div className="bg-gray-50 rounded-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">What's included in the homes?</h3>
                 <p className="text-gray-700 mb-4">
-                  Every home at Sierra at Skyeview Homes in Skye Canyon comes with integrated smart home technology, premium finishes, and energy-efficient features. Located at 3,000+ foot elevation with access to Mount Charleston just 30 minutes away.
+                  Every home in the Sierra at Skyeview Area comes with integrated smart home technology, premium finishes, and energy-efficient features. Located at 3,000+ foot elevation in Skye Canyon with access to Mount Charleston just 30 minutes away.
                 </p>
                 <a href="/qa" className="text-blue-600 hover:text-blue-700 font-semibold">Learn more about features →</a>
               </div>
@@ -328,7 +328,7 @@ const Home: NextPage = () => {
               <div className="bg-gray-50 rounded-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">How does Dr. Jan Duffy help?</h3>
                 <p className="text-gray-700 mb-4">
-                  As your Buyer's Agent, Dr. Jan represents YOUR interests exclusively—not the builder's. She provides expert guidance on Sierra at Skyeview Homes in Skye Canyon, deep market knowledge of this 3,000+ foot elevation community, and negotiation power focused on protecting your investment.
+                  As your Buyer's Agent, Dr. Jan represents YOUR interests exclusively—not the builder's. She provides expert guidance on the Sierra at Skyeview Area, deep market knowledge of Skye Canyon's 3,000+ foot elevation community, and negotiation power focused on protecting your investment.
                 </p>
                 <a href="/about" className="text-blue-600 hover:text-blue-700 font-semibold">Meet Dr. Jan Duffy →</a>
               </div>
@@ -373,7 +373,7 @@ const Home: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by Buyer's Agent Dr. Jan Duffy.
+                The Sierra at Skyeview Area, located within Skye Canyon, connects Las Vegas home buyers with new construction opportunities, guided by Buyer's Agent Dr. Jan Duffy.
               </p>
               <p className="text-gray-300 mb-4">(702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>

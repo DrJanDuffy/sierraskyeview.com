@@ -17,11 +17,11 @@ const QA: NextPage = () => {
   const faqs = [
     {
       question: "How much are the HOA fees at Sierra at Skyeview Homes?",
-      answer: "The monthly HOA fee for Skye Canyon master community is approximately $83. Sierra at Skyeview Homes may have additional sub-HOA fees. These fees contribute to maintaining community amenities including the recreation center, fitness center, parks, trails, sports courts, splash pads, and neighborhood schools. The exact fees can vary and may change annually based on community budget needs."
+      answer: "The monthly HOA fee for Skye Canyon master community is approximately $83. The Sierra at Skyeview Area may have additional sub-HOA fees. These fees contribute to maintaining community amenities including the recreation center, fitness center, parks, trails, sports courts, splash pads, and neighborhood schools. The exact fees can vary and may change annually based on community budget needs."
     },
     {
       question: "What are the starting prices for homes at Sierra at Skyeview Homes?",
-      answer: "Sierra at Skyeview Homes offers three Homes starting from $419,990. Residence 1602 (1,602 sq ft) starts at $419,990, Residence 1708 (1,708 sq ft) starts at $429,990, and Residence 1965 (1,965 sq ft) starts at $449,990. These are two-story homes with 3 bedrooms and 2.5 bathrooms, featuring open-concept layouts and premium finishes."
+      answer: "The Sierra at Skyeview Area offers three Homes starting from $419,990. Residence 1602 (1,602 sq ft) starts at $419,990, Residence 1708 (1,708 sq ft) starts at $429,990, and Residence 1965 (1,965 sq ft) starts at $449,990. These are two-story homes with 3 bedrooms and 2.5 bathrooms, featuring open-concept layouts and premium finishes."
     },
     {
       question: "Is Skye Canyon a gated community?",
@@ -41,15 +41,15 @@ const QA: NextPage = () => {
     },
     {
       question: "What smart home features are included at Sierra at Skyeview Homes?",
-      answer: "Every home at Sierra at Skyeview Homes in Skye Canyon comes with integrated smart home technology, premium finishes, and energy-efficient features. Located at 3,000+ foot elevation in the master-planned Skye Canyon community, these homes include integrated smart home systems for convenience and energy efficiency, high-quality materials and finishes throughout the home, and modern construction techniques optimized for the cooler mountain climate."
+      answer: "Every home in the Sierra at Skyeview Area comes with integrated smart home technology, premium finishes, and energy-efficient features. Located at 3,000+ foot elevation in Skye Canyon's master-planned community, these homes include integrated smart home systems for convenience and energy efficiency, high-quality materials and finishes throughout the home, and modern construction techniques optimized for the cooler mountain climate."
     },
     {
       question: "Are there quick move-in homes available at Sierra at Skyeview Homes?",
-      answer: "Yes! Sierra at Skyeview Homes has several quick move-in homes available. Currently available lots include SRA024 (8990 Rimerton ST) at $447,690, SRA015 (9026 Rimerton ST) at $453,940, and SRA017 (9018 Rimerton ST) at $488,290. Estimated completion dates range from November to December 2024."
+      answer: "Yes! The Sierra at Skyeview Area has several quick move-in homes available. Currently available lots include SRA024 (8990 Rimerton ST) at $447,690, SRA015 (9026 Rimerton ST) at $453,940, and SRA017 (9018 Rimerton ST) at $488,290. Estimated completion dates range from November to December 2024."
     },
     {
       question: "What makes Sierra at Skyeview Homes different from other Las Vegas communities?",
-      answer: "Sierra at Skyeview Homes offers thoughtfully designed two-story homes with shared private driveways that bring ease and connection to Sky Canyon living. Located at 3,000+ foot elevation, the community provides stunning mountain views, cooler temperatures, and access to Mount Charleston just 30 minutes away. The homes feature open-concept layouts, premium finishes, and smart home technology included."
+      answer: "The Sierra at Skyeview Area offers thoughtfully designed two-story homes with shared private driveways that bring ease and connection to Sky Canyon living. Located at 3,000+ foot elevation in Skye Canyon, this community provides stunning mountain views, cooler temperatures, and access to Mount Charleston just 30 minutes away. The homes feature open-concept layouts, premium finishes, and smart home technology included."
     },
     {
       question: "How close is Sierra at Skyeview Homes to the Las Vegas Strip?",

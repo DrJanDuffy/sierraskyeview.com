@@ -216,7 +216,7 @@ const Reviews: NextPage = () => {
                 Why Homebuyers Choose Dr. Jan Duffy at Sierra at Skyeview Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy has built a reputation as the go-to Buyer's Agent for new homes at Sierra at Skyeview Homes in Skye Canyon. Located at 3,000+ foot elevation with stunning mountain views and access to Mount Charleston, this master-planned community offers a unique Las Vegas lifestyle. Dr. Jan's buyer representation provides clients with exclusive access, better pricing, and expert guidance throughout the home buying process—all while she exclusively represents YOUR interests, not the builder's.
+                Dr. Jan Duffy has built a reputation as the go-to Buyer's Agent for new homes in the Sierra at Skyeview Area. Located at 3,000+ foot elevation in Skye Canyon with stunning mountain views and access to Mount Charleston, this master-planned community offers a unique Las Vegas lifestyle. Dr. Jan's buyer representation provides clients with exclusive access, better pricing, and expert guidance throughout the home buying process—all while she exclusively represents YOUR interests, not the builder's.
               </p>
             </div>
 
@@ -224,7 +224,7 @@ const Reviews: NextPage = () => {
               <div className="bg-white rounded-lg p-6 shadow-lg text-center">
                 <div className="text-4xl mb-4">🤝</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Buyer's Agent Representation</h3>
-                <p className="text-gray-600">Exclusive access to premier lots at Sierra at Skyeview Homes in Skye Canyon, early phase releases, and informed pricing strategies through Dr. Jan Duffy's buyer representation. As your Buyer's Agent, she represents YOU—not the builder—protecting your interests in this premier 3,000+ foot elevation community.</p>
+                <p className="text-gray-600">Exclusive access to premier lots in the Sierra at Skyeview Area, early phase releases, and informed pricing strategies through Dr. Jan Duffy's buyer representation. As your Buyer's Agent, she represents YOU—not the builder—protecting your interests in Sierra at Skyeview Area's premier 3,000+ foot elevation location in Skye Canyon.</p>
               </div>
               <div className="bg-white rounded-lg p-6 shadow-lg text-center">
                 <div className="text-4xl mb-4">📊</div>
@@ -241,14 +241,14 @@ const Reviews: NextPage = () => {
             <div className="bg-white rounded-lg p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Sierra at Skyeview Homes at Skye Canyon - New Homes in Las Vegas</h3>
               <p className="text-lg text-gray-600 mb-6">
-                Sierra at Skyeview Homes represents the pinnacle of new home construction in Las Vegas, offering three thoughtfully designed two-story Homes within the prestigious Skye Canyon master-planned community. This development provides residents with access to world-class amenities, beautiful mountain views, and a vibrant community lifestyle that's unmatched in the Las Vegas Valley.
+                The Sierra at Skyeview Area, located within Skye Canyon, represents the pinnacle of new home construction in Las Vegas, offering three thoughtfully designed two-story Homes in Skye Canyon's prestigious master-planned community. Sierra at Skyeview Area provides residents with access to world-class amenities, beautiful mountain views, and a vibrant community lifestyle that's unmatched in the Las Vegas Valley.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Nestled in Skye Canyon, Sierra at Skyeview Homes offers new homes starting from $419,990. The community features three Homes: Residence 1602 (1,602 sq ft, 3 bed, 2.5 bath), Residence 1708 (1,708 sq ft, 3 bed, 2.5 bath), and Residence 1965 (1,965 sq ft, 3 bed, 2.5 bath). Each home includes modern finishes, smart home technology, and access to Skye Canyon's incredible amenities including parks, trails, recreational facilities, and neighborhood schools.
+                Nestled in Skye Canyon, the Sierra at Skyeview Area offers new homes starting from $419,990. The community features three Homes: Residence 1602 (1,602 sq ft, 3 bed, 2.5 bath), Residence 1708 (1,708 sq ft, 3 bed, 2.5 bath), and Residence 1965 (1,965 sq ft, 3 bed, 2.5 bath). Each home includes modern finishes, smart home technology, and access to Skye Canyon's incredible amenities including parks, trails, recreational facilities, and neighborhood schools.
                 <span className="sr-only">Community address: 8925 Vanhoy Creek St., Las Vegas, NV 89166</span>
               </p>
               <p className="text-lg text-gray-600">
-                Dr. Jan Duffy's independent representation ensures that homebuyers receive VIP treatment, early insight into the best lots, and expert guidance throughout the entire home buying process. Her Nevada real estate license (S.0197614) and deep knowledge of the Las Vegas market make her the ideal choice for anyone considering a new home at Sierra at Skyeview Homes.
+                Dr. Jan Duffy's independent representation ensures that homebuyers receive VIP treatment, early insight into the best lots, and expert guidance throughout the entire home buying process. Her Nevada real estate license (S.0197614) and deep knowledge of the Las Vegas market make her the ideal choice for anyone considering a new home in the Sierra at Skyeview Area.
               </p>
             </div>
           </div>
@@ -343,7 +343,7 @@ const Reviews: NextPage = () => {
                     <div className="text-2xl mr-4">📋</div>
                     <div>
                       <h4 className="text-lg font-semibold mb-2">Streamlined Process</h4>
-                      <p className="text-gray-300">Buyer's Agent representation ensures a smooth, efficient home buying experience focused on your best interests at Sierra at Skyeview Homes in Skye Canyon.</p>
+                      <p className="text-gray-300">Buyer's Agent representation ensures a smooth, efficient home buying experience focused on your best interests in the Sierra at Skyeview Area.</p>
                     </div>
                   </div>
                 </div>
@@ -410,7 +410,7 @@ const Reviews: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by Buyer's Agent Dr. Jan Duffy.
+                The Sierra at Skyeview Area, located within Skye Canyon, connects Las Vegas home buyers with new construction opportunities, guided by Buyer's Agent Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>

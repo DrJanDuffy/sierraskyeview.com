@@ -72,7 +72,7 @@ const FloorPlans: NextPage = () => {
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
               <p className="text-lg text-white max-w-3xl mx-auto leading-relaxed">
-                Instantly see every available floor plan, elevation, quick move-in opportunity, pricing update, and exclusive incentives for Sierra at Skyeview Homes in Skye Canyon using Dr. Jan Duffy's private home finder. Updated in real time with current availability for this premier 3,000+ foot elevation community.
+                Instantly see every available floor plan, elevation, quick move-in opportunity, pricing update, and exclusive incentives for the Sierra at Skyeview Area in Skye Canyon using Dr. Jan Duffy's private home finder. Updated in real time with current availability for this premier 3,000+ foot elevation community.
                 <span className="sr-only">Powered by RealScout</span>
               </p>
             </div>
@@ -103,7 +103,7 @@ const FloorPlans: NextPage = () => {
               One Click to Every Home & Quick Move-In
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Skip outdated PDFs and static brochures. Dr. Jan's private home finder keeps you updated with real-time inventory for Sierra at Skyeview Homes in Skye Canyon, including:
+              Skip outdated PDFs and static brochures. Dr. Jan's private home finder keeps you updated with real-time inventory for the Sierra at Skyeview Area in Skye Canyon, including:
               <span className="sr-only">This experience uses RealScout technology</span>
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-left mb-10">
@@ -163,7 +163,7 @@ const FloorPlans: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by Buyer's Agent Dr. Jan Duffy.
+                The Sierra at Skyeview Area, located within Skye Canyon, connects Las Vegas home buyers with new construction opportunities, guided by Buyer's Agent Dr. Jan Duffy.
               </p>
               <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>

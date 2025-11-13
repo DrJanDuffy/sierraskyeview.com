@@ -81,7 +81,7 @@ const NewBuildHomes: NextPage = () => {
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
               <p className="text-xl max-w-3xl mx-auto">
-                Discover exceptional new build homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas. New construction with Dr. Jan Duffy's expert guidance, VIP access, and exclusive benefits.
+                Discover exceptional new build homes in the Sierra at Skyeview Area, located within Skye Canyon, Las Vegas. New construction with Dr. Jan Duffy's expert guidance, VIP access, and exclusive benefits.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -109,7 +109,7 @@ const NewBuildHomes: NextPage = () => {
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Why Choose New Build Homes at Sierra at Skyeview Homes
+                Why Choose New Build Homes in the Sierra at Skyeview Area
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 New build homes offer the latest in design, technology, and energy efficiency, perfectly tailored to modern living in Skye Canyon's master-planned community.
@@ -130,7 +130,7 @@ const NewBuildHomes: NextPage = () => {
               <div className="bg-white rounded-lg p-6 shadow-lg text-center">
                 <div className="text-4xl mb-4">🛡️</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Warranty Coverage</h3>
-                <p className="text-gray-600">Comprehensive warranty coverage for all new build homes at Sierra at Skyeview Homes in Skye Canyon, ensuring quality and peace of mind.</p>
+                <p className="text-gray-600">Comprehensive warranty coverage for all new build homes in the Sierra at Skyeview Area, ensuring quality and peace of mind.</p>
               </div>
             </div>
           </div>
@@ -143,7 +143,7 @@ const NewBuildHomes: NextPage = () => {
               Browse Every Home & Quick Move-In Opportunity
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Use Dr. Jan Duffy's private home finder to explore current releases, homes under construction, standing inventory, pricing changes, and exclusive incentives for Sierra at Skyeview Homes in Skye Canyon. No PDFs—just real-time data for this premier 3,000+ foot elevation community with access to Mount Charleston.
+              Use Dr. Jan Duffy's private home finder to explore current releases, homes under construction, standing inventory, pricing changes, and exclusive incentives for the Sierra at Skyeview Area in Skye Canyon. No PDFs—just real-time data for this premier 3,000+ foot elevation community with access to Mount Charleston.
               <span className="sr-only">This experience uses RealScout technology</span>
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-left mb-10">
@@ -180,7 +180,7 @@ const NewBuildHomes: NextPage = () => {
                 New Home Construction Process
               </h2>
               <p className="text-lg mb-8">
-                New build homes at Sierra at Skyeview Homes in Skye Canyon follow a proven construction process to ensure quality, efficiency, and timely completion. Located at 3,000+ foot elevation with stunning mountain views, these homes are optimized for the cooler Las Vegas mountain climate.
+                New build homes in the Sierra at Skyeview Area follow a proven construction process to ensure quality, efficiency, and timely completion. Located at 3,000+ foot elevation in Skye Canyon with stunning mountain views, these homes are optimized for the cooler Las Vegas mountain climate.
               </p>
             </div>
 
@@ -212,7 +212,7 @@ const NewBuildHomes: NextPage = () => {
                 Sierra at Skyeview Homes at Skye Canyon - New Homes in Las Vegas
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Located in Skye Canyon, Las Vegas, Sierra at Skyeview Homes offers exceptional new build homes within the prestigious master-planned community.
+                The Sierra at Skyeview Area, located within Skye Canyon, Las Vegas, offers exceptional new build homes in Skye Canyon's prestigious master-planned community.
                 <span className="sr-only">Community address: 8925 Vanhoy Creek St., Las Vegas, NV 89166</span>
               </p>
             </div>
@@ -221,10 +221,10 @@ const NewBuildHomes: NextPage = () => {
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Skye Canyon Master-Planned Community</h3>
                 <p className="text-gray-600 mb-4">
-                  Sierra at Skyeview Homes is part of Skye Canyon's 1,700-acre master-planned community, offering residents access to world-class amenities, beautiful mountain views, and a vibrant community lifestyle that's unmatched in the Las Vegas Valley.
+                  The Sierra at Skyeview Area is part of Skye Canyon's 1,700-acre master-planned community, offering residents access to world-class amenities, beautiful mountain views, and a vibrant community lifestyle that's unmatched in the Las Vegas Valley.
                 </p>
                 <p className="text-gray-600 mb-6">
-                  The community features parks, trails, recreational facilities, neighborhood schools, and a stunning central clubhouse. Residents enjoy a perfect balance of suburban tranquility and urban convenience, with easy access to shopping, dining, and entertainment throughout Las Vegas.
+                  Sierra at Skyeview Area features parks, trails, recreational facilities, neighborhood schools, and a stunning central clubhouse. Residents enjoy a perfect balance of suburban tranquility and urban convenience, with easy access to shopping, dining, and entertainment throughout Las Vegas.
                 </p>
                 <div className="bg-white rounded-lg p-6 shadow-lg">
                   <h4 className="text-lg font-semibold text-gray-900 mb-4">Community Amenities Include:</h4>
@@ -260,10 +260,10 @@ const NewBuildHomes: NextPage = () => {
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Quality Construction & Warranty</h3>
                 <p className="text-gray-600 mb-4">
-                  All new build homes at Sierra at Skyeview Homes in Skye Canyon are constructed with quality materials and craftsmanship. Located at 3,000+ foot elevation with access to Mount Charleston, these homes feature premium finishes and smart home technology optimized for the cooler mountain climate.
+                  All new build homes in the Sierra at Skyeview Area are constructed with quality materials and craftsmanship. Located at 3,000+ foot elevation in Skye Canyon with access to Mount Charleston, these homes feature premium finishes and smart home technology optimized for the cooler mountain climate.
                 </p>
                 <p className="text-gray-600 mb-6">
-                  All new build homes at Sierra at Skyeview Homes in Skye Canyon come with comprehensive warranty coverage, including structural warranty, systems warranty, and workmanship warranty. These homes are backed by dedicated customer service and warranty support for this premier 3,000+ foot elevation community.
+                  All new build homes in the Sierra at Skyeview Area come with comprehensive warranty coverage, including structural warranty, systems warranty, and workmanship warranty. These homes are backed by dedicated customer service and warranty support for Sierra at Skyeview Area's premier 3,000+ foot elevation location in Skye Canyon.
                 </p>
                 <div className="bg-white rounded-lg p-6 shadow-lg">
                   <h4 className="text-lg font-semibold text-gray-900 mb-4">Warranty Coverage Includes:</h4>
@@ -299,7 +299,7 @@ const NewBuildHomes: NextPage = () => {
                 Why Choose Dr. Jan Duffy for New Build Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy's buyer representation provides exclusive benefits and expert guidance for new build home buyers at Sierra at Skyeview Homes in Skye Canyon. Located at 3,000+ foot elevation with stunning mountain views and access to Mount Charleston, this premier community offers a unique Las Vegas lifestyle. As your Buyer's Agent, Dr. Jan represents YOUR interests exclusively—not the builder's.
+                Dr. Jan Duffy's buyer representation provides exclusive benefits and expert guidance for new build home buyers in the Sierra at Skyeview Area. Located at 3,000+ foot elevation in Skye Canyon with stunning mountain views and access to Mount Charleston, this premier community offers a unique Las Vegas lifestyle. As your Buyer's Agent, Dr. Jan represents YOUR interests exclusively—not the builder's.
               </p>
             </div>
 
@@ -325,7 +325,7 @@ const NewBuildHomes: NextPage = () => {
                     <div className="text-2xl mr-4">📋</div>
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 mb-2">Streamlined Process</h4>
-                      <p className="text-gray-600">Buyer's Agent representation ensures smooth coordination throughout the build process at Sierra at Skyeview Homes in Skye Canyon.</p>
+                      <p className="text-gray-600">Buyer's Agent representation ensures smooth coordination throughout the build process in the Sierra at Skyeview Area.</p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -382,7 +382,7 @@ const NewBuildHomes: NextPage = () => {
               Start Building Your Dream Home Today!
             </h2>
             <p className="text-lg mb-8">
-              Don't wait! New build homes at Sierra at Skyeview Homes are in high demand. Contact Dr. Jan Duffy today to get VIP access and start your new home construction.
+              Don't wait! New build homes in the Sierra at Skyeview Area are in high demand. Contact Dr. Jan Duffy today to get VIP access and start your new home construction.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -406,7 +406,7 @@ const NewBuildHomes: NextPage = () => {
                 Featured New Home Construction & Buyer Representation Specialist
               </p>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by Buyer's Agent Dr. Jan Duffy.
+                The Sierra at Skyeview Area, located within Skye Canyon, connects Las Vegas home buyers with new construction opportunities, guided by Buyer's Agent Dr. Jan Duffy.
               </p>
               <p className="text-gray-300 mb-4">Call to schedule: (702) 500-1955</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
