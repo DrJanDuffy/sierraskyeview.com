@@ -125,27 +125,6 @@ const QuickMoveIn: NextPage = () => {
               </div>
             </div>
 
-            {/* 9002 Rimerton Street - RealScout Widget */}
-            <div className="mb-12">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="p-6 border-b">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">9002 Rimerton Street</h3>
-                  <p className="text-gray-600">Residence 1602 | Lot SRA021</p>
-                </div>
-                <div className="bg-gray-50" style={{ minHeight: '700px' }}>
-                  <iframe
-                    src="https://drjanduffy.realscout.com/homesearch/listings/p-9002-rimerton-street-las-vegas-89166-glvartrestle-7"
-                    width="100%"
-                    height="700"
-                    style={{ border: 0 }}
-                    title="RealScout Listing - 9002 Rimerton Street"
-                    allowFullScreen
-                    loading="lazy"
-                    className="w-full"
-                  ></iframe>
-                </div>
-              </div>
-            </div>
           </div>
         </section>
 
