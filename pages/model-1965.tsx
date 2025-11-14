@@ -135,6 +135,50 @@ const Model1965: NextPage = () => {
             })
           }}
         />
+        {/* Product Schema for SEO */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Product",
+              "name": "1,965 sq ft Homes at Sierra at Skyeview",
+              "description": "New construction 1,965 sq ft homes for sale at Sierra at Skyeview in Skye Canyon, Northwest Las Vegas. 3 bedrooms, 2.5 bathrooms, starting at $449,990.",
+              "brand": {
+                "@type": "Brand",
+                "name": "Sierra at Skyeview"
+              },
+              "offers": {
+                "@type": "AggregateOffer",
+                "priceCurrency": "USD",
+                "lowPrice": "449990",
+                "highPrice": "600000",
+                "priceValidUntil": "2025-12-31",
+                "availability": "https://schema.org/InStock",
+                "seller": {
+                  "@type": "RealEstateAgent",
+                  "name": "Dr. Jan Duffy"
+                }
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Las Vegas",
+                "sameAs": "https://en.wikipedia.org/wiki/Las_Vegas"
+              },
+              "location": {
+                "@type": "Place",
+                "name": "Sierra at Skyeview",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Las Vegas",
+                  "addressRegion": "NV",
+                  "postalCode": "89166",
+                  "addressCountry": "US"
+                }
+              }
+            })
+          }}
+        />
       </Head>
 
       {/* Navigation */}
