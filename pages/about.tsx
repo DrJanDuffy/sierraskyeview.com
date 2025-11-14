@@ -70,7 +70,7 @@ const About: NextPage = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="lg:order-2">
                 <Image
-                  src="/dr-jan-duffy-portrait.jpg"
+                  src="/design 04_new 2.jpg"
                   alt="Dr. Jan Duffy - Professional Real Estate Agent"
                   width={600}
                   height={400}
