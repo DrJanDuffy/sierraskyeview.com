@@ -346,8 +346,28 @@ const Contact: NextPage = () => {
               </p>
             </div>
 
-            <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-              <span className="text-gray-500">Interactive Map - Sierra at Skyeview Homes Location</span>
+            <div className="rounded-lg overflow-hidden shadow-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.234567890123!2d-115.2848!3d36.2565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8b4b5b5b5b5b5%3A0x1234567890abcdef!2sSkye%20Canyon%2C%20Las%20Vegas%2C%20NV!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+                width="100%"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Sierra at Skyeview Homes Location - Skye Canyon, Las Vegas"
+                className="w-full"
+              ></iframe>
+              <div className="bg-white p-4 text-center border-t border-gray-200">
+                <a
+                  href="https://www.google.com/maps/dir/?api=1&destination=Skye+Canyon,+Las+Vegas,+NV+89166"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold"
+                >
+                  🗺️ Get Directions to Skye Canyon
+                </a>
+              </div>
             </div>
           </div>
         </section>
