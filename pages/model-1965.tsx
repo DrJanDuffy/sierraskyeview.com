@@ -349,7 +349,7 @@ const Model1965: NextPage = () => {
         </div>
       </footer>
 
-        {/* Sticky Mobile CTA */}
+      {/* Sticky Mobile CTA */}
         <div
           className={`fixed bottom-0 left-0 right-0 bg-red-600 text-white shadow-2xl z-50 transition-transform duration-300 md:hidden ${
             showMobileCTA ? 'translate-y-0' : 'translate-y-full'
@@ -367,10 +367,9 @@ const Model1965: NextPage = () => {
               >
                 📞 (702) 500-1955
               </a>
-            </div>
           </div>
         </div>
-      </main>
+      </div>
     </>
   );
 };
