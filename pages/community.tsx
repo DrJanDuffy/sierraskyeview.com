@@ -200,24 +200,12 @@ const Community: NextPage = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 max-w-5xl mx-auto">
               {[
                 { src: "/9026-rimerton-street-exterior.jpg", alt: "Two-story home exterior at 9026 Rimerton Street, Sierra at Skyeview Homes" },
-                { src: "/8990-rimerton-street-exterior.jpg", alt: "Luxury home exterior at 8990 Rimerton Street, Sierra at Skyeview Homes" },
-                { src: "/9002-rimerton-street-exterior.jpg", alt: "Modern new construction home at 9002 Rimerton Street, Sierra at Skyeview Homes" },
-                { src: "/9026-rimerton-kitchen-real.jpg", alt: "Modern luxury kitchen with premium appliances at Sierra at Skyeview Homes" },
-                { src: "/9026-rimerton-living-room-real.jpg", alt: "Spacious luxury living room at Sierra at Skyeview Homes" },
-                { src: "/9002-rimerton-living-room.jpg", alt: "Beautiful living room at Sierra at Skyeview Homes" },
-                { src: "/9026-rimerton-master-bedroom-real.jpg", alt: "Elegant master bedroom with premium finishes at Sierra at Skyeview Homes" },
-                { src: "/9002-rimerton-master-bedroom.jpg", alt: "Luxury master bedroom at Sierra at Skyeview Homes" },
-                { src: "/9026-rimerton-bathroom-real.jpg", alt: "Luxury bathroom with modern fixtures at Sierra at Skyeview Homes" },
-                { src: "/9002-rimerton-bathroom.jpg", alt: "Modern bathroom at Sierra at Skyeview Homes" },
-                { src: "/9002-rimerton-kitchen.jpg", alt: "Gourmet kitchen at Sierra at Skyeview Homes" },
-                { src: "/9026-rimerton-neighborhood-real.jpg", alt: "Beautiful neighborhood at Sierra at Skyeview Homes in Skye Canyon" },
-                { src: "/community-events.jpg", alt: "Picturesque neighborhood streets at Sierra at Skyeview Homes" },
-                { src: "/9026-rimerton-dining-room.jpg", alt: "Dining area at Sierra at Skyeview Homes" },
-                { src: "/9002-rimerton-dining.jpg", alt: "Dining area at Sierra at Skyeview Homes" },
-                { src: "/community-pool-luxury.jpg", alt: "Resort-style community pool at Skye Canyon" },
+                { src: "/9026-rimerton-kitchen-real.jpg", alt: "Modern luxury kitchen with premium appliances at 9026 Rimerton Street, Sierra at Skyeview Homes" },
+                { src: "/9026-rimerton-living-room-real.jpg", alt: "Spacious luxury living room at 9026 Rimerton Street, Sierra at Skyeview Homes" },
+                { src: "/9026-rimerton-master-bedroom-real.jpg", alt: "Elegant master bedroom with premium finishes at 9026 Rimerton Street, Sierra at Skyeview Homes" },
               ].map((photo, index) => (
                 <div
                   key={index}
