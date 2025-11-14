@@ -7,10 +7,10 @@ const FloorPlans: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Sierra at Skyeview Homes & Inventory | Live Home Finder</title>
-        <meta name="description" content="Browse every Sierra at Skyeview Homes floor plan and quick move-in home through Dr. Jan Duffy's curated RealScout search. Real-time availability, pricing, photos, and more." />
-        <meta property="og:title" content="Sierra at Skyeview Homes & Inventory" />
-        <meta property="og:description" content="View current Homes and quick move-in homes via Dr. Jan Duffy's RealScout search for Sierra at Skyeview Homes." />
+        <title>Sierra at Skyeview Floor Plans | Available Homes | Northwest Las Vegas 89166</title>
+        <meta name="description" content="Browse Sierra at Skyeview Homes floor plans and available homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston, zip code 89166. View all floor plans, quick move-in homes, pricing, and availability. Realtor service when buying a new home from Dr. Jan Duffy." />
+        <meta property="og:title" content="Sierra at Skyeview Floor Plans | Available Homes | Northwest Las Vegas" />
+        <meta property="og:description" content="Browse Sierra at Skyeview Homes floor plans and available homes. Located in Skye Canyon near Mount Charleston. View floor plans, quick move-in homes, pricing, and real-time availability. Expert realtor service when buying a new home." />
         <link rel="canonical" href="https://www.sierraskyeview.com/floor-plans" />
         
         {/* Breadcrumb Schema */}
@@ -67,38 +67,36 @@ const FloorPlans: NextPage = () => {
 
       <main className="pt-16">
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
+        <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Explore Sierra at Skyeview Homes & Move-In Homes
+              Sierra at Skyeview Floor Plans & Available Homes
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
               <p className="text-lg text-white max-w-3xl mx-auto leading-relaxed">
                 Instantly see every available floor plan, elevation, <Link href="/quick-move-in" className="text-blue-300 hover:text-blue-200 underline">quick move-in opportunity</Link>, pricing update, and exclusive incentives for the <Link href="/community" className="text-blue-300 hover:text-blue-200 underline">Sierra at Skyeview Area in Skye Canyon</Link> using Dr. Jan Duffy's private home finder. Updated in real time with current availability for this premier 3,000+ foot elevation community. Explore <Link href="/new-build-homes" className="text-blue-300 hover:text-blue-200 underline">new construction homes</Link> and <Link href="/services" className="text-blue-300 hover:text-blue-200 underline">buyer representation services</Link>.
-                <span className="sr-only">Powered by RealScout</span>
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="tel:7025001955" className="btn-primary">
                 📞 Call NOW: (702) 500-1955
               </a>
-              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:DrDuffy@SierraSkyeview.com" className="btn-secondary">
                 📧 Email Dr. Jan
               </a>
               <a
                 href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
+                className="btn-white"
               >
                 🔍 Explore Available Homes & Quick Closings
-                <span className="sr-only">Powered by RealScout</span>
               </a>
             </div>
           </div>
         </section>
 
-        {/* RealScout CTA */}
+        {/* Home Search CTA */}
         <section className="py-16 bg-gray-50">
           <div className="max-w-5xl mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
@@ -106,18 +104,17 @@ const FloorPlans: NextPage = () => {
             </h2>
             <p className="text-lg text-gray-600 mb-8">
               Skip outdated PDFs and static brochures. Dr. Jan's private home finder keeps you updated with real-time inventory for the Sierra at Skyeview Area in Skye Canyon, including:
-              <span className="sr-only">This experience uses RealScout technology</span>
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-left mb-10">
-              <div className="bg-white rounded-lg shadow p-6">
+              <div className="card p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">Live Availability</h3>
                 <p className="text-gray-600">See which Homes, elevations, and lots are currently released or coming soon.</p>
               </div>
-              <div className="bg-white rounded-lg shadow p-6">
+              <div className="card p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">Pricing & Incentives</h3>
                 <p className="text-gray-600">Track price changes, incentive updates, and lender promotions curated by Dr. Jan.</p>
               </div>
-              <div className="bg-white rounded-lg shadow p-6">
+              <div className="card p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">Tours & Alerts</h3>
                 <p className="text-gray-600">Request a tour or set instant alerts when new inventory is released—right from the search.</p>
               </div>
@@ -129,8 +126,95 @@ const FloorPlans: NextPage = () => {
               className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
             >
               🔍 Launch the Live Home Finder
-              <span className="sr-only">RealScout link</span>
             </a>
+          </div>
+        </section>
+
+        {/* Floor Plan Comparison Table */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">
+              Compare Sierra at Skyeview Floor Plans
+            </h2>
+            <p className="text-lg text-gray-600 mb-10 text-center max-w-3xl mx-auto">
+              All floor plans feature 3 bedrooms, 2.5 bathrooms, and premium finishes. Compare to find the perfect fit for your lifestyle.
+            </p>
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse bg-white shadow-large rounded-xl overflow-hidden">
+                <thead>
+                  <tr className="bg-gradient-to-r from-blue-900 to-blue-700 text-white">
+                    <th className="px-6 py-4 text-left font-semibold">Floor Plan</th>
+                    <th className="px-6 py-4 text-center font-semibold">Square Feet</th>
+                    <th className="px-6 py-4 text-center font-semibold">Bedrooms</th>
+                    <th className="px-6 py-4 text-center font-semibold">Bathrooms</th>
+                    <th className="px-6 py-4 text-center font-semibold">Starting Price</th>
+                    <th className="px-6 py-4 text-center font-semibold">Best For</th>
+                    <th className="px-6 py-4 text-center font-semibold">View Details</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-gray-200 hover:bg-blue-50 transition-colors">
+                    <td className="px-6 py-4 font-semibold text-gray-900">
+                      <Link href="/model-1602" className="text-blue-600 hover:text-blue-700">
+                        Residence 1602
+                      </Link>
+                    </td>
+                    <td className="px-6 py-4 text-center text-gray-700">1,602 sq ft</td>
+                    <td className="px-6 py-4 text-center text-gray-700">3</td>
+                    <td className="px-6 py-4 text-center text-gray-700">2.5</td>
+                    <td className="px-6 py-4 text-center font-semibold text-gray-900">$420,240</td>
+                    <td className="px-6 py-4 text-center text-gray-600">First-time buyers, Downsizers</td>
+                    <td className="px-6 py-4 text-center">
+                      <Link href="/model-1602" className="btn-primary inline-block px-4 py-2 text-sm">
+                        View →
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr className="border-b border-gray-200 hover:bg-blue-50 transition-colors">
+                    <td className="px-6 py-4 font-semibold text-gray-900">
+                      <Link href="/model-1708" className="text-blue-600 hover:text-blue-700">
+                        Residence 1708
+                      </Link>
+                    </td>
+                    <td className="px-6 py-4 text-center text-gray-700">1,708 sq ft</td>
+                    <td className="px-6 py-4 text-center text-gray-700">3</td>
+                    <td className="px-6 py-4 text-center text-gray-700">2.5</td>
+                    <td className="px-6 py-4 text-center font-semibold text-gray-900">$429,990</td>
+                    <td className="px-6 py-4 text-center text-gray-600">Growing families</td>
+                    <td className="px-6 py-4 text-center">
+                      <Link href="/model-1708" className="btn-primary inline-block px-4 py-2 text-sm">
+                        View →
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr className="hover:bg-blue-50 transition-colors">
+                    <td className="px-6 py-4 font-semibold text-gray-900">
+                      <Link href="/model-1965" className="text-blue-600 hover:text-blue-700">
+                        Residence 1965
+                      </Link>
+                    </td>
+                    <td className="px-6 py-4 text-center text-gray-700">1,965 sq ft</td>
+                    <td className="px-6 py-4 text-center text-gray-700">3</td>
+                    <td className="px-6 py-4 text-center text-gray-700">2.5</td>
+                    <td className="px-6 py-4 text-center font-semibold text-gray-900">$449,990</td>
+                    <td className="px-6 py-4 text-center text-gray-600">Maximum space, Luxury</td>
+                    <td className="px-6 py-4 text-center">
+                      <Link href="/model-1965" className="btn-primary inline-block px-4 py-2 text-sm">
+                        View →
+                      </Link>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="mt-8 text-center">
+              <p className="text-gray-600 mb-4">
+                All prices subject to change. Lot premiums and incentives may apply.
+              </p>
+              <Link href="/services" className="text-blue-600 hover:text-blue-700 font-semibold">
+                Learn about realtor service when buying a new home →
+              </Link>
+            </div>
           </div>
         </section>
 
@@ -190,7 +274,6 @@ const FloorPlans: NextPage = () => {
                   className="block text-gray-400 hover:text-white"
                 >
                   View Live Sierra Skyeview Inventory
-                  <span className="sr-only">Powered by RealScout</span>
                 </a>
               </div>
             </div>

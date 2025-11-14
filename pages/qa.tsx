@@ -114,11 +114,11 @@ const QA: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Frequently Asked Questions - Sierra at Skyeview Homes | Dr. Jan Duffy</title>
-        <meta name="description" content="Get answers to frequently asked questions about Sierra at Skyeview Homes, HOA fees, amenities, pricing, and more. Expert guidance from Dr. Jan Duffy." />
-        <meta property="og:title" content="Frequently Asked Questions - Sierra at Skyeview Homes" />
-        <meta property="og:description" content="Get answers to frequently asked questions about Sierra at Skyeview Homes, HOA fees, amenities, pricing, and more." />
-        <meta name="keywords" content="Sierra at Skyeview Homes FAQ, Skye Canyon questions, Las Vegas new homes FAQ, HOA fees, Dr. Jan Duffy" />
+        <title>Sierra at Skyeview FAQs | Realtor Service When Buying a New Home | Dr. Jan Duffy</title>
+        <meta name="description" content="Get answers to frequently asked questions about Sierra at Skyeview Homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston, zip code 89166. HOA fees, amenities, pricing, and more. Expert realtor service when buying a new home from buyer's agent Dr. Jan Duffy." />
+        <meta property="og:title" content="Sierra at Skyeview FAQs | Realtor Service" />
+        <meta property="og:description" content="Get answers to frequently asked questions about Sierra at Skyeview Homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. HOA fees, amenities, pricing, and more. Expert realtor service when buying a new home." />
+        <meta name="keywords" content="Sierra at Skyeview FAQ, Sierra at Skyeview Homes questions, realtor service when buying a new home, buyer's agent Sierra at Skyeview, HOA fees, Mount Charleston area homes, zip code 89166, Northwest Las Vegas new homes FAQ, Dr. Jan Duffy" />
         <link rel="canonical" href="https://www.sierraskyeview.com/qa" />
         <script
           type="application/ld+json"
@@ -277,7 +277,6 @@ const QA: NextPage = () => {
                   className="block text-gray-400 hover:text-white"
                 >
                   View Live Sierra Skyeview Inventory
-                  <span className="sr-only">Powered by RealScout</span>
                 </a>
               </div>
             </div>

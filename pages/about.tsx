@@ -7,10 +7,10 @@ const About: NextPage = () => {
   return (
     <>
       <Head>
-        <title>About Dr. Jan Duffy - Sierra at Skyeview Homes | Real Estate Expert</title>
-        <meta name="description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and independent advocacy for Sierra at Skyeview Homes buyers in Las Vegas." />
-        <meta property="og:title" content="About Dr. Jan Duffy - Sierra at Skyeview Homes" />
-        <meta property="og:description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and independent advocacy for Sierra at Skyeview Homes buyers." />
+        <title>Realtor Service When Buying a New Home | Sierra at Skyeview Buyer's Agent | Dr. Jan Duffy</title>
+        <meta name="description" content="Meet Dr. Jan Duffy, your trusted realtor service when buying a new home at Sierra at Skyeview Homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston, zip code 89166. Buyer's agent specializing in new home construction and independent advocacy." />
+        <meta property="og:title" content="Realtor Service When Buying a New Home | Sierra at Skyeview Buyer's Agent" />
+        <meta property="og:description" content="Meet Dr. Jan Duffy, your trusted realtor service when buying a new home at Sierra at Skyeview Homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. Buyer's agent specializing in new home construction and independent advocacy." />
         <meta property="og:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -19,6 +19,80 @@ const About: NextPage = () => {
         <meta name="twitter:description" content="Meet Dr. Jan Duffy, Buyer's Agent for Sierra at Skyeview Homes in Skye Canyon." />
         <meta name="twitter:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
         <link rel="canonical" href="https://www.sierraskyeview.com/about" />
+        {/* RealEstateAgent Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "RealEstateAgent",
+              "name": "Dr. Jan Duffy",
+              "description": "Realtor service when buying a new home at Sierra at Skyeview Homes. Buyer's agent specializing in new home construction and independent advocacy in Northwest Las Vegas",
+              "url": "https://www.sierraskyeview.com/about",
+              "telephone": "(702) 500-1955",
+              "email": "DrDuffy@SierraSkyeview.com",
+              "image": "https://www.sierraskyeview.com/design%2004_new%202.jpg",
+              "jobTitle": "Buyer's Agent & New Home Construction Specialist",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "8925 Vanhoy Creek St.",
+                "addressLocality": "Las Vegas",
+                "addressRegion": "NV",
+                "postalCode": "89166",
+                "addressCountry": "US"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "36.2565",
+                "longitude": "-115.2848"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Las Vegas",
+                "containedInPlace": {
+                  "@type": "State",
+                  "name": "Nevada"
+                }
+              },
+              "knowsAbout": [
+                "Sierra at Skyeview Homes",
+                "Realtor service when buying a new home",
+                "New home construction",
+                "Buyer's agent representation",
+                "Skye Canyon real estate",
+                "Northwest Las Vegas real estate"
+              ],
+              "worksFor": {
+                "@type": "Organization",
+                "name": "Berkshire Hathaway HomeServices"
+              }
+            })
+          }}
+        />
+        {/* Breadcrumb Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.sierraskyeview.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "About Dr. Jan Duffy",
+                  "item": "https://www.sierraskyeview.com/about"
+                }
+              ]
+            })
+          }}
+        />
       </Head>
 
       {/* Navigation */}
@@ -304,7 +378,6 @@ const About: NextPage = () => {
                   className="block text-gray-400 hover:text-white"
                 >
                   View Live Sierra Skyeview Inventory
-                  <span className="sr-only">Powered by RealScout</span>
                 </a>
               </div>
             </div>

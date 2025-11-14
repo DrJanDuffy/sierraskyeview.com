@@ -27,10 +27,10 @@ const Community: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Sierra at Skyeview Homes Community | Skye Canyon Las Vegas | Dr. Jan Duffy</title>
-        <meta name="description" content="Discover Sierra at Skyeview Homes community in Skye Canyon Las Vegas. 1,700-acre master-planned community with resort-style amenities, parks, and top-rated schools. Expert guidance from Dr. Jan Duffy." />
-        <meta property="og:title" content="Community - Sierra at Skyeview Homes" />
-        <meta property="og:description" content="Discover the beautiful community of Sierra at Skyeview Homes in Skye Canyon, Las Vegas. 1,700-acre master-planned community with premium amenities." />
+        <title>Sierra at Skyeview Community | Skye Canyon Near Mount Charleston | Northwest Las Vegas 89166</title>
+        <meta name="description" content="Discover Sierra at Skyeview Homes community in Skye Canyon, Northwest Las Vegas near Mount Charleston, zip code 89166. Located in 1,700-acre master-planned community with resort-style amenities, parks, and top-rated schools. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy." />
+        <meta property="og:title" content="Sierra at Skyeview Community | Skye Canyon Near Mount Charleston" />
+        <meta property="og:description" content="Discover Sierra at Skyeview Homes community in Skye Canyon, Northwest Las Vegas near Mount Charleston. Master-planned community with premium amenities. Expert realtor service when buying a new home." />
         <link rel="canonical" href="https://www.sierraskyeview.com/community" />
         
         {/* Video Schema for Virtual Tours */}
@@ -668,7 +668,6 @@ const Community: NextPage = () => {
                   className="block text-gray-400 hover:text-white"
                 >
                   View Live Sierra Skyeview Inventory
-                  <span className="sr-only">Powered by RealScout</span>
                 </a>
               </div>
             </div>

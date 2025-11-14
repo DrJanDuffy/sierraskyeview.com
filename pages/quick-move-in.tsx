@@ -7,12 +7,36 @@ const QuickMoveIn: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Quick Move-In Homes Available | Sierra at Skyeview Homes at Skye Canyon | Homes by Dr. Jan Duffy</title>
-        <meta name="description" content="Quick move-in homes available now at Sierra at Skyeview Homes Skye Canyon Las Vegas. Residence 1602 starting at $420,240 with 1,602 sqft. Expert guidance from Dr. Jan Duffy for new homes ready for immediate occupancy." />
-        <meta property="og:title" content="Quick Move-In Homes Available | Sierra at Skyeview Homes at Skye Canyon" />
-        <meta property="og:description" content="Discover quick move-in homes available now at Sierra at Skyeview Homes in Skye Canyon, Las Vegas. New homes ready for immediate occupancy." />
-        <meta name="keywords" content="quick move-in homes Las Vegas, Sierra at Skyeview Homes available homes, Skye Canyon new homes ready, Las Vegas new construction available" />
+        <title>Sierra at Skyeview Quick Move-In Homes | Available Now | Northwest Las Vegas 89166</title>
+        <meta name="description" content="Sierra at Skyeview quick move-in homes available now in Northwest Las Vegas, zip code 89166. Located in Skye Canyon near Mount Charleston. New homes ready now starting at $420,240. Residence 1602 with 1,602 sqft available for immediate occupancy. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy." />
+        <meta property="og:title" content="Sierra at Skyeview Quick Move-In Homes | Available Now" />
+        <meta property="og:description" content="Sierra at Skyeview quick move-in homes available now in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. New construction homes ready for immediate occupancy. Expert realtor service when buying a new home." />
+        <meta name="keywords" content="Sierra at Skyeview quick move-in homes, Sierra at Skyeview Homes available now, homes for sale Northwest Las Vegas ready, realtor service when buying a new home, Sierra at Skyeview 89166, Mount Charleston area homes, Northwest Las Vegas new construction" />
         <link rel="canonical" href="https://www.sierraskyeview.com/quick-move-in" />
+        {/* Breadcrumb Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.sierraskyeview.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Quick Move-In Homes",
+                  "item": "https://www.sierraskyeview.com/quick-move-in"
+                }
+              ]
+            })
+          }}
+        />
       </Head>
 
       {/* Navigation */}
@@ -53,7 +77,7 @@ const QuickMoveIn: NextPage = () => {
         <section className="bg-gradient-to-r from-green-600 to-green-700 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Quick Move-In Homes Available Now
+              Sierra at Skyeview Quick Move-In Homes Available Now
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
               <p className="text-xl max-w-3xl mx-auto">
@@ -71,7 +95,7 @@ const QuickMoveIn: NextPage = () => {
           </div>
         </section>
 
-        {/* Available Homes - RealScout Widgets */}
+        {/* Available Homes - Home Search Widgets */}
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
@@ -84,7 +108,7 @@ const QuickMoveIn: NextPage = () => {
               </p>
             </div>
 
-            {/* 8990 Rimerton Street - RealScout Widget */}
+            {/* 8990 Rimerton Street - Home Listing Widget */}
             <div className="mb-12">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="p-6 border-b">
@@ -92,7 +116,7 @@ const QuickMoveIn: NextPage = () => {
                   <p className="text-gray-600">Residence 1602 | Lot SRA024</p>
                 </div>
                 <div className="px-6 py-4 text-sm text-gray-600">
-                  This RealScout listing is updated in real time with status notes, pricing changes, and incentive callouts curated by Dr. Jan. Use it alongside the{" "}
+                  This home listing is updated in real time with status notes, pricing changes, and incentive callouts curated by Dr. Jan. Use it alongside the{" "}
                   <Link href="/model-1602" className="text-blue-600 hover:text-blue-700 underline">
                     Residence 1602 tracker
                   </Link>{" "}
@@ -104,7 +128,7 @@ const QuickMoveIn: NextPage = () => {
                     width="100%"
                     height="700"
                     style={{ border: 0 }}
-                    title="RealScout Listing - 8990 Rimerton Street"
+                    title="Home Listing - 8990 Rimerton Street"
                     allowFullScreen
                     loading="lazy"
                     className="w-full"
@@ -113,7 +137,7 @@ const QuickMoveIn: NextPage = () => {
               </div>
             </div>
 
-            {/* 9026 Rimerton Street - RealScout Widget */}
+            {/* 9026 Rimerton Street - Home Listing Widget */}
             <div className="mb-12">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="p-6 border-b">
@@ -138,7 +162,7 @@ const QuickMoveIn: NextPage = () => {
                     width="100%"
                     height="700"
                     style={{ border: 0 }}
-                    title="RealScout Listing - 9026 Rimerton Street"
+                    title="Home Listing - 9026 Rimerton Street"
                     allowFullScreen
                     loading="lazy"
                     className="w-full"
@@ -150,7 +174,7 @@ const QuickMoveIn: NextPage = () => {
           </div>
         </section>
 
-        {/* RealScout Office Search Widget */}
+        {/* Home Search Widget */}
         <section className="py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
@@ -159,7 +183,6 @@ const QuickMoveIn: NextPage = () => {
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 Use Dr. Jan Duffy's private home finder to explore all available homes, pricing, photos, lot statuses, and incentive notes in real time. Every search result is tagged with buyer-only commentary you won’t see on public portals.
-                <span className="sr-only">This service uses RealScout</span>
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg shadow-lg overflow-hidden" style={{ minHeight: '800px' }}>
@@ -168,7 +191,7 @@ const QuickMoveIn: NextPage = () => {
                 width="100%"
                 height="800"
                 style={{ border: 0 }}
-                title="RealScout Home Search - All Available Homes"
+                title="Home Search - All Available Homes"
                 allowFullScreen
                 loading="lazy"
                 className="w-full"
@@ -404,7 +427,6 @@ const QuickMoveIn: NextPage = () => {
                   className="block text-gray-400 hover:text-white"
                 >
                   View Live Sierra Skyeview Inventory
-                  <span className="sr-only">Powered by RealScout</span>
                 </a>
               </div>
             </div>

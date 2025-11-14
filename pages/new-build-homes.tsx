@@ -34,12 +34,36 @@ const NewBuildHomes: NextPage = () => {
   return (
     <>
       <Head>
-        <title>New Build Homes Available Now | Sierra at Skyeview Homes at Skye Canyon | Homes by Dr. Jan Duffy</title>
-        <meta name="description" content="Explore new build homes available now at Sierra at Skyeview Homes in Skye Canyon, Las Vegas. New construction with Dr. Jan Duffy's expert guidance and VIP access." />
-        <meta property="og:title" content="New Build Homes Available Now | Sierra at Skyeview Homes at Skye Canyon" />
-        <meta property="og:description" content="Explore new build homes available now at Sierra at Skyeview Homes in Skye Canyon, Las Vegas. New construction with expert guidance." />
-        <meta name="keywords" content="new build homes Las Vegas, Sierra at Skyeview Homes new construction, Skye Canyon new builds, Las Vegas new home construction, Dr. Jan Duffy new homes" />
+        <title>Sierra at Skyeview New Construction Homes | New Build Homes | Northwest Las Vegas 89166</title>
+        <meta name="description" content="Sierra at Skyeview new construction homes for sale in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston, zip code 89166. New build homes with custom options. Realtor service when buying a new home from expert buyer's agent Dr. Jan Duffy." />
+        <meta property="og:title" content="Sierra at Skyeview New Construction Homes | New Build Homes" />
+        <meta property="og:description" content="Sierra at Skyeview new construction homes for sale in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. New build homes with custom options. Expert realtor service when buying a new home." />
+        <meta name="keywords" content="Sierra at Skyeview new construction, Sierra at Skyeview new build homes, Sierra at Skyeview Homes new construction, realtor service when buying a new home, Sierra at Skyeview 89166, Northwest Las Vegas new construction, homes near Mount Charleston, zip code 89166" />
         <link rel="canonical" href="https://www.sierraskyeview.com/new-build-homes" />
+        {/* Breadcrumb Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.sierraskyeview.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "New Construction Homes",
+                  "item": "https://www.sierraskyeview.com/new-build-homes"
+                }
+              ]
+            })
+          }}
+        />
       </Head>
 
       {/* Navigation */}
@@ -80,7 +104,7 @@ const NewBuildHomes: NextPage = () => {
         <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              New Build Homes Available Now
+              Sierra at Skyeview New Build Homes Available Now
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
               <p className="text-xl max-w-3xl mx-auto">
@@ -101,7 +125,6 @@ const NewBuildHomes: NextPage = () => {
                 className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
               >
                 🔍 Explore Available Homes & Quick Closings
-                <span className="sr-only">Powered by RealScout</span>
               </a>
             </div>
           </div>
@@ -139,7 +162,7 @@ const NewBuildHomes: NextPage = () => {
           </div>
         </section>
 
-        {/* RealScout Floor Plan Access */}
+        {/* Home Search Floor Plan Access */}
         <section className="py-16 bg-white">
           <div className="max-w-5xl mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
@@ -147,7 +170,6 @@ const NewBuildHomes: NextPage = () => {
             </h2>
             <p className="text-lg text-gray-600 mb-8">
               Use Dr. Jan Duffy's private home finder to explore current releases, homes under construction, standing inventory, pricing changes, and exclusive incentives for the Sierra at Skyeview Area in Skye Canyon. No PDFs—just real-time data for this premier 3,000+ foot elevation community with access to Mount Charleston.
-              <span className="sr-only">This experience uses RealScout technology</span>
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-left mb-10">
               <div className="bg-gray-50 rounded-lg p-6 shadow">
@@ -170,7 +192,6 @@ const NewBuildHomes: NextPage = () => {
               className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
             >
               🔍 Launch the Live Home Finder
-              <span className="sr-only">RealScout link</span>
             </a>
           </div>
         </section>
@@ -434,7 +455,6 @@ const NewBuildHomes: NextPage = () => {
                   className="block text-gray-400 hover:text-white"
                 >
                   View Live Sierra Skyeview Inventory
-                  <span className="sr-only">Powered by RealScout</span>
                 </a>
               </div>
             </div>

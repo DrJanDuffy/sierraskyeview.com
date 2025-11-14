@@ -2,22 +2,133 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import { useState, useEffect } from "react";
 
 const Model1965: NextPage = () => {
+  const [showMobileCTA, setShowMobileCTA] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const windowHeight = window.innerHeight;
+      setShowMobileCTA(scrollPosition > windowHeight * 0.5);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <>
       <Head>
-        <title>Residence 1965 Availability | Sierra at Skyeview Homes Finder</title>
+        <title>Residence 1965 at Sierra at Skyeview | Homes for Sale | Northwest Las Vegas 89166</title>
         <meta
           name="description"
-          content="Access live availability, pricing, incentives, and lot releases for Residence 1965 at Sierra at Skyeview Homes through Dr. Jan Duffy's curated RealScout search."
+          content="Residence 1965 at Sierra at Skyeview Homes for sale in Northwest Las Vegas, zip code 89166. Located in Skye Canyon near Mount Charleston. View live availability, pricing, incentives, and lot releases. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy."
         />
-        <meta property="og:title" content="Residence 1965 Availability | Sierra at Skyeview Homes" />
+        <meta property="og:title" content="Residence 1965 at Sierra at Skyeview | Homes for Sale" />
         <meta
           property="og:description"
-          content="View real-time Residence 1965 inventory, pricing, and incentives via Dr. Jan Duffy's RealScout search."
+          content="Residence 1965 at Sierra at Skyeview Homes for sale in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. View real-time availability, pricing, and incentives. Expert realtor service when buying a new home."
         />
         <link rel="canonical" href="https://www.sierraskyeview.com/model-1965" />
+        {/* Breadcrumb Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.sierraskyeview.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Floor Plans",
+                  "item": "https://www.sierraskyeview.com/floor-plans"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Residence 1965",
+                  "item": "https://www.sierraskyeview.com/model-1965"
+                }
+              ]
+            })
+          }}
+        />
+        {/* RealEstateAgent Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "RealEstateAgent",
+              "name": "Dr. Jan Duffy",
+              "description": "Buyer's agent for Residence 1965 at Sierra at Skyeview Homes in Northwest Las Vegas",
+              "url": "https://www.sierraskyeview.com/model-1965",
+              "telephone": "(702) 500-1955",
+              "email": "DrDuffy@SierraSkyeview.com",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "8925 Vanhoy Creek St.",
+                "addressLocality": "Las Vegas",
+                "addressRegion": "NV",
+                "postalCode": "89166",
+                "addressCountry": "US"
+              }
+            })
+          }}
+        />
+        {/* FAQ Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What is the starting price for Residence 1965 at Sierra at Skyeview?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Residence 1965 starts at $449,990 for 1,965 sq ft with 3 bedrooms and 2.5 bathrooms. This is the largest floor plan at Sierra at Skyeview, featuring spacious living areas and luxury features throughout."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What makes Residence 1965 the best choice?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Residence 1965 is the largest floor plan at Sierra at Skyeview, offering 1,965 sq ft of living space. It's perfect for families who want maximum space, luxury features, and premium finishes throughout the home."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Are there quick move-in Residence 1965 homes available?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Quick move-in Residence 1965 homes may be available. Dr. Jan Duffy tracks each release and can help you find available homes with immediate occupancy or preferred delivery dates."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does Dr. Jan Duffy help with Residence 1965 purchases?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Dr. Jan represents the buyer—not the builder. She provides expert guidance on design selections, negotiates incentives, surfaces exclusive lot information, and manages the build process through closing to protect your investment."
+                  }
+                }
+              ]
+            })
+          }}
+        />
       </Head>
 
       {/* Navigation */}
@@ -51,11 +162,10 @@ const Model1965: NextPage = () => {
         <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-12">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Residence 1965: Real-Time Availability & Pricing
+              Residence 1965 at Sierra at Skyeview: Real-Time Availability & Pricing
             </h1>
             <p className="text-xl max-w-3xl mx-auto mb-6">
               Explore every Residence 1965 release in real time via <Link href="/about" className="text-blue-300 hover:text-blue-200 underline">Dr. Jan Duffy's</Link> private home finder. Browse all <Link href="/floor-plans" className="text-blue-300 hover:text-blue-200 underline">available homes</Link> and learn about <Link href="/services" className="text-blue-300 hover:text-blue-200 underline">buyer representation services</Link>.
-              <span className="sr-only">Powered by RealScout</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold transition-colors text-sm">
@@ -68,14 +178,14 @@ const Model1965: NextPage = () => {
           </div>
         </section>
 
-        {/* RealScout Office Widget */}
+        {/* Home Search Widget */}
         <section className="py-8 bg-white">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">
               Residence 1965 Builder Release Board
             </h2>
             <p className="text-gray-700 text-center max-w-3xl mx-auto mb-8">
-              Track every Residence 1965 release in one place. Dr. Jan annotates this RealScout feed with builder incentives, lot premiums, and design packages so you can compare with{" "}
+              Track every Residence 1965 release in one place. Dr. Jan annotates this home search feed with builder incentives, lot premiums, and design packages so you can compare with{" "}
               <Link href="/new-build-homes" className="text-blue-600 hover:text-blue-700 underline">
                 new-build opportunities
               </Link>{" "}
@@ -91,11 +201,43 @@ const Model1965: NextPage = () => {
                 width="100%"
                 height="800"
                 style={{ border: 0 }}
-                title="RealScout Home Search - Residence 1965 Availability"
+                title="Homes for Sale - Residence 1965 Availability"
                 allowFullScreen
                 loading="lazy"
                 className="w-full"
               ></iframe>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Floor Plans */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              Explore Other Sierra at Skyeview Floor Plans
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="card p-6">
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Residence 1602</h3>
+                <p className="text-gray-600 mb-4">1,602 sq ft | 3 Bed | 2.5 Bath | Starting at $420,240</p>
+                <p className="text-gray-700 mb-4">Compact and efficient design perfect for first-time buyers or downsizers.</p>
+                <Link href="/model-1602" className="btn-primary inline-block px-6 py-2 text-sm">
+                  View Residence 1602 →
+                </Link>
+              </div>
+              <div className="card p-6">
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Residence 1708</h3>
+                <p className="text-gray-600 mb-4">1,708 sq ft | 3 Bed | 2.5 Bath | Starting at $429,990</p>
+                <p className="text-gray-700 mb-4">Perfect for families seeking more space with an open-concept design and premium finishes.</p>
+                <Link href="/model-1708" className="btn-primary inline-block px-6 py-2 text-sm">
+                  View Residence 1708 →
+                </Link>
+              </div>
+            </div>
+            <div className="text-center mt-8">
+              <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 font-semibold text-lg">
+                View All Sierra at Skyeview Floor Plans →
+              </Link>
             </div>
           </div>
         </section>
@@ -159,7 +301,6 @@ const Model1965: NextPage = () => {
                   className="block text-gray-400 hover:text-white"
                 >
                   View Live Sierra Skyeview Inventory
-                  <span className="sr-only">Powered by RealScout</span>
                 </a>
               </div>
             </div>
@@ -207,6 +348,29 @@ const Model1965: NextPage = () => {
           </div>
         </div>
       </footer>
+
+        {/* Sticky Mobile CTA */}
+        <div
+          className={`fixed bottom-0 left-0 right-0 bg-red-600 text-white shadow-2xl z-50 transition-transform duration-300 md:hidden ${
+            showMobileCTA ? 'translate-y-0' : 'translate-y-full'
+          }`}
+        >
+          <div className="max-w-7xl mx-auto px-4 py-3">
+            <div className="flex items-center justify-between gap-3">
+              <div className="flex-1">
+                <p className="text-sm font-semibold">Ready to Reserve?</p>
+                <p className="text-xs text-red-100">Call Dr. Jan Now</p>
+              </div>
+              <a
+                href="tel:7025001955"
+                className="bg-white text-red-600 hover:bg-gray-100 px-6 py-2 rounded-lg font-bold transition-colors whitespace-nowrap"
+              >
+                📞 (702) 500-1955
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
     </>
   );
 };

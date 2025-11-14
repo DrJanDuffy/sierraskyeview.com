@@ -85,10 +85,10 @@ const Services: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Services - Sierra at Skyeview Homes | Dr. Jan Duffy</title>
-        <meta name="description" content="Professional real estate services from Dr. Jan Duffy. New home construction guidance, buyer representation, and independent advocacy for Sierra at Skyeview Homes buyers." />
-        <meta property="og:title" content="Services - Sierra at Skyeview Homes" />
-        <meta property="og:description" content="Professional real estate services from Dr. Jan Duffy. New home construction guidance and buyer representation expertise." />
+        <title>Realtor Service When Buying a New Home | Sierra at Skyeview Buyer's Agent | Dr. Jan Duffy</title>
+        <meta name="description" content="Realtor service when buying a new home at Sierra at Skyeview Homes in Northwest Las Vegas from buyer's agent Dr. Jan Duffy. Located in Skye Canyon near Mount Charleston, zip code 89166. Expert new home construction guidance, buyer representation, and independent advocacy." />
+        <meta property="og:title" content="Realtor Service When Buying a New Home | Sierra at Skyeview Buyer's Agent" />
+        <meta property="og:description" content="Realtor service when buying a new home at Sierra at Skyeview Homes in Northwest Las Vegas from buyer's agent Dr. Jan Duffy. Located in Skye Canyon near Mount Charleston. Expert new home construction guidance and buyer representation." />
         <meta property="og:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -100,6 +100,73 @@ const Services: NextPage = () => {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesStructuredData) }}
+        />
+        {/* RealEstateAgent Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "RealEstateAgent",
+              "name": "Dr. Jan Duffy",
+              "description": "Realtor service when buying a new home at Sierra at Skyeview Homes. Expert buyer's agent specializing in new home construction and independent advocacy in Northwest Las Vegas",
+              "url": "https://www.sierraskyeview.com/services",
+              "telephone": "(702) 500-1955",
+              "email": "DrDuffy@SierraSkyeview.com",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "8925 Vanhoy Creek St.",
+                "addressLocality": "Las Vegas",
+                "addressRegion": "NV",
+                "postalCode": "89166",
+                "addressCountry": "US"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "36.2565",
+                "longitude": "-115.2848"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Las Vegas",
+                "containedInPlace": {
+                  "@type": "State",
+                  "name": "Nevada"
+                }
+              },
+              "knowsAbout": [
+                "Sierra at Skyeview Homes",
+                "Realtor service when buying a new home",
+                "New home construction",
+                "Buyer's agent representation",
+                "Skye Canyon real estate"
+              ]
+            })
+          }}
+        />
+        {/* Breadcrumb Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.sierraskyeview.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Realtor Service When Buying a New Home",
+                  "item": "https://www.sierraskyeview.com/services"
+                }
+              ]
+            })
+          }}
         />
       </Head>
 
@@ -389,7 +456,6 @@ const Services: NextPage = () => {
                   className="block text-gray-400 hover:text-white"
                 >
                   View Live Sierra Skyeview Inventory
-                  <span className="sr-only">Powered by RealScout</span>
                 </a>
               </div>
             </div>

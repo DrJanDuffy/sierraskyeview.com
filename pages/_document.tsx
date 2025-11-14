@@ -69,19 +69,19 @@ class MyDocument extends Document {
           <link rel="sitemap" type="application/xml" href="https://www.sierraskyeview.com/sitemap.xml" />
           <meta
             name="description"
-            content="Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by Buyer's Agent Dr. Jan Duffy."
+            content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. New construction homes located in Skye Canyon near Mount Charleston, guided by Buyer's Agent Dr. Jan Duffy."
           />
           <meta property="og:site_name" content="Sierra at Skyeview Homes" />
           <meta
             property="og:description"
-            content="Discover Sierra at Skyeview Homes new construction homes in Skye Canyon, Las Vegas with expert guidance from Dr. Jan Duffy."
+            content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. New construction homes located in Skye Canyon near Mount Charleston with expert guidance from Dr. Jan Duffy."
           />
-          <meta property="og:title" content="Sierra at Skyeview Homes - New Construction Homes in Skye Canyon" />
+          <meta property="og:title" content="Sierra at Skyeview Homes - New Construction Northwest Las Vegas" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Sierra at Skyeview Homes - New Construction Homes in Skye Canyon" />
+          <meta name="twitter:title" content="Sierra at Skyeview Homes - New Construction Northwest Las Vegas" />
           <meta
             name="twitter:description"
-            content="Buyer's Agent representation from Dr. Jan Duffy for Sierra at Skyeview Homes in Skye Canyon, Las Vegas."
+            content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. Buyer's Agent representation from Dr. Jan Duffy."
           />
           <script
             type="application/ld+json"

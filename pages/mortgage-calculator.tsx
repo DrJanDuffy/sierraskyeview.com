@@ -40,10 +40,10 @@ const MortgageCalculator: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Mortgage Calculator - Sierra at Skyeview Homes | Dr. Jan Duffy</title>
-        <meta name="description" content="Calculate your monthly mortgage payment for Sierra at Skyeview Homes. Expert guidance from Dr. Jan Duffy." />
-        <meta property="og:title" content="Mortgage Calculator - Sierra at Skyeview Homes" />
-        <meta property="og:description" content="Calculate your monthly mortgage payment for Sierra at Skyeview Homes." />
+        <title>Sierra at Skyeview Mortgage Calculator | Calculate Home Payment | Northwest Las Vegas 89166</title>
+        <meta name="description" content="Calculate your monthly mortgage payment for Sierra at Skyeview Homes in Northwest Las Vegas, zip code 89166. Located in Skye Canyon near Mount Charleston. Free mortgage calculator with expert realtor service when buying a new home from buyer's agent Dr. Jan Duffy." />
+        <meta property="og:title" content="Sierra at Skyeview Mortgage Calculator | Calculate Home Payment" />
+        <meta property="og:description" content="Calculate your monthly mortgage payment for Sierra at Skyeview Homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. Free mortgage calculator with expert realtor service when buying a new home." />
         <link rel="canonical" href="https://www.sierraskyeview.com/mortgage-calculator" />
       </Head>
 
@@ -281,7 +281,7 @@ const MortgageCalculator: NextPage = () => {
           </div>
         </section>
 
-        {/* RealScout Floor Plan Link */}
+        {/* Home Search Floor Plan Link */}
         <section className="py-16 bg-white">
           <div className="max-w-4xl mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -289,7 +289,6 @@ const MortgageCalculator: NextPage = () => {
             </h2>
             <p className="text-lg text-gray-600 mb-8">
               Home pricing and incentives change quickly. Use Dr. Jan Duffy&apos;s private home finder to confirm current pricing, elevations, and <Link href="/quick-move-in" className="text-blue-600 hover:text-blue-700 underline">quick move-in availability</Link> before you plug numbers into the calculator. Explore <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">available homes</Link> and <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">buyer representation services</Link>.
-              <span className="sr-only">Powered by RealScout</span>
             </p>
             <a
               href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
@@ -298,7 +297,6 @@ const MortgageCalculator: NextPage = () => {
               className="inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
             >
               🔍 Open the Live Home Finder
-              <span className="sr-only">RealScout link</span>
             </a>
           </div>
         </section>
@@ -359,7 +357,6 @@ const MortgageCalculator: NextPage = () => {
                   className="block text-gray-400 hover:text-white"
                 >
                   View Live Sierra Skyeview Inventory
-                  <span className="sr-only">Powered by RealScout</span>
                 </a>
               </div>
             </div>

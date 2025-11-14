@@ -131,10 +131,10 @@ const Reviews: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Customer Reviews - Sierra at Skyeview Homes at Skye Canyon | Homes by Dr. Jan Duffy</title>
-        <meta name="description" content="Read authentic customer reviews and testimonials for Sierra at Skyeview Homes in Skye Canyon, Las Vegas. See why Dr. Jan Duffy is the trusted real estate expert for Sierra at Skyeview Homes." />
-        <meta property="og:title" content="Customer Reviews - Sierra at Skyeview Homes at Skye Canyon" />
-        <meta property="og:description" content="Read authentic customer reviews and testimonials for Sierra at Skyeview Homes in Skye Canyon, Las Vegas." />
+        <title>Sierra at Skyeview Customer Reviews | Realtor Service When Buying a New Home | Dr. Jan Duffy</title>
+        <meta name="description" content="Read authentic customer reviews and testimonials for Sierra at Skyeview Homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston, zip code 89166. See why realtor service when buying a new home from buyer's agent Dr. Jan Duffy is trusted for new construction homes." />
+        <meta property="og:title" content="Sierra at Skyeview Customer Reviews | Realtor Service" />
+        <meta property="og:description" content="Read authentic customer reviews and testimonials for Sierra at Skyeview Homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. Trusted realtor service when buying a new home." />
         <meta property="og:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -491,7 +491,6 @@ const Reviews: NextPage = () => {
                   className="block text-gray-400 hover:text-white"
                 >
                   View Live Sierra Skyeview Inventory
-                  <span className="sr-only">Powered by RealScout</span>
                 </a>
               </div>
             </div>

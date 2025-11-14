@@ -28,10 +28,10 @@ const Contact: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Contact Dr. Jan Duffy - Sierra at Skyeview Homes | Real Estate Expert</title>
-        <meta name="description" content="Contact Dr. Jan Duffy for expert real estate guidance. Call (702) 500-1955 or email DrDuffy@SierraSkyeview.com for your new home construction needs." />
-        <meta property="og:title" content="Contact Dr. Jan Duffy - Sierra at Skyeview Homes" />
-        <meta property="og:description" content="Contact Dr. Jan Duffy for expert real estate guidance. Call (702) 500-1955 or email DrDuffy@SierraSkyeview.com." />
+        <title>Contact Realtor Service When Buying a New Home | Sierra at Skyeview | Dr. Jan Duffy</title>
+        <meta name="description" content="Contact realtor service when buying a new home at Sierra at Skyeview Homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston, zip code 89166. Buyer's agent Dr. Jan Duffy provides expert real estate guidance. Call (702) 500-1955 or email DrDuffy@SierraSkyeview.com." />
+        <meta property="og:title" content="Contact Realtor Service When Buying a New Home | Sierra at Skyeview" />
+        <meta property="og:description" content="Contact realtor service when buying a new home at Sierra at Skyeview Homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. Buyer's agent Dr. Jan Duffy provides expert real estate guidance." />
         <meta property="og:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -407,7 +407,6 @@ const Contact: NextPage = () => {
                   className="block text-gray-400 hover:text-white"
                 >
                   View Live Sierra Skyeview Inventory
-                  <span className="sr-only">Powered by RealScout</span>
                 </a>
               </div>
             </div>
