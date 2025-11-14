@@ -199,10 +199,10 @@ const Model1708: NextPage = () => {
             <div className="bg-white rounded-xl shadow-large overflow-hidden">
               <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-4">
                 <h2 className="text-2xl font-bold mb-1">
-                  Live Residence 1708 Inventory Feed
+                  Available Residence 1708 Homes
                 </h2>
                 <p className="text-blue-100 text-sm">
-                  Curated by <Link href="/about" className="underline hover:text-white">Dr. Jan Duffy</Link> • Includes premium lots, incentives & delivery dates not on public portals
+                  Browse current listings with pricing, lot details, and incentives curated by <Link href="/about" className="underline hover:text-white">Dr. Jan Duffy</Link> • Includes information not found on public portals
                 </p>
               </div>
               <div className="bg-white" style={{ minHeight: '900px' }}>
