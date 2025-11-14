@@ -73,9 +73,9 @@ const About: NextPage = () => {
                   <Image
                     src="/design 04_new 2.jpg"
                     alt="Dr. Jan Duffy - Professional Real Estate Agent"
-                    width={200}
-                    height={200}
-                    className="w-40 h-40 rounded-full object-cover border-4 border-blue-600 shadow-lg"
+                    width={240}
+                    height={240}
+                    className="w-48 h-48 rounded-full object-cover border-4 border-blue-600 shadow-lg"
                     priority
                     unoptimized
                     onError={(e) => {
