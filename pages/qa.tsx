@@ -22,7 +22,7 @@ const QA: NextPage = () => {
     },
     {
       question: "What are the starting prices for homes at Sierra at Skyeview Homes?",
-      answer: "The Sierra at Skyeview Area offers three Homes starting from $419,990. Residence 1602 (1,602 sq ft) starts at $419,990, Residence 1708 (1,708 sq ft) starts at $429,990, and Residence 1965 (1,965 sq ft) starts at $449,990. These are two-story homes with 3 bedrooms and 2.5 bathrooms, featuring open-concept layouts and premium finishes."
+      answer: "The Sierra at Skyeview Area offers three floor plans starting from $420,240. 1,602 sq ft homes start at $420,240, 1,708 sq ft homes start at $429,990, and 1,965 sq ft homes start at $449,990. These are two-story homes with 3 bedrooms and 2.5 bathrooms, featuring open-concept layouts and premium finishes."
     },
     {
       question: "Is Skye Canyon a gated community?",

@@ -8,7 +8,7 @@ const QuickMoveIn: NextPage = () => {
     <>
       <Head>
         <title>Sierra at Skyeview Quick Move-In Homes | Available Now | Northwest Las Vegas 89166</title>
-        <meta name="description" content="Sierra at Skyeview quick move-in homes available now in Northwest Las Vegas, zip code 89166. Located in Skye Canyon near Mount Charleston. New homes ready now starting at $420,240. Residence 1602 with 1,602 sqft available for immediate occupancy. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy." />
+        <meta name="description" content="Sierra at Skyeview quick move-in homes available now in Northwest Las Vegas, zip code 89166. Located in Skye Canyon near Mount Charleston. New homes ready now starting at $420,240. 1,602 sq ft homes available for immediate occupancy. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy." />
         <meta property="og:title" content="Sierra at Skyeview Quick Move-In Homes | Available Now" />
         <meta property="og:description" content="Sierra at Skyeview quick move-in homes available now in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. New construction homes ready for immediate occupancy. Expert realtor service when buying a new home." />
         <meta name="keywords" content="Sierra at Skyeview quick move-in homes, Sierra at Skyeview Homes available now, homes for sale Northwest Las Vegas ready, realtor service when buying a new home, Sierra at Skyeview 89166, Mount Charleston area homes, Northwest Las Vegas new construction" />
@@ -81,7 +81,7 @@ const QuickMoveIn: NextPage = () => {
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
               <p className="text-xl max-w-3xl mx-auto">
-                Don't wait months for construction! Discover move-in ready homes in the <Link href="/community" className="text-green-300 hover:text-green-200 underline">Sierra at Skyeview Area, located within Skye Canyon, Las Vegas</Link>. Currently available: <Link href="/model-1602" className="text-green-300 hover:text-green-200 underline">Residence 1602</Link> starting at $420,240 with 1,602 sqft. Get expert guidance from <Link href="/about" className="text-green-300 hover:text-green-200 underline">Dr. Jan Duffy</Link> for new homes available for immediate occupancy. Browse all <Link href="/floor-plans" className="text-green-300 hover:text-green-200 underline">available homes</Link> and <Link href="/new-build-homes" className="text-green-300 hover:text-green-200 underline">new construction opportunities</Link>.
+                Don't wait months for construction! Discover move-in ready homes in the <Link href="/community" className="text-green-300 hover:text-green-200 underline">Sierra at Skyeview Area, located within Skye Canyon, Las Vegas</Link>. Currently available: <Link href="/model-1602" className="text-green-300 hover:text-green-200 underline">1,602 sq ft homes</Link> starting at $420,240. Get expert guidance from <Link href="/about" className="text-green-300 hover:text-green-200 underline">Dr. Jan Duffy</Link> for new homes available for immediate occupancy. Browse all <Link href="/floor-plans" className="text-green-300 hover:text-green-200 underline">available homes</Link> and <Link href="/new-build-homes" className="text-green-300 hover:text-green-200 underline">new construction opportunities</Link>.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -113,12 +113,12 @@ const QuickMoveIn: NextPage = () => {
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="p-6 border-b">
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">8990 Rimerton Street</h3>
-                  <p className="text-gray-600">Residence 1602 | Lot SRA024</p>
+                  <p className="text-gray-600">1,602 sq ft | Lot SRA024</p>
                 </div>
                 <div className="px-6 py-4 text-sm text-gray-600">
                   This home listing is updated in real time with status notes, pricing changes, and incentive callouts curated by Dr. Jan. Use it alongside the{" "}
                   <Link href="/model-1602" className="text-blue-600 hover:text-blue-700 underline">
-                    Residence 1602 tracker
+                    1,602 sq ft homes tracker
                   </Link>{" "}
                   to monitor upcoming releases.
                 </div>
@@ -142,7 +142,7 @@ const QuickMoveIn: NextPage = () => {
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="p-6 border-b">
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">9026 Rimerton Street</h3>
-                  <p className="text-gray-600">Residence 1602 | Lot SRA015</p>
+                  <p className="text-gray-600">1,602 sq ft | Lot SRA015</p>
                 </div>
                 <div className="px-6 py-4 text-sm text-gray-600">
                   Compare this release with other lots in Skye Canyon. Notes from Dr. Jan highlight which upgrades are builder-selected and how close the home is to the{" "}
@@ -276,16 +276,16 @@ const QuickMoveIn: NextPage = () => {
                 <h3 className="text-2xl font-bold mb-6">Floor Plan Options</h3>
                 <div className="space-y-4">
                   <div className="bg-gray-800 rounded-lg p-4">
-                    <h4 className="text-lg font-semibold mb-2">Residence 1602</h4>
-                    <p className="text-gray-300">1,602 sq ft, 3 bed, 2.5 bath - Starting from $419,990</p>
+                    <h4 className="text-lg font-semibold mb-2">1,602 sq ft Homes</h4>
+                    <p className="text-gray-300">3 bed, 2.5 bath - Starting from $420,240</p>
                   </div>
                   <div className="bg-gray-800 rounded-lg p-4">
-                    <h4 className="text-lg font-semibold mb-2">Residence 1708</h4>
-                    <p className="text-gray-300">1,708 sq ft, 3 bed, 2.5 bath - Starting from $429,990</p>
+                    <h4 className="text-lg font-semibold mb-2">1,708 sq ft Homes</h4>
+                    <p className="text-gray-300">3 bed, 2.5 bath - Starting from $429,990</p>
                   </div>
                   <div className="bg-gray-800 rounded-lg p-4">
-                    <h4 className="text-lg font-semibold mb-2">Residence 1965</h4>
-                    <p className="text-gray-300">1,965 sq ft, 3 bed, 2.5 bath - Starting from $449,990</p>
+                    <h4 className="text-lg font-semibold mb-2">1,965 sq ft Homes</h4>
+                    <p className="text-gray-300">3 bed, 2.5 bath - Starting from $449,990</p>
                   </div>
                 </div>
               </div>

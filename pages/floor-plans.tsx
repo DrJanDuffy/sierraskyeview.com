@@ -156,7 +156,7 @@ const FloorPlans: NextPage = () => {
                   <tr className="border-b border-gray-200 hover:bg-blue-50 transition-colors">
                     <td className="px-6 py-4 font-semibold text-gray-900">
                       <Link href="/model-1602" className="text-blue-600 hover:text-blue-700">
-                        Residence 1602
+                        1,602 sq ft Homes
                       </Link>
                     </td>
                     <td className="px-6 py-4 text-center text-gray-700">1,602 sq ft</td>
@@ -173,7 +173,7 @@ const FloorPlans: NextPage = () => {
                   <tr className="border-b border-gray-200 hover:bg-blue-50 transition-colors">
                     <td className="px-6 py-4 font-semibold text-gray-900">
                       <Link href="/model-1708" className="text-blue-600 hover:text-blue-700">
-                        Residence 1708
+                        1,708 sq ft Homes
                       </Link>
                     </td>
                     <td className="px-6 py-4 text-center text-gray-700">1,708 sq ft</td>
@@ -190,7 +190,7 @@ const FloorPlans: NextPage = () => {
                   <tr className="hover:bg-blue-50 transition-colors">
                     <td className="px-6 py-4 font-semibold text-gray-900">
                       <Link href="/model-1965" className="text-blue-600 hover:text-blue-700">
-                        Residence 1965
+                        1,965 sq ft Homes
                       </Link>
                     </td>
                     <td className="px-6 py-4 text-center text-gray-700">1,965 sq ft</td>

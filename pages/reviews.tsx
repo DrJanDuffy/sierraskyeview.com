@@ -16,7 +16,7 @@ const Reviews: NextPage = () => {
       source: "Google Reviews",
       content: "Dr. Jan Duffy made our home buying experience at Sierra at Skyeview Homes absolutely seamless. Her expertise in new construction and deep market insight gave us insider access to the best lots and pricing. She negotiated upgrades that saved us thousands and guided us through every step. We couldn't be happier with our new home at Skye Canyon!",
       verified: true,
-      floorPlan: "Residence 1965",
+      floorPlan: "1,965 sq ft",
       purchasePrice: "$449,990"
     },
     {
@@ -27,7 +27,7 @@ const Reviews: NextPage = () => {
       source: "Google Reviews",
       content: "Working with Dr. Jan Duffy was the best decision we made when buying at Sierra at Skyeview Homes. As our Buyer's Agent, her deep knowledge of Skye Canyon's 3,000+ foot elevation community is unmatched. She showed us comparable Las Vegas communities and helped us understand the true value of living near Mount Charleston. Her buyer representation gave us early access to the best lots and VIP treatment. Highly recommend!",
       verified: true,
-      floorPlan: "Residence 1708",
+      floorPlan: "1,708 sq ft",
       purchasePrice: "$429,990"
     },
     {
@@ -38,7 +38,7 @@ const Reviews: NextPage = () => {
       source: "Google Reviews",
       content: "Dr. Jan Duffy's expertise as our Buyer's Agent for new home construction is incredible. She helped us navigate the entire process from lot selection to closing at Sierra at Skyeview Homes in Skye Canyon. Her buyer representation gave us access to upgrades and incentives we wouldn't have gotten otherwise. Our new home at this premier 3,000+ foot elevation community exceeds our expectations, and Dr. Jan made it all possible.",
       verified: true,
-      floorPlan: "Residence 1602",
+      floorPlan: "1,602 sq ft",
       purchasePrice: "$419,990"
     },
     {
@@ -49,7 +49,7 @@ const Reviews: NextPage = () => {
       source: "Facebook",
       content: "Dr. Jan Duffy is a true professional. Her guidance through the new home buying process at Sierra at Skyeview Homes was invaluable. She helped us understand the construction timeline, negotiated better terms, and ensured we got the best value. The Skye Canyon location is perfect, and our new home is everything we dreamed of.",
       verified: true,
-      floorPlan: "Residence 1965",
+      floorPlan: "1,965 sq ft",
       purchasePrice: "$449,990"
     },
     {
@@ -60,7 +60,7 @@ const Reviews: NextPage = () => {
       source: "Google Reviews",
       content: "Dr. Jan Duffy's focus on Sierra at Skyeview Homes gave us incredible advantages when buying our new home. She secured early access to the best lots, negotiated upgrades, and provided expert guidance throughout the process. Her knowledge of the Las Vegas market and Skye Canyon community is exceptional. We love our new home!",
       verified: true,
-      floorPlan: "Residence 1708",
+      floorPlan: "1,708 sq ft",
       purchasePrice: "$429,990"
     },
     {
@@ -71,7 +71,7 @@ const Reviews: NextPage = () => {
       source: "Zillow",
       content: "Dr. Jan Duffy made buying our new home at Sierra at Skyeview Homes a breeze. Her expertise in new construction and market knowledge gave us insider information and better pricing. She guided us through lot selection, floor plan choices, and all the details. The Skye Canyon location is amazing, and we couldn't be happier with our decision.",
       verified: true,
-      floorPlan: "Residence 1602",
+      floorPlan: "1,602 sq ft",
       purchasePrice: "$419,990"
     }
   ];
@@ -300,7 +300,7 @@ const Reviews: NextPage = () => {
                 The Sierra at Skyeview Area, located within <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, represents the pinnacle of <Link href="/new-build-homes" className="text-blue-600 hover:text-blue-700 underline">new home construction</Link> in Las Vegas, offering three thoughtfully designed two-story Homes in Skye Canyon's prestigious master-planned community. Sierra at Skyeview Area provides residents with access to world-class amenities, beautiful mountain views, and a vibrant community lifestyle that's unmatched in the Las Vegas Valley.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Nestled in Skye Canyon, the Sierra at Skyeview Area offers <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">new homes starting from $419,990</Link>. The community features three Homes: <Link href="/model-1602" className="text-blue-600 hover:text-blue-700 underline">Residence 1602</Link> (1,602 sq ft, 3 bed, 2.5 bath), <Link href="/model-1708" className="text-blue-600 hover:text-blue-700 underline">Residence 1708</Link> (1,708 sq ft, 3 bed, 2.5 bath), and <Link href="/model-1965" className="text-blue-600 hover:text-blue-700 underline">Residence 1965</Link> (1,965 sq ft, 3 bed, 2.5 bath). Each home includes modern finishes, smart home technology, and access to <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon's incredible amenities</Link> including parks, trails, recreational facilities, and neighborhood schools.
+                Nestled in Skye Canyon, the Sierra at Skyeview Area offers <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">new homes starting from $420,240</Link>. The community features three floor plans: <Link href="/model-1602" className="text-blue-600 hover:text-blue-700 underline">1,602 sq ft homes</Link> (3 bed, 2.5 bath), <Link href="/model-1708" className="text-blue-600 hover:text-blue-700 underline">1,708 sq ft homes</Link> (3 bed, 2.5 bath), and <Link href="/model-1965" className="text-blue-600 hover:text-blue-700 underline">1,965 sq ft homes</Link> (3 bed, 2.5 bath). Each home includes modern finishes, smart home technology, and access to <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon's incredible amenities</Link> including parks, trails, recreational facilities, and neighborhood schools.
                 <span className="sr-only">Community address: 8925 Vanhoy Creek St., Las Vegas, NV 89166</span>
               </p>
               <p className="text-lg text-gray-600">

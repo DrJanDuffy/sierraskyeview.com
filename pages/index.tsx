@@ -33,7 +33,7 @@ const faqSchemaItems = [
   {
     question: "Are there quick move-in homes?",
     answer:
-      "Yes. Residence 1602 releases are available for immediate occupancy and new lots publish weekly. Dr. Jan tracks each release to help you reserve the right elevation and delivery date."
+      "Yes. 1,602 sq ft homes are available for immediate occupancy and new lots publish weekly. Dr. Jan tracks each release to help you reserve the right elevation and delivery date."
   },
   {
     question: "How does Dr. Jan Duffy help?",
@@ -152,7 +152,7 @@ const Home: NextPage = () => {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "House",
-                      "name": "Residence 1602",
+                      "name": "1,602 sq ft Homes",
                       "floorSize": "1602 sq ft",
                       "numberOfRooms": "3 bedrooms, 2.5 bathrooms",
                       "offers": {
@@ -307,7 +307,7 @@ const Home: NextPage = () => {
                   “Dr. Jan Duffy is the ultimate professional. She guided us through every step of the construction process and negotiated incentives we didn’t know existed. Her Sierra at Skyeview expertise saved us time, money, and stress.”
                 </p>
                 <p className="font-semibold text-gray-900">
-                  Sarah & Michael Johnson · Residence 1965 · Closed December 2024
+                  Sarah & Michael Johnson · 1,965 sq ft Home · Closed December 2024
                 </p>
                 <Link
                   href="/reviews"
