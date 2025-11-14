@@ -329,8 +329,8 @@ const Contact: NextPage = () => {
           <div className="max-w-7xl mx-auto px-4">
             <div className="mb-12 text-center">
               <Image
-                src="/9026-rimerton-neighborhood-real.jpg"
-                alt="Beautiful neighborhood at Sierra at Skyeview Homes in Skye Canyon - Visit our community"
+                src="/9026-rimerton-street-exterior.jpg"
+                alt="Two-story home exterior at Sierra at Skyeview Homes in Skye Canyon - Visit our community"
                 width={800}
                 height={400}
                 className="w-full max-w-4xl mx-auto h-64 md:h-80 object-cover rounded-lg shadow-lg mb-8"
