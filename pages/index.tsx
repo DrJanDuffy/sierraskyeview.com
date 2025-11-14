@@ -90,9 +90,10 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Sierra at Skyeview Homes for Sale | New Construction Northwest Las Vegas 89166</title>
-        <meta name="description" content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. New construction homes starting at $419,990 located in Skye Canyon near Mount Charleston, zip code 89166. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy. Quick move-in homes available now." />
+        <meta name="description" content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. New construction homes starting at $420,240 located in Skye Canyon near Mount Charleston, zip code 89166. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy. Quick move-in homes available now." />
+        <meta name="keywords" content="Sierra at Skyeview Homes for sale, new construction Northwest Las Vegas, Skye Canyon homes, 89166 homes for sale, Mount Charleston area homes, realtor service when buying a new home, buyer's agent Sierra at Skyeview, Dr. Jan Duffy, Northwest Las Vegas new construction" />
         <meta property="og:title" content="Sierra at Skyeview Homes for Sale | New Construction Northwest Las Vegas" />
-        <meta property="og:description" content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. New construction homes starting at $419,990 located in Skye Canyon near Mount Charleston. Expert realtor service when buying a new home from buyer's agent Dr. Jan Duffy." />
+        <meta property="og:description" content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. New construction homes starting at $420,240 located in Skye Canyon near Mount Charleston. Expert realtor service when buying a new home from buyer's agent Dr. Jan Duffy." />
         <meta property="og:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -103,7 +104,7 @@ const Home: NextPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@DrJanSells" />
         <meta name="twitter:title" content="Sierra at Skyeview Homes | Skye Canyon Las Vegas | Dr. Jan Duffy Real Estate" />
-        <meta name="twitter:description" content="Luxury new homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas NV. New homes starting at $419,990." />
+        <meta name="twitter:description" content="Luxury new homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas NV. New homes starting at $420,240." />
         <meta name="twitter:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
         <link rel="canonical" href="https://www.sierraskyeview.com/" />
         <script
