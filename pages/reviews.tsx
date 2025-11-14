@@ -485,7 +485,7 @@ const Reviews: NextPage = () => {
               </div>
               <div className="flex items-center justify-center gap-2">
                 <Image
-                  src="/bhhs-logo.png"
+                  src="/Berkshire Hathaway HomeServices_Quality Seal_White.png"
                   alt="Berkshire Hathaway HomeServices Logo"
                   width={200}
                   height={40}
