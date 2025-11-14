@@ -160,27 +160,8 @@ const NewBuildHomes: NextPage = () => {
               </div>
             </div>
             
-            {/* New Construction Video */}
-            <div className="max-w-4xl mx-auto">
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-                <div className="relative aspect-video bg-gray-900">
-                  <video
-                    className="w-full h-full object-cover"
-                    controls
-                    poster="/new-home-construction.jpg"
-                    preload="metadata"
-                  >
-                    <source src="/New Constuction.mov" type="video/quicktime" />
-                    <source src="/New Constuction.mov" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">New Construction Process</h3>
-                  <p className="text-gray-600">See how your new home is built from the ground up at Sierra at Skyeview Homes.</p>
-                </div>
-              </div>
-            </div>
+            {/* New Construction Video - Only show if video is verified Sierra at Skyeview content */}
+            {/* Video removed pending verification that it shows actual Sierra at Skyeview construction */}
           </div>
         </section>
 
