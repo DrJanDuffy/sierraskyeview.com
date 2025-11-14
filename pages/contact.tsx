@@ -348,7 +348,7 @@ const Contact: NextPage = () => {
 
             <div className="rounded-lg overflow-hidden shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.234567890123!2d-115.2848!3d36.2565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8b4b5b5b5b5b5%3A0x1234567890abcdef!2sSkye%20Canyon%2C%20Las%20Vegas%2C%20NV!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.2!2d-115.2848!3d36.2565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzYuMjU2NSAtMTE1LjI4NDg!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
                 width="100%"
                 height="450"
                 style={{ border: 0 }}
@@ -360,12 +360,12 @@ const Contact: NextPage = () => {
               ></iframe>
               <div className="bg-white p-4 text-center border-t border-gray-200">
                 <a
-                  href="https://www.google.com/maps/dir/?api=1&destination=Skye+Canyon,+Las+Vegas,+NV+89166"
+                  href="https://www.google.com/maps/search/?api=1&query=Skye+Canyon+Las+Vegas+NV+89166"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold"
                 >
-                  🗺️ Get Directions to Skye Canyon
+                  🗺️ Open in Google Maps - Get Directions
                 </a>
               </div>
             </div>
