@@ -261,7 +261,7 @@ const Model1602: NextPage = () => {
                   width="100%"
                   height="900"
                   style={{ border: 0 }}
-                  title="Homes for Sale - Residence 1602 Availability"
+                  title="1,602 sq ft Homes for Sale - Sierra at Skyeview"
                   allowFullScreen
                   loading="eager"
                   className="w-full"
@@ -299,13 +299,13 @@ const Model1602: NextPage = () => {
             </h2>
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               <Link href="/model-1708" className="card p-5 hover:shadow-glow transition-all group">
-                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600">Residence 1708</h3>
-                <p className="text-gray-600 mb-2">1,708 sq ft | Starting at $429,990</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600">1,708 sq ft Homes</h3>
+                <p className="text-gray-600 mb-2">Starting at $429,990 | 3 Bed | 2.5 Bath</p>
                 <p className="text-sm text-blue-600 font-semibold">View Available Homes →</p>
               </Link>
               <Link href="/model-1965" className="card p-5 hover:shadow-glow transition-all group">
-                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600">Residence 1965</h3>
-                <p className="text-gray-600 mb-2">1,965 sq ft | Starting at $449,990</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600">1,965 sq ft Homes</h3>
+                <p className="text-gray-600 mb-2">Starting at $449,990 | 3 Bed | 2.5 Bath</p>
                 <p className="text-sm text-blue-600 font-semibold">View Available Homes →</p>
               </Link>
             </div>
