@@ -21,16 +21,22 @@ const Model1965: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Residence 1965 at Sierra at Skyeview | Homes for Sale | Northwest Las Vegas 89166</title>
+        <title>1,965 sq ft Homes for Sale Sierra at Skyeview | Starting $449,990 | Northwest Las Vegas 89166</title>
         <meta
           name="description"
-          content="Residence 1965 at Sierra at Skyeview Homes for sale in Northwest Las Vegas, zip code 89166. Located in Skye Canyon near Mount Charleston. View live availability, pricing, incentives, and lot releases. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy."
+          content="1,965 sq ft homes for sale at Sierra at Skyeview in Northwest Las Vegas, zip code 89166. Located in Skye Canyon near Mount Charleston. View live availability, pricing starting at $449,990, incentives, and lot releases. 3 bed, 2.5 bath new construction. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy."
         />
-        <meta property="og:title" content="Residence 1965 at Sierra at Skyeview | Homes for Sale" />
+        <meta name="keywords" content="1,965 sq ft homes for sale, Sierra at Skyeview homes, Northwest Las Vegas new construction, Skye Canyon homes, 89166 homes for sale, Mount Charleston area homes, 3 bedroom homes Las Vegas, new construction homes, realtor service when buying a new home" />
+        <meta property="og:title" content="1,965 sq ft Homes for Sale at Sierra at Skyeview | Starting $449,990" />
         <meta
           property="og:description"
-          content="Residence 1965 at Sierra at Skyeview Homes for sale in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. View real-time availability, pricing, and incentives. Expert realtor service when buying a new home."
+          content="1,965 sq ft homes for sale at Sierra at Skyeview in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. View real-time availability, pricing, and incentives. 3 bed, 2.5 bath new construction. Expert realtor service when buying a new home."
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.sierraskyeview.com/model-1965" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="1,965 sq ft Homes for Sale at Sierra at Skyeview" />
+        <meta name="twitter:description" content="View 1,965 sq ft new construction homes starting at $449,990 in Skye Canyon, Northwest Las Vegas. Expert buyer representation available." />
         <link rel="canonical" href="https://www.sierraskyeview.com/model-1965" />
         {/* Breadcrumb Schema */}
         <script
@@ -55,7 +61,7 @@ const Model1965: NextPage = () => {
                 {
                   "@type": "ListItem",
                   "position": 3,
-                  "name": "Residence 1965",
+                  "name": "1,965 sq ft Homes",
                   "item": "https://www.sierraskyeview.com/model-1965"
                 }
               ]
@@ -70,7 +76,7 @@ const Model1965: NextPage = () => {
               "@context": "https://schema.org",
               "@type": "RealEstateAgent",
               "name": "Dr. Jan Duffy",
-              "description": "Buyer's agent for Residence 1965 at Sierra at Skyeview Homes in Northwest Las Vegas",
+              "description": "Buyer's agent for 1,965 sq ft homes at Sierra at Skyeview in Northwest Las Vegas",
               "url": "https://www.sierraskyeview.com/model-1965",
               "telephone": "(702) 500-1955",
               "email": "DrDuffy@SierraSkyeview.com",
@@ -95,31 +101,31 @@ const Model1965: NextPage = () => {
               "mainEntity": [
                 {
                   "@type": "Question",
-                  "name": "What is the starting price for Residence 1965 at Sierra at Skyeview?",
+                  "name": "What is the starting price for 1,965 sq ft homes at Sierra at Skyeview?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Residence 1965 starts at $449,990 for 1,965 sq ft with 3 bedrooms and 2.5 bathrooms. This is the largest floor plan at Sierra at Skyeview, featuring spacious living areas and luxury features throughout."
+                    "text": "1,965 sq ft homes at Sierra at Skyeview start at $449,990 with 3 bedrooms and 2.5 bathrooms. This is the largest floor plan at Sierra at Skyeview, featuring spacious living areas and luxury features throughout."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "What makes Residence 1965 the best choice?",
+                  "name": "What makes 1,965 sq ft homes the best choice?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Residence 1965 is the largest floor plan at Sierra at Skyeview, offering 1,965 sq ft of living space. It's perfect for families who want maximum space, luxury features, and premium finishes throughout the home."
+                    "text": "1,965 sq ft homes are the largest floor plan at Sierra at Skyeview, offering maximum living space. They're perfect for families who want maximum space, luxury features, and premium finishes throughout the home."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "Are there quick move-in Residence 1965 homes available?",
+                  "name": "Are there quick move-in 1,965 sq ft homes available?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Quick move-in Residence 1965 homes may be available. Dr. Jan Duffy tracks each release and can help you find available homes with immediate occupancy or preferred delivery dates."
+                    "text": "Quick move-in 1,965 sq ft homes may be available. Dr. Jan Duffy tracks each release and can help you find available homes with immediate occupancy or preferred delivery dates."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "How does Dr. Jan Duffy help with Residence 1965 purchases?",
+                  "name": "How does Dr. Jan Duffy help with 1,965 sq ft home purchases?",
                   "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "Dr. Jan represents the buyer—not the builder. She provides expert guidance on design selections, negotiates incentives, surfaces exclusive lot information, and manages the build process through closing to protect your investment."

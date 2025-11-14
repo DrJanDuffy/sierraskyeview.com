@@ -21,16 +21,22 @@ const Model1602: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Residence 1602 at Sierra at Skyeview | Homes for Sale | Northwest Las Vegas 89166</title>
+        <title>1,602 sq ft Homes for Sale Sierra at Skyeview | Starting $420,240 | Northwest Las Vegas 89166</title>
         <meta
           name="description"
-          content="Residence 1602 at Sierra at Skyeview Homes for sale in Northwest Las Vegas, zip code 89166. Located in Skye Canyon near Mount Charleston. View live availability, pricing starting at $420,240, incentives, and lot releases. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy."
+          content="1,602 sq ft homes for sale at Sierra at Skyeview in Northwest Las Vegas, zip code 89166. Located in Skye Canyon near Mount Charleston. View live availability, pricing starting at $420,240, incentives, and lot releases. 3 bed, 2.5 bath new construction. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy."
         />
-        <meta property="og:title" content="Residence 1602 at Sierra at Skyeview | Homes for Sale" />
+        <meta name="keywords" content="1,602 sq ft homes for sale, Sierra at Skyeview homes, Northwest Las Vegas new construction, Skye Canyon homes, 89166 homes for sale, Mount Charleston area homes, 3 bedroom homes Las Vegas, new construction homes, realtor service when buying a new home" />
+        <meta property="og:title" content="1,602 sq ft Homes for Sale at Sierra at Skyeview | Starting $420,240" />
         <meta
           property="og:description"
-          content="Residence 1602 at Sierra at Skyeview Homes for sale in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. View real-time availability, pricing, and incentives. Expert realtor service when buying a new home."
+          content="1,602 sq ft homes for sale at Sierra at Skyeview in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. View real-time availability, pricing, and incentives. 3 bed, 2.5 bath new construction. Expert realtor service when buying a new home."
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.sierraskyeview.com/model-1602" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="1,602 sq ft Homes for Sale at Sierra at Skyeview" />
+        <meta name="twitter:description" content="View 1,602 sq ft new construction homes starting at $420,240 in Skye Canyon, Northwest Las Vegas. Expert buyer representation available." />
         <link rel="canonical" href="https://www.sierraskyeview.com/model-1602" />
         {/* Breadcrumb Schema */}
         <script
@@ -55,7 +61,7 @@ const Model1602: NextPage = () => {
                 {
                   "@type": "ListItem",
                   "position": 3,
-                  "name": "Residence 1602",
+                  "name": "1,602 sq ft Homes",
                   "item": "https://www.sierraskyeview.com/model-1602"
                 }
               ]
@@ -70,7 +76,7 @@ const Model1602: NextPage = () => {
               "@context": "https://schema.org",
               "@type": "RealEstateAgent",
               "name": "Dr. Jan Duffy",
-              "description": "Buyer's agent for Residence 1602 at Sierra at Skyeview Homes in Northwest Las Vegas",
+              "description": "Buyer's agent for 1,602 sq ft homes at Sierra at Skyeview in Northwest Las Vegas",
               "url": "https://www.sierraskyeview.com/model-1602",
               "telephone": "(702) 500-1955",
               "email": "DrDuffy@SierraSkyeview.com",
@@ -95,37 +101,81 @@ const Model1602: NextPage = () => {
               "mainEntity": [
                 {
                   "@type": "Question",
-                  "name": "What is the starting price for Residence 1602 at Sierra at Skyeview?",
+                  "name": "What is the starting price for 1,602 sq ft homes at Sierra at Skyeview?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Residence 1602 starts at $420,240 for 1,602 sq ft with 3 bedrooms and 2.5 bathrooms. This two-story home features an open-concept layout and premium finishes."
+                    "text": "1,602 sq ft homes at Sierra at Skyeview start at $420,240 with 3 bedrooms and 2.5 bathrooms. This two-story home features an open-concept layout and premium finishes."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "Are there quick move-in Residence 1602 homes available?",
+                  "name": "Are there quick move-in 1,602 sq ft homes available?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes, Residence 1602 quick move-in homes are available for immediate occupancy. Dr. Jan Duffy tracks each release to help you reserve the right elevation and delivery date."
+                    "text": "Yes, 1,602 sq ft quick move-in homes are available for immediate occupancy. Dr. Jan Duffy tracks each release to help you reserve the right elevation and delivery date."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "What features are included in Residence 1602?",
+                  "name": "What features are included in 1,602 sq ft homes?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Residence 1602 includes integrated smart home technology, premium finishes, energy-efficient features, and is located at 3,000+ foot elevation in Skye Canyon near Mount Charleston."
+                    "text": "1,602 sq ft homes include integrated smart home technology, premium finishes, energy-efficient features, and are located at 3,000+ foot elevation in Skye Canyon near Mount Charleston."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "How does Dr. Jan Duffy help with Residence 1602 purchases?",
+                  "name": "How does Dr. Jan Duffy help with 1,602 sq ft home purchases?",
                   "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "Dr. Jan represents the buyer—not the builder. She verifies pricing, negotiates incentives, surfaces lot premiums and delivery dates not published on public portals, and stays onsite for walkthroughs to protect your investment."
                   }
                 }
               ]
+            })
+          }}
+        />
+        {/* Product Schema for SEO */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Product",
+              "name": "1,602 sq ft Homes at Sierra at Skyeview",
+              "description": "New construction 1,602 sq ft homes for sale at Sierra at Skyeview in Skye Canyon, Northwest Las Vegas. 3 bedrooms, 2.5 bathrooms, starting at $420,240.",
+              "brand": {
+                "@type": "Brand",
+                "name": "Sierra at Skyeview"
+              },
+              "offers": {
+                "@type": "AggregateOffer",
+                "priceCurrency": "USD",
+                "lowPrice": "420240",
+                "highPrice": "500000",
+                "priceValidUntil": "2025-12-31",
+                "availability": "https://schema.org/InStock",
+                "seller": {
+                  "@type": "RealEstateAgent",
+                  "name": "Dr. Jan Duffy"
+                }
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Las Vegas",
+                "sameAs": "https://en.wikipedia.org/wiki/Las_Vegas"
+              },
+              "location": {
+                "@type": "Place",
+                "name": "Sierra at Skyeview",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Las Vegas",
+                  "addressRegion": "NV",
+                  "postalCode": "89166",
+                  "addressCountry": "US"
+                }
+              }
             })
           }}
         />
