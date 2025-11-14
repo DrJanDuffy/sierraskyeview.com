@@ -142,7 +142,7 @@ const NewBuildHomes: NextPage = () => {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="bg-white rounded-lg p-6 shadow-lg text-center">
                 <div className="text-4xl mb-4">🏠</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Customizable Design</h3>
@@ -157,6 +157,28 @@ const NewBuildHomes: NextPage = () => {
                 <div className="text-4xl mb-4">🛡️</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Warranty Coverage</h3>
                 <p className="text-gray-600">Comprehensive warranty coverage for all new build homes in the Sierra at Skyeview Area, ensuring quality and peace of mind.</p>
+              </div>
+            </div>
+            
+            {/* New Construction Video */}
+            <div className="max-w-4xl mx-auto">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+                <div className="relative aspect-video bg-gray-900">
+                  <video
+                    className="w-full h-full object-cover"
+                    controls
+                    poster="/new-home-construction.jpg"
+                    preload="metadata"
+                  >
+                    <source src="/New Constuction.mov" type="video/quicktime" />
+                    <source src="/New Constuction.mov" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">New Construction Process</h3>
+                  <p className="text-gray-600">See how your new home is built from the ground up at Sierra at Skyeview Homes.</p>
+                </div>
               </div>
             </div>
           </div>

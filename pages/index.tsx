@@ -89,7 +89,15 @@ const galleryPhotos = [
   { src: "/9026-rimerton-neighborhood-real.jpg", alt: "Beautiful neighborhood at Sierra at Skyeview Homes in Skye Canyon" },
   { src: "/community-pool-luxury.jpg", alt: "Resort-style community pool at Skye Canyon" },
   { src: "/community-clubhouse.jpg", alt: "Stunning central clubhouse at Skye Canyon community" },
-  { src: "/skye-canyon-mountains.jpg", alt: "Beautiful mountain views near Skye Canyon community" }
+  { src: "/skye-canyon-mountains.jpg", alt: "Beautiful mountain views near Skye Canyon community" },
+  
+  // Branded Images
+  { src: "/dream kitchen_290-branded.jpg", alt: "Dream kitchen at Sierra at Skyeview Homes" },
+  { src: "/dream weekend_161-branded.jpg", alt: "Dream weekend lifestyle at Skye Canyon" },
+  { src: "/home pool_571_554_985-branded.jpg", alt: "Home with pool at Sierra at Skyeview" },
+  { src: "/open floor plan_494_525_065-branded.jpg", alt: "Open floor plan home design" },
+  { src: "/relax outdoors_610_234_925_370_034_545_555_933-branded.jpg", alt: "Relax outdoors at Skye Canyon community" },
+  { src: "/virtual homes-branded.jpg", alt: "Virtual home tour at Sierra at Skyeview" }
 ];
 
 const Home: NextPage = () => {
@@ -474,6 +482,111 @@ const Home: NextPage = () => {
               <Link href="/community" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                 Explore Community
               </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Video Section */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                See Sierra at Skyeview Homes in Action
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Watch our videos to see the beautiful homes, community amenities, and lifestyle that awaits you at Sierra at Skyeview in Skye Canyon.
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+                <div className="relative aspect-video bg-gray-900">
+                  <video
+                    className="w-full h-full object-cover"
+                    controls
+                    poster="/9026-rimerton-street-exterior.jpg"
+                    preload="metadata"
+                  >
+                    <source src="/branded_video.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Sierra at Skyeview Homes</h3>
+                  <p className="text-gray-600">Discover the luxury and lifestyle of Sierra at Skyeview Homes in Skye Canyon.</p>
+                </div>
+              </div>
+              
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+                <div className="relative aspect-video bg-gray-900">
+                  <video
+                    className="w-full h-full object-cover"
+                    controls
+                    poster="/community-pool-luxury.jpg"
+                    preload="metadata"
+                  >
+                    <source src="/branded_video (1).mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Community & Lifestyle</h3>
+                  <p className="text-gray-600">Experience the resort-style amenities and community features at Skye Canyon.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+                <div className="relative aspect-video bg-gray-900">
+                  <video
+                    className="w-full h-full object-cover"
+                    controls
+                    poster="/9026-rimerton-kitchen-real.jpg"
+                    preload="metadata"
+                  >
+                    <source src="/branded_video (2).mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div className="p-4">
+                  <h4 className="font-semibold text-gray-900">Home Features</h4>
+                </div>
+              </div>
+              
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+                <div className="relative aspect-video bg-gray-900">
+                  <video
+                    className="w-full h-full object-cover"
+                    controls
+                    poster="/9026-rimerton-living-room-real.jpg"
+                    preload="metadata"
+                  >
+                    <source src="/branded_video (3).mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div className="p-4">
+                  <h4 className="font-semibold text-gray-900">Interior Design</h4>
+                </div>
+              </div>
+              
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+                <div className="relative aspect-video bg-gray-900">
+                  <video
+                    className="w-full h-full object-cover"
+                    controls
+                    poster="/9026-rimerton-neighborhood-real.jpg"
+                    preload="metadata"
+                  >
+                    <source src="/branded_video (4).mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div className="p-4">
+                  <h4 className="font-semibold text-gray-900">Neighborhood</h4>
+                </div>
+              </div>
             </div>
           </div>
         </section>
