@@ -7,15 +7,21 @@ import Image from "next/image";
 const heroSlides = [
     {
       title: "Sierra at Skyeview Homes - Luxury New Homes in Skye Canyon",
-      subtitle: "Now Selling! Starting at $459,790 - Luxury Homes in Gated Community",
+      subtitle: "Now Selling! Starting at $420,240 - Luxury Homes in Gated Community",
       description: "Expert Guidance from Dr. Jan Duffy | Buyer's Agent for Sierra at Skyeview Homes",
-      image: "/hero-1.jpg"
+      image: "/9026-rimerton-street-exterior.jpg"
     },
     {
       title: "Limited Availability - Act Fast!",
-      subtitle: "Only 3 Homes remaining! Sierra at Skyeview Homes is selling out fast.",
+      subtitle: "New construction homes available now! Sierra at Skyeview Homes is selling fast.",
       description: "Get your VIP tour with Dr. Jan Duffy before these luxury homes are gone.",
-      image: "/hero-2.jpg"
+      image: "/9002-rimerton-street-exterior.jpg"
+    },
+    {
+      title: "Beautiful Skye Canyon Community",
+      subtitle: "Master-planned community with resort-style amenities",
+      description: "Experience the lifestyle that awaits you in Northwest Las Vegas",
+      image: "/9026-rimerton-neighborhood-real.jpg"
     }
   ];
 
@@ -212,18 +218,41 @@ const Home: NextPage = () => {
 
       <main className="pt-16">
         {/* Hero Section */}
-        <section className="relative h-screen flex items-center bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700">
-          <div className="absolute inset-0 bg-black opacity-40"></div>
+        <section className="relative h-screen flex items-center overflow-hidden">
+          {/* Background Image Carousel */}
+          <div className="absolute inset-0">
+            {heroSlides.map((slide, index) => (
+              <div
+                key={index}
+                className={`absolute inset-0 transition-opacity duration-1000 ${
+                  index === currentSlide ? 'opacity-100' : 'opacity-0'
+                }`}
+              >
+                <Image
+                  src={slide.image}
+                  alt={slide.title}
+                  fill
+                  className="object-cover"
+                  priority={index === 0}
+                  sizes="100vw"
+                />
+              </div>
+            ))}
+          </div>
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 opacity-70"></div>
+          <div className="absolute inset-0 bg-black opacity-30"></div>
+          
+          {/* Content */}
           <div className="relative z-10 max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center text-white">
             <div>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Sierra at Skyeview Homes - New Construction Near Mount Charleston
+                {heroSlides[currentSlide].title}
               </h1>
               <p className="text-xl md:text-2xl mb-4">
-                Now Selling! Starting at $419,990 - Two-Story Homes up to 1,965 sq ft
+                {heroSlides[currentSlide].subtitle}
               </p>
               <div className="flex items-center gap-4 mb-8">
-                <p className="text-lg">Expert Guidance from Dr. Jan Duffy</p>
+                <p className="text-lg">{heroSlides[currentSlide].description}</p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href="tel:7025001955" className="btn-primary">
@@ -241,17 +270,29 @@ const Home: NextPage = () => {
                   🏠 Explore Active Homes & Quick Closings
                 </a>
               </div>
+              {/* Slide Indicators */}
+              <div className="flex gap-2 mt-8">
+                {heroSlides.map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={() => setCurrentSlide(index)}
+                    className={`h-2 rounded-full transition-all duration-300 ${
+                      index === currentSlide ? 'bg-white w-8' : 'bg-white/50 w-2'
+                    }`}
+                    aria-label={`Go to slide ${index + 1}`}
+                  />
+                ))}
+              </div>
             </div>
             <div className="flex justify-center">
               <div className="bg-white/10 backdrop-blur rounded-3xl p-6 text-center shadow-2xl border border-white/20">
                 <Image
-                  src="/design 04_new 2.jpg"
+                  src="/dr-jan-duffy-portrait.jpg"
                   alt="Portrait of Dr. Jan Duffy"
                   width={260}
                   height={260}
                   className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-white shadow-lg mx-auto mb-4"
                   priority
-                  unoptimized
                 />
                 <p className="text-lg font-semibold">Dr. Jan Duffy</p>
                 <p className="text-sm text-blue-100 mb-4">Buyer's Agent | Sierra at Skyeview Homes</p>
@@ -294,14 +335,13 @@ const Home: NextPage = () => {
           <div className="max-w-5xl mx-auto px-4">
             <div className="flex flex-col md:flex-row items-center gap-8 card-featured p-8">
               <Image
-                src="/design 04_new 2.jpg"
+                src="/dr-jan-duffy-portrait.jpg"
                 alt="Dr. Jan Duffy headshot for testimonials"
                 width={220}
                 height={220}
                 className="w-40 h-40 rounded-full object-cover border-4 border-blue-600 shadow-lg"
                 priority={false}
                 loading="lazy"
-                unoptimized
               />
               <div>
                 <p className="text-lg text-gray-700 italic mb-4">
@@ -431,18 +471,13 @@ const Home: NextPage = () => {
             <div className="text-center mb-12">
               <div className="flex justify-center mb-6">
                 <Image
-                  src="/design 04_new 2.jpg"
+                  src="/dr-jan-duffy-portrait.jpg"
                   alt="Dr. Jan Duffy - Professional Real Estate Agent"
                   width={200}
                   height={200}
                   className="w-48 h-48 rounded-full object-cover border-4 border-white shadow-xl"
                   priority={false}
                   loading="lazy"
-                  unoptimized
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    target.style.display = 'none';
-                  }}
                 />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
