@@ -342,12 +342,13 @@ const Home: NextPage = () => {
             <div className="flex justify-center">
               <div className="bg-white/10 backdrop-blur rounded-3xl p-6 text-center shadow-2xl border border-white/20">
                 <Image
-                  src="/dr-jan-duffy-portrait.jpg"
+                  src="/design 04_new 2.jpg"
                   alt="Portrait of Dr. Jan Duffy"
                   width={260}
                   height={260}
                   className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-white shadow-lg mx-auto mb-4"
                   priority
+                  unoptimized
                 />
                 <p className="text-lg font-semibold">Dr. Jan Duffy</p>
                 <p className="text-sm text-blue-100 mb-4">Buyer's Agent | Sierra at Skyeview Homes</p>
@@ -390,13 +391,14 @@ const Home: NextPage = () => {
           <div className="max-w-5xl mx-auto px-4">
             <div className="flex flex-col md:flex-row items-center gap-8 card-featured p-8">
               <Image
-                src="/dr-jan-duffy-portrait.jpg"
+                src="/design 04_new 2.jpg"
                 alt="Dr. Jan Duffy headshot for testimonials"
                 width={220}
                 height={220}
                 className="w-40 h-40 rounded-full object-cover border-4 border-blue-600 shadow-lg"
                 priority={false}
                 loading="lazy"
+                unoptimized
               />
               <div>
                 <p className="text-lg text-gray-700 italic mb-4">
@@ -526,13 +528,14 @@ const Home: NextPage = () => {
             <div className="text-center mb-12">
               <div className="flex justify-center mb-6">
                 <Image
-                  src="/dr-jan-duffy-portrait.jpg"
+                  src="/design 04_new 2.jpg"
                   alt="Dr. Jan Duffy - Professional Real Estate Agent"
                   width={200}
                   height={200}
                   className="w-48 h-48 rounded-full object-cover border-4 border-white shadow-xl"
                   priority={false}
                   loading="lazy"
+                  unoptimized
                 />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
