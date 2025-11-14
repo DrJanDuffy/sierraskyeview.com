@@ -199,7 +199,7 @@ const Model1602: NextPage = () => {
             <div className="bg-white rounded-xl shadow-large overflow-hidden">
               <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-4">
                 <h2 className="text-2xl font-bold mb-1">
-                  Available Residence 1602 Homes
+                  Residence 1602 Homes for Sale
                 </h2>
                 <p className="text-blue-100 text-sm">
                   Browse current listings with pricing, lot details, and incentives curated by <Link href="/about" className="underline hover:text-white">Dr. Jan Duffy</Link> • Includes information not found on public portals
