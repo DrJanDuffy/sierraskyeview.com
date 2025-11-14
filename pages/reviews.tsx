@@ -104,6 +104,13 @@ const Reviews: NextPage = () => {
       "bestRating": "5",
       "worstRating": "1"
     },
+    "itemReviewed": {
+      "@type": "Person",
+      "name": "Dr. Jan Duffy",
+      "image": "https://www.sierraskyeview.com/design%2004_new%202.jpg",
+      "jobTitle": "Buyer's Agent",
+      "url": "https://www.sierraskyeview.com/about"
+    },
     "review": reviews.map(review => ({
       "@type": "Review",
       "author": {
@@ -217,7 +224,8 @@ const Reviews: NextPage = () => {
                   width={260}
                   height={260}
                   className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-white shadow-lg mx-auto mb-4"
-                  priority
+                  priority={false}
+                  loading="lazy"
                   unoptimized
                 />
                 <p className="text-lg font-semibold">Dr. Jan Duffy</p>
@@ -251,7 +259,8 @@ const Reviews: NextPage = () => {
                   width={200}
                   height={200}
                   className="w-48 h-48 rounded-full object-cover border-4 border-blue-600 shadow-xl"
-                  priority
+                  priority={false}
+                  loading="lazy"
                   unoptimized
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;

@@ -71,6 +71,20 @@ const Model1602: NextPage = () => {
         {/* RealScout Office Widget */}
         <section className="py-8 bg-white">
           <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">
+              Live Residence 1602 Inventory Feed
+            </h2>
+            <p className="text-gray-700 text-center max-w-3xl mx-auto mb-8">
+              This embedded RealScout search is curated by Dr. Jan Duffy and surfaces lot premiums, incentive notes, and delivery dates that are not published on public portals. Compare each release with{" "}
+              <Link href="/quick-move-in" className="text-blue-600 hover:text-blue-700 underline">
+                current quick move-in homes
+              </Link>{" "}
+              or review{" "}
+              <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">
+                buyer representation services
+              </Link>{" "}
+              before reserving your homesite.
+            </p>
             <div className="bg-gray-50 rounded-lg shadow-lg overflow-hidden" style={{ minHeight: '800px' }}>
               <iframe
                 src="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="

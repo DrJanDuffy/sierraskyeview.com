@@ -67,7 +67,8 @@ const About: NextPage = () => {
                 width={220}
                 height={220}
                 className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-white shadow-xl"
-                priority
+                priority={false}
+                loading="lazy"
                 unoptimized
               />
             </div>
@@ -94,7 +95,8 @@ const About: NextPage = () => {
                     width={240}
                     height={240}
                     className="w-48 h-48 rounded-full object-cover border-4 border-blue-600 shadow-lg"
-                    priority
+                    priority={false}
+                    loading="lazy"
                     unoptimized
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;

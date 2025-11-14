@@ -71,6 +71,20 @@ const Model1708: NextPage = () => {
         {/* RealScout Office Widget */}
         <section className="py-8 bg-white">
           <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">
+              Live Residence 1708 Availability
+            </h2>
+            <p className="text-gray-700 text-center max-w-3xl mx-auto mb-8">
+              Review every Residence 1708 release curated inside Dr. Jan’s RealScout dashboard. You’ll see premium view lots, incentive notes, and status updates that align with{" "}
+              <Link href="/quick-move-in" className="text-blue-600 hover:text-blue-700 underline">
+                Quick Move-In homes
+              </Link>{" "}
+              plus{" "}
+              <Link href="/mortgage-calculator" className="text-blue-600 hover:text-blue-700 underline">
+                financing timelines
+              </Link>
+              . Reach out before the listing flips to “under contract.”
+            </p>
             <div className="bg-gray-50 rounded-lg shadow-lg overflow-hidden" style={{ minHeight: '800px' }}>
               <iframe
                 src="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="

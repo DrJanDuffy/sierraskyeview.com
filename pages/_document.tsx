@@ -26,6 +26,36 @@ const WEBSITE_SCHEMA = {
   }
 };
 
+const PERSON_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Dr. Jan Duffy",
+  "image": "https://www.sierraskyeview.com/design%2004_new%202.jpg",
+  "jobTitle": "Buyer's Agent & New Home Construction Specialist",
+  "url": "https://www.sierraskyeview.com/about",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Sierra at Skyeview Homes"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Las Vegas"
+  },
+  "knowsAbout": [
+    "Sierra at Skyeview Homes",
+    "Skye Canyon new construction",
+    "Las Vegas real estate",
+    "Buyer's agent representation"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-702-500-1955",
+    "contactType": "sales",
+    "areaServed": "US",
+    "availableLanguage": "English"
+  }
+};
+
 class MyDocument extends Document {
   render() {
     return (
@@ -60,6 +90,10 @@ class MyDocument extends Document {
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(WEBSITE_SCHEMA) }}
+          />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(PERSON_SCHEMA) }}
           />
         </Head>
         <body className="bg-black antialiased">

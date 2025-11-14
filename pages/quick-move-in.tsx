@@ -91,6 +91,13 @@ const QuickMoveIn: NextPage = () => {
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">8990 Rimerton Street</h3>
                   <p className="text-gray-600">Residence 1602 | Lot SRA024</p>
                 </div>
+                <div className="px-6 py-4 text-sm text-gray-600">
+                  This RealScout listing is updated in real time with status notes, pricing changes, and incentive callouts curated by Dr. Jan. Use it alongside the{" "}
+                  <Link href="/model-1602" className="text-blue-600 hover:text-blue-700 underline">
+                    Residence 1602 tracker
+                  </Link>{" "}
+                  to monitor upcoming releases.
+                </div>
                 <div className="bg-gray-50" style={{ minHeight: '700px' }}>
                   <iframe
                     src="https://drjanduffy.realscout.com/homesearch/listings/p-8990-rimerton-street-las-vegas-89166-glvartrestle-875"
@@ -112,6 +119,18 @@ const QuickMoveIn: NextPage = () => {
                 <div className="p-6 border-b">
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">9026 Rimerton Street</h3>
                   <p className="text-gray-600">Residence 1602 | Lot SRA015</p>
+                </div>
+                <div className="px-6 py-4 text-sm text-gray-600">
+                  Compare this release with other lots in Skye Canyon. Notes from Dr. Jan highlight which upgrades are builder-selected and how close the home is to the{" "}
+                  <a
+                    href="https://skyecanyon.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-700 underline"
+                  >
+                    Skye Canyon amenities
+                  </a>
+                  .
                 </div>
                 <div className="bg-gray-50" style={{ minHeight: '700px' }}>
                   <iframe
@@ -139,7 +158,7 @@ const QuickMoveIn: NextPage = () => {
                 🏠 Explore All Available Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Use Dr. Jan Duffy's private home finder to explore all available homes, pricing, photos, and detailed information in real time.
+                Use Dr. Jan Duffy's private home finder to explore all available homes, pricing, photos, lot statuses, and incentive notes in real time. Every search result is tagged with buyer-only commentary you won’t see on public portals.
                 <span className="sr-only">This service uses RealScout</span>
               </p>
             </div>

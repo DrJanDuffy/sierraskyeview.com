@@ -4,11 +4,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 
-const Home: NextPage = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
-
-  const heroSlides = [
+const heroSlides = [
     {
       title: "Sierra at Skyeview Homes - Luxury New Homes in Skye Canyon",
       subtitle: "Now Selling! Starting at $459,790 - Luxury Homes in Gated Community",
@@ -22,6 +18,66 @@ const Home: NextPage = () => {
       image: "/hero-2.jpg"
     }
   ];
+
+const faqSchemaItems = [
+  {
+    question: "What are the HOA fees?",
+    answer:
+      "Skye Canyon master community HOA fee is approximately $83 per month. The Sierra at Skyeview Area may have additional sub-HOA fees for enhanced amenities, so request the latest budget package before writing an offer."
+  },
+  {
+    question: "What's included in the homes?",
+    answer:
+      "Every Sierra at Skyeview home includes integrated smart-home technology, premium finishes, and energy-efficient features tailored to the Las Vegas climate and 3,000+ foot elevation lifestyle."
+  },
+  {
+    question: "Are there quick move-in homes?",
+    answer:
+      "Yes. Residence 1602 releases are available for immediate occupancy and new lots publish weekly. Dr. Jan tracks each release to help you reserve the right elevation and delivery date."
+  },
+  {
+    question: "How does Dr. Jan Duffy help?",
+    answer:
+      "Dr. Jan represents the buyer—not the builder. She verifies pricing, negotiates incentives, and stays onsite for walkthroughs and contract milestones to protect your investment."
+  }
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqSchemaItems.map((item) => ({
+    "@type": "Question",
+    "name": item.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": item.answer
+    }
+  }))
+};
+
+const galleryPhotos = [
+  { src: "/9026-rimerton-street-exterior.jpg", alt: "Two-story home exterior at 9026 Rimerton Street, Sierra at Skyeview Homes" },
+  { src: "/8990-rimerton-street-exterior.jpg", alt: "Luxury home exterior at 8990 Rimerton Street, Sierra at Skyeview Homes" },
+  { src: "/9002-rimerton-street-exterior.jpg", alt: "Modern new construction home at 9002 Rimerton Street, Sierra at Skyeview Homes" },
+  { src: "/9026-rimerton-kitchen-real.jpg", alt: "Modern luxury kitchen with premium appliances at Sierra at Skyeview Homes" },
+  { src: "/9026-rimerton-living-room-real.jpg", alt: "Spacious luxury living room at Sierra at Skyeview Homes" },
+  { src: "/9026-rimerton-master-bedroom-real.jpg", alt: "Elegant master bedroom with premium finishes at Sierra at Skyeview Homes" },
+  { src: "/9026-rimerton-bathroom-real.jpg", alt: "Luxury bathroom with modern fixtures at Sierra at Skyeview Homes" },
+  { src: "/9002-rimerton-bathroom.jpg", alt: "Modern bathroom at Sierra at Skyeview Homes" },
+  { src: "/9002-rimerton-kitchen.jpg", alt: "Gourmet kitchen at Sierra at Skyeview Homes" },
+  { src: "/9002-rimerton-living-room.jpg", alt: "Beautiful living room at Sierra at Skyeview Homes" },
+  { src: "/9002-rimerton-master-bedroom.jpg", alt: "Luxury master bedroom at Sierra at Skyeview Homes" },
+  { src: "/8990-rimerton-kitchen.jpg", alt: "Modern kitchen at Sierra at Skyeview Homes" },
+  { src: "/9026-rimerton-dining-room.jpg", alt: "Dining area at Sierra at Skyeview Homes" },
+  { src: "/9002-rimerton-dining.jpg", alt: "Dining area at Sierra at Skyeview Homes" },
+  { src: "/9026-rimerton-neighborhood-real.jpg", alt: "Beautiful neighborhood at Sierra at Skyeview Homes in Skye Canyon" },
+  { src: "/community-events.jpg", alt: "Picturesque neighborhood streets at Sierra at Skyeview Homes" },
+  { src: "/community-pool-luxury.jpg", alt: "Resort-style community pool at Skye Canyon" }
+];
+
+const Home: NextPage = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -50,6 +106,10 @@ const Home: NextPage = () => {
         <meta name="twitter:description" content="Luxury new homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas NV. New homes starting at $419,990." />
         <meta name="twitter:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
         <link rel="canonical" href="https://www.sierraskyeview.com/" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
         
         {/* Local Business Schema */}
         <script
@@ -233,6 +293,7 @@ const Home: NextPage = () => {
                 height={220}
                 className="w-40 h-40 rounded-full object-cover border-4 border-blue-600 shadow-lg"
                 priority={false}
+                loading="lazy"
                 unoptimized
               />
               <div>
@@ -282,32 +343,23 @@ const Home: NextPage = () => {
                 Sierra at Skyeview Homes Gallery
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Explore the stunning homes and beautiful community at Sierra at Skyeview Homes. From modern exteriors to luxurious interiors, discover why Sierra at Skyeview Homes is the perfect place to call home in Skye Canyon.
+                Explore the stunning homes and beautiful community at Sierra at Skyeview Homes. From modern exteriors to luxurious interiors, discover why Sierra at Skyeview Homes is the perfect place to call home in Skye Canyon. Compare amenities with the{" "}
+                <a
+                  href="https://skyecanyon.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-700 underline"
+                >
+                  official Skye Canyon lifestyle guide
+                </a>
+                .
               </p>
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {[
-                { src: "/9026-rimerton-street-exterior.jpg", alt: "Two-story home exterior at 9026 Rimerton Street, Sierra at Skyeview Homes" },
-                { src: "/8990-rimerton-street-exterior.jpg", alt: "Luxury home exterior at 8990 Rimerton Street, Sierra at Skyeview Homes" },
-                { src: "/9002-rimerton-street-exterior.jpg", alt: "Modern new construction home at 9002 Rimerton Street, Sierra at Skyeview Homes" },
-                { src: "/9026-rimerton-kitchen-real.jpg", alt: "Modern luxury kitchen with premium appliances at Sierra at Skyeview Homes" },
-                { src: "/9026-rimerton-living-room-real.jpg", alt: "Spacious luxury living room at Sierra at Skyeview Homes" },
-                { src: "/9026-rimerton-master-bedroom-real.jpg", alt: "Elegant master bedroom with premium finishes at Sierra at Skyeview Homes" },
-                { src: "/9026-rimerton-bathroom-real.jpg", alt: "Luxury bathroom with modern fixtures at Sierra at Skyeview Homes" },
-                { src: "/9002-rimerton-bathroom.jpg", alt: "Modern bathroom at Sierra at Skyeview Homes" },
-                { src: "/9002-rimerton-kitchen.jpg", alt: "Gourmet kitchen at Sierra at Skyeview Homes" },
-                { src: "/9002-rimerton-living-room.jpg", alt: "Beautiful living room at Sierra at Skyeview Homes" },
-                { src: "/9002-rimerton-master-bedroom.jpg", alt: "Luxury master bedroom at Sierra at Skyeview Homes" },
-                { src: "/8990-rimerton-kitchen.jpg", alt: "Modern kitchen at Sierra at Skyeview Homes" },
-                { src: "/9026-rimerton-dining-room.jpg", alt: "Dining area at Sierra at Skyeview Homes" },
-                { src: "/9002-rimerton-dining.jpg", alt: "Dining area at Sierra at Skyeview Homes" },
-                { src: "/9026-rimerton-neighborhood-real.jpg", alt: "Beautiful neighborhood at Sierra at Skyeview Homes in Skye Canyon" },
-                { src: "/community-events.jpg", alt: "Picturesque neighborhood streets at Sierra at Skyeview Homes" },
-                { src: "/community-pool-luxury.jpg", alt: "Resort-style community pool at Skye Canyon" },
-              ].map((photo, index) => (
-                <div
-                  key={index}
+              {galleryPhotos.map((photo, index) => (
+                <figure
+                  key={photo.src}
                   className="relative aspect-square overflow-hidden rounded-lg cursor-pointer group shadow-md hover:shadow-xl transition-all duration-300"
                   onClick={() => setSelectedImage(photo.src)}
                 >
@@ -319,6 +371,7 @@ const Home: NextPage = () => {
                     sizes="(max-width: 768px) 50vw, 25vw"
                     loading={index < 4 ? "eager" : "lazy"}
                   />
+                  <figcaption className="sr-only">{photo.alt}</figcaption>
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-opacity duration-300 flex items-center justify-center">
                     <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -326,7 +379,7 @@ const Home: NextPage = () => {
                       </svg>
                     </div>
                   </div>
-                </div>
+                </figure>
               ))}
             </div>
 
@@ -377,7 +430,8 @@ const Home: NextPage = () => {
                   width={200}
                   height={200}
                   className="w-48 h-48 rounded-full object-cover border-4 border-white shadow-xl"
-                  priority
+                  priority={false}
+                  loading="lazy"
                   unoptimized
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;

@@ -147,7 +147,8 @@ const Services: NextPage = () => {
                   width={220}
                   height={220}
                   className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-white shadow-xl"
-                  priority
+                  priority={false}
+                  loading="lazy"
                   unoptimized
                 />
               </div>
@@ -208,7 +209,8 @@ const Services: NextPage = () => {
                   width={200}
                   height={200}
                   className="w-48 h-48 rounded-full object-cover border-4 border-white shadow-xl"
-                  priority
+                  priority={false}
+                  loading="lazy"
                   unoptimized
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
