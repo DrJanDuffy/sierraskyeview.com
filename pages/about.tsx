@@ -9,6 +9,7 @@ const About: NextPage = () => {
       <Head>
         <title>Realtor Service When Buying a New Home | Sierra at Skyeview Buyer's Agent | Dr. Jan Duffy</title>
         <meta name="description" content="Meet Dr. Jan Duffy, your trusted realtor service when buying a new home at Sierra at Skyeview Homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston, zip code 89166. Buyer's agent specializing in new home construction and independent advocacy." />
+        <meta name="keywords" content="Dr. Jan Duffy, realtor service when buying a new home, buyer's agent Sierra at Skyeview, new construction specialist, Skye Canyon realtor, Northwest Las Vegas real estate agent, 89166 realtor, Mount Charleston area buyer's agent" />
         <meta property="og:title" content="Realtor Service When Buying a New Home | Sierra at Skyeview Buyer's Agent" />
         <meta property="og:description" content="Meet Dr. Jan Duffy, your trusted realtor service when buying a new home at Sierra at Skyeview Homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. Buyer's agent specializing in new home construction and independent advocacy." />
         <meta property="og:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />

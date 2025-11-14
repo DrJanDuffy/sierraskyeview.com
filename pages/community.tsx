@@ -29,6 +29,7 @@ const Community: NextPage = () => {
       <Head>
         <title>Sierra at Skyeview Community | Skye Canyon Near Mount Charleston | Northwest Las Vegas 89166</title>
         <meta name="description" content="Discover Sierra at Skyeview Homes community in Skye Canyon, Northwest Las Vegas near Mount Charleston, zip code 89166. Located in 1,700-acre master-planned community with resort-style amenities, parks, and top-rated schools. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy." />
+        <meta name="keywords" content="Sierra at Skyeview community, Skye Canyon amenities, Northwest Las Vegas master-planned community, Mount Charleston area homes, 89166 community, Skye Canyon lifestyle, realtor service when buying a new home, Skye Canyon parks and trails" />
         <meta property="og:title" content="Sierra at Skyeview Community | Skye Canyon Near Mount Charleston" />
         <meta property="og:description" content="Discover Sierra at Skyeview Homes community in Skye Canyon, Northwest Las Vegas near Mount Charleston. Master-planned community with premium amenities. Expert realtor service when buying a new home." />
         <link rel="canonical" href="https://www.sierraskyeview.com/community" />

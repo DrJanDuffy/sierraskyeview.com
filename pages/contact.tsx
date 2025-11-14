@@ -30,6 +30,7 @@ const Contact: NextPage = () => {
       <Head>
         <title>Contact Realtor Service When Buying a New Home | Sierra at Skyeview | Dr. Jan Duffy</title>
         <meta name="description" content="Contact realtor service when buying a new home at Sierra at Skyeview Homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston, zip code 89166. Buyer's agent Dr. Jan Duffy provides expert real estate guidance. Call (702) 500-1955 or email DrDuffy@SierraSkyeview.com." />
+        <meta name="keywords" content="contact Dr. Jan Duffy, realtor service when buying a new home, Sierra at Skyeview contact, buyer's agent contact, Skye Canyon realtor contact, Northwest Las Vegas real estate agent, 89166 realtor phone" />
         <meta property="og:title" content="Contact Realtor Service When Buying a New Home | Sierra at Skyeview" />
         <meta property="og:description" content="Contact realtor service when buying a new home at Sierra at Skyeview Homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. Buyer's agent Dr. Jan Duffy provides expert real estate guidance." />
         <meta property="og:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />

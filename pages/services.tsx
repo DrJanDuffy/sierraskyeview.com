@@ -87,6 +87,7 @@ const Services: NextPage = () => {
       <Head>
         <title>Realtor Service When Buying a New Home | Sierra at Skyeview Buyer's Agent | Dr. Jan Duffy</title>
         <meta name="description" content="Realtor service when buying a new home at Sierra at Skyeview Homes in Northwest Las Vegas from buyer's agent Dr. Jan Duffy. Located in Skye Canyon near Mount Charleston, zip code 89166. Expert new home construction guidance, buyer representation, and independent advocacy." />
+        <meta name="keywords" content="realtor service when buying a new home, buyer's agent Sierra at Skyeview, new construction realtor, buyer representation Northwest Las Vegas, Skye Canyon realtor, 89166 real estate agent, Mount Charleston area realtor, new home construction guidance" />
         <meta property="og:title" content="Realtor Service When Buying a New Home | Sierra at Skyeview Buyer's Agent" />
         <meta property="og:description" content="Realtor service when buying a new home at Sierra at Skyeview Homes in Northwest Las Vegas from buyer's agent Dr. Jan Duffy. Located in Skye Canyon near Mount Charleston. Expert new home construction guidance and buyer representation." />
         <meta property="og:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />

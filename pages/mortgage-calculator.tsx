@@ -42,6 +42,7 @@ const MortgageCalculator: NextPage = () => {
       <Head>
         <title>Sierra at Skyeview Mortgage Calculator | Calculate Home Payment | Northwest Las Vegas 89166</title>
         <meta name="description" content="Calculate your monthly mortgage payment for Sierra at Skyeview Homes in Northwest Las Vegas, zip code 89166. Located in Skye Canyon near Mount Charleston. Free mortgage calculator with expert realtor service when buying a new home from buyer's agent Dr. Jan Duffy." />
+        <meta name="keywords" content="mortgage calculator Sierra at Skyeview, home payment calculator, Northwest Las Vegas mortgage calculator, Skye Canyon mortgage calculator, 89166 mortgage calculator, new construction mortgage calculator, realtor service when buying a new home" />
         <meta property="og:title" content="Sierra at Skyeview Mortgage Calculator | Calculate Home Payment" />
         <meta property="og:description" content="Calculate your monthly mortgage payment for Sierra at Skyeview Homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. Free mortgage calculator with expert realtor service when buying a new home." />
         <link rel="canonical" href="https://www.sierraskyeview.com/mortgage-calculator" />
