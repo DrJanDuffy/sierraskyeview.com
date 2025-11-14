@@ -69,19 +69,21 @@ const About: NextPage = () => {
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="lg:order-2">
-                <Image
-                  src="/design 04_new 2.jpg"
-                  alt="Dr. Jan Duffy - Professional Real Estate Agent"
-                  width={400}
-                  height={300}
-                  className="w-full max-w-md mx-auto h-64 object-cover rounded-lg shadow-lg"
-                  priority
-                  unoptimized
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    target.style.display = 'none';
-                  }}
-                />
+                <div className="flex justify-center">
+                  <Image
+                    src="/design 04_new 2.jpg"
+                    alt="Dr. Jan Duffy - Professional Real Estate Agent"
+                    width={200}
+                    height={200}
+                    className="w-40 h-40 rounded-full object-cover border-4 border-blue-600 shadow-lg"
+                    priority
+                    unoptimized
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                    }}
+                  />
+                </div>
               </div>
               <div className="lg:order-1">
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
