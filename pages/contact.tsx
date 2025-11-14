@@ -229,6 +229,11 @@ const Contact: NextPage = () => {
                     height={200}
                     className="w-40 h-40 rounded-full object-cover border-4 border-blue-600 shadow-lg mb-4"
                     priority
+                    unoptimized
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                    }}
                   />
                   <h2 className="text-3xl font-bold text-gray-900">Get In Touch</h2>
                 </div>
@@ -418,7 +423,13 @@ const Contact: NextPage = () => {
                   height={40}
                   className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
                   priority={false}
+                  unoptimized
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                  }}
                 />
+                <span className="text-gray-400 text-sm">Berkshire Hathaway HomeServices</span>
               </div>
             </div>
           </div>

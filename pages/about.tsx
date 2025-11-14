@@ -76,6 +76,11 @@ const About: NextPage = () => {
                   height={400}
                   className="w-full h-96 object-cover rounded-lg shadow-lg"
                   priority
+                  unoptimized
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                  }}
                 />
               </div>
               <div className="lg:order-1">
@@ -313,7 +318,13 @@ const About: NextPage = () => {
                   height={40}
                   className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
                   priority={false}
+                  unoptimized
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                  }}
                 />
+                <span className="text-gray-400 text-sm">Berkshire Hathaway HomeServices</span>
               </div>
             </div>
           </div>

@@ -225,6 +225,11 @@ const Reviews: NextPage = () => {
                   height={200}
                   className="w-48 h-48 rounded-full object-cover border-4 border-blue-600 shadow-xl"
                   priority
+                  unoptimized
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                  }}
                 />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -486,7 +491,13 @@ const Reviews: NextPage = () => {
                   height={40}
                   className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
                   priority={false}
+                  unoptimized
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                  }}
                 />
+                <span className="text-gray-400 text-sm">Berkshire Hathaway HomeServices</span>
               </div>
             </div>
           </div>
