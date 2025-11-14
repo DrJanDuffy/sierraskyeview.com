@@ -164,10 +164,10 @@ const Model1708: NextPage = () => {
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
               <div className="flex-1">
                 <h1 className="text-3xl md:text-4xl font-bold mb-3">
-                  Residence 1708 Available Homes
+                  1,708 sq ft Homes Available
                 </h1>
                 <p className="text-lg text-blue-100 mb-4">
-                  View real-time availability, pricing, and incentives for Residence 1708 at Sierra at Skyeview. Starting at $429,990 | 1,708 sq ft | 3 Bed | 2.5 Bath
+                  View real-time availability, pricing, and incentives for 1,708 sq ft homes at Sierra at Skyeview. Starting at $429,990 | 3 Bed | 2.5 Bath
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a href="tel:7025001955" className="btn-primary text-sm px-5 py-2">
@@ -199,7 +199,7 @@ const Model1708: NextPage = () => {
             <div className="bg-white rounded-xl shadow-large overflow-hidden">
               <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-4">
                 <h2 className="text-2xl font-bold mb-1">
-                  Residence 1708 Homes for Sale
+                  1,708 sq ft Homes for Sale
                 </h2>
                 <p className="text-blue-100 text-sm">
                   Browse current listings with pricing, lot details, and incentives curated by <Link href="/about" className="underline hover:text-white">Dr. Jan Duffy</Link> • Includes information not found on public portals
