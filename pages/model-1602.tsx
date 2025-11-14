@@ -158,109 +158,131 @@ const Model1602: NextPage = () => {
       </nav>
 
       <main className="pt-16">
-        {/* Hero Section */}
-        <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-12">
-          <div className="max-w-7xl mx-auto px-4 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Residence 1602 at Sierra at Skyeview: Real-Time Availability & Pricing
-            </h1>
-            <p className="text-xl max-w-3xl mx-auto mb-6">
-              Explore every Residence 1602 release in real time via <Link href="/about" className="text-blue-300 hover:text-blue-200 underline">Dr. Jan Duffy's</Link> private home finder. Browse all <Link href="/floor-plans" className="text-blue-300 hover:text-blue-200 underline">available homes</Link> and learn about <Link href="/services" className="text-blue-300 hover:text-blue-200 underline">buyer representation services</Link>.
+        {/* Compact Hero Section */}
+        <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-8">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+              <div className="flex-1">
+                <h1 className="text-3xl md:text-4xl font-bold mb-3">
+                  Residence 1602 Available Homes
+                </h1>
+                <p className="text-lg text-blue-100 mb-4">
+                  View real-time availability, pricing, and incentives for Residence 1602 at Sierra at Skyeview. Starting at $420,240 | 1,602 sq ft | 3 Bed | 2.5 Bath
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  <a href="tel:7025001955" className="btn-primary text-sm px-5 py-2">
+                    📞 (702) 500-1955
+                  </a>
+                  <a href="mailto:DrDuffy@SierraSkyeview.com" className="btn-secondary text-sm px-5 py-2">
+                    📧 Email Dr. Jan
+                  </a>
+                </div>
+              </div>
+              <div className="md:w-80">
+                <div className="bg-white/10 backdrop-blur rounded-xl p-4 border border-white/20">
+                  <p className="text-sm font-semibold mb-2">Why Use This Widget?</p>
+                  <ul className="text-sm text-blue-100 space-y-1">
+                    <li>✓ Lot premiums & incentives</li>
+                    <li>✓ Delivery dates & status</li>
+                    <li>✓ Real-time availability</li>
+                    <li>✓ Curated by Dr. Jan Duffy</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Home Search Widget - PRIMARY FOCUS */}
+        <section className="py-6 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="bg-white rounded-xl shadow-large overflow-hidden">
+              <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-4">
+                <h2 className="text-2xl font-bold mb-1">
+                  Live Residence 1602 Inventory Feed
+                </h2>
+                <p className="text-blue-100 text-sm">
+                  Curated by <Link href="/about" className="underline hover:text-white">Dr. Jan Duffy</Link> • Includes lot premiums, incentives & delivery dates not on public portals
+                </p>
+              </div>
+              <div className="bg-white" style={{ minHeight: '900px' }}>
+                <iframe
+                  src="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
+                  width="100%"
+                  height="900"
+                  style={{ border: 0 }}
+                  title="Homes for Sale - Residence 1602 Availability"
+                  allowFullScreen
+                  loading="eager"
+                  className="w-full"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Quick Info Bar */}
+        <section className="py-6 bg-white border-b border-gray-200">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="grid md:grid-cols-3 gap-6 text-center">
+              <div>
+                <p className="text-sm text-gray-600 mb-1">Starting Price</p>
+                <p className="text-2xl font-bold text-gray-900">$420,240</p>
+              </div>
+              <div>
+                <p className="text-sm text-gray-600 mb-1">Square Feet</p>
+                <p className="text-2xl font-bold text-gray-900">1,602 sq ft</p>
+              </div>
+              <div>
+                <p className="text-sm text-gray-600 mb-1">Quick Move-In Available</p>
+                <p className="text-2xl font-bold text-green-600">Yes</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Floor Plans - Compact */}
+        <section className="py-12 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+              Explore Other Floor Plans
+            </h2>
+            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+              <Link href="/model-1708" className="card p-5 hover:shadow-glow transition-all group">
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600">Residence 1708</h3>
+                <p className="text-gray-600 mb-2">1,708 sq ft | Starting at $429,990</p>
+                <p className="text-sm text-blue-600 font-semibold">View Available Homes →</p>
+              </Link>
+              <Link href="/model-1965" className="card p-5 hover:shadow-glow transition-all group">
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600">Residence 1965</h3>
+                <p className="text-gray-600 mb-2">1,965 sq ft | Starting at $449,990</p>
+                <p className="text-sm text-blue-600 font-semibold">View Available Homes →</p>
+              </Link>
+            </div>
+            <div className="text-center mt-6">
+              <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 font-semibold">
+                View All Floor Plans →
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Contact CTA - Compact */}
+        <section className="py-10 bg-gradient-to-r from-red-600 to-red-700 text-white">
+          <div className="max-w-4xl mx-auto px-4 text-center">
+            <h2 className="text-2xl font-bold mb-3">
+              Need Help Finding the Right Home?
+            </h2>
+            <p className="text-red-100 mb-6">
+              Dr. Jan Duffy represents YOU—not the builder. Get expert guidance, negotiate incentives, and protect your investment. <Link href="/services" className="underline hover:text-white">Learn about buyer representation services</Link>.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:7025001955" className="btn-primary text-sm px-6 py-2">
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a href="tel:7025001955" className="btn-white text-red-600 hover:text-red-700">
                 📞 Call: (702) 500-1955
               </a>
-              <a href="mailto:DrDuffy@SierraSkyeview.com" className="btn-secondary text-sm px-6 py-2">
+              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-6 py-2 rounded-lg font-semibold transition-all duration-300">
                 📧 Email Dr. Jan
               </a>
-            </div>
-          </div>
-        </section>
-
-        {/* Home Search Widget */}
-        <section className="py-8 bg-white">
-          <div className="max-w-7xl mx-auto px-4">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">
-              Live Residence 1602 Inventory Feed
-            </h2>
-            <p className="text-gray-700 text-center max-w-3xl mx-auto mb-8">
-              This home search is curated by Dr. Jan Duffy and surfaces lot premiums, incentive notes, and delivery dates that are not published on public portals. Compare each release with{" "}
-              <Link href="/quick-move-in" className="text-blue-600 hover:text-blue-700 underline">
-                current quick move-in homes
-              </Link>{" "}
-              or review{" "}
-              <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">
-                buyer representation services
-              </Link>{" "}
-              before reserving your homesite.
-            </p>
-            <div className="bg-gray-50 rounded-lg shadow-lg overflow-hidden" style={{ minHeight: '800px' }}>
-              <iframe
-                src="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
-                width="100%"
-                height="800"
-                style={{ border: 0 }}
-                title="Homes for Sale - Residence 1602 Availability"
-                allowFullScreen
-                loading="lazy"
-                className="w-full"
-              ></iframe>
-            </div>
-          </div>
-        </section>
-
-        {/* Related Floor Plans */}
-        <section className="py-16 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-              Explore Other Sierra at Skyeview Floor Plans
-            </h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="card p-6">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Residence 1708</h3>
-                <p className="text-gray-600 mb-4">1,708 sq ft | 3 Bed | 2.5 Bath | Starting at $429,990</p>
-                <p className="text-gray-700 mb-4">Perfect for families seeking more space with an open-concept design and premium finishes.</p>
-                <Link href="/model-1708" className="btn-primary inline-block px-6 py-2 text-sm">
-                  View Residence 1708 →
-                </Link>
-              </div>
-              <div className="card p-6">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Residence 1965</h3>
-                <p className="text-gray-600 mb-4">1,965 sq ft | 3 Bed | 2.5 Bath | Starting at $449,990</p>
-                <p className="text-gray-700 mb-4">Largest floor plan with spacious living areas and luxury features throughout.</p>
-                <Link href="/model-1965" className="btn-primary inline-block px-6 py-2 text-sm">
-                  View Residence 1965 →
-                </Link>
-              </div>
-            </div>
-            <div className="text-center mt-8">
-              <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 font-semibold text-lg">
-                View All Sierra at Skyeview Floor Plans →
-              </Link>
-            </div>
-          </div>
-        </section>
-
-        {/* Contact CTA */}
-        <section className="py-12 bg-red-600 text-white">
-          <div className="max-w-7xl mx-auto px-4 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              Ready to Reserve Residence 1602?
-            </h2>
-            <p className="text-lg mb-6">
-              Dr. Jan Duffy represents YOU—not the builder. As your <Link href="/services" className="text-red-300 hover:text-red-200 underline">Buyer's Agent</Link> for the <Link href="/floor-plans" className="text-red-300 hover:text-red-200 underline">Sierra at Skyeview Area</Link> in <Link href="/community" className="text-red-300 hover:text-red-200 underline">Skye Canyon</Link>, she provides strategy, negotiation, and concierge support from first visit through closing. Located at 3,000+ foot elevation with access to Mount Charleston, this premier community offers a unique Las Vegas lifestyle. Explore <Link href="/quick-move-in" className="text-red-300 hover:text-red-200 underline">quick move-in homes</Link> and <Link href="/new-build-homes" className="text-red-300 hover:text-red-200 underline">new construction opportunities</Link>.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
-                📞 CALL NOW: (702) 500-1955
-              </a>
-              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
-                📧 EMAIL DR. JAN
-              </a>
-              <Link href="/contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
-                📋 CONTACT FORM
-              </Link>
             </div>
           </div>
         </section>
