@@ -37,7 +37,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Luxury new homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas NV. New homes starting at $419,990. Expert real estate guidance from Dr. Jan Duffy. Quick move-in homes available now." />
         <meta property="og:title" content="Sierra at Skyeview Homes | Skye Canyon Las Vegas | Dr. Jan Duffy Real Estate" />
         <meta property="og:description" content="Luxury new homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas NV. New homes starting at $419,990. Expert real estate guidance from Dr. Jan Duffy." />
-        <meta property="og:image" content="https://www.sierraskyeview.com/luxury-home-exterior.jpg" />
+        <meta property="og:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:url" content="https://www.sierraskyeview.com/" />
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
         <meta name="twitter:site" content="@DrJanSells" />
         <meta name="twitter:title" content="Sierra at Skyeview Homes | Skye Canyon Las Vegas | Dr. Jan Duffy Real Estate" />
         <meta name="twitter:description" content="Luxury new homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas NV. New homes starting at $419,990." />
-        <meta name="twitter:image" content="https://www.sierraskyeview.com/luxury-home-exterior.jpg" />
+        <meta name="twitter:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
         <link rel="canonical" href="https://www.sierraskyeview.com/" />
         
         {/* Local Business Schema */}
@@ -144,33 +144,54 @@ const Home: NextPage = () => {
 
       <main className="pt-16">
         {/* Hero Section */}
-        <section className="relative h-screen flex items-center justify-center bg-gradient-to-r from-blue-900 to-blue-700">
+        <section className="relative h-screen flex items-center bg-gradient-to-r from-blue-900 to-blue-700">
           <div className="absolute inset-0 bg-black opacity-40"></div>
-          <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Sierra at Skyeview Homes - New Construction in Las Vegas
-            </h1>
-            <p className="text-xl md:text-2xl mb-4">
-              Now Selling! Starting at $419,990 - Two-Story Homes up to 1,965 sq ft
-            </p>
-            <div className="flex items-center justify-center gap-4 mb-8">
-              <p className="text-lg">Expert Guidance from Dr. Jan Duffy</p>
+          <div className="relative z-10 max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center text-white">
+            <div>
+              <h1 className="text-4xl md:text-6xl font-bold mb-6">
+                Sierra at Skyeview Homes - New Construction in Las Vegas
+              </h1>
+              <p className="text-xl md:text-2xl mb-4">
+                Now Selling! Starting at $419,990 - Two-Story Homes up to 1,965 sq ft
+              </p>
+              <div className="flex items-center gap-4 mb-8">
+                <p className="text-lg">Expert Guidance from Dr. Jan Duffy</p>
+              </div>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                  📞 Call NOW: (702) 500-1955
+                </a>
+                <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+                  📧 Email Dr. Jan
+                </a>
+                <a
+                  href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
+                >
+                  🏠 Explore Active Homes & Quick Closings
+                </a>
+              </div>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-                📞 Call NOW: (702) 500-1955
-              </a>
-              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
-                📧 Email Dr. Jan
-              </a>
-              <a
-                href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
-              >
-                🏠 Explore Active Homes & Quick Closings
-              </a>
+            <div className="flex justify-center">
+              <div className="bg-white/10 backdrop-blur rounded-3xl p-6 text-center shadow-2xl border border-white/20">
+                <Image
+                  src="/design 04_new 2.jpg"
+                  alt="Portrait of Dr. Jan Duffy"
+                  width={260}
+                  height={260}
+                  className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-white shadow-lg mx-auto mb-4"
+                  priority
+                  unoptimized
+                />
+                <p className="text-lg font-semibold">Dr. Jan Duffy</p>
+                <p className="text-sm text-blue-100 mb-4">Buyer's Agent | Sierra at Skyeview Homes</p>
+                <p className="text-sm leading-relaxed text-blue-100">
+                  “I represent YOU—not the builder. Let's secure the right home,
+                  negotiate incentives, and protect every detail from first visit through closing.”
+                </p>
+              </div>
             </div>
           </div>
         </section>
@@ -197,6 +218,37 @@ const Home: NextPage = () => {
               >
                 👀 Browse Current Availability Online
               </a>
+            </div>
+          </div>
+        </section>
+
+        {/* Featured Testimonial */}
+        <section className="py-16 bg-blue-50">
+          <div className="max-w-5xl mx-auto px-4">
+            <div className="flex flex-col md:flex-row items-center gap-8 bg-white rounded-3xl shadow-xl p-8">
+              <Image
+                src="/design 04_new 2.jpg"
+                alt="Dr. Jan Duffy headshot for testimonials"
+                width={220}
+                height={220}
+                className="w-40 h-40 rounded-full object-cover border-4 border-blue-600 shadow-lg"
+                priority={false}
+                unoptimized
+              />
+              <div>
+                <p className="text-lg text-gray-700 italic mb-4">
+                  “Dr. Jan Duffy is the ultimate professional. She guided us through every step of the construction process and negotiated incentives we didn’t know existed. Her Sierra at Skyeview expertise saved us time, money, and stress.”
+                </p>
+                <p className="font-semibold text-gray-900">
+                  Sarah & Michael Johnson · Residence 1965 · Closed December 2024
+                </p>
+                <Link
+                  href="/reviews"
+                  className="inline-flex items-center gap-2 mt-4 text-blue-600 font-semibold hover:text-blue-700"
+                >
+                  Read more verified testimonials →
+                </Link>
+              </div>
             </div>
           </div>
         </section>

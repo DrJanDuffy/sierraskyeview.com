@@ -32,6 +32,13 @@ const Contact: NextPage = () => {
         <meta name="description" content="Contact Dr. Jan Duffy for expert real estate guidance. Call (702) 500-1955 or email DrDuffy@SierraSkyeview.com for your new home construction needs." />
         <meta property="og:title" content="Contact Dr. Jan Duffy - Sierra at Skyeview Homes" />
         <meta property="og:description" content="Contact Dr. Jan Duffy for expert real estate guidance. Call (702) 500-1955 or email DrDuffy@SierraSkyeview.com." />
+        <meta property="og:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact Dr. Jan Duffy - Sierra at Skyeview Homes" />
+        <meta name="twitter:description" content="Call or email Dr. Jan Duffy for Sierra at Skyeview Homes buyer representation." />
+        <meta name="twitter:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
         <link rel="canonical" href="https://www.sierraskyeview.com/contact" />
         
         {/* Contact Schema */}
@@ -128,6 +135,17 @@ const Contact: NextPage = () => {
               <p className="text-xl mb-8 max-w-3xl mx-auto">
                 Ready to start your new home journey? Get in touch with Dr. Jan Duffy for expert guidance and VIP access to Sierra at Skyeview Homes.
               </p>
+            <div className="flex justify-center mb-8">
+              <Image
+                src="/design 04_new 2.jpg"
+                alt="Contact portrait of Dr. Jan Duffy"
+                width={220}
+                height={220}
+                className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-white shadow-xl"
+                priority
+                unoptimized
+              />
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 Call NOW: (702) 500-1955

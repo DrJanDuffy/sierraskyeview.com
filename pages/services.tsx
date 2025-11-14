@@ -89,6 +89,13 @@ const Services: NextPage = () => {
         <meta name="description" content="Professional real estate services from Dr. Jan Duffy. New home construction guidance, buyer representation, and independent advocacy for Sierra at Skyeview Homes buyers." />
         <meta property="og:title" content="Services - Sierra at Skyeview Homes" />
         <meta property="og:description" content="Professional real estate services from Dr. Jan Duffy. New home construction guidance and buyer representation expertise." />
+        <meta property="og:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Services - Sierra at Skyeview Homes" />
+        <meta name="twitter:description" content="Explore Dr. Jan Duffy's new construction services and buyer representation." />
+        <meta name="twitter:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
         <link rel="canonical" href="https://www.sierraskyeview.com/services" />
         <script
           type="application/ld+json"
@@ -125,13 +132,25 @@ const Services: NextPage = () => {
       <main className="pt-16">
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
-          <div className="max-w-7xl mx-auto px-4 text-center">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="flex flex-col items-center text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Professional Real Estate Services
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
               Expert guidance from Dr. Jan Duffy for all your real estate needs. Specializing in <Link href="/new-build-homes" className="text-blue-300 hover:text-blue-200 underline">new home construction</Link>, buyer representation, and Buyer's Agent services for <Link href="/floor-plans" className="text-blue-300 hover:text-blue-200 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-300 hover:text-blue-200 underline">Skye Canyon</Link>.
             </p>
+              <div className="flex justify-center mb-8">
+                <Image
+                  src="/design 04_new 2.jpg"
+                  alt="Dr. Jan Duffy portrait"
+                  width={220}
+                  height={220}
+                  className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-white shadow-xl"
+                  priority
+                  unoptimized
+                />
+              </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 Call NOW: (702) 500-1955
@@ -139,6 +158,7 @@ const Services: NextPage = () => {
               <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 Email Dr. Jan
               </a>
+            </div>
             </div>
           </div>
         </section>

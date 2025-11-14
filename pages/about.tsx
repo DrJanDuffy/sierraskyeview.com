@@ -11,6 +11,13 @@ const About: NextPage = () => {
         <meta name="description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and independent advocacy for Sierra at Skyeview Homes buyers in Las Vegas." />
         <meta property="og:title" content="About Dr. Jan Duffy - Sierra at Skyeview Homes" />
         <meta property="og:description" content="Learn about Dr. Jan Duffy, your trusted real estate expert specializing in new home construction and independent advocacy for Sierra at Skyeview Homes buyers." />
+        <meta property="og:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About Dr. Jan Duffy - Sierra at Skyeview Homes" />
+        <meta name="twitter:description" content="Meet Dr. Jan Duffy, Buyer's Agent for Sierra at Skyeview Homes in Skye Canyon." />
+        <meta name="twitter:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
         <link rel="canonical" href="https://www.sierraskyeview.com/about" />
       </Head>
 
@@ -53,6 +60,17 @@ const About: NextPage = () => {
             <p className="text-sm uppercase tracking-wide text-blue-100 mb-6">
               Nevada License S.0197614 | New Construction Specialist | Las Vegas Real Estate Expert
             </p>
+            <div className="flex justify-center mb-6">
+              <Image
+                src="/design 04_new 2.jpg"
+                alt="Portrait of Dr. Jan Duffy"
+                width={220}
+                height={220}
+                className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-white shadow-xl"
+                priority
+                unoptimized
+              />
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
                 📞 Call NOW: (702) 500-1955
