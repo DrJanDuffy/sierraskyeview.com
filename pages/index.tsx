@@ -318,6 +318,16 @@ const Home: NextPage = () => {
         <section className="py-16 bg-blue-900 text-white">
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
+              <div className="flex justify-center mb-6">
+                <Image
+                  src="/dr-jan-duffy-portrait.jpg"
+                  alt="Dr. Jan Duffy - Professional Real Estate Agent"
+                  width={200}
+                  height={200}
+                  className="w-48 h-48 rounded-full object-cover border-4 border-white shadow-xl"
+                  priority
+                />
+              </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Why Work With Dr. Jan Duffy?
               </h2>
@@ -330,22 +340,22 @@ const Home: NextPage = () => {
               <div className="text-center">
                 <div className="text-4xl mb-4">🤝</div>
                 <h3 className="text-xl font-bold mb-2">Buyer's Agent Representation</h3>
-                <p className="text-gray-300">I represent YOU—not the builder. As your Buyer's Agent for the Sierra at Skyeview Area in Skye Canyon, I provide insider access to this premier 3,000+ foot elevation community while protecting your interests.</p>
+                <p className="text-gray-300">I represent YOU—not the builder. As your <Link href="/services" className="text-blue-300 hover:text-blue-200 underline">Buyer's Agent</Link> for the Sierra at Skyeview Area in Skye Canyon, I provide insider access to this premier 3,000+ foot elevation community while protecting your interests.</p>
               </div>
               <div className="text-center">
                 <div className="text-4xl mb-4">📊</div>
                 <h3 className="text-xl font-bold mb-2">Skye Canyon Market Expertise</h3>
-                <p className="text-gray-300">I'll show you comparable Las Vegas communities and help you understand true market value for Skye Canyon homes—not just what sales teams tell you. My expertise includes the unique benefits of 3,000+ foot elevation living and proximity to Mount Charleston.</p>
+                <p className="text-gray-300">I'll show you comparable Las Vegas communities and help you understand true market value for <Link href="/community" className="text-blue-300 hover:text-blue-200 underline">Skye Canyon homes</Link>—not just what sales teams tell you. My expertise includes the unique benefits of 3,000+ foot elevation living and proximity to Mount Charleston.</p>
               </div>
               <div className="text-center">
                 <div className="text-4xl mb-4">💰</div>
                 <h3 className="text-xl font-bold mb-2">Negotiation Power</h3>
-                <p className="text-gray-300">Even with new construction, there's room to negotiate. I know how to maximize your leverage and protect your interests.</p>
+                <p className="text-gray-300">Even with new construction, there's room to negotiate. I know how to maximize your leverage and protect your interests. Learn more about my <Link href="/services" className="text-blue-300 hover:text-blue-200 underline">buyer representation services</Link>.</p>
               </div>
               <div className="text-center">
                 <div className="text-4xl mb-4">🎯</div>
                 <h3 className="text-xl font-bold mb-2">Las Vegas Specialist</h3>
-                <p className="text-gray-300">Nevada License S.0197614. Deep knowledge of Skye Canyon and the entire metro area.</p>
+                <p className="text-gray-300">Nevada License S.0197614. Deep knowledge of Skye Canyon and the entire metro area. <Link href="/about" className="text-blue-300 hover:text-blue-200 underline">Learn more about Dr. Jan Duffy</Link>.</p>
               </div>
             </div>
           </div>
@@ -367,33 +377,33 @@ const Home: NextPage = () => {
               <div className="bg-gray-50 rounded-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">What are the HOA fees?</h3>
                 <p className="text-gray-700 mb-4">
-                  Skye Canyon master community HOA fee is approximately $83/month. The Sierra at Skyeview Area may have additional sub-HOA fees for enhanced amenities.
+                  Skye Canyon master community HOA fee is approximately $83/month. The Sierra at Skyeview Area may have additional sub-HOA fees for enhanced amenities. Learn more about <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon community amenities</Link> and <Link href="/qa" className="text-blue-600 hover:text-blue-700 underline">HOA fees</Link>.
                 </p>
-                <a href="/qa" className="text-blue-600 hover:text-blue-700 font-semibold">View all HOA questions →</a>
+                <Link href="/qa" className="text-blue-600 hover:text-blue-700 font-semibold">View all HOA questions →</Link>
               </div>
 
               <div className="bg-gray-50 rounded-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">What's included in the homes?</h3>
                 <p className="text-gray-700 mb-4">
-                  Every home in the Sierra at Skyeview Area comes with integrated smart home technology, premium finishes, and energy-efficient features. Located at 3,000+ foot elevation in Skye Canyon with access to Mount Charleston just 30 minutes away.
+                  Every home in the Sierra at Skyeview Area comes with integrated smart home technology, premium finishes, and energy-efficient features. Located at 3,000+ foot elevation in Skye Canyon with access to Mount Charleston just 30 minutes away. Explore <Link href="/new-build-homes" className="text-blue-600 hover:text-blue-700 underline">new construction homes</Link> and <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">available floor plans</Link>.
                 </p>
-                <a href="/qa" className="text-blue-600 hover:text-blue-700 font-semibold">Learn more about features →</a>
+                <Link href="/qa" className="text-blue-600 hover:text-blue-700 font-semibold">Learn more about features →</Link>
               </div>
 
               <div className="bg-gray-50 rounded-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Are there quick move-in homes?</h3>
                 <p className="text-gray-700 mb-4">
-                  Yes! Several quick move-in homes are available starting from $447,690 with estimated completion dates in December 2024.
+                  Yes! Several <Link href="/quick-move-in" className="text-blue-600 hover:text-blue-700 underline">quick move-in homes</Link> are available starting from $447,690 with estimated completion dates in December 2024. Browse all <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">available homes</Link> and <Link href="/new-build-homes" className="text-blue-600 hover:text-blue-700 underline">new construction opportunities</Link>.
                 </p>
-                <a href="/quick-move-in" className="text-blue-600 hover:text-blue-700 font-semibold">View available homes →</a>
+                <Link href="/quick-move-in" className="text-blue-600 hover:text-blue-700 font-semibold">View available homes →</Link>
               </div>
 
               <div className="bg-gray-50 rounded-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">How does Dr. Jan Duffy help?</h3>
                 <p className="text-gray-700 mb-4">
-                  As your Buyer's Agent, Dr. Jan represents YOUR interests exclusively—not the builder's. She provides expert guidance on the Sierra at Skyeview Area, deep market knowledge of Skye Canyon's 3,000+ foot elevation community, and negotiation power focused on protecting your investment.
+                  As your <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">Buyer's Agent</Link>, Dr. Jan represents YOUR interests exclusively—not the builder's. She provides expert guidance on the Sierra at Skyeview Area, deep market knowledge of <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon's 3,000+ foot elevation community</Link>, and negotiation power focused on protecting your investment. <Link href="/reviews" className="text-blue-600 hover:text-blue-700 underline">Read client reviews</Link> and <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">learn more about Dr. Jan Duffy</Link>.
                 </p>
-                <a href="/about" className="text-blue-600 hover:text-blue-700 font-semibold">Meet Dr. Jan Duffy →</a>
+                <Link href="/about" className="text-blue-600 hover:text-blue-700 font-semibold">Meet Dr. Jan Duffy →</Link>
               </div>
             </div>
 
@@ -485,7 +495,21 @@ const Home: NextPage = () => {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2025 Sierra Skyview | Homes by Dr Jan Duffy. All rights reserved.</p>
-            <p className="text-gray-400 mt-2">Dr. Jan Duffy | Nevada Real Estate License #S.0197614 | Berkshire Hathaway HomeServices</p>
+            <div className="flex flex-col items-center gap-4 mt-4">
+              <div className="flex items-center justify-center gap-4">
+                <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>
+              </div>
+              <div className="flex items-center justify-center gap-2">
+                <Image
+                  src="/bhhs-logo.png"
+                  alt="Berkshire Hathaway HomeServices Logo"
+                  width={200}
+                  height={40}
+                  className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
+                  priority={false}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </footer>

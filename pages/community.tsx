@@ -91,7 +91,7 @@ const Community: NextPage = () => {
               Sierra at Skyeview Homes Community
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Discover new Skyeview homes for sale in Las Vegas, NV, at Sierra at Skyeview Homes! Offering exciting, two-story Homes with up to 1,965 square feet, Sierra at Skyeview Homes is the perfect place to plant roots. Residents enjoy incredible amenities at this 1,700-acre neighborhood, from a stunning central clubhouse to pools, parks, playgrounds, and much more.
+              Discover new Skyeview homes for sale in Las Vegas, NV, at Sierra at Skyeview Homes! Offering exciting, two-story Homes with up to 1,965 square feet, <Link href="/floor-plans" className="text-blue-300 hover:text-blue-200 underline">Sierra at Skyeview Homes</Link> is the perfect place to plant roots. Residents enjoy incredible amenities at this 1,700-acre neighborhood, from a stunning central clubhouse to pools, parks, playgrounds, and much more. Explore <Link href="/new-build-homes" className="text-blue-300 hover:text-blue-200 underline">new construction homes</Link> and <Link href="/quick-move-in" className="text-blue-300 hover:text-blue-200 underline">quick move-in opportunities</Link>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -117,7 +117,7 @@ const Community: NextPage = () => {
                 Community Amenities
               </h2>
               <p className="text-lg text-gray-600 max-w-4xl mx-auto">
-                A recreational playground with inspiring scenery and an emotionally appealing setting, Skye Canyon's 1,700 acres are designed for a more engaged community—where work-life balance, a sense of well-being, and a vital active life are the norm. Living here, you'll enjoy incredible amenities including:
+                A recreational playground with inspiring scenery and an emotionally appealing setting, Skye Canyon's 1,700 acres are designed for a more engaged community—where work-life balance, a sense of well-being, and a vital active life are the norm. Living here, you'll enjoy incredible amenities. Explore <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">available homes</Link> in this premier community and learn about <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">buyer representation services</Link>.
               </p>
             </div>
 
@@ -692,7 +692,21 @@ const Community: NextPage = () => {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2025 Sierra Skyview | Homes by Dr Jan Duffy. All rights reserved.</p>
-            <p className="text-gray-400 mt-2">Dr. Jan Duffy | Nevada Real Estate License #S.0197614 | Berkshire Hathaway HomeServices</p>
+            <div className="flex flex-col items-center gap-4 mt-4">
+              <div className="flex items-center justify-center gap-4">
+                <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>
+              </div>
+              <div className="flex items-center justify-center gap-2">
+                <Image
+                  src="/bhhs-logo.png"
+                  alt="Berkshire Hathaway HomeServices Logo"
+                  width={200}
+                  height={40}
+                  className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
+                  priority={false}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </footer>

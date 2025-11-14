@@ -217,11 +217,21 @@ const Reviews: NextPage = () => {
               />
             </div>
             <div className="text-center mb-12">
+              <div className="flex justify-center mb-6">
+                <Image
+                  src="/dr-jan-duffy-portrait.jpg"
+                  alt="Dr. Jan Duffy - Professional Real Estate Agent"
+                  width={200}
+                  height={200}
+                  className="w-48 h-48 rounded-full object-cover border-4 border-blue-600 shadow-xl"
+                  priority
+                />
+              </div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                 Why Homebuyers Choose Dr. Jan Duffy at Sierra at Skyeview Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy has built a reputation as the go-to Buyer's Agent for new homes in the Sierra at Skyeview Area. Located at 3,000+ foot elevation in Skye Canyon with stunning mountain views and access to Mount Charleston, this master-planned community offers a unique Las Vegas lifestyle. Dr. Jan's buyer representation provides clients with exclusive access, better pricing, and expert guidance throughout the home buying process—all while she exclusively represents YOUR interests, not the builder's.
+                Dr. Jan Duffy has built a reputation as the go-to <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">Buyer's Agent</Link> for new homes in the <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Area</Link>. Located at 3,000+ foot elevation in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link> with stunning mountain views and access to Mount Charleston, this master-planned community offers a unique Las Vegas lifestyle. Dr. Jan's buyer representation provides clients with exclusive access, better pricing, and expert guidance throughout the home buying process—all while she exclusively represents YOUR interests, not the builder's. <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Learn more about Dr. Jan Duffy</Link>.
               </p>
             </div>
 
@@ -229,31 +239,31 @@ const Reviews: NextPage = () => {
               <div className="bg-white rounded-lg p-6 shadow-lg text-center">
                 <div className="text-4xl mb-4">🤝</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Buyer's Agent Representation</h3>
-                <p className="text-gray-600">Exclusive access to premier lots in the Sierra at Skyeview Area, early phase releases, and informed pricing strategies through Dr. Jan Duffy's buyer representation. As your Buyer's Agent, she represents YOU—not the builder—protecting your interests in Sierra at Skyeview Area's premier 3,000+ foot elevation location in Skye Canyon.</p>
+                <p className="text-gray-600">Exclusive access to premier lots in the <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Area</Link>, early phase releases, and informed pricing strategies through Dr. Jan Duffy's <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">buyer representation</Link>. As your Buyer's Agent, she represents YOU—not the builder—protecting your interests in Sierra at Skyeview Area's premier 3,000+ foot elevation location in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>.</p>
               </div>
               <div className="bg-white rounded-lg p-6 shadow-lg text-center">
                 <div className="text-4xl mb-4">📊</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Skye Canyon Market Expertise</h3>
-                <p className="text-gray-600">Deep knowledge of Las Vegas real estate market and Skye Canyon's unique 3,000+ foot elevation community, helping clients understand the value of living near Mount Charleston and make informed decisions about their new home investment.</p>
+                <p className="text-gray-600">Deep knowledge of Las Vegas real estate market and <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon's unique 3,000+ foot elevation community</Link>, helping clients understand the value of living near Mount Charleston and make informed decisions about their new home investment.</p>
               </div>
               <div className="bg-white rounded-lg p-6 shadow-lg text-center">
                 <div className="text-4xl mb-4">💰</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Negotiation Power</h3>
-                <p className="text-gray-600">Expert negotiation skills that save clients thousands on upgrades, incentives, and closing costs while ensuring they get the best value for their investment.</p>
+                <p className="text-gray-600">Expert negotiation skills that save clients thousands on upgrades, incentives, and closing costs while ensuring they get the best value for their investment. <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">Learn more about Dr. Jan's services</Link>.</p>
               </div>
             </div>
 
             <div className="bg-white rounded-lg p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Sierra at Skyeview Homes at Skye Canyon - New Homes in Las Vegas</h3>
               <p className="text-lg text-gray-600 mb-6">
-                The Sierra at Skyeview Area, located within Skye Canyon, represents the pinnacle of new home construction in Las Vegas, offering three thoughtfully designed two-story Homes in Skye Canyon's prestigious master-planned community. Sierra at Skyeview Area provides residents with access to world-class amenities, beautiful mountain views, and a vibrant community lifestyle that's unmatched in the Las Vegas Valley.
+                The Sierra at Skyeview Area, located within <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, represents the pinnacle of <Link href="/new-build-homes" className="text-blue-600 hover:text-blue-700 underline">new home construction</Link> in Las Vegas, offering three thoughtfully designed two-story Homes in Skye Canyon's prestigious master-planned community. Sierra at Skyeview Area provides residents with access to world-class amenities, beautiful mountain views, and a vibrant community lifestyle that's unmatched in the Las Vegas Valley.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Nestled in Skye Canyon, the Sierra at Skyeview Area offers new homes starting from $419,990. The community features three Homes: Residence 1602 (1,602 sq ft, 3 bed, 2.5 bath), Residence 1708 (1,708 sq ft, 3 bed, 2.5 bath), and Residence 1965 (1,965 sq ft, 3 bed, 2.5 bath). Each home includes modern finishes, smart home technology, and access to Skye Canyon's incredible amenities including parks, trails, recreational facilities, and neighborhood schools.
+                Nestled in Skye Canyon, the Sierra at Skyeview Area offers <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">new homes starting from $419,990</Link>. The community features three Homes: <Link href="/model-1602" className="text-blue-600 hover:text-blue-700 underline">Residence 1602</Link> (1,602 sq ft, 3 bed, 2.5 bath), <Link href="/model-1708" className="text-blue-600 hover:text-blue-700 underline">Residence 1708</Link> (1,708 sq ft, 3 bed, 2.5 bath), and <Link href="/model-1965" className="text-blue-600 hover:text-blue-700 underline">Residence 1965</Link> (1,965 sq ft, 3 bed, 2.5 bath). Each home includes modern finishes, smart home technology, and access to <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon's incredible amenities</Link> including parks, trails, recreational facilities, and neighborhood schools.
                 <span className="sr-only">Community address: 8925 Vanhoy Creek St., Las Vegas, NV 89166</span>
               </p>
               <p className="text-lg text-gray-600">
-                Dr. Jan Duffy's independent representation ensures that homebuyers receive VIP treatment, early insight into the best lots, and expert guidance throughout the entire home buying process. Her Nevada real estate license (S.0197614) and deep knowledge of the Las Vegas market make her the ideal choice for anyone considering a new home in the Sierra at Skyeview Area.
+                Dr. Jan Duffy's independent representation ensures that homebuyers receive VIP treatment, early insight into the best lots, and expert guidance throughout the entire home buying process. Her Nevada real estate license (S.0197614) and deep knowledge of the Las Vegas market make her the ideal choice for anyone considering a new home in the Sierra at Skyeview Area. <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">Explore buyer representation services</Link> and <Link href="/contact" className="text-blue-600 hover:text-blue-700 underline">contact Dr. Jan</Link> today.
               </p>
             </div>
           </div>
@@ -464,7 +474,21 @@ const Reviews: NextPage = () => {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2025 Sierra at Skyeview Homes | Homes by Dr Jan Duffy. All rights reserved.</p>
-            <p className="text-gray-400 mt-2">Dr. Jan Duffy | Nevada Real Estate License #S.0197614 | Berkshire Hathaway HomeServices</p>
+            <div className="flex flex-col items-center gap-4 mt-4">
+              <div className="flex items-center justify-center gap-4">
+                <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>
+              </div>
+              <div className="flex items-center justify-center gap-2">
+                <Image
+                  src="/bhhs-logo.png"
+                  alt="Berkshire Hathaway HomeServices Logo"
+                  width={200}
+                  height={40}
+                  className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
+                  priority={false}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </footer>

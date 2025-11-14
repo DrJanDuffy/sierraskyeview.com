@@ -83,10 +83,10 @@ const About: NextPage = () => {
                   Meet Dr. Jan Duffy
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  Dr. Jan Duffy is a Featured New Home Construction & Buyer Representation Specialist, proudly representing homebuyers interested in new homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas, NV.
+                  Dr. Jan Duffy is a Featured New Home Construction & Buyer Representation Specialist, proudly representing homebuyers interested in new homes at <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon, Las Vegas, NV</Link>.
                 </p>
                 <p className="text-lg text-gray-600 mb-6">
-                  With deep expertise in the Las Vegas real estate market and specialized knowledge of Skye Canyon's master-planned community, Dr. Jan Duffy provides expert guidance to homebuyers seeking luxury new construction homes at Sierra at Skyeview Homes. Located at 3,000+ foot elevation with stunning mountain views and access to Mount Charleston, Sierra at Skyeview Area offers a unique lifestyle. Dr. Jan's collaborative approach with development teams gives clients early insight into the best lots, upcoming releases, and negotiation opportunities—all while she exclusively represents YOUR interests as your Buyer's Agent.
+                  With deep expertise in the Las Vegas real estate market and specialized knowledge of <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon's master-planned community</Link>, Dr. Jan Duffy provides expert guidance to homebuyers seeking luxury <Link href="/new-build-homes" className="text-blue-600 hover:text-blue-700 underline">new construction homes</Link> at Sierra at Skyeview Homes. Located at 3,000+ foot elevation with stunning mountain views and access to Mount Charleston, Sierra at Skyeview Area offers a unique lifestyle. Dr. Jan's collaborative approach with development teams gives clients early insight into the best lots, upcoming releases, and negotiation opportunities—all while she exclusively represents YOUR interests as your <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">Buyer's Agent</Link>. <Link href="/reviews" className="text-blue-600 hover:text-blue-700 underline">Read client reviews</Link> to learn more.
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-center">
@@ -106,9 +106,6 @@ const About: NextPage = () => {
                     <span className="text-gray-700">New Construction Specialist</span>
                   </div>
                 </div>
-              </div>
-              <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-                <span className="text-gray-500">Dr. Jan Duffy Photo</span>
               </div>
             </div>
           </div>
@@ -130,12 +127,12 @@ const About: NextPage = () => {
               <div className="bg-white rounded-lg p-8 shadow-lg text-center">
                 <div className="text-4xl mb-4">🏠</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">New Home Construction</h3>
-                <p className="text-gray-600">Expert guidance through the entire new construction process from lot selection to closing day.</p>
+                <p className="text-gray-600">Expert guidance through the entire <Link href="/new-build-homes" className="text-blue-600 hover:text-blue-700 underline">new construction process</Link> from lot selection to closing day.</p>
               </div>
               <div className="bg-white rounded-lg p-8 shadow-lg text-center">
                 <div className="text-4xl mb-4">🤝</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Buyer Representation for Sierra at Skyeview Homes</h3>
-                <p className="text-gray-600">Buyer's Agent representation providing insider knowledge of Sierra at Skyeview Homes while protecting your interests.</p>
+                <p className="text-gray-600"><Link href="/services" className="text-blue-600 hover:text-blue-700 underline">Buyer's Agent representation</Link> providing insider knowledge of <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> while protecting your interests.</p>
               </div>
               <div className="bg-white rounded-lg p-8 shadow-lg text-center">
                 <div className="text-4xl mb-4">🎯</div>
@@ -304,7 +301,21 @@ const About: NextPage = () => {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2025 Sierra Skyview | Homes by Dr Jan Duffy. All rights reserved.</p>
-            <p className="text-gray-400 mt-2">Dr. Jan Duffy | Nevada Real Estate License #S.0197614 | Berkshire Hathaway HomeServices</p>
+            <div className="flex flex-col items-center gap-4 mt-4">
+              <div className="flex items-center justify-center gap-4">
+                <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>
+              </div>
+              <div className="flex items-center justify-center gap-2">
+                <Image
+                  src="/bhhs-logo.png"
+                  alt="Berkshire Hathaway HomeServices Logo"
+                  width={200}
+                  height={40}
+                  className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
+                  priority={false}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </footer>

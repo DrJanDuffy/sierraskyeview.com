@@ -130,7 +130,7 @@ const Services: NextPage = () => {
               Professional Real Estate Services
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Expert guidance from Dr. Jan Duffy for all your real estate needs. Specializing in new home construction, buyer representation, and Buyer's Agent services for Sierra at Skyeview Homes.
+              Expert guidance from Dr. Jan Duffy for all your real estate needs. Specializing in <Link href="/new-build-homes" className="text-blue-300 hover:text-blue-200 underline">new home construction</Link>, buyer representation, and Buyer's Agent services for <Link href="/floor-plans" className="text-blue-300 hover:text-blue-200 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-300 hover:text-blue-200 underline">Skye Canyon</Link>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -151,7 +151,7 @@ const Services: NextPage = () => {
                 Comprehensive Real Estate Services
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy provides expert real estate services with a focus on new home construction and buyer representation. Your trusted advisor throughout the entire process.
+                Dr. Jan Duffy provides expert real estate services with a focus on <Link href="/new-build-homes" className="text-blue-600 hover:text-blue-700 underline">new home construction</Link> and <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">buyer representation</Link>. Your trusted advisor throughout the entire process. <Link href="/reviews" className="text-blue-600 hover:text-blue-700 underline">Read client reviews</Link> and <Link href="/contact" className="text-blue-600 hover:text-blue-700 underline">contact Dr. Jan</Link> today.
               </p>
             </div>
 
@@ -181,6 +181,16 @@ const Services: NextPage = () => {
         <section className="py-16 bg-blue-900 text-white">
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
+              <div className="flex justify-center mb-6">
+                <Image
+                  src="/dr-jan-duffy-portrait.jpg"
+                  alt="Dr. Jan Duffy - Professional Real Estate Agent"
+                  width={200}
+                  height={200}
+                  className="w-48 h-48 rounded-full object-cover border-4 border-white shadow-xl"
+                  priority
+                />
+              </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Why Choose Dr. Jan Duffy?
               </h2>
@@ -193,17 +203,17 @@ const Services: NextPage = () => {
               <div className="text-center">
                 <div className="text-4xl mb-4">🤝</div>
                 <h3 className="text-xl font-bold mb-2">Buyer's Agent Representation</h3>
-                <p className="text-gray-300">I represent YOU—not the builder. As your Buyer's Agent for Sierra at Skyeview Homes in Skye Canyon, I protect your interests while providing insider access to this premier 3,000+ foot elevation community.</p>
+                <p className="text-gray-300">I represent YOU—not the builder. As your Buyer's Agent for <Link href="/floor-plans" className="text-blue-300 hover:text-blue-200 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-300 hover:text-blue-200 underline">Skye Canyon</Link>, I protect your interests while providing insider access to this premier 3,000+ foot elevation community.</p>
               </div>
               <div className="text-center">
                 <div className="text-4xl mb-4">📊</div>
                 <h3 className="text-xl font-bold mb-2">Skye Canyon Market Expertise</h3>
-                <p className="text-gray-300">I'll show you comparable Las Vegas communities and help you understand true market value for Skye Canyon homes—not just what sales teams tell you. My expertise includes the unique benefits of 3,000+ foot elevation living and proximity to Mount Charleston.</p>
+                <p className="text-gray-300">I'll show you comparable Las Vegas communities and help you understand true market value for <Link href="/community" className="text-blue-300 hover:text-blue-200 underline">Skye Canyon homes</Link>—not just what sales teams tell you. My expertise includes the unique benefits of 3,000+ foot elevation living and proximity to Mount Charleston.</p>
               </div>
               <div className="text-center">
                 <div className="text-4xl mb-4">💰</div>
                 <h3 className="text-xl font-bold mb-2">Negotiation Power</h3>
-                <p className="text-gray-300">Even with new construction, there's room to negotiate. I know how to maximize your leverage and protect your interests.</p>
+                <p className="text-gray-300">Even with new construction, there's room to negotiate. I know how to maximize your leverage and protect your interests. <Link href="/about" className="text-blue-300 hover:text-blue-200 underline">Learn more about Dr. Jan Duffy</Link>.</p>
               </div>
             </div>
           </div>
@@ -376,7 +386,21 @@ const Services: NextPage = () => {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2025 Sierra Skyview | Homes by Dr Jan Duffy. All rights reserved.</p>
-            <p className="text-gray-400 mt-2">Dr. Jan Duffy | Nevada Real Estate License #S.0197614 | Berkshire Hathaway HomeServices</p>
+            <div className="flex flex-col items-center gap-4 mt-4">
+              <div className="flex items-center justify-center gap-4">
+                <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>
+              </div>
+              <div className="flex items-center justify-center gap-2">
+                <Image
+                  src="/bhhs-logo.png"
+                  alt="Berkshire Hathaway HomeServices Logo"
+                  width={200}
+                  height={40}
+                  className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
+                  priority={false}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </footer>

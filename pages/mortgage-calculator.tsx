@@ -88,7 +88,7 @@ const MortgageCalculator: NextPage = () => {
               Mortgage Calculator
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Calculate your monthly mortgage payment for Sierra at Skyeview Homes. Get personalized estimates and expert guidance from Dr. Jan Duffy.
+              Calculate your monthly mortgage payment for <Link href="/floor-plans" className="text-blue-300 hover:text-blue-200 underline">Sierra at Skyeview Homes</Link>. Get personalized estimates and expert guidance from <Link href="/about" className="text-blue-300 hover:text-blue-200 underline">Dr. Jan Duffy</Link>. Explore <Link href="/new-build-homes" className="text-blue-300 hover:text-blue-200 underline">new construction homes</Link> and <Link href="/quick-move-in" className="text-blue-300 hover:text-blue-200 underline">quick move-in opportunities</Link>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -288,7 +288,7 @@ const MortgageCalculator: NextPage = () => {
               Need Home Pricing? Check the Live Home Finder First.
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Home pricing and incentives change quickly. Use Dr. Jan Duffy&apos;s private home finder to confirm current pricing, elevations, and quick move-in availability before you plug numbers into the calculator.
+              Home pricing and incentives change quickly. Use Dr. Jan Duffy&apos;s private home finder to confirm current pricing, elevations, and <Link href="/quick-move-in" className="text-blue-600 hover:text-blue-700 underline">quick move-in availability</Link> before you plug numbers into the calculator. Explore <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">available homes</Link> and <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">buyer representation services</Link>.
               <span className="sr-only">Powered by RealScout</span>
             </p>
             <a
@@ -383,7 +383,21 @@ const MortgageCalculator: NextPage = () => {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2025 Sierra at Skyeview Homes | Homes by Dr Jan Duffy. All rights reserved.</p>
-            <p className="text-gray-400 mt-2">Dr. Jan Duffy | Nevada Real Estate License #S.0197614 | Berkshire Hathaway HomeServices</p>
+            <div className="flex flex-col items-center gap-4 mt-4">
+              <div className="flex items-center justify-center gap-4">
+                <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>
+              </div>
+              <div className="flex items-center justify-center gap-2">
+                <Image
+                  src="/bhhs-logo.png"
+                  alt="Berkshire Hathaway HomeServices Logo"
+                  width={200}
+                  height={40}
+                  className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
+                  priority={false}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </footer>

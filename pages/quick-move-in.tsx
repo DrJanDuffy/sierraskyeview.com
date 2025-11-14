@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 const QuickMoveIn: NextPage = () => {
   return (
@@ -56,7 +57,7 @@ const QuickMoveIn: NextPage = () => {
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
               <p className="text-xl max-w-3xl mx-auto">
-                Don't wait months for construction! Discover move-in ready homes in the Sierra at Skyeview Area, located within Skye Canyon, Las Vegas. Currently available: Residence 1602 starting at $420,240 with 1,602 sqft. Get expert guidance from Dr. Jan Duffy for new homes available for immediate occupancy.
+                Don't wait months for construction! Discover move-in ready homes in the <Link href="/community" className="text-green-300 hover:text-green-200 underline">Sierra at Skyeview Area, located within Skye Canyon, Las Vegas</Link>. Currently available: <Link href="/model-1602" className="text-green-300 hover:text-green-200 underline">Residence 1602</Link> starting at $420,240 with 1,602 sqft. Get expert guidance from <Link href="/about" className="text-green-300 hover:text-green-200 underline">Dr. Jan Duffy</Link> for new homes available for immediate occupancy. Browse all <Link href="/floor-plans" className="text-green-300 hover:text-green-200 underline">available homes</Link> and <Link href="/new-build-homes" className="text-green-300 hover:text-green-200 underline">new construction opportunities</Link>.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -78,7 +79,7 @@ const QuickMoveIn: NextPage = () => {
                 Move-In Ready Homes at Sierra at Skyeview Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Explore these carefully selected homes available for quick move-in in the Sierra at Skyeview Area in Skye Canyon. Each home features premium finishes, smart home technology, and access to world-class community amenities.
+                Explore these carefully selected homes available for quick move-in in the <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Area in Skye Canyon</Link>. Each home features premium finishes, smart home technology, and access to world-class <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">community amenities</Link>. Learn more about <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">buyer representation services</Link> and <Link href="/new-build-homes" className="text-blue-600 hover:text-blue-700 underline">new construction homes</Link>.
                 <span className="sr-only">Community address: 8925 Vanhoy Creek St., Las Vegas, NV 89166</span>
               </p>
             </div>
@@ -408,7 +409,21 @@ const QuickMoveIn: NextPage = () => {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2025 Sierra at Skyeview Homes | Homes by Dr Jan Duffy. All rights reserved.</p>
-            <p className="text-gray-400 mt-2">Dr. Jan Duffy | Nevada Real Estate License #S.0197614 | Berkshire Hathaway HomeServices</p>
+            <div className="flex flex-col items-center gap-4 mt-4">
+              <div className="flex items-center justify-center gap-4">
+                <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>
+              </div>
+              <div className="flex items-center justify-center gap-2">
+                <Image
+                  src="/bhhs-logo.png"
+                  alt="Berkshire Hathaway HomeServices Logo"
+                  width={200}
+                  height={40}
+                  className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
+                  priority={false}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </footer>

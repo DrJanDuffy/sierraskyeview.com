@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 const Model1965: NextPage = () => {
   return (
@@ -53,7 +54,7 @@ const Model1965: NextPage = () => {
               Residence 1965: Real-Time Availability & Pricing
             </h1>
             <p className="text-xl max-w-3xl mx-auto mb-6">
-              Explore every Residence 1965 release in real time via Dr. Jan Duffy's private home finder.
+              Explore every Residence 1965 release in real time via <Link href="/about" className="text-blue-300 hover:text-blue-200 underline">Dr. Jan Duffy's</Link> private home finder. Browse all <Link href="/floor-plans" className="text-blue-300 hover:text-blue-200 underline">available homes</Link> and learn about <Link href="/services" className="text-blue-300 hover:text-blue-200 underline">buyer representation services</Link>.
               <span className="sr-only">Powered by RealScout</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -92,7 +93,7 @@ const Model1965: NextPage = () => {
               Ready to Reserve Residence 1965?
             </h2>
             <p className="text-lg mb-6">
-              Dr. Jan Duffy is YOUR Buyer's Agent—not the builder's. She provides expert guidance on design selections, negotiates incentives, and manages the build through closing for the Sierra at Skyeview Area in Skye Canyon. Located at 3,000+ foot elevation with access to Mount Charleston, this premier community offers a unique Las Vegas lifestyle.
+              Dr. Jan Duffy is YOUR <Link href="/services" className="text-red-300 hover:text-red-200 underline">Buyer's Agent</Link>—not the builder's. She provides expert guidance on design selections, negotiates incentives, and manages the build through closing for the <Link href="/floor-plans" className="text-red-300 hover:text-red-200 underline">Sierra at Skyeview Area</Link> in <Link href="/community" className="text-red-300 hover:text-red-200 underline">Skye Canyon</Link>. Located at 3,000+ foot elevation with access to Mount Charleston, this premier community offers a unique Las Vegas lifestyle. Explore <Link href="/quick-move-in" className="text-red-300 hover:text-red-200 underline">quick move-in homes</Link> and <Link href="/new-build-homes" className="text-red-300 hover:text-red-200 underline">new construction opportunities</Link>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -168,7 +169,21 @@ const Model1965: NextPage = () => {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2025 Sierra Skyview | Homes by Dr Jan Duffy. All rights reserved.</p>
-            <p className="text-gray-400 mt-2">Dr. Jan Duffy | Nevada Real Estate License #S.0197614 | Berkshire Hathaway HomeServices</p>
+            <div className="flex flex-col items-center gap-4 mt-4">
+              <div className="flex items-center justify-center gap-4">
+                <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>
+              </div>
+              <div className="flex items-center justify-center gap-2">
+                <Image
+                  src="/bhhs-logo.png"
+                  alt="Berkshire Hathaway HomeServices Logo"
+                  width={200}
+                  height={40}
+                  className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
+                  priority={false}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </footer>

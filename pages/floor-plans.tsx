@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 const FloorPlans: NextPage = () => {
   return (
@@ -73,7 +74,7 @@ const FloorPlans: NextPage = () => {
             </h1>
             <div className="flex flex-col items-center gap-4 mb-8">
               <p className="text-lg text-white max-w-3xl mx-auto leading-relaxed">
-                Instantly see every available floor plan, elevation, quick move-in opportunity, pricing update, and exclusive incentives for the Sierra at Skyeview Area in Skye Canyon using Dr. Jan Duffy's private home finder. Updated in real time with current availability for this premier 3,000+ foot elevation community.
+                Instantly see every available floor plan, elevation, <Link href="/quick-move-in" className="text-blue-300 hover:text-blue-200 underline">quick move-in opportunity</Link>, pricing update, and exclusive incentives for the <Link href="/community" className="text-blue-300 hover:text-blue-200 underline">Sierra at Skyeview Area in Skye Canyon</Link> using Dr. Jan Duffy's private home finder. Updated in real time with current availability for this premier 3,000+ foot elevation community. Explore <Link href="/new-build-homes" className="text-blue-300 hover:text-blue-200 underline">new construction homes</Link> and <Link href="/services" className="text-blue-300 hover:text-blue-200 underline">buyer representation services</Link>.
                 <span className="sr-only">Powered by RealScout</span>
               </p>
             </div>
@@ -213,7 +214,21 @@ const FloorPlans: NextPage = () => {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2025 Sierra Skyview | Homes by Dr Jan Duffy. All rights reserved.</p>
-            <p className="text-gray-400 mt-2">Dr. Jan Duffy | Nevada Real Estate License #S.0197614 | Berkshire Hathaway HomeServices</p>
+            <div className="flex flex-col items-center gap-4 mt-4">
+              <div className="flex items-center justify-center gap-4">
+                <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>
+              </div>
+              <div className="flex items-center justify-center gap-2">
+                <Image
+                  src="/bhhs-logo.png"
+                  alt="Berkshire Hathaway HomeServices Logo"
+                  width={200}
+                  height={40}
+                  className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
+                  priority={false}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </footer>

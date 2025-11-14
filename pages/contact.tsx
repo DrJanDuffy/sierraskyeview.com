@@ -221,7 +221,17 @@ const Contact: NextPage = () => {
 
               {/* Contact Details */}
               <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">Get In Touch</h2>
+                <div className="flex flex-col items-center mb-6">
+                  <Image
+                    src="/dr-jan-duffy-portrait.jpg"
+                    alt="Dr. Jan Duffy - Professional Real Estate Agent"
+                    width={200}
+                    height={200}
+                    className="w-40 h-40 rounded-full object-cover border-4 border-blue-600 shadow-lg mb-4"
+                    priority
+                  />
+                  <h2 className="text-3xl font-bold text-gray-900">Get In Touch</h2>
+                </div>
                 
                 <div className="space-y-8">
                   <div className="flex items-start">
@@ -306,7 +316,7 @@ const Contact: NextPage = () => {
                 Visit Sierra at Skyeview Homes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Located in beautiful Skye Canyon's 1,700-acre master-planned community, the Sierra at Skyeview Area offers easy access to all that Las Vegas has to offer.
+                Located in beautiful <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon's 1,700-acre master-planned community</Link>, the <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Area</Link> offers easy access to all that Las Vegas has to offer. Explore <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">buyer representation services</Link> and <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">learn more about Dr. Jan Duffy</Link>.
               </p>
             </div>
 
@@ -396,7 +406,21 @@ const Contact: NextPage = () => {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2025 Sierra at Skyeview Homes | Homes by Dr Jan Duffy. All rights reserved.</p>
-            <p className="text-gray-400 mt-2">Dr. Jan Duffy | Nevada Real Estate License #S.0197614 | Berkshire Hathaway HomeServices</p>
+            <div className="flex flex-col items-center gap-4 mt-4">
+              <div className="flex items-center justify-center gap-4">
+                <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>
+              </div>
+              <div className="flex items-center justify-center gap-2">
+                <Image
+                  src="/bhhs-logo.png"
+                  alt="Berkshire Hathaway HomeServices Logo"
+                  width={200}
+                  height={40}
+                  className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
+                  priority={false}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </footer>

@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 const NewBuildHomes: NextPage = () => {
   const constructionPhases = [
@@ -214,7 +215,7 @@ const NewBuildHomes: NextPage = () => {
                 Sierra at Skyeview Homes at Skye Canyon - New Homes in Las Vegas
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                The Sierra at Skyeview Area, located within Skye Canyon, Las Vegas, offers exceptional new build homes in Skye Canyon's prestigious master-planned community.
+                The Sierra at Skyeview Area, located within <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon, Las Vegas</Link>, offers exceptional <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">new build homes</Link> in Skye Canyon's prestigious master-planned community. Explore <Link href="/quick-move-in" className="text-blue-600 hover:text-blue-700 underline">quick move-in homes</Link> and <Link href="/services" className="text-blue-600 hover:text-blue-700 underline">buyer representation services</Link>.
                 <span className="sr-only">Community address: 8925 Vanhoy Creek St., Las Vegas, NV 89166</span>
               </p>
             </div>
@@ -223,10 +224,10 @@ const NewBuildHomes: NextPage = () => {
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Skye Canyon Master-Planned Community</h3>
                 <p className="text-gray-600 mb-4">
-                  The Sierra at Skyeview Area is part of Skye Canyon's 1,700-acre master-planned community, offering residents access to world-class amenities, beautiful mountain views, and a vibrant community lifestyle that's unmatched in the Las Vegas Valley.
+                  The Sierra at Skyeview Area is part of <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon's 1,700-acre master-planned community</Link>, offering residents access to world-class amenities, beautiful mountain views, and a vibrant community lifestyle that's unmatched in the Las Vegas Valley.
                 </p>
                 <p className="text-gray-600 mb-6">
-                  Sierra at Skyeview Area features parks, trails, recreational facilities, neighborhood schools, and a stunning central clubhouse. Residents enjoy a perfect balance of suburban tranquility and urban convenience, with easy access to shopping, dining, and entertainment throughout Las Vegas.
+                  Sierra at Skyeview Area features parks, trails, recreational facilities, neighborhood schools, and a stunning central clubhouse. Residents enjoy a perfect balance of suburban tranquility and urban convenience, with easy access to shopping, dining, and entertainment throughout Las Vegas. Learn more about <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon community amenities</Link> and <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">available homes</Link>.
                 </p>
                 <div className="bg-white rounded-lg p-6 shadow-lg">
                   <h4 className="text-lg font-semibold text-gray-900 mb-4">Community Amenities Include:</h4>
@@ -457,7 +458,21 @@ const NewBuildHomes: NextPage = () => {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2025 Sierra Skyview | Homes by Dr Jan Duffy. All rights reserved.</p>
-            <p className="text-gray-400 mt-2">Dr. Jan Duffy | Nevada Real Estate License #S.0197614 | Berkshire Hathaway HomeServices</p>
+            <div className="flex flex-col items-center gap-4 mt-4">
+              <div className="flex items-center justify-center gap-4">
+                <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>
+              </div>
+              <div className="flex items-center justify-center gap-2">
+                <Image
+                  src="/bhhs-logo.png"
+                  alt="Berkshire Hathaway HomeServices Logo"
+                  width={200}
+                  height={40}
+                  className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
+                  priority={false}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </footer>
