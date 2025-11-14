@@ -230,7 +230,7 @@ const Model1708: NextPage = () => {
               </div>
               <div className="md:w-80">
                 <div className="bg-white/10 backdrop-blur rounded-xl p-4 border border-white/20">
-                  <p className="text-sm font-semibold mb-2">What Makes This Different?</p>
+                  <p className="text-sm font-semibold mb-2">Exclusive Information Available</p>
                   <ul className="text-sm text-blue-100 space-y-1">
                     <li>✓ Premium view lots</li>
                     <li>✓ Incentive notes & status</li>
