@@ -6,6 +6,7 @@ import Image from "next/image";
 const BlogPost: NextPage = () => {
   return (
     <>
+      {/* @ts-expect-error - Head component children are implicit in Next.js */}
       <Head>
         <title>The Buyer's Agent Advantage: Why You Need Independent Representation | Sierra at Skyeview Blog</title>
         <meta name="description" content="Learn why having an independent buyer's agent is crucial when purchasing new construction. Discover how Dr. Jan Duffy protects your interests, negotiates on your behalf, and provides expert guidance." />
