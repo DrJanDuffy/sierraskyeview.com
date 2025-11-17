@@ -340,16 +340,16 @@ const BlogPost: NextPage = () => {
           </div>
 
           {/* Related Posts */}
-          <div className="mt-16 pt-8 border-t border-gray-200">
+          <div className="mt-16 pt-8 border-t border-gray-700">
             <h2 className="text-2xl font-bold text-white mb-6">Related Articles</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link href="/blog/complete-guide-buying-new-construction-las-vegas" className="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/blog/complete-guide-buying-new-construction-las-vegas" className="block p-4 border border-gray-700 rounded-lg hover:shadow-md transition-shadow bg-gray-800">
                 <h3 className="font-bold text-white mb-2">Complete Guide to Buying New Construction Homes in Las Vegas</h3>
-                <p className="text-white text-sm">Everything you need to know about buying new construction homes, from lot selection to closing.</p>
+                <p className="text-gray-300 text-sm">Everything you need to know about buying new construction homes, from lot selection to closing.</p>
               </Link>
-              <Link href="/blog/new-construction-vs-resale-which-right-for-you" className="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/blog/new-construction-vs-resale-which-right-for-you" className="block p-4 border border-gray-700 rounded-lg hover:shadow-md transition-shadow bg-gray-800">
                 <h3 className="font-bold text-white mb-2">New Construction vs. Resale: Which is Right for You?</h3>
-                <p className="text-white text-sm">Compare the benefits of new construction homes versus resale properties.</p>
+                <p className="text-gray-300 text-sm">Compare the benefits of new construction homes versus resale properties.</p>
               </Link>
             </div>
           </div>
