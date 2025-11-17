@@ -106,6 +106,30 @@ const createSitemap = () => {
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.sierraskyeview.com/blog/why-choose-skye-canyon-buyers-guide</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.sierraskyeview.com/blog/understanding-hoa-fees-what-to-know</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.sierraskyeview.com/blog/new-construction-vs-resale-which-right-for-you</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.sierraskyeview.com/blog/buyers-agent-advantage-independent-representation</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.sierraskyeview.com/model-1602</loc>
     <lastmod>${today}</lastmod>
     <changefreq>daily</changefreq>
