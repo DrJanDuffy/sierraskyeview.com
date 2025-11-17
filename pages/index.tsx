@@ -101,6 +101,11 @@ const Home: NextPage = () => {
         <meta name="twitter:description" content="Luxury new homes at Sierra at Skyeview Homes in Skye Canyon, Las Vegas NV. New homes starting at $420,240." />
         <meta name="twitter:image" content="https://www.sierraskyeview.com/design%2004_new%202.jpg" />
         <link rel="canonical" href="https://www.sierraskyeview.com/" />
+        {/* Preload critical hero image for faster Speed Index */}
+        <link rel="preload" as="image" href="/9026-rimerton-street-exterior.jpg" />
+        {/* Resource hints for faster DNS resolution */}
+        <link rel="dns-prefetch" href="https://drjanduffy.realscout.com" />
+        <link rel="preconnect" href="https://drjanduffy.realscout.com" crossOrigin="anonymous" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
@@ -222,7 +227,9 @@ const Home: NextPage = () => {
                   fill
                   className="object-cover"
                   priority={index === 0}
+                  loading={index === 0 ? "eager" : "lazy"}
                   sizes="100vw"
+                  quality={85}
                 />
               </div>
             ))}
@@ -281,7 +288,7 @@ const Home: NextPage = () => {
                   height={260}
                   className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-white shadow-lg mx-auto mb-4"
                   priority
-                  unoptimized
+                  quality={85}
                 />
                 <p className="text-lg font-semibold">Dr. Jan Duffy</p>
                 <p className="text-sm text-blue-100 mb-4">Buyer's Agent | Sierra at Skyeview Homes</p>
@@ -331,7 +338,7 @@ const Home: NextPage = () => {
                 className="w-40 h-40 rounded-full object-cover border-4 border-blue-600 shadow-lg"
                 priority={false}
                 loading="lazy"
-                unoptimized
+                quality={85}
               />
               <div>
                 <p className="text-lg text-gray-700 italic mb-4">
@@ -405,8 +412,8 @@ const Home: NextPage = () => {
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-300"
                     sizes="(max-width: 768px) 50vw, 25vw"
-                    loading="eager"
-                    priority={index < 2}
+                    loading="lazy"
+                    quality={85}
                   />
                   <figcaption className="sr-only">{photo.alt}</figcaption>
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-opacity duration-300 flex items-center justify-center">
@@ -469,7 +476,7 @@ const Home: NextPage = () => {
                   className="w-48 h-48 rounded-full object-cover border-4 border-white shadow-xl"
                   priority={false}
                   loading="lazy"
-                  unoptimized
+                  quality={85}
                 />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -650,7 +657,7 @@ const Home: NextPage = () => {
                   height={40}
                   className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
                   priority={false}
-                  unoptimized
+                  quality={85}
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.style.display = 'none';
