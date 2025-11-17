@@ -86,7 +86,7 @@ const BlogPost: NextPage = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
               New Construction vs. Resale: Which is Right for You?
             </h1>
-            <p className="text-xl text-gray-900 mb-8">
+            <p className="text-xl text-white mb-8">
               Compare the benefits of new construction homes versus resale properties. Learn which option best fits your needs, timeline, and budget.
             </p>
           </div>
@@ -331,7 +331,7 @@ const BlogPost: NextPage = () => {
             </p>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">
+              <h3 className="text-xl font-bold text-white mb-2">
                 Ready to Explore Your Options?
               </h3>
               <p className="text-white mb-4">
@@ -353,14 +353,14 @@ const BlogPost: NextPage = () => {
 
           {/* Related Posts */}
           <div className="mt-16 pt-8 border-t border-gray-200">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Articles</h2>
+            <h2 className="text-2xl font-bold text-white mb-6">Related Articles</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/complete-guide-buying-new-construction-las-vegas" className="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
-                <h3 className="font-bold text-gray-900 mb-2">Complete Guide to Buying New Construction Homes in Las Vegas</h3>
+                <h3 className="font-bold text-white mb-2">Complete Guide to Buying New Construction Homes in Las Vegas</h3>
                 <p className="text-white text-sm">Everything you need to know about buying new construction homes, from lot selection to closing.</p>
               </Link>
               <Link href="/blog/why-choose-skye-canyon-buyers-guide" className="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
-                <h3 className="font-bold text-gray-900 mb-2">Why Choose Skye Canyon: A Buyer's Guide</h3>
+                <h3 className="font-bold text-white mb-2">Why Choose Skye Canyon: A Buyer's Guide</h3>
                 <p className="text-white text-sm">Discover why Skye Canyon is one of Las Vegas's most desirable communities.</p>
               </Link>
             </div>

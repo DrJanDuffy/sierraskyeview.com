@@ -122,7 +122,7 @@ const BlogPost: NextPage = () => {
               Why You Need a Buyer's Agent for New Construction
             </h2>
             
-            <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
+            <h3 className="text-2xl font-bold text-white mt-6 mb-3">
               1. Independent Representation
             </h3>
             <p className="text-white mb-4">
@@ -132,7 +132,7 @@ const BlogPost: NextPage = () => {
               As your buyer's agent, I represent YOUR interests exclusively. I review contracts to identify potential issues, negotiate terms that protect you, and ensure you understand every aspect of your purchase. This independent representation is invaluable when making one of the largest financial decisions of your life.
             </p>
 
-            <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
+            <h3 className="text-2xl font-bold text-white mt-6 mb-3">
               2. Negotiation Expertise
             </h3>
             <p className="text-white mb-4">
@@ -149,7 +149,7 @@ const BlogPost: NextPage = () => {
               At Sierra at Skyeview Homes, I've helped clients secure closing cost credits, design center credits, and other incentives that save thousands of dollars. This negotiation expertise comes from understanding the builder's business model and knowing what's truly negotiable.
             </p>
 
-            <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
+            <h3 className="text-2xl font-bold text-white mt-6 mb-3">
               3. Market Knowledge and Pricing Expertise
             </h3>
             <p className="text-white mb-4">
@@ -165,7 +165,7 @@ const BlogPost: NextPage = () => {
               I help clients understand true market value for Skye Canyon homes, not just what the sales team tells them. This market knowledge helps you make informed decisions and ensures you're paying fair market value.
             </p>
 
-            <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
+            <h3 className="text-2xl font-bold text-white mt-6 mb-3">
               4. Contract Review and Protection
             </h3>
             <p className="text-white mb-4">
@@ -182,7 +182,7 @@ const BlogPost: NextPage = () => {
               A buyer's agent reviews every contract clause, explains what it means, and negotiates modifications when possible. I help you understand your rights, obligations, and potential risks before you sign. This contract review can prevent costly mistakes and protect your investment.
             </p>
 
-            <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
+            <h3 className="text-2xl font-bold text-white mt-6 mb-3">
               5. Construction Oversight and Quality Control
             </h3>
             <p className="text-white mb-4">
@@ -198,7 +198,7 @@ const BlogPost: NextPage = () => {
               These inspections catch issues early when they're easier and less expensive to fix. I coordinate these inspections, attend walkthroughs with you, and help create punch lists of items that need attention. This oversight ensures quality construction and protects your investment.
             </p>
 
-            <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
+            <h3 className="text-2xl font-bold text-white mt-6 mb-3">
               6. Design Center Guidance
             </h3>
             <p className="text-white mb-4">
@@ -215,7 +215,7 @@ const BlogPost: NextPage = () => {
               I help clients navigate design center selections, ensuring they make informed choices that align with their budget and long-term goals.
             </p>
 
-            <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
+            <h3 className="text-2xl font-bold text-white mt-6 mb-3">
               7. Insider Access and Priority Treatment
             </h3>
             <p className="text-white mb-4">
@@ -236,7 +236,7 @@ const BlogPost: NextPage = () => {
               Common Misconceptions About Buyer's Agents
             </h2>
             
-            <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
+            <h3 className="text-2xl font-bold text-white mt-6 mb-3">
               "The Builder Pays the Commission, So It's Free"
             </h3>
             <p className="text-white mb-4">
@@ -246,7 +246,7 @@ const BlogPost: NextPage = () => {
               More importantly, a good buyer's agent saves you far more than their commission through negotiation, contract protection, and avoiding costly mistakes. The value they provide typically far exceeds their cost.
             </p>
 
-            <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
+            <h3 className="text-2xl font-bold text-white mt-6 mb-3">
               "I Can Negotiate Better Directly with the Builder"
             </h3>
             <p className="text-white mb-4">
@@ -256,7 +256,7 @@ const BlogPost: NextPage = () => {
               A buyer's agent levels the playing field. I negotiate on behalf of buyers regularly, understand builder motivations, and know how to structure offers that get results. This expertise typically leads to better outcomes than negotiating alone.
             </p>
 
-            <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
+            <h3 className="text-2xl font-bold text-white mt-6 mb-3">
               "The Builder's Agent Will Help Me"
             </h3>
             <p className="text-white mb-4">
@@ -341,14 +341,14 @@ const BlogPost: NextPage = () => {
 
           {/* Related Posts */}
           <div className="mt-16 pt-8 border-t border-gray-200">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Articles</h2>
+            <h2 className="text-2xl font-bold text-white mb-6">Related Articles</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/complete-guide-buying-new-construction-las-vegas" className="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
-                <h3 className="font-bold text-gray-900 mb-2">Complete Guide to Buying New Construction Homes in Las Vegas</h3>
+                <h3 className="font-bold text-white mb-2">Complete Guide to Buying New Construction Homes in Las Vegas</h3>
                 <p className="text-white text-sm">Everything you need to know about buying new construction homes, from lot selection to closing.</p>
               </Link>
               <Link href="/blog/new-construction-vs-resale-which-right-for-you" className="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
-                <h3 className="font-bold text-gray-900 mb-2">New Construction vs. Resale: Which is Right for You?</h3>
+                <h3 className="font-bold text-white mb-2">New Construction vs. Resale: Which is Right for You?</h3>
                 <p className="text-white text-sm">Compare the benefits of new construction homes versus resale properties.</p>
               </Link>
             </div>

@@ -104,7 +104,7 @@ const BlogPost: NextPage = () => {
 
           {/* Article Content */}
           <div className="prose prose-lg max-w-none prose-gray">
-            <p className="lead text-xl text-gray-900 mb-6 font-medium">
+            <p className="lead text-xl text-white mb-6 font-medium">
               When buying a home in a master-planned community like Skye Canyon, understanding HOA (Homeowners Association) fees is crucial. These fees are an ongoing expense that affects your monthly budget and overall cost of homeownership. As a buyer's agent specializing in new construction, I help clients understand what HOA fees cover and how to factor them into their home buying decision.
             </p>
 
@@ -252,7 +252,7 @@ const BlogPost: NextPage = () => {
             </p>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">
+              <h3 className="text-xl font-bold text-white mb-2">
                 Have Questions About HOA Fees?
               </h3>
               <p className="text-white mb-4">
@@ -274,14 +274,14 @@ const BlogPost: NextPage = () => {
 
           {/* Related Posts */}
           <div className="mt-16 pt-8 border-t border-gray-200">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Articles</h2>
+            <h2 className="text-2xl font-bold text-white mb-6">Related Articles</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/complete-guide-buying-new-construction-las-vegas" className="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
-                <h3 className="font-bold text-gray-900 mb-2">Complete Guide to Buying New Construction Homes in Las Vegas</h3>
+                <h3 className="font-bold text-white mb-2">Complete Guide to Buying New Construction Homes in Las Vegas</h3>
                 <p className="text-white text-sm">Everything you need to know about buying new construction homes, from lot selection to closing.</p>
               </Link>
               <Link href="/blog/why-choose-skye-canyon-buyers-guide" className="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
-                <h3 className="font-bold text-gray-900 mb-2">Why Choose Skye Canyon: A Buyer's Guide</h3>
+                <h3 className="font-bold text-white mb-2">Why Choose Skye Canyon: A Buyer's Guide</h3>
                 <p className="text-white text-sm">Discover why Skye Canyon is one of Las Vegas's most desirable communities.</p>
               </Link>
             </div>
