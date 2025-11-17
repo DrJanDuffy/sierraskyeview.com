@@ -189,6 +189,7 @@ const Services: NextPage = () => {
               <Link href="/new-build-homes" className="text-gray-700 hover:text-blue-600 font-medium">New Construction</Link>
               <Link href="/reviews" className="text-gray-700 hover:text-blue-600 font-medium">Reviews</Link>
               <Link href="/services" className="text-blue-600 font-semibold">Services</Link>
+              <Link href="/blog" className="text-gray-700 hover:text-blue-600 font-medium">Blog</Link>
               <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Dr. Jan</Link>
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
               <Link href="/qa" className="text-gray-700 hover:text-blue-600 font-medium">Q&amp;A</Link>

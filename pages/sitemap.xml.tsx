@@ -100,6 +100,12 @@ const createSitemap = () => {
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.sierraskyeview.com/blog/complete-guide-buying-new-construction-las-vegas</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.sierraskyeview.com/model-1602</loc>
     <lastmod>${today}</lastmod>
     <changefreq>daily</changefreq>
