@@ -103,25 +103,25 @@ const BlogPost: NextPage = () => {
           </div>
 
           {/* Article Content */}
-          <div className="prose prose-lg max-w-none">
-            <p className="lead text-xl text-gray-700 mb-6">
+          <div className="prose prose-lg max-w-none prose-gray">
+            <p className="lead text-xl text-gray-900 mb-6 font-medium">
               When searching for your dream home in Las Vegas, location matters. Skye Canyon stands out as one of the city's premier master-planned communities, offering a unique combination of natural beauty, modern amenities, and elevated living. As a buyer's agent specializing in Northwest Las Vegas, I've seen firsthand why Skye Canyon continues to attract families, professionals, and retirees seeking an exceptional quality of life.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               The Skye Canyon Advantage: 3,000+ Foot Elevation
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               One of Skye Canyon's most distinctive features is its elevation. Located at 3,000+ feet above sea level, the community enjoys noticeably cooler temperatures than the Las Vegas Valley floor—often 5-10 degrees cooler in summer. This elevation provides relief from the intense desert heat while still maintaining easy access to all that Las Vegas has to offer.
             </p>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               The higher elevation also means stunning mountain views, cleaner air, and a sense of being removed from the hustle and bustle of the city while remaining conveniently close. For outdoor enthusiasts, Mount Charleston is just 30 minutes away, offering hiking, skiing, and year-round mountain recreation.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               Master-Planned Community Excellence
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Skye Canyon spans 1,700 acres of thoughtfully designed living space. This isn't just a collection of homes—it's a carefully planned community where every detail has been considered to enhance residents' quality of life. The master plan includes:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -139,7 +139,7 @@ const BlogPost: NextPage = () => {
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               Location: The Best of Both Worlds
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Skye Canyon offers the perfect balance between natural beauty and urban convenience. Located in Northwest Las Vegas (ZIP code 89166), the community provides:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -153,17 +153,17 @@ const BlogPost: NextPage = () => {
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               Lifestyle Benefits: Work-Life Balance Redefined
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Skye Canyon is designed for a more engaged community—where work-life balance, a sense of well-being, and a vital active life are the norm. The community's recreational playground with inspiring scenery creates an emotionally appealing setting that encourages residents to connect with nature and each other.
             </p>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Whether you're looking for a quiet morning walk, an afternoon at the pool, or an evening gathering with neighbors, Skye Canyon provides the spaces and amenities to support an active, fulfilling lifestyle.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               Sierra at Skyeview Homes: Luxury Living in Skye Canyon
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Within Skye Canyon, Sierra at Skyeview Homes offers luxury new construction homes starting at $420,240. These two-story homes range from 1,602 to 1,965 square feet and feature:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -173,24 +173,24 @@ const BlogPost: NextPage = () => {
               <li>Modern floor plans designed for today's lifestyle</li>
               <li>Stunning mountain views</li>
             </ul>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Each home is built with attention to detail and quality craftsmanship, ensuring your investment will provide years of comfort and enjoyment.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               Investment Potential and Resale Value
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Skye Canyon's master-planned community status, desirable location, and exceptional amenities contribute to strong resale value potential. The community's continued development and growing reputation make it an attractive choice for both primary residences and investment properties.
             </p>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               The combination of natural beauty, modern amenities, and convenient location creates lasting appeal that supports property values over time. As the community continues to mature and develop, early residents benefit from both immediate enjoyment and long-term investment value.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               Who Should Consider Skye Canyon?
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Skye Canyon appeals to a diverse range of buyers:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -205,10 +205,10 @@ const BlogPost: NextPage = () => {
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               Making Your Move to Skye Canyon
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               If Skye Canyon sounds like the right fit for your lifestyle, the next step is exploring available homes. Sierra at Skyeview Homes offers both quick move-in options and new construction opportunities, allowing you to choose the option that best fits your timeline.
             </p>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               As your buyer's agent, I can help you navigate the home buying process, understand lot premiums, negotiate incentives, and ensure you get the best value for your investment. My expertise in Northwest Las Vegas and new construction helps protect your interests throughout the entire process.
             </p>
 
@@ -216,7 +216,7 @@ const BlogPost: NextPage = () => {
               <h3 className="text-xl font-bold text-gray-900 mb-2">
                 Ready to Explore Skye Canyon?
               </h3>
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-900 mb-4">
                 Discover available homes at Sierra at Skyeview Homes and learn more about the Skye Canyon lifestyle. Contact me today to schedule a private tour and see why so many families are choosing Skye Canyon as their home.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -239,11 +239,11 @@ const BlogPost: NextPage = () => {
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/complete-guide-buying-new-construction-las-vegas" className="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-gray-900 mb-2">Complete Guide to Buying New Construction Homes in Las Vegas</h3>
-                <p className="text-gray-600 text-sm">Everything you need to know about buying new construction homes, from lot selection to closing.</p>
+                <p className="text-gray-800 text-sm">Everything you need to know about buying new construction homes, from lot selection to closing.</p>
               </Link>
               <Link href="/blog/buyers-agent-advantage-independent-representation" className="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-gray-900 mb-2">The Buyer's Agent Advantage</h3>
-                <p className="text-gray-600 text-sm">Learn why independent representation is crucial for new construction buyers.</p>
+                <p className="text-gray-800 text-sm">Learn why independent representation is crucial for new construction buyers.</p>
               </Link>
             </div>
           </div>

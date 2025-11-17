@@ -103,15 +103,15 @@ const BlogPost: NextPage = () => {
           </div>
 
           {/* Article Content */}
-          <div className="prose prose-lg max-w-none">
-            <p className="lead text-xl text-gray-700 mb-6">
+          <div className="prose prose-lg max-w-none prose-gray">
+            <p className="lead text-xl text-gray-900 mb-6 font-medium">
               Buying a new construction home in Las Vegas is an exciting journey, but it comes with unique considerations that differ from purchasing a resale property. As a buyer's agent specializing in new construction at Sierra at Skyeview Homes, I've helped countless families navigate this process successfully.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               Why Choose New Construction?
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               New construction homes offer several advantages, including modern floor plans, energy-efficient features, smart home technology, and the ability to customize finishes. At Sierra at Skyeview Homes in Skye Canyon, you'll find luxury homes with premium features included as standard.
             </p>
 
@@ -122,49 +122,49 @@ const BlogPost: NextPage = () => {
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
               1. Get Pre-Approved for Financing
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Before you start shopping, get pre-approved for a mortgage. This shows builders you're a serious buyer and helps you understand your budget. Many builders, including those at Sierra at Skyeview, work with preferred lenders, but you're not required to use them.
             </p>
 
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
               2. Choose Your Lot and Floor Plan
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               At Sierra at Skyeview Homes, you can choose from three floor plans: 1,602 sq ft, 1,708 sq ft, and 1,965 sq ft homes. Each offers different lot options with varying premiums. As your buyer's agent, I help you understand lot premiums, views, and which lots offer the best value.
             </p>
 
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
               3. Negotiate Incentives and Upgrades
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Even with new construction, there's room to negotiate. Builders may offer closing cost credits, design center credits, or other incentives. I help you identify these opportunities and negotiate on your behalf to maximize your value.
             </p>
 
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
               4. Design Center Selections
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               During construction, you'll visit the design center to choose finishes, fixtures, and upgrades. Having a buyer's agent present helps ensure you understand upgrade costs and make informed decisions that align with your budget and resale value.
             </p>
 
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
               5. Construction Inspections
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Throughout construction, I coordinate inspections at key stages: foundation, framing, pre-drywall, and final walkthrough. These inspections catch issues early when they're easier and less expensive to fix.
             </p>
 
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
               6. Final Walkthrough and Closing
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Before closing, we conduct a thorough final walkthrough to ensure everything is complete and in working order. I help you create a punch list of any items that need attention. At closing, I review all documents to ensure accuracy.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               Why You Need a Buyer's Agent for New Construction
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Many buyers mistakenly think they don't need a real estate agent when buying new construction. However, having an independent buyer's agent provides crucial benefits:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -178,7 +178,7 @@ const BlogPost: NextPage = () => {
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               Common Mistakes to Avoid
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               When buying new construction, avoid these common mistakes:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -192,7 +192,7 @@ const BlogPost: NextPage = () => {
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               About Sierra at Skyeview Homes
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Sierra at Skyeview Homes offers luxury new construction in Skye Canyon, Northwest Las Vegas. Located at 3,000+ foot elevation, these homes feature cooler temperatures, stunning mountain views, and access to Mount Charleston just 30 minutes away. Starting at $420,240, these homes include smart home technology, premium finishes, and energy-efficient features.
             </p>
 
@@ -200,7 +200,7 @@ const BlogPost: NextPage = () => {
               <h3 className="text-xl font-bold text-gray-900 mb-2">
                 Ready to Start Your New Construction Journey?
               </h3>
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-900 mb-4">
                 As your buyer's agent, I provide expert guidance throughout the entire process. Contact me today to learn more about Sierra at Skyeview Homes and how I can help you find your perfect new construction home.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -220,11 +220,11 @@ const BlogPost: NextPage = () => {
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/why-choose-skye-canyon-buyers-guide" className="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-gray-900 mb-2">Why Choose Skye Canyon: A Buyer's Guide</h3>
-                <p className="text-gray-600 text-sm">Discover why Skye Canyon is one of Las Vegas's most desirable communities.</p>
+                <p className="text-gray-800 text-sm">Discover why Skye Canyon is one of Las Vegas's most desirable communities.</p>
               </Link>
               <Link href="/blog/buyers-agent-advantage-independent-representation" className="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-gray-900 mb-2">The Buyer's Agent Advantage</h3>
-                <p className="text-gray-600 text-sm">Learn why independent representation is crucial for new construction buyers.</p>
+                <p className="text-gray-800 text-sm">Learn why independent representation is crucial for new construction buyers.</p>
               </Link>
             </div>
           </div>

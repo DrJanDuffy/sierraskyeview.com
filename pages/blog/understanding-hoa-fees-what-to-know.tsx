@@ -103,22 +103,22 @@ const BlogPost: NextPage = () => {
           </div>
 
           {/* Article Content */}
-          <div className="prose prose-lg max-w-none">
-            <p className="lead text-xl text-gray-700 mb-6">
+          <div className="prose prose-lg max-w-none prose-gray">
+            <p className="lead text-xl text-gray-900 mb-6 font-medium">
               When buying a home in a master-planned community like Skye Canyon, understanding HOA (Homeowners Association) fees is crucial. These fees are an ongoing expense that affects your monthly budget and overall cost of homeownership. As a buyer's agent specializing in new construction, I help clients understand what HOA fees cover and how to factor them into their home buying decision.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               What Are HOA Fees?
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               HOA fees are monthly or annual payments made by homeowners to the Homeowners Association. These fees fund the maintenance, management, and improvement of shared community amenities and common areas. In master-planned communities like Skye Canyon, HOA fees ensure that residents can enjoy well-maintained parks, pools, trails, and other community facilities.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               What Do HOA Fees Cover at Skye Canyon?
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               At Skye Canyon, HOA fees typically cover a wide range of community amenities and services:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -134,7 +134,7 @@ const BlogPost: NextPage = () => {
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               How Are HOA Fees Determined?
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               HOA fees are calculated based on several factors:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -144,14 +144,14 @@ const BlogPost: NextPage = () => {
               <li><strong>Reserve Fund Requirements:</strong> State and local regulations may require minimum reserve fund contributions</li>
               <li><strong>Management Costs:</strong> Professional HOA management fees</li>
             </ul>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               For new construction communities like Sierra at Skyeview Homes, initial HOA fees may be set by the developer and can change as the community builds out and transitions to homeowner control.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               What to Expect: HOA Fee Ranges
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               HOA fees vary widely depending on the community and amenities. In master-planned communities like Skye Canyon with extensive amenities, fees typically range from $100 to $300+ per month. The exact amount depends on:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -160,27 +160,27 @@ const BlogPost: NextPage = () => {
               <li>Whether the community is still under developer control or homeowner-managed</li>
               <li>Local market conditions and maintenance costs</li>
             </ul>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               When considering a home purchase, always ask for current HOA fee information and understand that fees can increase over time to cover rising maintenance costs and inflation.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               Budgeting for HOA Fees
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               When calculating your total monthly housing costs, include HOA fees along with your mortgage payment, property taxes, and insurance. This gives you a complete picture of your monthly housing expenses.
             </p>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               For example, if your mortgage payment is $2,000 per month and HOA fees are $150 per month, your total monthly housing cost is $2,150. Lenders will consider HOA fees when qualifying you for a mortgage, so factor these costs into your pre-approval calculations.
             </p>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Use our <Link href="/mortgage-calculator" className="text-blue-600 hover:text-blue-700 underline">mortgage calculator</Link> to estimate your monthly payment, but remember to add HOA fees to get your complete monthly housing cost.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               Understanding HOA Fee Increases
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               HOA fees are not fixed forever. They can increase over time due to:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -190,24 +190,24 @@ const BlogPost: NextPage = () => {
               <li><strong>Reserve Fund Requirements:</strong> Increased contributions to meet reserve fund goals</li>
               <li><strong>Community Growth:</strong> Changes as the community builds out and transitions to homeowner control</li>
             </ul>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Most HOAs have limits on annual fee increases, typically requiring a vote by the board or homeowners for increases above a certain percentage. Review the HOA's governing documents to understand fee increase policies.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               Special Assessments: What to Know
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               In addition to regular HOA fees, homeowners may be subject to special assessments for major repairs or improvements not covered by the reserve fund. These are one-time charges that can be significant.
             </p>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               A well-funded reserve fund helps minimize the need for special assessments. When evaluating a community, ask about the reserve fund status and whether any special assessments are planned or anticipated.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               Questions to Ask About HOA Fees
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Before purchasing a home in an HOA community, ask these important questions:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -220,14 +220,14 @@ const BlogPost: NextPage = () => {
               <li>Are there any pending lawsuits or major expenses?</li>
               <li>Can I review the HOA's financial statements and budget?</li>
             </ul>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               As your buyer's agent, I help you obtain and review HOA documents, understand fee structures, and ensure you have complete information before making your purchase decision.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               The Value of HOA Fees
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               While HOA fees are an additional expense, they provide significant value:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -237,17 +237,17 @@ const BlogPost: NextPage = () => {
               <li><strong>Shared Costs:</strong> Costs for major amenities are shared across all homeowners</li>
               <li><strong>Professional Management:</strong> Professional management ensures consistent maintenance and service</li>
             </ul>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               At Skye Canyon, HOA fees help maintain the community's beautiful parks, trails, pools, and other amenities that make it such a desirable place to live. The investment in these fees contributes to the overall quality of life and property values in the community.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               HOA Fees at Sierra at Skyeview Homes
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               When considering a home at Sierra at Skyeview Homes in Skye Canyon, HOA fees are part of the overall cost of homeownership. These fees support the extensive amenities and services that make Skye Canyon such an attractive community.
             </p>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               As your buyer's agent, I help you understand current HOA fees, review HOA documents, and factor these costs into your home buying decision. I also help you understand what's included in the fees and what additional costs you might expect.
             </p>
 
@@ -255,7 +255,7 @@ const BlogPost: NextPage = () => {
               <h3 className="text-xl font-bold text-gray-900 mb-2">
                 Have Questions About HOA Fees?
               </h3>
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-900 mb-4">
                 Understanding HOA fees is an important part of the home buying process. As your buyer's agent, I help you navigate HOA documents, understand fee structures, and ensure you have all the information you need to make an informed decision. Contact me today to learn more about HOA fees at Sierra at Skyeview Homes and Skye Canyon.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -278,11 +278,11 @@ const BlogPost: NextPage = () => {
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/complete-guide-buying-new-construction-las-vegas" className="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-gray-900 mb-2">Complete Guide to Buying New Construction Homes in Las Vegas</h3>
-                <p className="text-gray-600 text-sm">Everything you need to know about buying new construction homes, from lot selection to closing.</p>
+                <p className="text-gray-800 text-sm">Everything you need to know about buying new construction homes, from lot selection to closing.</p>
               </Link>
               <Link href="/blog/why-choose-skye-canyon-buyers-guide" className="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-gray-900 mb-2">Why Choose Skye Canyon: A Buyer's Guide</h3>
-                <p className="text-gray-600 text-sm">Discover why Skye Canyon is one of Las Vegas's most desirable communities.</p>
+                <p className="text-gray-800 text-sm">Discover why Skye Canyon is one of Las Vegas's most desirable communities.</p>
               </Link>
             </div>
           </div>

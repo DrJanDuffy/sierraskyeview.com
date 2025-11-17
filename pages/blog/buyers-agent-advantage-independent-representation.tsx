@@ -103,18 +103,18 @@ const BlogPost: NextPage = () => {
           </div>
 
           {/* Article Content */}
-          <div className="prose prose-lg max-w-none">
-            <p className="lead text-xl text-gray-700 mb-6">
+          <div className="prose prose-lg max-w-none prose-gray">
+            <p className="lead text-xl text-gray-900 mb-6 font-medium">
               One of the most common misconceptions about buying new construction is that you don't need a real estate agent. Many buyers assume that working directly with the builder's sales team is the best approach. However, this couldn't be further from the truth. Having an independent buyer's agent provides crucial protection, expertise, and value that can save you thousands of dollars and protect your interests throughout the entire process.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               The Critical Difference: Who Represents Whom?
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               When you walk into a builder's sales office, the sales agent represents the builder—not you. Their job is to sell homes at the highest possible price with the fewest concessions. They work for the builder's interests, not yours.
             </p>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               A buyer's agent, on the other hand, represents YOU exclusively. Their fiduciary duty is to protect your interests, negotiate on your behalf, and ensure you get the best possible deal. This fundamental difference can mean thousands of dollars in savings and better contract terms.
             </p>
 
@@ -125,17 +125,17 @@ const BlogPost: NextPage = () => {
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
               1. Independent Representation
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               The builder's sales agent has a legal and ethical obligation to represent the builder's interests. They're trained to maximize sales price, minimize concessions, and protect the builder's bottom line. A buyer's agent has the same level of obligation—but to YOU.
             </p>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               As your buyer's agent, I represent YOUR interests exclusively. I review contracts to identify potential issues, negotiate terms that protect you, and ensure you understand every aspect of your purchase. This independent representation is invaluable when making one of the largest financial decisions of your life.
             </p>
 
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
               2. Negotiation Expertise
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Many buyers assume new construction prices are non-negotiable, but that's not true. There's often room to negotiate incentives, upgrades, closing costs, and other terms. A skilled buyer's agent knows:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -145,14 +145,14 @@ const BlogPost: NextPage = () => {
               <li>Which upgrades provide the best return on investment</li>
               <li>How to negotiate design center credits and closing cost assistance</li>
             </ul>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               At Sierra at Skyeview Homes, I've helped clients secure closing cost credits, design center credits, and other incentives that save thousands of dollars. This negotiation expertise comes from understanding the builder's business model and knowing what's truly negotiable.
             </p>
 
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
               3. Market Knowledge and Pricing Expertise
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Builder sales teams will tell you their pricing is competitive, but how do you know if that's true? A buyer's agent provides independent market analysis, comparing the builder's pricing to:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -161,14 +161,14 @@ const BlogPost: NextPage = () => {
               <li>Recent sales and market trends</li>
               <li>True market value based on comparable properties</li>
             </ul>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               I help clients understand true market value for Skye Canyon homes, not just what the sales team tells them. This market knowledge helps you make informed decisions and ensures you're paying fair market value.
             </p>
 
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
               4. Contract Review and Protection
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Builder contracts are written to protect the builder, not the buyer. These contracts often include:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -178,14 +178,14 @@ const BlogPost: NextPage = () => {
               <li>Unfavorable change order terms</li>
               <li>Limited warranty language</li>
             </ul>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               A buyer's agent reviews every contract clause, explains what it means, and negotiates modifications when possible. I help you understand your rights, obligations, and potential risks before you sign. This contract review can prevent costly mistakes and protect your investment.
             </p>
 
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
               5. Construction Oversight and Quality Control
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Throughout construction, a buyer's agent coordinates inspections at critical stages:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -194,14 +194,14 @@ const BlogPost: NextPage = () => {
               <li><strong>Pre-Drywall Inspection:</strong> Checks electrical, plumbing, and HVAC before walls are closed</li>
               <li><strong>Final Walkthrough:</strong> Comprehensive inspection before closing</li>
             </ul>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               These inspections catch issues early when they're easier and less expensive to fix. I coordinate these inspections, attend walkthroughs with you, and help create punch lists of items that need attention. This oversight ensures quality construction and protects your investment.
             </p>
 
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
               6. Design Center Guidance
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               The design center can be overwhelming, with hundreds of choices and upgrade costs that add up quickly. A buyer's agent helps you:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -211,14 +211,14 @@ const BlogPost: NextPage = () => {
               <li>Negotiate design center credits</li>
               <li>Stay within your budget while getting the features you want</li>
             </ul>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               I help clients navigate design center selections, ensuring they make informed choices that align with their budget and long-term goals.
             </p>
 
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
               7. Insider Access and Priority Treatment
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Experienced buyer's agents often have established relationships with builders, providing clients with:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -228,7 +228,7 @@ const BlogPost: NextPage = () => {
               <li>Faster response times to questions and concerns</li>
               <li>Insider knowledge of upcoming releases and incentives</li>
             </ul>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               At Sierra at Skyeview Homes, my relationships with the builder provide clients with early phase access and priority lot strategies, helping them secure the best lots before they're available to the general public.
             </p>
 
@@ -239,37 +239,37 @@ const BlogPost: NextPage = () => {
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
               "The Builder Pays the Commission, So It's Free"
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               While it's true that builders typically pay buyer's agent commissions, this doesn't mean representation is "free" to you. The commission is built into the home price, and without a buyer's agent, you're still paying that cost—but the builder keeps it instead of paying an agent to represent you.
             </p>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               More importantly, a good buyer's agent saves you far more than their commission through negotiation, contract protection, and avoiding costly mistakes. The value they provide typically far exceeds their cost.
             </p>
 
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
               "I Can Negotiate Better Directly with the Builder"
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Builders' sales teams are trained negotiators who negotiate home sales every day. They know exactly what's negotiable, what's not, and how to maximize value for the builder. As a buyer, you may negotiate a few home purchases in your lifetime.
             </p>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               A buyer's agent levels the playing field. I negotiate on behalf of buyers regularly, understand builder motivations, and know how to structure offers that get results. This expertise typically leads to better outcomes than negotiating alone.
             </p>
 
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
               "The Builder's Agent Will Help Me"
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Builder's sales agents are often friendly and helpful, but they have a legal obligation to represent the builder's interests, not yours. They may provide information, but they won't negotiate against the builder or point out potential issues that could hurt the sale.
             </p>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               A buyer's agent has a legal obligation to represent YOUR interests. This means honest advice, aggressive negotiation on your behalf, and protection throughout the process.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               The Cost of Not Having a Buyer's Agent
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               Without a buyer's agent, you risk:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -280,14 +280,14 @@ const BlogPost: NextPage = () => {
               <li><strong>Poor upgrade choices:</strong> Over-upgrading or choosing poor-value upgrades wastes money</li>
               <li><strong>Missing opportunities:</strong> Without insider access, you may miss the best lots or phases</li>
             </ul>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               These costs often far exceed what a buyer's agent would have saved you, making independent representation a smart investment.
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               What to Look for in a Buyer's Agent
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               When choosing a buyer's agent for new construction, look for:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -302,7 +302,7 @@ const BlogPost: NextPage = () => {
             <h2 className="text-3xl font-bold text-gray-900 mt-8 mb-4">
               How Dr. Jan Duffy Protects Your Interests
             </h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               As your buyer's agent specializing in new construction at Sierra at Skyeview Homes, I provide:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
@@ -314,7 +314,7 @@ const BlogPost: NextPage = () => {
               <li><strong>Contract protection:</strong> Thorough contract review and negotiation</li>
               <li><strong>Design center guidance:</strong> Help making informed upgrade choices</li>
             </ul>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-900 mb-4">
               My goal is to ensure you get the best possible home at the best possible price, with terms that protect your interests throughout the entire process.
             </p>
 
@@ -322,7 +322,7 @@ const BlogPost: NextPage = () => {
               <h3 className="text-xl font-bold text-gray-900 mb-2">
                 Ready to Protect Your Investment?
               </h3>
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-900 mb-4">
                 Don't navigate the new construction process alone. As your independent buyer's agent, I protect your interests, negotiate on your behalf, and ensure you get the best possible deal. Contact me today to learn how I can help you purchase your new home at Sierra at Skyeview Homes with confidence.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -345,11 +345,11 @@ const BlogPost: NextPage = () => {
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/complete-guide-buying-new-construction-las-vegas" className="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-gray-900 mb-2">Complete Guide to Buying New Construction Homes in Las Vegas</h3>
-                <p className="text-gray-600 text-sm">Everything you need to know about buying new construction homes, from lot selection to closing.</p>
+                <p className="text-gray-800 text-sm">Everything you need to know about buying new construction homes, from lot selection to closing.</p>
               </Link>
               <Link href="/blog/new-construction-vs-resale-which-right-for-you" className="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-gray-900 mb-2">New Construction vs. Resale: Which is Right for You?</h3>
-                <p className="text-gray-600 text-sm">Compare the benefits of new construction homes versus resale properties.</p>
+                <p className="text-gray-800 text-sm">Compare the benefits of new construction homes versus resale properties.</p>
               </Link>
             </div>
           </div>
