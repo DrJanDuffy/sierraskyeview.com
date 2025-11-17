@@ -623,15 +623,15 @@ const Home: NextPage = () => {
                 <Link href="/qa" className="block text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Buyer FAQs</Link>
               </div>
               <h5 className="text-sm font-semibold text-gray-200 mt-6 uppercase tracking-wide">Buyer Resources</h5>
-              <div className="space-y-2 text-sm">
-                <Link href="/services" className="block text-gray-400 hover:text-white">Las Vegas New Construction Tips</Link>
-                <Link href="/community" className="block text-gray-400 hover:text-white">Skye Canyon Amenities &amp; Lifestyle</Link>
-                <Link href="/mortgage-calculator" className="block text-gray-400 hover:text-white">New Home Financing Calculator</Link>
+              <div className="space-y-3 text-sm">
+                <Link href="/services" className="block text-gray-400 hover:text-white py-2 min-h-[44px] flex items-center">Las Vegas New Construction Tips</Link>
+                <Link href="/community" className="block text-gray-400 hover:text-white py-2 min-h-[44px] flex items-center">Skye Canyon Amenities &amp; Lifestyle</Link>
+                <Link href="/mortgage-calculator" className="block text-gray-400 hover:text-white py-2 min-h-[44px] flex items-center">New Home Financing Calculator</Link>
                 <a
                   href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block text-gray-400 hover:text-white"
+                  className="block text-gray-400 hover:text-white py-2 min-h-[44px] flex items-center"
                 >
                   View Live Sierra Skyeview Inventory
                 </a>
