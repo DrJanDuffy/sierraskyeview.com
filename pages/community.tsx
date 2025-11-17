@@ -32,6 +32,13 @@ const Community: NextPage = () => {
         <meta name="keywords" content="Sierra at Skyeview community, Skye Canyon amenities, Northwest Las Vegas master-planned community, Mount Charleston area homes, 89166 community, Skye Canyon lifestyle, realtor service when buying a new home, Skye Canyon parks and trails" />
         <meta property="og:title" content="Sierra at Skyeview Community | Skye Canyon Near Mount Charleston" />
         <meta property="og:description" content="Discover Sierra at Skyeview Homes community in Skye Canyon, Northwest Las Vegas near Mount Charleston. Master-planned community with premium amenities. Expert realtor service when buying a new home." />
+        <meta property="og:image" content="https://www.sierraskyeview.com/9026-rimerton-neighborhood-real.jpg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.sierraskyeview.com/community" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Sierra at Skyeview Community | Skye Canyon" />
+        <meta name="twitter:description" content="Discover Sierra at Skyeview Homes community in Skye Canyon, Northwest Las Vegas. Master-planned community with premium amenities, parks, and top-rated schools." />
+        <meta name="twitter:image" content="https://www.sierraskyeview.com/9026-rimerton-neighborhood-real.jpg" />
         <link rel="canonical" href="https://www.sierraskyeview.com/community" />
         
         {/* Video Schema for Virtual Tours */}

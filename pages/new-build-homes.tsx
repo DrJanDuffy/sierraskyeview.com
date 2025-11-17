@@ -38,6 +38,13 @@ const NewBuildHomes: NextPage = () => {
         <meta name="description" content="Sierra at Skyeview new construction homes for sale in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston, zip code 89166. New build homes with custom options. Realtor service when buying a new home from expert buyer's agent Dr. Jan Duffy." />
         <meta property="og:title" content="Sierra at Skyeview New Construction Homes | New Build Homes" />
         <meta property="og:description" content="Sierra at Skyeview new construction homes for sale in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. New build homes with custom options. Expert realtor service when buying a new home." />
+        <meta property="og:image" content="https://www.sierraskyeview.com/9026-rimerton-street-exterior.jpg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.sierraskyeview.com/new-build-homes" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Sierra at Skyeview New Construction Homes" />
+        <meta name="twitter:description" content="Sierra at Skyeview new construction homes for sale in Northwest Las Vegas. New build homes with custom options starting at $420,240." />
+        <meta name="twitter:image" content="https://www.sierraskyeview.com/9026-rimerton-street-exterior.jpg" />
         <meta name="keywords" content="Sierra at Skyeview new construction, Sierra at Skyeview new build homes, Sierra at Skyeview Homes new construction, realtor service when buying a new home, Sierra at Skyeview 89166, Northwest Las Vegas new construction, homes near Mount Charleston, zip code 89166" />
         <link rel="canonical" href="https://www.sierraskyeview.com/new-build-homes" />
         {/* Breadcrumb Schema */}

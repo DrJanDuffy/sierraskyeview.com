@@ -11,6 +11,13 @@ const QuickMoveIn: NextPage = () => {
         <meta name="description" content="Sierra at Skyeview quick move-in homes available now in Northwest Las Vegas, zip code 89166. Located in Skye Canyon near Mount Charleston. New homes ready now starting at $420,240. 1,602 sq ft homes available for immediate occupancy. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy." />
         <meta property="og:title" content="Sierra at Skyeview Quick Move-In Homes | Available Now" />
         <meta property="og:description" content="Sierra at Skyeview quick move-in homes available now in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. New construction homes ready for immediate occupancy. Expert realtor service when buying a new home." />
+        <meta property="og:image" content="https://www.sierraskyeview.com/9026-rimerton-street-exterior.jpg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.sierraskyeview.com/quick-move-in" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Sierra at Skyeview Quick Move-In Homes | Available Now" />
+        <meta name="twitter:description" content="Sierra at Skyeview quick move-in homes available now in Northwest Las Vegas. New construction homes ready for immediate occupancy starting at $420,240." />
+        <meta name="twitter:image" content="https://www.sierraskyeview.com/9026-rimerton-street-exterior.jpg" />
         <meta name="keywords" content="Sierra at Skyeview quick move-in homes, Sierra at Skyeview Homes available now, homes for sale Northwest Las Vegas ready, realtor service when buying a new home, Sierra at Skyeview 89166, Mount Charleston area homes, Northwest Las Vegas new construction" />
         <link rel="canonical" href="https://www.sierraskyeview.com/quick-move-in" />
         {/* Breadcrumb Schema */}

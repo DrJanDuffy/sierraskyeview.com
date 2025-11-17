@@ -45,6 +45,13 @@ const MortgageCalculator: NextPage = () => {
         <meta name="keywords" content="mortgage calculator Sierra at Skyeview, home payment calculator, Northwest Las Vegas mortgage calculator, Skye Canyon mortgage calculator, 89166 mortgage calculator, new construction mortgage calculator, realtor service when buying a new home" />
         <meta property="og:title" content="Sierra at Skyeview Mortgage Calculator | Calculate Home Payment" />
         <meta property="og:description" content="Calculate your monthly mortgage payment for Sierra at Skyeview Homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. Free mortgage calculator with expert realtor service when buying a new home." />
+        <meta property="og:image" content="https://www.sierraskyeview.com/9026-rimerton-street-exterior.jpg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.sierraskyeview.com/mortgage-calculator" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Sierra at Skyeview Mortgage Calculator" />
+        <meta name="twitter:description" content="Calculate your monthly mortgage payment for Sierra at Skyeview Homes. Free mortgage calculator with expert realtor service when buying a new home." />
+        <meta name="twitter:image" content="https://www.sierraskyeview.com/9026-rimerton-street-exterior.jpg" />
         <link rel="canonical" href="https://www.sierraskyeview.com/mortgage-calculator" />
       </Head>
 
