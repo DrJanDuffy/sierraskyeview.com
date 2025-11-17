@@ -588,10 +588,10 @@ const Home: NextPage = () => {
               Only 3 Homes remaining! Get VIP access to Sierra at Skyeview Homes with Dr. Jan Duffy's expert guidance. Schedule your private tour today before these homes are gone forever.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors min-h-[44px] inline-flex items-center justify-center">
                 📞 SECURE YOUR HOME NOW (702) 500-1955
               </a>
-              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors min-h-[44px] inline-flex items-center justify-center">
                 📧 EMAIL DR. JAN
               </a>
             </div>
@@ -616,11 +616,11 @@ const Home: NextPage = () => {
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-              <div className="space-y-2">
-                <Link href="/floor-plans" className="block text-gray-300 hover:text-white">Available Homes</Link>
-                <Link href="/community" className="block text-gray-300 hover:text-white">Skye Canyon Guide</Link>
-                <Link href="/services" className="block text-gray-300 hover:text-white">Buyer Representation Services</Link>
-                <Link href="/qa" className="block text-gray-300 hover:text-white">Buyer FAQs</Link>
+              <div className="space-y-3">
+                <Link href="/floor-plans" className="block text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Available Homes</Link>
+                <Link href="/community" className="block text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Skye Canyon Guide</Link>
+                <Link href="/services" className="block text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Buyer Representation Services</Link>
+                <Link href="/qa" className="block text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Buyer FAQs</Link>
               </div>
               <h5 className="text-sm font-semibold text-gray-200 mt-6 uppercase tracking-wide">Buyer Resources</h5>
               <div className="space-y-2 text-sm">
