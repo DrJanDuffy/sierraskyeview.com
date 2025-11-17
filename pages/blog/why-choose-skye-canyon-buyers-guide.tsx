@@ -86,7 +86,7 @@ const BlogPost: NextPage = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Why Choose Skye Canyon: A Buyer's Guide to Northwest Las Vegas
             </h1>
-            <p className="text-xl text-gray-600 mb-8">
+            <p className="text-xl text-gray-800 mb-8">
               Discover why Skye Canyon is one of Las Vegas's most desirable master-planned communities. Learn about amenities, location, elevation benefits, and lifestyle advantages.
             </p>
           </div>
@@ -124,7 +124,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               Skye Canyon spans 1,700 acres of thoughtfully designed living space. This isn't just a collection of homes—it's a carefully planned community where every detail has been considered to enhance residents' quality of life. The master plan includes:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li><strong>Stunning Central Clubhouse:</strong> A beautiful clubhouse serving as the heart of community life</li>
               <li><strong>Resort-Style Pools:</strong> Multiple pools for relaxation and recreation</li>
               <li><strong>Parks & Green Spaces:</strong> Beautiful parks throughout the community</li>
@@ -142,7 +142,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               Skye Canyon offers the perfect balance between natural beauty and urban convenience. Located in Northwest Las Vegas (ZIP code 89166), the community provides:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li><strong>Easy Access to Las Vegas:</strong> Just minutes from the Las Vegas Strip, downtown, and major employment centers</li>
               <li><strong>Proximity to Mount Charleston:</strong> 30 minutes to mountain recreation, hiking, and skiing</li>
               <li><strong>Convenient Shopping:</strong> Nearby shopping centers, restaurants, and services</li>
@@ -166,7 +166,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               Within Skye Canyon, Sierra at Skyeview Homes offers luxury new construction homes starting at $420,240. These two-story homes range from 1,602 to 1,965 square feet and feature:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li>Integrated smart home technology</li>
               <li>Premium finishes and high-end appliances</li>
               <li>Energy-efficient features</li>
@@ -193,7 +193,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               Skye Canyon appeals to a diverse range of buyers:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li><strong>Families:</strong> Excellent schools, parks, and family-friendly amenities</li>
               <li><strong>Professionals:</strong> Easy commute to Las Vegas with elevated living</li>
               <li><strong>Outdoor Enthusiasts:</strong> Proximity to Mount Charleston and extensive trail system</li>

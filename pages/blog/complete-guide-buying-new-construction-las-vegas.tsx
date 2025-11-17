@@ -86,7 +86,7 @@ const BlogPost: NextPage = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Complete Guide to Buying New Construction Homes in Las Vegas
             </h1>
-            <p className="text-xl text-gray-600 mb-8">
+            <p className="text-xl text-gray-800 mb-8">
               Everything you need to know about buying new construction homes in Las Vegas, from lot selection to closing. Expert tips from buyer's agent Dr. Jan Duffy.
             </p>
           </div>
@@ -167,7 +167,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               Many buyers mistakenly think they don't need a real estate agent when buying new construction. However, having an independent buyer's agent provides crucial benefits:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li><strong>Independent representation:</strong> The builder's sales agent represents the builder's interests, not yours</li>
               <li><strong>Negotiation expertise:</strong> I know what incentives and upgrades are negotiable</li>
               <li><strong>Market knowledge:</strong> I help you understand true market value and comparable communities</li>
@@ -181,7 +181,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               When buying new construction, avoid these common mistakes:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li>Not getting pre-approved before shopping</li>
               <li>Choosing a lot without understanding premiums and views</li>
               <li>Over-upgrading without considering resale value</li>

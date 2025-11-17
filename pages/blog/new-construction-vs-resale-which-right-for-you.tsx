@@ -86,7 +86,7 @@ const BlogPost: NextPage = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               New Construction vs. Resale: Which is Right for You?
             </h1>
-            <p className="text-xl text-gray-600 mb-8">
+            <p className="text-xl text-gray-800 mb-8">
               Compare the benefits of new construction homes versus resale properties. Learn which option best fits your needs, timeline, and budget.
             </p>
           </div>
@@ -264,7 +264,7 @@ const BlogPost: NextPage = () => {
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
               Choose New Construction If:
             </h3>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li>You want modern features, technology, and energy efficiency</li>
               <li>You prefer low maintenance and warranty protection</li>
               <li>You want to customize finishes and features</li>
@@ -276,7 +276,7 @@ const BlogPost: NextPage = () => {
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-3">
               Choose Resale If:
             </h3>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li>You need to move immediately</li>
               <li>You prefer established neighborhoods with mature landscaping</li>
               <li>You want more negotiation flexibility on price</li>
@@ -291,7 +291,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               When comparing new construction vs. resale, consider the total cost of ownership, not just the purchase price:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li><strong>Purchase Price:</strong> New construction may have a higher initial price, but includes modern features</li>
               <li><strong>Immediate Repairs:</strong> Resale properties may need immediate repairs or updates</li>
               <li><strong>Utility Costs:</strong> New construction typically has lower monthly utility costs</li>
@@ -319,7 +319,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               Whether you choose new construction or resale, a buyer's agent provides valuable guidance:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li><strong>Market Knowledge:</strong> Understanding current market conditions and pricing</li>
               <li><strong>Negotiation:</strong> Securing the best terms, whether for incentives or price</li>
               <li><strong>Due Diligence:</strong> Reviewing contracts, HOA documents, and inspection reports</li>

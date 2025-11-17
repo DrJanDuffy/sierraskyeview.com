@@ -86,7 +86,7 @@ const BlogPost: NextPage = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Understanding HOA Fees: What to Know Before Buying
             </h1>
-            <p className="text-xl text-gray-600 mb-8">
+            <p className="text-xl text-gray-800 mb-8">
               A comprehensive guide to HOA fees at Sierra at Skyeview Homes and Skye Canyon. Learn what's included, how fees are determined, what to expect, and how to budget for HOA costs.
             </p>
           </div>
@@ -121,7 +121,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               At Skye Canyon, HOA fees typically cover a wide range of community amenities and services:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li><strong>Community Amenities:</strong> Maintenance and operation of pools, clubhouse, fitness center, parks, playgrounds, and sports courts</li>
               <li><strong>Landscaping:</strong> Maintenance of common areas, parks, and green spaces throughout the community</li>
               <li><strong>Trail System:</strong> Upkeep of walking, jogging, and biking trails</li>
@@ -137,7 +137,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               HOA fees are calculated based on several factors:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li><strong>Community Size:</strong> Larger communities may have lower per-homeowner fees due to shared costs across more residents</li>
               <li><strong>Amenities:</strong> Communities with more amenities typically have higher fees</li>
               <li><strong>Maintenance Requirements:</strong> The cost of maintaining pools, landscaping, and facilities</li>
@@ -154,7 +154,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               HOA fees vary widely depending on the community and amenities. In master-planned communities like Skye Canyon with extensive amenities, fees typically range from $100 to $300+ per month. The exact amount depends on:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li>The specific amenities included</li>
               <li>The age and condition of the community</li>
               <li>Whether the community is still under developer control or homeowner-managed</li>
@@ -183,7 +183,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               HOA fees are not fixed forever. They can increase over time due to:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li><strong>Inflation:</strong> Rising costs for maintenance, utilities, and services</li>
               <li><strong>Major Repairs:</strong> Unexpected repairs or replacements of community facilities</li>
               <li><strong>New Amenities:</strong> Addition of new community features or improvements</li>
@@ -210,7 +210,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               Before purchasing a home in an HOA community, ask these important questions:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li>What is the current monthly HOA fee?</li>
               <li>What does the HOA fee cover?</li>
               <li>How often have fees increased in the past 5 years?</li>
@@ -230,7 +230,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               While HOA fees are an additional expense, they provide significant value:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li><strong>Maintained Amenities:</strong> Access to well-maintained pools, parks, and facilities</li>
               <li><strong>Property Values:</strong> Well-maintained communities typically maintain higher property values</li>
               <li><strong>Community Standards:</strong> HOA rules help maintain community appearance and standards</li>

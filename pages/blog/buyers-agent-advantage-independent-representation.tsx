@@ -86,7 +86,7 @@ const BlogPost: NextPage = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               The Buyer's Agent Advantage: Why You Need Independent Representation
             </h1>
-            <p className="text-xl text-gray-600 mb-8">
+            <p className="text-xl text-gray-800 mb-8">
               Learn why having an independent buyer's agent is crucial when purchasing new construction. Discover how Dr. Jan Duffy protects your interests, negotiates on your behalf, and provides expert guidance throughout the home buying process.
             </p>
           </div>
@@ -138,7 +138,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               Many buyers assume new construction prices are non-negotiable, but that's not true. There's often room to negotiate incentives, upgrades, closing costs, and other terms. A skilled buyer's agent knows:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li>What incentives are typically available</li>
               <li>When builders are most motivated to negotiate</li>
               <li>How to structure offers to maximize value</li>
@@ -155,7 +155,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               Builder sales teams will tell you their pricing is competitive, but how do you know if that's true? A buyer's agent provides independent market analysis, comparing the builder's pricing to:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li>Similar new construction communities</li>
               <li>Resale properties in the same area</li>
               <li>Recent sales and market trends</li>
@@ -171,7 +171,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               Builder contracts are written to protect the builder, not the buyer. These contracts often include:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li>Favorable timelines for the builder</li>
               <li>Limited buyer protections</li>
               <li>Restrictive cancellation clauses</li>
@@ -188,7 +188,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               Throughout construction, a buyer's agent coordinates inspections at critical stages:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li><strong>Foundation Inspection:</strong> Ensures proper foundation construction</li>
               <li><strong>Framing Inspection:</strong> Verifies structural integrity</li>
               <li><strong>Pre-Drywall Inspection:</strong> Checks electrical, plumbing, and HVAC before walls are closed</li>
@@ -204,7 +204,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               The design center can be overwhelming, with hundreds of choices and upgrade costs that add up quickly. A buyer's agent helps you:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li>Understand which upgrades provide the best value</li>
               <li>Avoid over-upgrading beyond your budget</li>
               <li>Make choices that enhance resale value</li>
@@ -221,7 +221,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               Experienced buyer's agents often have established relationships with builders, providing clients with:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li>Early access to new phases before public release</li>
               <li>Priority lot selection opportunities</li>
               <li>VIP treatment throughout the process</li>
@@ -272,7 +272,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               Without a buyer's agent, you risk:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li><strong>Paying too much:</strong> Without market knowledge, you may overpay for your home</li>
               <li><strong>Missing incentives:</strong> You may not know what incentives are available or how to negotiate them</li>
               <li><strong>Contract issues:</strong> Unfavorable contract terms can cost thousands in the long run</li>
@@ -290,7 +290,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               When choosing a buyer's agent for new construction, look for:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li><strong>New construction experience:</strong> Specialized knowledge of the new construction process</li>
               <li><strong>Local market expertise:</strong> Deep knowledge of the area and comparable communities</li>
               <li><strong>Builder relationships:</strong> Established relationships that provide insider access</li>
@@ -305,7 +305,7 @@ const BlogPost: NextPage = () => {
             <p className="text-gray-900 mb-4">
               As your buyer's agent specializing in new construction at Sierra at Skyeview Homes, I provide:
             </p>
-            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 mb-4 text-gray-900 space-y-2">
               <li><strong>Independent representation:</strong> I represent YOU exclusively, not the builder</li>
               <li><strong>Skye Canyon expertise:</strong> Deep knowledge of the 3,000+ foot elevation community and market</li>
               <li><strong>Negotiation power:</strong> Proven ability to secure incentives and favorable terms</li>
