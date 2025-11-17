@@ -213,10 +213,10 @@ const BlogPost: NextPage = () => {
             </p>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8">
-              <h3 className="text-xl font-bold text-white mb-2">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">
                 Ready to Explore Skye Canyon?
               </h3>
-              <p className="text-white mb-4">
+              <p className="text-gray-900 mb-4">
                 Discover available homes at Sierra at Skyeview Homes and learn more about the Skye Canyon lifestyle. Contact me today to schedule a private tour and see why so many families are choosing Skye Canyon as their home.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">

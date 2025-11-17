@@ -319,10 +319,10 @@ const BlogPost: NextPage = () => {
             </p>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8">
-              <h3 className="text-xl font-bold text-white mb-2">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">
                 Ready to Protect Your Investment?
               </h3>
-              <p className="text-white mb-4">
+              <p className="text-gray-900 mb-4">
                 Don't navigate the new construction process alone. As your independent buyer's agent, I protect your interests, negotiate on your behalf, and ensure you get the best possible deal. Contact me today to learn how I can help you purchase your new home at Sierra at Skyeview Homes with confidence.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">

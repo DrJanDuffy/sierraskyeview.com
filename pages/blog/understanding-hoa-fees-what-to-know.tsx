@@ -252,10 +252,10 @@ const BlogPost: NextPage = () => {
             </p>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8">
-              <h3 className="text-xl font-bold text-white mb-2">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">
                 Have Questions About HOA Fees?
               </h3>
-              <p className="text-white mb-4">
+              <p className="text-gray-900 mb-4">
                 Understanding HOA fees is an important part of the home buying process. As your buyer's agent, I help you navigate HOA documents, understand fee structures, and ensure you have all the information you need to make an informed decision. Contact me today to learn more about HOA fees at Sierra at Skyeview Homes and Skye Canyon.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">

@@ -331,10 +331,10 @@ const BlogPost: NextPage = () => {
             </p>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8">
-              <h3 className="text-xl font-bold text-white mb-2">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">
                 Ready to Explore Your Options?
               </h3>
-              <p className="text-white mb-4">
+              <p className="text-gray-900 mb-4">
                 Whether you're considering new construction at Sierra at Skyeview Homes or exploring resale properties, I can help you understand your options and make the right choice for your needs. Contact me today to discuss your home buying goals and timeline.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">

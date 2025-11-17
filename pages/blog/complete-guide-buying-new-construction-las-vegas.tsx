@@ -197,10 +197,10 @@ const BlogPost: NextPage = () => {
             </p>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8">
-              <h3 className="text-xl font-bold text-white mb-2">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">
                 Ready to Start Your New Construction Journey?
               </h3>
-              <p className="text-white mb-4">
+              <p className="text-gray-900 mb-4">
                 As your buyer's agent, I provide expert guidance throughout the entire process. Contact me today to learn more about Sierra at Skyeview Homes and how I can help you find your perfect new construction home.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
