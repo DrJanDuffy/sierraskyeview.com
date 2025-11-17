@@ -199,7 +199,10 @@ const Home: NextPage = () => {
               <Link href="/qa" className="text-gray-700 hover:text-blue-600 font-medium">Q&amp;A</Link>
             </div>
             <div className="md:hidden">
-              <button className="text-gray-700" aria-label="Open menu">
+              <button 
+                className="text-gray-700 p-3 min-h-[44px] min-w-[44px] flex items-center justify-center" 
+                aria-label="Open menu"
+              >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
@@ -250,29 +253,29 @@ const Home: NextPage = () => {
                 <p className="text-lg">{heroSlides[currentSlide].description}</p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="tel:7025001955" className="btn-primary">
+                <a href="tel:7025001955" className="btn-primary min-h-[44px] flex items-center justify-center">
                   📞 Call NOW: (702) 500-1955
                 </a>
-                <a href="mailto:DrDuffy@SierraSkyeview.com" className="btn-secondary">
+                <a href="mailto:DrDuffy@SierraSkyeview.com" className="btn-secondary min-h-[44px] flex items-center justify-center">
                   📧 Email Dr. Jan
                 </a>
                 <a
                   href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn-white"
+                  className="btn-white min-h-[44px] flex items-center justify-center"
                 >
                   🏠 Explore Active Homes & Quick Closings
                 </a>
               </div>
               {/* Slide Indicators */}
-              <div className="flex gap-2 mt-8">
+              <div className="flex gap-3 mt-8">
                 {heroSlides.map((_, index) => (
                   <button
                     key={index}
                     onClick={() => setCurrentSlide(index)}
-                    className={`h-2 rounded-full transition-all duration-300 ${
-                      index === currentSlide ? 'bg-white w-8' : 'bg-white/50 w-2'
+                    className={`min-h-[44px] min-w-[44px] flex items-center justify-center rounded-full transition-all duration-300 ${
+                      index === currentSlide ? 'bg-white w-8 h-2' : 'bg-white/50 w-2 h-2'
                     }`}
                     aria-label={`Go to slide ${index + 1}`}
                   />
@@ -311,14 +314,14 @@ const Home: NextPage = () => {
               Discover the most up-to-date Homes and quick-move opportunities curated by Dr. Jan Duffy&apos;s private home finder.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:7025001955" className="btn-white text-red-600 hover:text-red-700">
+              <a href="tel:7025001955" className="btn-white text-red-600 hover:text-red-700 min-h-[44px] flex items-center justify-center">
                 📞 SECURE YOUR HOME: (702) 500-1955
               </a>
               <a
                 href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:-translate-y-0.5 active:translate-y-0"
+                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:-translate-y-0.5 active:translate-y-0 min-h-[44px] flex items-center justify-center"
               >
                 👀 Browse Current Availability Online
               </a>
@@ -403,8 +406,17 @@ const Home: NextPage = () => {
               {galleryPhotos.map((photo, index) => (
                 <figure
                   key={photo.src}
-                  className="relative aspect-square overflow-hidden rounded-lg cursor-pointer group shadow-md hover:shadow-xl transition-all duration-300"
+                  className="relative aspect-square overflow-hidden rounded-lg cursor-pointer group shadow-md hover:shadow-xl transition-all duration-300 min-h-[120px] min-w-[120px]"
                   onClick={() => setSelectedImage(photo.src)}
+                  role="button"
+                  tabIndex={0}
+                  aria-label={`View ${photo.alt}`}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      setSelectedImage(photo.src);
+                    }
+                  }}
                 >
                   <Image
                     src={photo.src}
@@ -434,7 +446,7 @@ const Home: NextPage = () => {
                 onClick={() => setSelectedImage(null)}
               >
                 <button
-                  className="absolute top-4 right-4 text-white hover:text-gray-300 z-10"
+                  className="absolute top-4 right-4 text-white hover:text-gray-300 z-10 min-h-[44px] min-w-[44px] flex items-center justify-center p-2"
                   onClick={() => setSelectedImage(null)}
                   aria-label="Close image"
                 >
@@ -456,7 +468,7 @@ const Home: NextPage = () => {
             )}
 
             <div className="text-center mt-8">
-              <Link href="/community" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+              <Link href="/community" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors min-h-[44px] inline-flex items-center justify-center">
                 Explore Community
               </Link>
             </div>
@@ -559,7 +571,7 @@ const Home: NextPage = () => {
             </div>
 
             <div className="text-center">
-              <Link href="/qa" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+              <Link href="/qa" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors min-h-[44px] inline-flex items-center justify-center">
                 View All Questions & Answers
               </Link>
             </div>
