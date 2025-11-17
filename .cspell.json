@@ -1,0 +1,32 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "Skyeview",
+    "SKYEVIEW",
+    "Skyview",
+    "rimerton",
+    "Rimerton",
+    "Vanhoy",
+    "headshot",
+    "Skyeview",
+    "sierraskyeview",
+    "realscout",
+    "drjanduffy",
+    "SierraSkyeview"
+  ],
+  "ignoreWords": [
+    "Skyeview",
+    "rimerton",
+    "Vanhoy"
+  ],
+  "flagWords": [],
+  "ignorePaths": [
+    "node_modules/**",
+    "public/**",
+    ".next/**",
+    "*.min.js",
+    "*.min.css"
+  ]
+}
+
