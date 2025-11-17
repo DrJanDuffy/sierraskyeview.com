@@ -67,6 +67,8 @@ class MyDocument extends Document {
           <meta name="robots" content="index, follow" />
           <link rel="icon" href="/favicon.ico" />
           <link rel="sitemap" type="application/xml" href="https://www.sierraskyeview.com/sitemap.xml" />
+          {/* Google Search Console Verification - Add meta tag here when provided */}
+          {/* <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE" /> */}
           <meta
             name="description"
             content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. New construction homes located in Skye Canyon near Mount Charleston, guided by Buyer's Agent Dr. Jan Duffy."
