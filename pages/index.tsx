@@ -335,7 +335,7 @@ const Home: NextPage = () => {
               />
               <div>
                 <p className="text-lg text-gray-700 italic mb-4">
-                  “Dr. Jan Duffy is the ultimate professional. She guided us through every step of the construction process and negotiated incentives we didn’t know existed. Her Sierra at Skyeview expertise saved us time, money, and stress.”
+                  "Dr. Jan Duffy is the ultimate professional. She guided us through every step of the construction process and negotiated incentives we didn't know existed. Her Skye Canyon expertise saved us time, money, and stress."
                 </p>
                 <p className="font-semibold text-gray-900">
                   Sarah & Michael Johnson · 1,965 sq ft Home · Closed December 2024

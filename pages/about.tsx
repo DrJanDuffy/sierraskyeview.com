@@ -305,7 +305,7 @@ const About: NextPage = () => {
               <div className="bg-gray-50 rounded-lg p-6">
                 <div className="text-yellow-400 mb-4">⭐⭐⭐⭐⭐</div>
                 <p className="text-gray-600 mb-4">
-                  "We couldn't have asked for a better real estate agent. Dr. Jan's knowledge of Skye Canyon and the Las Vegas market, combined with her independent advocacy for Sierra at Skyeview Homes buyers, was invaluable."
+                  "We couldn't have asked for a better real estate agent. Dr. Jan's knowledge of Skye Canyon and the Las Vegas market, combined with her independent advocacy for Skye Canyon buyers, was invaluable."
                 </p>
                 <p className="font-semibold text-gray-900">- Robert & Lisa Chen</p>
               </div>
