@@ -232,7 +232,8 @@ const Home: NextPage = () => {
                   priority={index === 0}
                   loading={index === 0 ? "eager" : "lazy"}
                   sizes="100vw"
-                  quality={85}
+                  quality={index === 0 ? 75 : 70}
+                  fetchPriority={index === 0 ? "high" : "auto"}
                 />
               </div>
             ))}
@@ -291,7 +292,7 @@ const Home: NextPage = () => {
                   height={260}
                   className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-white shadow-lg mx-auto mb-4"
                   priority
-                  quality={85}
+                  quality={75}
                 />
                 <p className="text-lg font-semibold">Dr. Jan Duffy</p>
                 <p className="text-sm text-blue-100 mb-4">Buyer's Agent | Sierra at Skyeview Homes</p>
@@ -341,7 +342,7 @@ const Home: NextPage = () => {
                 className="w-40 h-40 rounded-full object-cover border-4 border-blue-600 shadow-lg"
                 priority={false}
                 loading="lazy"
-                quality={85}
+                quality={70}
               />
               <div>
                 <p className="text-lg text-gray-700 italic mb-4">
@@ -425,7 +426,7 @@ const Home: NextPage = () => {
                     className="object-cover group-hover:scale-110 transition-transform duration-300"
                     sizes="(max-width: 768px) 50vw, 25vw"
                     loading="lazy"
-                    quality={85}
+                    quality={70}
                   />
                   <figcaption className="sr-only">{photo.alt}</figcaption>
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-opacity duration-300 flex items-center justify-center">
@@ -488,7 +489,7 @@ const Home: NextPage = () => {
                   className="w-48 h-48 rounded-full object-cover border-4 border-white shadow-xl"
                   priority={false}
                   loading="lazy"
-                  quality={85}
+                  quality={70}
                 />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -669,7 +670,7 @@ const Home: NextPage = () => {
                   height={40}
                   className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
                   priority={false}
-                  quality={85}
+                  quality={60}
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.style.display = 'none';
