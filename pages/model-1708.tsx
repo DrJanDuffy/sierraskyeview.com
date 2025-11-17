@@ -325,7 +325,7 @@ const Model1708: NextPage = () => {
               Need Help Finding the Right Home?
             </h2>
             <p className="text-red-100 mb-6">
-              Dr. Jan Duffy represents YOU—not the builder. Get expert guidance, negotiate incentives, and protect your investment. <Link href="/services" className="underline hover:text-white">Learn about buyer representation services</Link>.
+              Dr. Jan Duffy represents YOU—not the builder. Get expert guidance, negotiate incentives, and protect your investment. <Link href="/services" className="underline hover:text-white">Learn about buyer representation services</Link>. <Link href="/blog/complete-guide-buying-new-construction-las-vegas" className="underline hover:text-white">Read our complete guide to buying new construction</Link>.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a href="tel:7025001955" className="btn-white text-red-600 hover:text-red-700">

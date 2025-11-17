@@ -146,7 +146,7 @@ const BlogPost: NextPage = () => {
               <li>How to negotiate design center credits and closing cost assistance</li>
             </ul>
             <p className="text-white mb-4">
-              At Sierra at Skyeview Homes, I've helped clients secure closing cost credits, design center credits, and other incentives that save thousands of dollars. This negotiation expertise comes from understanding the builder's business model and knowing what's truly negotiable.
+              At Sierra at Skyeview Homes, I've helped clients secure closing cost credits, design center credits, and other incentives that save thousands of dollars. This negotiation expertise comes from understanding the builder's business model and knowing what's truly negotiable. <Link href="/services" className="text-blue-300 hover:text-blue-200 underline">Learn more about my buyer representation services</Link>.
             </p>
 
             <h3 className="text-2xl font-bold text-white mt-6 mb-3">

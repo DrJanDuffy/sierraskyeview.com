@@ -241,7 +241,7 @@ const Services: NextPage = () => {
                 Comprehensive Real Estate Services
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Dr. Jan Duffy provides expert real estate services with a focus on <Link href="/new-build-homes" className="text-blue-600 hover:text-blue-700 underline">new home construction</Link> and <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">buyer representation</Link>. Your trusted advisor throughout the entire process. <Link href="/reviews" className="text-blue-600 hover:text-blue-700 underline">Read client reviews</Link> and <Link href="/contact" className="text-blue-600 hover:text-blue-700 underline">contact Dr. Jan</Link> today.
+                Dr. Jan Duffy provides expert real estate services with a focus on <Link href="/new-build-homes" className="text-blue-600 hover:text-blue-700 underline">new home construction</Link> and <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">buyer representation</Link>. Your trusted advisor throughout the entire process. <Link href="/reviews" className="text-blue-600 hover:text-blue-700 underline">Read client reviews</Link> and <Link href="/contact" className="text-blue-600 hover:text-blue-700 underline">contact Dr. Jan</Link> today. <Link href="/blog/buyers-agent-advantage-independent-representation" className="text-blue-600 hover:text-blue-700 underline">Learn why you need independent representation</Link> when buying new construction.
               </p>
             </div>
 
@@ -353,6 +353,38 @@ const Services: NextPage = () => {
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Expert Negotiation</h3>
                 <p className="text-gray-600">Premier relationship-backed negotiation power</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Buyer Resources */}
+        <section className="py-16 bg-blue-50">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Buyer Resources & Guides
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Expert guides and resources to help you navigate the home buying process. <Link href="/blog" className="text-blue-600 hover:text-blue-700 underline">View all blog posts</Link>.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <Link href="/blog/complete-guide-buying-new-construction-las-vegas" className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Complete Guide to Buying New Construction</h3>
+                <p className="text-gray-600 text-sm">Everything you need to know about buying new construction homes in Las Vegas.</p>
+              </Link>
+              <Link href="/blog/buyers-agent-advantage-independent-representation" className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Why You Need a Buyer's Agent</h3>
+                <p className="text-gray-600 text-sm">Learn why independent representation is crucial when buying new construction.</p>
+              </Link>
+              <Link href="/blog/why-choose-skye-canyon-buyers-guide" className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Why Choose Skye Canyon</h3>
+                <p className="text-gray-600 text-sm">Discover why Skye Canyon is one of Las Vegas's most desirable communities.</p>
+              </Link>
+              <Link href="/blog/understanding-hoa-fees-what-to-know" className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Understanding HOA Fees</h3>
+                <p className="text-gray-600 text-sm">A comprehensive guide to HOA fees and what to expect before buying.</p>
+              </Link>
             </div>
           </div>
         </section>

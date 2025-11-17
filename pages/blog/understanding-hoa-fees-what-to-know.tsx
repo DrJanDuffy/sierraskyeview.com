@@ -105,7 +105,7 @@ const BlogPost: NextPage = () => {
           {/* Article Content */}
           <div className="prose prose-lg max-w-none prose-gray">
             <p className="lead text-xl text-white mb-6 font-medium">
-              When buying a home in a master-planned community like Skye Canyon, understanding HOA (Homeowners Association) fees is crucial. These fees are an ongoing expense that affects your monthly budget and overall cost of homeownership. As a buyer's agent specializing in new construction, I help clients understand what HOA fees cover and how to factor them into their home buying decision.
+              When buying a home in a master-planned community like <Link href="/community" className="text-blue-300 hover:text-blue-200 underline">Skye Canyon</Link>, understanding HOA (Homeowners Association) fees is crucial. These fees are an ongoing expense that affects your monthly budget and overall cost of homeownership. As a buyer's agent specializing in new construction, I help clients understand what HOA fees cover and how to factor them into their home buying decision. <Link href="/services" className="text-blue-300 hover:text-blue-200 underline">Learn about my buyer representation services</Link>.
             </p>
 
             <h2 className="text-3xl font-bold text-white mt-8 mb-4">

@@ -105,7 +105,7 @@ const BlogPost: NextPage = () => {
           {/* Article Content */}
           <div className="prose prose-lg max-w-none prose-gray">
             <p className="lead text-xl text-white mb-6 font-medium">
-              When searching for your dream home in Las Vegas, location matters. Skye Canyon stands out as one of the city's premier master-planned communities, offering a unique combination of natural beauty, modern amenities, and elevated living. As a buyer's agent specializing in Northwest Las Vegas, I've seen firsthand why Skye Canyon continues to attract families, professionals, and retirees seeking an exceptional quality of life.
+              When searching for your dream home in Las Vegas, location matters. Skye Canyon stands out as one of the city's premier master-planned communities, offering a unique combination of natural beauty, modern amenities, and elevated living. As a buyer's agent specializing in Northwest Las Vegas, I've seen firsthand why Skye Canyon continues to attract families, professionals, and retirees seeking an exceptional quality of life. <Link href="/community" className="text-blue-300 hover:text-blue-200 underline">Explore the Skye Canyon community</Link> and <Link href="/floor-plans" className="text-blue-300 hover:text-blue-200 underline">view available homes at Sierra at Skyeview</Link>.
             </p>
 
             <h2 className="text-3xl font-bold text-white mt-8 mb-4">

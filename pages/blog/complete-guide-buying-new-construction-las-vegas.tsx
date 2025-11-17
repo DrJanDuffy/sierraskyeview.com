@@ -130,7 +130,7 @@ const BlogPost: NextPage = () => {
               2. Choose Your Lot and Floor Plan
             </h3>
             <p className="text-white mb-4">
-              At Sierra at Skyeview Homes, you can choose from three floor plans: 1,602 sq ft, 1,708 sq ft, and 1,965 sq ft homes. Each offers different lot options with varying premiums. As your buyer's agent, I help you understand lot premiums, views, and which lots offer the best value.
+              At Sierra at Skyeview Homes, you can choose from three floor plans: <Link href="/model-1602" className="text-blue-300 hover:text-blue-200 underline">1,602 sq ft homes</Link>, <Link href="/model-1708" className="text-blue-300 hover:text-blue-200 underline">1,708 sq ft homes</Link>, and <Link href="/model-1965" className="text-blue-300 hover:text-blue-200 underline">1,965 sq ft homes</Link>. Each offers different lot options with varying premiums. <Link href="/floor-plans" className="text-blue-300 hover:text-blue-200 underline">View all available floor plans</Link>. As your buyer's agent, I help you understand lot premiums, views, and which lots offer the best value.
             </p>
 
             <h3 className="text-2xl font-bold text-white mt-6 mb-3">
@@ -193,7 +193,7 @@ const BlogPost: NextPage = () => {
               About Sierra at Skyeview Homes
             </h2>
             <p className="text-white mb-4">
-              Sierra at Skyeview Homes offers luxury new construction in Skye Canyon, Northwest Las Vegas. Located at 3,000+ foot elevation, these homes feature cooler temperatures, stunning mountain views, and access to Mount Charleston just 30 minutes away. Starting at $420,240, these homes include smart home technology, premium finishes, and energy-efficient features.
+              Sierra at Skyeview Homes offers luxury new construction in <Link href="/community" className="text-blue-300 hover:text-blue-200 underline">Skye Canyon</Link>, Northwest Las Vegas. Located at 3,000+ foot elevation, these homes feature cooler temperatures, stunning mountain views, and access to Mount Charleston just 30 minutes away. Starting at $420,240, these homes include smart home technology, premium finishes, and energy-efficient features. <Link href="/floor-plans" className="text-blue-300 hover:text-blue-200 underline">Explore available homes</Link>.
             </p>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8">

@@ -535,7 +535,7 @@ const Home: NextPage = () => {
                 Frequently Asked Questions
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Get quick answers to common questions about Sierra at Skyeview Homes and community.
+                Get quick answers to common questions about Sierra at Skyeview Homes and community. For more detailed guides, <Link href="/blog" className="text-blue-600 hover:text-blue-700 underline">visit our blog</Link>.
               </p>
             </div>
 
