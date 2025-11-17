@@ -618,21 +618,21 @@ const Home: NextPage = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <div className="space-y-3">
-                <Link href="/floor-plans" className="block text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Available Homes</Link>
-                <Link href="/community" className="block text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Skye Canyon Guide</Link>
-                <Link href="/services" className="block text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Buyer Representation Services</Link>
-                <Link href="/qa" className="block text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Buyer FAQs</Link>
+                <Link href="/floor-plans" className="text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Available Homes</Link>
+                <Link href="/community" className="text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Skye Canyon Guide</Link>
+                <Link href="/services" className="text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Buyer Representation Services</Link>
+                <Link href="/qa" className="text-gray-300 hover:text-white py-2 min-h-[44px] flex items-center">Buyer FAQs</Link>
               </div>
               <h5 className="text-sm font-semibold text-gray-200 mt-6 uppercase tracking-wide">Buyer Resources</h5>
               <div className="space-y-3 text-sm">
-                <Link href="/services" className="block text-gray-400 hover:text-white py-2 min-h-[44px] flex items-center">Las Vegas New Construction Tips</Link>
-                <Link href="/community" className="block text-gray-400 hover:text-white py-2 min-h-[44px] flex items-center">Skye Canyon Amenities &amp; Lifestyle</Link>
-                <Link href="/mortgage-calculator" className="block text-gray-400 hover:text-white py-2 min-h-[44px] flex items-center">New Home Financing Calculator</Link>
+                <Link href="/services" className="text-gray-400 hover:text-white py-2 min-h-[44px] flex items-center">Las Vegas New Construction Tips</Link>
+                <Link href="/community" className="text-gray-400 hover:text-white py-2 min-h-[44px] flex items-center">Skye Canyon Amenities &amp; Lifestyle</Link>
+                <Link href="/mortgage-calculator" className="text-gray-400 hover:text-white py-2 min-h-[44px] flex items-center">New Home Financing Calculator</Link>
                 <a
                   href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block text-gray-400 hover:text-white py-2 min-h-[44px] flex items-center"
+                  className="text-gray-400 hover:text-white py-2 min-h-[44px] flex items-center"
                 >
                   View Live Sierra Skyeview Inventory
                 </a>
