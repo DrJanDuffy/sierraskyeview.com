@@ -415,7 +415,7 @@ const About: NextPage = () => {
                   height={40}
                   className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
                   priority={false}
-                  unoptimized
+                  quality={60}
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.style.display = 'none';
