@@ -82,6 +82,7 @@ const Home: NextPage = () => {
 
   return (
     <>
+      {/* @ts-expect-error - Head component children are implicit in Next.js */}
       <Head>
         <title>Sierra at Skyeview Homes for Sale | New Construction Northwest Las Vegas 89166</title>
         <meta name="description" content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. New construction homes starting at $420,240 located in Skye Canyon near Mount Charleston, zip code 89166. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy. Quick move-in homes available now." />
