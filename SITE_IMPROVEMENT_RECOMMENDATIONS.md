@@ -123,8 +123,8 @@
 **Fix:** Add floating/sticky CTA bar on mobile:
 ```tsx
 <div className="fixed bottom-0 left-0 right-0 bg-blue-600 text-white p-4 z-50 md:hidden">
-  <a href="tel:7025001955" className="flex items-center justify-center gap-2">
-    📞 Call Now: (702) 500-1955
+  <a href="tel:7029034687" className="flex items-center justify-center gap-2">
+    📞 Call Now: (702) 903-4687
   </a>
 </div>
 ```

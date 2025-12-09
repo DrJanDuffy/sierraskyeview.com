@@ -29,7 +29,7 @@ const Contact: NextPage = () => {
     <>
       <Head>
         <title>Contact Realtor Service When Buying a New Home | Sierra at Skyeview | Dr. Jan Duffy</title>
-        <meta name="description" content="Contact realtor service when buying a new home at Sierra at Skyeview Homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston, zip code 89166. Buyer's agent Dr. Jan Duffy provides expert real estate guidance. Call (702) 500-1955 or email DrDuffy@SierraSkyeview.com." />
+        <meta name="description" content="Contact realtor service when buying a new home at Sierra at Skyeview Homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston, zip code 89166. Buyer's agent Dr. Jan Duffy provides expert real estate guidance. Call (702) 903-4687 or email DrDuffy@SierraSkyeview.com." />
         <meta name="keywords" content="contact Dr. Jan Duffy, realtor service when buying a new home, Sierra at Skyeview contact, buyer's agent contact, Skye Canyon realtor contact, Northwest Las Vegas real estate agent, 89166 realtor phone" />
         <meta property="og:title" content="Contact Realtor Service When Buying a New Home | Sierra at Skyeview" />
         <meta property="og:description" content="Contact realtor service when buying a new home at Sierra at Skyeview Homes in Northwest Las Vegas. Located in Skye Canyon near Mount Charleston. Buyer's agent Dr. Jan Duffy provides expert real estate guidance." />
@@ -52,7 +52,7 @@ const Contact: NextPage = () => {
               "name": "Dr. Jan Duffy",
               "description": "Expert real estate agent specializing in new home construction and independent advocacy for Sierra at Skyeview Homes buyers in Las Vegas",
               "url": "https://www.sierraskyeview.com",
-              "telephone": "(702) 500-1955",
+              "telephone": "(702) 903-4687",
               "email": "DrDuffy@SierraSkyeview.com",
               "address": {
                 "@type": "PostalAddress",
@@ -135,7 +135,7 @@ const Contact: NextPage = () => {
                   "name": "How can I contact Dr. Jan Duffy for realtor service when buying a new home?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "You can contact Dr. Jan Duffy by calling (702) 500-1955 or emailing DrDuffy@SierraSkyeview.com. She provides expert realtor service when buying a new home at Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas. Office hours are Monday-Friday 9am-6pm, Saturday 10am-4pm, and Sunday 12pm-4pm."
+                    "text": "You can contact Dr. Jan Duffy by calling (702) 903-4687 or emailing DrDuffy@SierraSkyeview.com. She provides expert realtor service when buying a new home at Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas. Office hours are Monday-Friday 9am-6pm, Saturday 10am-4pm, and Sunday 12pm-4pm."
                   }
                 },
                 {
@@ -157,8 +157,8 @@ const Contact: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
-              <a href="tel:7025001955" className="text-2xl font-bold text-blue-600">
-                (702) 500-1955
+              <a href="tel:7029034687" className="text-2xl font-bold text-blue-600">
+                (702) 903-4687
               </a>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -213,8 +213,8 @@ const Contact: NextPage = () => {
               />
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-                📞 Call NOW: (702) 500-1955
+              <a href="tel:7029034687" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                📞 Call NOW: (702) 903-4687
               </a>
               <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 Email Dr. Jan
@@ -364,9 +364,9 @@ const Contact: NextPage = () => {
                     <div className="text-2xl mr-4">📞</div>
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900 mb-2">Phone</h3>
-                      <p className="text-gray-600 mb-2">Dr. Jan Duffy: (702) 500-1955</p>
+                      <p className="text-gray-600 mb-2">Dr. Jan Duffy: (702) 903-4687</p>
                       <p className="text-gray-600">Urgent: (702) 222-1964</p>
-                      <a href="tel:7025001955" className="text-blue-600 hover:text-blue-700 font-semibold">
+                      <a href="tel:7029034687" className="text-blue-600 hover:text-blue-700 font-semibold">
                         Call Now
                       </a>
                     </div>
@@ -482,8 +482,8 @@ const Contact: NextPage = () => {
               Don't wait! Sierra at Skyeview Homes is selling fast. Contact Dr. Jan Duffy today for VIP access and expert guidance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
-                📞 CALL NOW: (702) 500-1955
+              <a href="tel:7029034687" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
+                📞 CALL NOW: (702) 903-4687
               </a>
               <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 EMAIL DR. JAN
@@ -505,7 +505,7 @@ const Contact: NextPage = () => {
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
                 The Sierra at Skyeview Area, located within Skye Canyon, connects Las Vegas home buyers with new construction opportunities, guided by Buyer's Agent Dr. Jan Duffy.
               </p>
-              <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
+              <p className="text-gray-300">Call to schedule: (702) 903-4687</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
             </div>
             <div>
@@ -534,7 +534,7 @@ const Contact: NextPage = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Dr. Jan Duffy</h4>
               <div className="space-y-2 text-gray-300">
-                <p><strong>Primary Phone:</strong><br />(702) 500-1955</p>
+                <p><strong>Primary Phone:</strong><br />(702) 903-4687</p>
                 <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
                 <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>

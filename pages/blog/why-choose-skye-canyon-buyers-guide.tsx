@@ -55,8 +55,8 @@ const BlogPost: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
-              <a href="tel:7025001955" className="text-2xl font-bold text-blue-600">
-                (702) 500-1955
+              <a href="tel:7029034687" className="text-2xl font-bold text-blue-600">
+                (702) 903-4687
               </a>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -220,8 +220,8 @@ const BlogPost: NextPage = () => {
                 Discover available homes at Sierra at Skyeview Homes and learn more about the Skye Canyon lifestyle. Contact me today to schedule a private tour and see why so many families are choosing Skye Canyon as their home.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors min-h-[44px] inline-flex items-center justify-center">
-                  📞 Call: (702) 500-1955
+                <a href="tel:7029034687" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors min-h-[44px] inline-flex items-center justify-center">
+                  📞 Call: (702) 903-4687
                 </a>
                 <Link href="/contact" className="bg-transparent border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-semibold transition-colors min-h-[44px] inline-flex items-center justify-center">
                   Contact Form

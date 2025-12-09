@@ -67,7 +67,7 @@ const QuickMoveIn: NextPage = () => {
               "name": "Dr. Jan Duffy",
               "description": "Expert buyer's agent specializing in quick move-in homes at Sierra at Skyeview. Realtor service when buying new construction homes in Northwest Las Vegas.",
               "url": "https://www.sierraskyeview.com/quick-move-in",
-              "telephone": "(702) 500-1955",
+              "telephone": "(702) 903-4687",
               "email": "DrDuffy@SierraSkyeview.com",
               "address": {
                 "@type": "PostalAddress",
@@ -115,8 +115,8 @@ const QuickMoveIn: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
-              <a href="tel:7025001955" className="text-2xl font-bold text-blue-600">
-                (702) 500-1955
+              <a href="tel:7029034687" className="text-2xl font-bold text-blue-600">
+                (702) 903-4687
               </a>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -204,8 +204,8 @@ const QuickMoveIn: NextPage = () => {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:7025001955" className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-                📞 Check Availability: (702) 500-1955
+              <a href="tel:7029034687" className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                📞 Check Availability: (702) 903-4687
               </a>
               <Link href="/contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 Schedule Tour Today
@@ -460,7 +460,7 @@ const QuickMoveIn: NextPage = () => {
                     <div className="text-2xl mr-4">📞</div>
                     <div>
                       <p className="font-semibold text-gray-900">Phone</p>
-                      <a href="tel:7025001955" className="text-blue-600 hover:text-blue-700">(702) 500-1955</a>
+                      <a href="tel:7029034687" className="text-blue-600 hover:text-blue-700">(702) 903-4687</a>
                     </div>
                   </div>
                   <div className="flex items-center">
@@ -500,8 +500,8 @@ const QuickMoveIn: NextPage = () => {
               Quick move-in homes in the Sierra at Skyeview Area are in high demand. Contact Dr. Jan Duffy today to check availability and secure your new home.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:7025001955" className="bg-white text-green-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
-                📞 CHECK AVAILABILITY: (702) 500-1955
+              <a href="tel:7029034687" className="bg-white text-green-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
+                📞 CHECK AVAILABILITY: (702) 903-4687
               </a>
               <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 EMAIL DR. JAN
@@ -523,7 +523,7 @@ const QuickMoveIn: NextPage = () => {
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
                 The Sierra at Skyeview Area, located within Skye Canyon, connects Las Vegas home buyers with new construction opportunities, guided by Buyer's Agent Dr. Jan Duffy.
               </p>
-              <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
+              <p className="text-gray-300">Call to schedule: (702) 903-4687</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
             </div>
             <div>
@@ -552,7 +552,7 @@ const QuickMoveIn: NextPage = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Dr. Jan Duffy</h4>
               <div className="space-y-2 text-gray-300">
-                <p><strong>Primary Phone:</strong><br />(702) 500-1955</p>
+                <p><strong>Primary Phone:</strong><br />(702) 903-4687</p>
                 <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
                 <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>
@@ -607,10 +607,10 @@ const QuickMoveIn: NextPage = () => {
               <p className="text-xs text-green-100">Call Dr. Jan</p>
             </div>
             <a
-              href="tel:7025001955"
+              href="tel:7029034687"
               className="bg-white text-green-600 hover:bg-gray-100 px-6 py-2 rounded-lg font-bold transition-colors whitespace-nowrap"
             >
-              📞 (702) 500-1955
+              📞 (702) 903-4687
             </a>
           </div>
         </div>

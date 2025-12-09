@@ -8,7 +8,7 @@ const ORGANIZATION_SCHEMA = {
   "logo": "https://www.sierraskyeview.com/favicon.ico",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+1-702-500-1955",
+    "telephone": "+1-702-903-4687",
     "contactType": "customer service",
     "areaServed": "US",
     "availableLanguage": ["English"]
@@ -49,7 +49,7 @@ const PERSON_SCHEMA = {
   ],
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+1-702-500-1955",
+    "telephone": "+1-702-903-4687",
     "contactType": "sales",
     "areaServed": "US",
     "availableLanguage": "English"
@@ -62,7 +62,7 @@ const LOCAL_BUSINESS_SCHEMA = {
   "name": "Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate",
   "description": "New construction homes in Skye Canyon, Northwest Las Vegas. Expert buyer representation from Dr. Jan Duffy.",
   "url": "https://www.sierraskyeview.com",
-  "telephone": "+1-702-500-1955",
+  "telephone": "+1-702-903-4687",
   "email": "DrDuffy@SierraSkyeview.com",
   "address": {
     "@type": "PostalAddress",

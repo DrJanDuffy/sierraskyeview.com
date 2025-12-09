@@ -14,7 +14,7 @@ Google My Business is crucial for local SEO and helps your business appear in Go
 **Business Name:** Dr. Jan Duffy Real Estate  
 **Category:** Real Estate Agent  
 **Address:** 8925 Vanhoy Creek St., Las Vegas, NV 89166  
-**Phone:** (702) 500-1955  
+**Phone:** (702) 903-4687  
 **Website:** https://sierraskyeview.com  
 **Hours:** 
 - Monday-Friday: 9:00 AM - 6:00 PM
@@ -121,7 +121,7 @@ Upload high-quality photos in these categories:
 "Thank you, [Name], for your kind words! It was a pleasure helping you find your dream home at Sierra at Skyeview. We're thrilled you're enjoying your new Century Communities home. Welcome to the Skye Canyon community!"
 
 **Negative Review Response Template:**
-"Thank you for your feedback, [Name]. We take all concerns seriously and would like to discuss this matter privately. Please contact us at (702) 500-1955 so we can address your concerns and work toward a resolution."
+"Thank you for your feedback, [Name]. We take all concerns seriously and would like to discuss this matter privately. Please contact us at (702) 903-4687 so we can address your concerns and work toward a resolution."
 
 ### 4.3 Review Monitoring
 - Set up Google Alerts for new reviews
@@ -308,7 +308,7 @@ Upload high-quality photos in these categories:
 ## Contact Information
 
 **Dr. Jan Duffy Real Estate**  
-**Phone:** (702) 500-1955  
+**Phone:** (702) 903-4687  
 **Email:** DrDuffy@SierraSkyeview.com  
 **Address:** 8925 Vanhoy Creek St., Las Vegas, NV 89166  
 **Website:** https://sierraskyeview.com  

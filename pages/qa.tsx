@@ -90,7 +90,7 @@ const QA: NextPage = () => {
     },
     {
       question: "What financing options are available for Sierra at Skyeview Homes?",
-      answer: "Sierra at Skyeview Homes works with various lenders and financing options. Dr. Jan Duffy can help connect buyers with pre-approval resources and financing specialists. The community accepts conventional loans, FHA loans, VA loans, and other financing programs. Contact Dr. Jan at (702) 500-1955 for personalized financing guidance."
+      answer: "Sierra at Skyeview Homes works with various lenders and financing options. Dr. Jan Duffy can help connect buyers with pre-approval resources and financing specialists. The community accepts conventional loans, FHA loans, VA loans, and other financing programs. Contact Dr. Jan at (702) 903-4687 for personalized financing guidance."
     },
     {
       question: "What is the resale value potential for Sierra at Skyeview Homes?",
@@ -138,8 +138,8 @@ const QA: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
-              <a href="tel:7025001955" className="text-2xl font-bold text-blue-600">
-                (702) 500-1955
+              <a href="tel:7029034687" className="text-2xl font-bold text-blue-600">
+                (702) 903-4687
               </a>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -178,8 +178,8 @@ const QA: NextPage = () => {
               Get answers to the most common questions about <Link href="/floor-plans" className="text-blue-300 hover:text-blue-200 underline">Sierra at Skyeview Homes</Link>, <Link href="/community" className="text-blue-300 hover:text-blue-200 underline">community amenities</Link>, pricing, and the home buying process with <Link href="/about" className="text-blue-300 hover:text-blue-200 underline">Dr. Jan Duffy</Link>. Explore <Link href="/services" className="text-blue-300 hover:text-blue-200 underline">buyer representation services</Link> and <Link href="/new-build-homes" className="text-blue-300 hover:text-blue-200 underline">new construction homes</Link>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-                📞 Call Dr. Jan: (702) 500-1955
+              <a href="tel:7029034687" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                📞 Call Dr. Jan: (702) 903-4687
               </a>
               <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 Email Questions
@@ -239,8 +239,8 @@ const QA: NextPage = () => {
               Dr. Jan Duffy is here to help! Get expert guidance on Sierra at Skyeview Homes and the home buying process.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
-                📞 CALL DR. JAN: (702) 500-1955
+              <a href="tel:7029034687" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
+                📞 CALL DR. JAN: (702) 903-4687
               </a>
               <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 EMAIL QUESTIONS
@@ -262,7 +262,7 @@ const QA: NextPage = () => {
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
                 Sierra at Skyeview Homes connects Las Vegas home buyers with new construction opportunities in Skye Canyon, guided by Buyer's Agent Dr. Jan Duffy.
               </p>
-              <p className="text-gray-300 mb-4">Call to schedule: (702) 500-1955</p>
+              <p className="text-gray-300 mb-4">Call to schedule: (702) 903-4687</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
             </div>
             <div>
@@ -291,7 +291,7 @@ const QA: NextPage = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Dr. Jan Duffy</h4>
               <div className="space-y-2 text-gray-300">
-                <p><strong>Primary Phone:</strong><br />(702) 500-1955</p>
+                <p><strong>Primary Phone:</strong><br />(702) 903-4687</p>
                 <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
                 <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>

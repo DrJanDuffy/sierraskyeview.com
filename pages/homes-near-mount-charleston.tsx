@@ -79,7 +79,7 @@ const HomesNearMountCharleston: NextPage = () => {
     "name": "Dr. Jan Duffy",
     "description": "Expert buyer's agent specializing in homes near Mount Charleston in Northwest Las Vegas. Realtor service when buying new construction homes at Sierra at Skyeview in Skye Canyon.",
     "url": "https://www.sierraskyeview.com/homes-near-mount-charleston",
-    "telephone": "(702) 500-1955",
+    "telephone": "(702) 903-4687",
     "email": "DrDuffy@SierraSkyeview.com",
     "address": {
       "@type": "PostalAddress",
@@ -133,8 +133,8 @@ const HomesNearMountCharleston: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
-              <a href="tel:7025001955" className="text-2xl font-bold text-blue-600">
-                (702) 500-1955
+              <a href="tel:7029034687" className="text-2xl font-bold text-blue-600">
+                (702) 903-4687
               </a>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -167,8 +167,8 @@ const HomesNearMountCharleston: NextPage = () => {
                 Discover elevated living at 3,000+ feet in Skye Canyon, Northwest Las Vegas. New construction homes near Mount Charleston with cooler temperatures, stunning mountain views, and easy access to outdoor recreation. Expert realtor service when buying a new home from buyer's agent Dr. Jan Duffy.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-                  📞 Call NOW: (702) 500-1955
+                <a href="tel:7029034687" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                  📞 Call NOW: (702) 903-4687
                 </a>
                 <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                   📧 Email Dr. Jan
@@ -324,8 +324,8 @@ const HomesNearMountCharleston: NextPage = () => {
               Contact Dr. Jan Duffy today for expert realtor service when buying new construction homes near Mount Charleston in Northwest Las Vegas. Discover elevated living at Sierra at Skyeview Homes in Skye Canyon.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
-                📞 CALL NOW: (702) 500-1955
+              <a href="tel:7029034687" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
+                📞 CALL NOW: (702) 903-4687
               </a>
               <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 EMAIL DR. JAN
@@ -342,7 +342,7 @@ const HomesNearMountCharleston: NextPage = () => {
             <div>
               <h3 className="text-xl font-bold mb-4">Sierra at Skyeview Homes</h3>
               <p className="text-gray-300 mb-4">Featured New Home Construction & Buyer Representation Specialist</p>
-              <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
+              <p className="text-gray-300">Call to schedule: (702) 903-4687</p>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
@@ -355,7 +355,7 @@ const HomesNearMountCharleston: NextPage = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Dr. Jan Duffy</h4>
               <div className="space-y-2 text-gray-300">
-                <p><strong>Phone:</strong><br />(702) 500-1955</p>
+                <p><strong>Phone:</strong><br />(702) 903-4687</p>
                 <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
               </div>
             </div>
@@ -380,10 +380,10 @@ const HomesNearMountCharleston: NextPage = () => {
               <p className="text-xs text-red-100">Call Dr. Jan Now</p>
             </div>
             <a
-              href="tel:7025001955"
+              href="tel:7029034687"
               className="bg-white text-red-600 hover:bg-gray-100 px-6 py-2 rounded-lg font-bold transition-colors whitespace-nowrap"
             >
-              📞 (702) 500-1955
+              📞 (702) 903-4687
             </a>
           </div>
         </div>

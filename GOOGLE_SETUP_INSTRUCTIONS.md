@@ -78,7 +78,7 @@ Follow these steps to complete Google setup for your website. The site is techni
 ### 3.2 Complete Business Information
 **Business Name:** Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate  
 **Address:** 8925 Vanhoy Creek St., Las Vegas, NV 89166  
-**Phone:** (702) 500-1955  
+**Phone:** (702) 903-4687  
 **Website:** https://www.sierraskyeview.com  
 **Category:** Real Estate Agent  
 **Service Area:** Las Vegas, NV

@@ -76,7 +76,7 @@ const Community: NextPage = () => {
               "name": "Dr. Jan Duffy",
               "description": "Expert buyer's agent specializing in Skye Canyon community homes. Realtor service when buying new construction homes at Sierra at Skyeview in Northwest Las Vegas.",
               "url": "https://www.sierraskyeview.com/community",
-              "telephone": "(702) 500-1955",
+              "telephone": "(702) 903-4687",
               "email": "DrDuffy@SierraSkyeview.com",
               "address": {
                 "@type": "PostalAddress",
@@ -146,8 +146,8 @@ const Community: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
-              <a href="tel:7025001955" className="text-2xl font-bold text-blue-600">
-                (702) 500-1955
+              <a href="tel:7029034687" className="text-2xl font-bold text-blue-600">
+                (702) 903-4687
               </a>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -190,8 +190,8 @@ const Community: NextPage = () => {
               Discover new Skyeview homes for sale in Las Vegas, NV, at Sierra at Skyeview Homes! Offering exciting, two-story Homes with up to 1,965 square feet, <Link href="/floor-plans" className="text-blue-300 hover:text-blue-200 underline">Sierra at Skyeview Homes</Link> is the perfect place to plant roots. Residents enjoy incredible amenities at this 1,700-acre neighborhood, from a stunning central clubhouse to pools, parks, playgrounds, and much more. Explore <Link href="/new-build-homes" className="text-blue-300 hover:text-blue-200 underline">new construction homes</Link> and <Link href="/quick-move-in" className="text-blue-300 hover:text-blue-200 underline">quick move-in opportunities</Link>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-                📞 Schedule Tour: (702) 500-1955
+              <a href="tel:7029034687" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                📞 Schedule Tour: (702) 903-4687
               </a>
               <a
                 href="https://drjanduffy.realscout.com/homesearch/shared-searches/U2hhcmVhYmxlU2VhcmNoTGluay0xNDE5NA=="
@@ -306,8 +306,8 @@ const Community: NextPage = () => {
                 <strong>Contact us and let us help you find your dream home here!</strong>
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:7025001955" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                  📞 Call Dr. Jan: (702) 500-1955
+                <a href="tel:7029034687" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                  📞 Call Dr. Jan: (702) 903-4687
                 </a>
                 <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors">
                   📧 Email for More Info
@@ -392,7 +392,7 @@ const Community: NextPage = () => {
             )}
 
             <div className="text-center">
-              <a href="tel:7025001955" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+              <a href="tel:7029034687" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                 📞 Schedule Your Tour Today
               </a>
             </div>
@@ -740,8 +740,8 @@ const Community: NextPage = () => {
               These features showcase just a glimpse of the luxury and quality you'll find at Sierra Skyeview. Schedule your personal tour today to see these stunning homes and community features up close.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
-                📞 Call Dr. Jan: (702) 500-1955
+              <a href="tel:7029034687" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
+                📞 Call Dr. Jan: (702) 903-4687
               </a>
               <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 Email for Tour Info
@@ -766,7 +766,7 @@ const Community: NextPage = () => {
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
                 The Sierra at Skyeview Area, located within Skye Canyon, connects Las Vegas home buyers with new construction opportunities, guided by Buyer's Agent Dr. Jan Duffy.
               </p>
-              <p className="text-gray-300">Call to schedule: (702) 500-1955</p>
+              <p className="text-gray-300">Call to schedule: (702) 903-4687</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
             </div>
             <div>
@@ -795,7 +795,7 @@ const Community: NextPage = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Dr. Jan Duffy</h4>
               <div className="space-y-2 text-gray-300">
-                <p><strong>Primary Phone:</strong><br />(702) 500-1955</p>
+                <p><strong>Primary Phone:</strong><br />(702) 903-4687</p>
                 <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
                 <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>

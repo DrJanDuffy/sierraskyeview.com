@@ -94,7 +94,7 @@ const NewBuildHomes: NextPage = () => {
               "name": "Dr. Jan Duffy",
               "description": "Expert buyer's agent specializing in new construction homes at Sierra at Skyeview. Realtor service when buying new build homes in Northwest Las Vegas.",
               "url": "https://www.sierraskyeview.com/new-build-homes",
-              "telephone": "(702) 500-1955",
+              "telephone": "(702) 903-4687",
               "email": "DrDuffy@SierraSkyeview.com",
               "address": {
                 "@type": "PostalAddress",
@@ -142,8 +142,8 @@ const NewBuildHomes: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
-              <a href="tel:7025001955" className="text-2xl font-bold text-blue-600">
-                (702) 500-1955
+              <a href="tel:7029034687" className="text-2xl font-bold text-blue-600">
+                (702) 903-4687
               </a>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -231,8 +231,8 @@ const NewBuildHomes: NextPage = () => {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:7025001955" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-                📞 Start Your Build: (702) 500-1955
+              <a href="tel:7029034687" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                📞 Start Your Build: (702) 903-4687
               </a>
               <Link href="/contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 Get VIP Access
@@ -531,8 +531,8 @@ const NewBuildHomes: NextPage = () => {
               Don't wait! New build homes in the Sierra at Skyeview Area are in high demand. Contact Dr. Jan Duffy today to get VIP access and start your new home construction.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:7025001955" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
-                📞 START BUILDING: (702) 500-1955
+              <a href="tel:7029034687" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
+                📞 START BUILDING: (702) 903-4687
               </a>
               <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
                 📧 EMAIL DR. JAN
@@ -554,7 +554,7 @@ const NewBuildHomes: NextPage = () => {
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
                 The Sierra at Skyeview Area, located within Skye Canyon, connects Las Vegas home buyers with new construction opportunities, guided by Buyer's Agent Dr. Jan Duffy.
               </p>
-              <p className="text-gray-300 mb-4">Call to schedule: (702) 500-1955</p>
+              <p className="text-gray-300 mb-4">Call to schedule: (702) 903-4687</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
             </div>
             <div>
@@ -583,7 +583,7 @@ const NewBuildHomes: NextPage = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Dr. Jan Duffy</h4>
               <div className="space-y-2 text-gray-300">
-                <p><strong>Primary Phone:</strong><br />(702) 500-1955</p>
+                <p><strong>Primary Phone:</strong><br />(702) 903-4687</p>
                 <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
                 <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>
@@ -638,10 +638,10 @@ const NewBuildHomes: NextPage = () => {
               <p className="text-xs text-blue-100">Call Dr. Jan Now</p>
             </div>
             <a
-              href="tel:7025001955"
+              href="tel:7029034687"
               className="bg-white text-blue-600 hover:bg-gray-100 px-6 py-2 rounded-lg font-bold transition-colors whitespace-nowrap"
             >
-              📞 (702) 500-1955
+              📞 (702) 903-4687
             </a>
           </div>
         </div>

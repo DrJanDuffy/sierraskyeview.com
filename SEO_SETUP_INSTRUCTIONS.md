@@ -39,7 +39,7 @@ Add this code to `pages/_document.tsx` in the `<Head>` section:
 ### 1. Google Business Profile
 1. Create/claim Google Business Profile for "Dr. Jan Duffy Real Estate"
 2. Address: 8925 Vanhoy Creek St., Las Vegas, NV 89166
-3. Phone: (702) 500-1955
+3. Phone: (702) 903-4687
 4. Website: https://sierraskyeview.com
 5. Add high-quality photos of homes and community
 6. Encourage customer reviews
@@ -119,7 +119,7 @@ Submit business to:
 
 - **Website**: https://sierraskyeview.com
 - **Email**: DrDuffy@SierraSkyeview.com
-- **Phone**: (702) 500-1955
+- **Phone**: (702) 903-4687
 - **Address**: 8925 Vanhoy Creek St., Las Vegas, NV 89166
 
 ---

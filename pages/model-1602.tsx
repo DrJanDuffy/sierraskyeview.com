@@ -78,7 +78,7 @@ const Model1602: NextPage = () => {
               "name": "Dr. Jan Duffy",
               "description": "Buyer's agent for 1,602 sq ft homes at Sierra at Skyeview in Northwest Las Vegas",
               "url": "https://www.sierraskyeview.com/model-1602",
-              "telephone": "(702) 500-1955",
+              "telephone": "(702) 903-4687",
               "email": "DrDuffy@SierraSkyeview.com",
               "address": {
                 "@type": "PostalAddress",
@@ -186,8 +186,8 @@ const Model1602: NextPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
-              <a href="tel:7025001955" className="text-2xl font-bold text-blue-600">
-                (702) 500-1955
+              <a href="tel:7029034687" className="text-2xl font-bold text-blue-600">
+                (702) 903-4687
               </a>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -221,8 +221,8 @@ const Model1602: NextPage = () => {
                   View real-time availability, pricing, and incentives for 1,602 sq ft homes at Sierra at Skyeview. Starting at $420,240 | 3 Bed | 2.5 Bath
                 </p>
                 <div className="flex flex-wrap gap-3">
-                  <a href="tel:7025001955" className="btn-primary text-sm px-5 py-2">
-                    📞 (702) 500-1955
+                  <a href="tel:7029034687" className="btn-primary text-sm px-5 py-2">
+                    📞 (702) 903-4687
                   </a>
                   <a href="mailto:DrDuffy@SierraSkyeview.com" className="btn-secondary text-sm px-5 py-2">
                     📧 Email Dr. Jan
@@ -398,8 +398,8 @@ const Model1602: NextPage = () => {
               Dr. Jan Duffy represents YOU—not the builder. Get expert guidance, negotiate incentives, and protect your investment. <Link href="/services" className="underline hover:text-white">Learn about buyer representation services</Link>. <Link href="/blog/complete-guide-buying-new-construction-las-vegas" className="underline hover:text-white">Read our complete guide to buying new construction</Link>.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="tel:7025001955" className="btn-white text-red-600 hover:text-red-700">
-                📞 Call: (702) 500-1955
+              <a href="tel:7029034687" className="btn-white text-red-600 hover:text-red-700">
+                📞 Call: (702) 903-4687
               </a>
               <a href="mailto:DrDuffy@SierraSkyeview.com" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-red-600 px-6 py-2 rounded-lg font-semibold transition-all duration-300">
                 📧 Email Dr. Jan
@@ -421,7 +421,7 @@ const Model1602: NextPage = () => {
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
                 The Sierra at Skyeview Area, located within Skye Canyon, connects Las Vegas home buyers with new construction opportunities, guided by Buyer's Agent Dr. Jan Duffy.
               </p>
-              <p className="text-gray-300 mb-4">Call to schedule: (702) 500-1955</p>
+              <p className="text-gray-300 mb-4">Call to schedule: (702) 903-4687</p>
               <p className="sr-only">8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
             </div>
             <div>
@@ -450,7 +450,7 @@ const Model1602: NextPage = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Dr. Jan Duffy</h4>
               <div className="space-y-2 text-gray-300">
-                <p><strong>Primary Phone:</strong><br />(702) 500-1955</p>
+                <p><strong>Primary Phone:</strong><br />(702) 903-4687</p>
                 <p><strong>Email:</strong><br />DrDuffy@SierraSkyeview.com</p>
                 <p><strong>Nevada License:</strong><br />S.0197614</p>
               </div>
@@ -505,10 +505,10 @@ const Model1602: NextPage = () => {
               <p className="text-xs text-red-100">Call Dr. Jan Now</p>
             </div>
             <a
-              href="tel:7025001955"
+              href="tel:7029034687"
               className="bg-white text-red-600 hover:bg-gray-100 px-6 py-2 rounded-lg font-bold transition-colors whitespace-nowrap"
             >
-              📞 (702) 500-1955
+              📞 (702) 903-4687
             </a>
           </div>
         </div>
