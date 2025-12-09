@@ -27,6 +27,22 @@ module.exports = {
         destination: 'https://www.sierraskyeview.com/$1',
         permanent: true,
       },
+      // Redirect model-residence-* pages to model-* pages (301 permanent for SEO)
+      {
+        source: '/model-residence-1602',
+        destination: '/model-1602',
+        permanent: true,
+      },
+      {
+        source: '/model-residence-1708',
+        destination: '/model-1708',
+        permanent: true,
+      },
+      {
+        source: '/model-residence-1965',
+        destination: '/model-1965',
+        permanent: true,
+      },
     ];
   },
   async headers() {
