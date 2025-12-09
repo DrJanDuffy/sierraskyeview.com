@@ -292,8 +292,78 @@ const Model1602: NextPage = () => {
           </div>
         </section>
 
+        {/* Breadcrumb Navigation */}
+        <section className="bg-gray-50 py-4">
+          <div className="max-w-7xl mx-auto px-4">
+            <nav className="flex items-center space-x-2 text-sm">
+              <Link href="/" className="text-blue-600 hover:text-blue-700">Home</Link>
+              <span className="text-gray-400">/</span>
+              <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700">Floor Plans</Link>
+              <span className="text-gray-400">/</span>
+              <span className="text-gray-600">1,602 sq ft Homes</span>
+            </nav>
+          </div>
+        </section>
+
+        {/* Comprehensive Content Section */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+              1,602 sq ft Homes at Sierra at Skyeview: Perfect for Northwest Las Vegas Living
+            </h2>
+            
+            <div className="prose prose-lg max-w-none mb-12">
+              <p className="text-lg text-gray-700 mb-6">
+                The 1,602 sq ft homes at <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, Northwest Las Vegas, zip code 89166, represent an exceptional value for buyers seeking new construction homes with modern designs and premium finishes. Starting at $420,240, these homes feature 3 bedrooms and 2.5 bathrooms in a two-story layout that maximizes space and functionality. Located at 3,000+ foot elevation with stunning mountain views and cooler temperatures, these 1,602 sq ft homes offer a unique lifestyle opportunity in Northwest Las Vegas. <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> provides expert realtor service when buying a new home, ensuring you get the best lot selection, pricing, and terms for your 1,602 sq ft home purchase.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Open-Concept Design Perfect for Modern Living
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                The 1,602 sq ft homes at Sierra at Skyeview feature an open-concept design that creates a sense of spaciousness and flow throughout the main living areas. The layout connects the kitchen, dining area, and living room, making it perfect for entertaining and family gatherings. This open-concept design is ideal for Northwest Las Vegas living, allowing natural light to flow throughout the home and creating a welcoming atmosphere. The design maximizes the 1,602 sq ft footprint, ensuring every square foot is used efficiently while maintaining comfortable living spaces. The open-concept layout is particularly well-suited for the elevated location in Skye Canyon, where large windows can take advantage of mountain views and natural light.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Three Bedrooms and 2.5 Bathrooms for Family Comfort
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                The 1,602 sq ft homes at Sierra at Skyeview include three bedrooms and 2.5 bathrooms, providing comfortable accommodation for families or those who need a home office or guest room. The master bedroom typically features an ensuite bathroom and walk-in closet, while the additional bedrooms share a full bathroom. The half-bath on the main level provides convenience for guests and daily living. This bedroom and bathroom configuration is ideal for Northwest Las Vegas families seeking new construction homes that offer space for growth while remaining manageable in size. The 1,602 sq ft layout provides enough space for comfortable living without the maintenance and costs associated with larger homes.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Premium Finishes and Smart Home Technology
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Every 1,602 sq ft home at Sierra at Skyeview includes premium finishes and integrated smart home technology. The homes feature high-quality flooring, modern cabinetry, energy-efficient appliances, and smart home systems that can be controlled remotely. These premium finishes and technology features are designed to enhance daily living and provide long-term value. The smart home technology is particularly valuable for Northwest Las Vegas living, allowing homeowners to control lighting, temperature, and security systems from anywhere. These features, combined with the elevated location at 3,000+ feet in Skye Canyon, create a modern living experience that's both comfortable and efficient.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Energy Efficiency Optimized for Elevated Living
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                The 1,602 sq ft homes at Sierra at Skyeview are designed with energy efficiency in mind, particularly important for the elevated location at 3,000+ feet in Skye Canyon, Northwest Las Vegas. The homes feature energy-efficient HVAC systems, insulation, and windows that are optimized for the cooler mountain climate. While the elevation provides natural cooling benefits (temperatures are typically 10-15 degrees cooler than the Las Vegas Valley floor), the energy-efficient systems ensure comfortable living year-round with lower utility costs. This energy efficiency is a significant advantage for Northwest Las Vegas homeowners, providing both environmental benefits and cost savings over the life of the home.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Lot Selection and Mountain Views
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                When purchasing a 1,602 sq ft home at Sierra at Skyeview, lot selection is crucial for maximizing mountain views and natural light. Dr. Jan Duffy's realtor service when buying a new home includes expert lot selection guidance, helping buyers evaluate homesites based on views, sun exposure, privacy, and proximity to amenities. Many lots offer stunning views of the Spring Mountains, including Mount Charleston, creating a sense of living in a mountain retreat. The elevated location in Skye Canyon provides opportunities for lots with panoramic valley views as well. Dr. Jan's expertise in Northwest Las Vegas new construction and elevated living ensures buyers select lots that maximize both views and value.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Investment Value in Northwest Las Vegas
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                The 1,602 sq ft homes at Sierra at Skyeview represent a strong investment opportunity in Northwest Las Vegas. The combination of new construction, premium finishes, elevated location, and access to Skye Canyon amenities creates a compelling value proposition. The 1,602 sq ft size is ideal for first-time buyers, downsizers, and investors seeking manageable properties with strong appreciation potential. The Northwest Las Vegas market, particularly in master-planned communities like Skye Canyon, has shown consistent growth, making these 1,602 sq ft homes an attractive investment. Dr. Jan Duffy's realtor service when buying a new home includes market analysis to help buyers understand the investment potential of their 1,602 sq ft home purchase.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Related Floor Plans - Compact */}
-        <section className="py-12 bg-white">
+        <section className="py-12 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
               Explore Other Floor Plans

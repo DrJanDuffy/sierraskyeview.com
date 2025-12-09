@@ -244,6 +244,69 @@ const Model1965: NextPage = () => {
           </div>
         </section>
 
+        {/* Breadcrumb Navigation */}
+        <section className="bg-gray-50 py-4">
+          <div className="max-w-7xl mx-auto px-4">
+            <nav className="flex items-center space-x-2 text-sm">
+              <Link href="/" className="text-blue-600 hover:text-blue-700">Home</Link>
+              <span className="text-gray-400">/</span>
+              <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700">Floor Plans</Link>
+              <span className="text-gray-400">/</span>
+              <span className="text-gray-600">1,965 sq ft Homes</span>
+            </nav>
+          </div>
+        </section>
+
+        {/* Comprehensive Content Section */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+              1,965 sq ft Homes at Sierra at Skyeview: Maximum Space in Northwest Las Vegas
+            </h2>
+            
+            <div className="prose prose-lg max-w-none mb-12">
+              <p className="text-lg text-gray-700 mb-6">
+                The 1,965 sq ft homes at <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, Northwest Las Vegas, zip code 89166, represent the most spacious option available, offering maximum space and flexibility for buyers seeking new construction homes with room for everything. Starting at $449,990, these homes feature 3 bedrooms and 2.5 bathrooms in a generously designed two-story layout that maximizes both space and luxury. Located at 3,000+ foot elevation with stunning mountain views and cooler temperatures, these 1,965 sq ft homes provide the ultimate Northwest Las Vegas living experience. <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> provides expert realtor service when buying a new home, ensuring you get the best lot selection, pricing, and terms for your 1,965 sq ft home purchase.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Generous Living Spaces and Maximum Comfort
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                The 1,965 sq ft homes at Sierra at Skyeview feature generous living spaces that provide maximum comfort and flexibility. The additional square footage compared to smaller models creates more expansive living areas, larger bedrooms, enhanced storage, and more room for entertaining and daily activities. The layout is designed to feel spacious and luxurious while maintaining efficient use of space. This generous design makes the 1,965 sq ft homes ideal for buyers who want maximum space in their Northwest Las Vegas new construction home, whether for large families, home offices, hobbies, or simply the comfort of extra room.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Premium Features and Luxury Finishes
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                The 1,965 sq ft homes at Sierra at Skyeview include premium features and luxury finishes that take full advantage of the maximum space. These homes feature upgraded cabinetry, larger kitchen islands, extensive counter space, enhanced storage solutions, and premium design elements throughout. The luxury finishes are designed to create a high-end living experience while maintaining practicality for daily life. The additional square footage allows for more elaborate design elements, larger windows for mountain views, and features that enhance both aesthetics and functionality. These premium features make the 1,965 sq ft homes an excellent choice for buyers seeking the most luxurious new construction homes in Northwest Las Vegas.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Ideal for Large Families and Multi-Generational Living
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                The 1,965 sq ft homes at Sierra at Skyeview are ideal for large families or those who need space for multi-generational living, home offices, or multiple activities. The three bedrooms provide comfortable accommodation, while the maximum square footage allows for larger bedrooms, more storage, flexible spaces, and room for various lifestyle needs. The layout supports large family life with expansive open living areas for gathering and more private spaces for individual activities. This makes the 1,965 sq ft homes perfect for families seeking new construction homes in Skye Canyon that can accommodate multiple generations, work-from-home needs, or simply the desire for maximum space and comfort.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Enhanced Energy Efficiency and Smart Home Integration
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                The 1,965 sq ft homes at Sierra at Skyeview feature enhanced energy efficiency and comprehensive smart home integration. The larger square footage is balanced with energy-efficient systems optimized for the elevated location at 3,000+ feet in Skye Canyon, where the cooler climate can be maximized for comfort and cost savings. The comprehensive smart home technology allows homeowners to control lighting, temperature, security, entertainment, and more from anywhere, providing both convenience and energy management. These features, combined with the maximum space and elevated location, create the ultimate modern living experience for Northwest Las Vegas homeowners.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Premium Lot Selection for Maximum Views
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                When purchasing a 1,965 sq ft home at Sierra at Skyeview, premium lot selection is essential for maximizing the investment in maximum space. Dr. Jan Duffy's realtor service when buying a new home includes expert lot selection guidance, helping buyers evaluate premium homesites based on mountain views, sun exposure, privacy, and proximity to Skye Canyon amenities. Many premium lots offer spectacular views of Mount Charleston and the Spring Mountains, creating a sense of living in a luxury mountain retreat. The elevated location in Skye Canyon provides opportunities for lots with panoramic valley views as well. Dr. Jan's expertise in Northwest Las Vegas new construction ensures buyers select premium lots that maximize both lifestyle enjoyment and long-term investment value for their 1,965 sq ft home.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Home Search Widget - PRIMARY FOCUS */}
         <section className="py-6 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4">
