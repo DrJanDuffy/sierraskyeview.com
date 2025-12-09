@@ -2,8 +2,21 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import { useState, useEffect } from "react";
 
 const NewBuildHomes: NextPage = () => {
+  const [showMobileCTA, setShowMobileCTA] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const windowHeight = window.innerHeight;
+      setShowMobileCTA(scrollPosition > windowHeight * 0.5);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
   const constructionPhases = [
     {
       phase: "Foundation & Framing",
@@ -513,6 +526,28 @@ const NewBuildHomes: NextPage = () => {
           </div>
         </div>
       </footer>
+
+      {/* Sticky Mobile CTA */}
+      <div
+        className={`fixed bottom-0 left-0 right-0 bg-blue-600 text-white shadow-2xl z-50 transition-transform duration-300 md:hidden ${
+          showMobileCTA ? 'translate-y-0' : 'translate-y-full'
+        }`}
+      >
+        <div className="max-w-7xl mx-auto px-4 py-3">
+          <div className="flex items-center justify-between gap-3">
+            <div className="flex-1">
+              <p className="text-sm font-semibold">Start Building Today</p>
+              <p className="text-xs text-blue-100">Call Dr. Jan Now</p>
+            </div>
+            <a
+              href="tel:7025001955"
+              className="bg-white text-blue-600 hover:bg-gray-100 px-6 py-2 rounded-lg font-bold transition-colors whitespace-nowrap"
+            >
+              📞 (702) 500-1955
+            </a>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

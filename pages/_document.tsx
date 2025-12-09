@@ -56,6 +56,52 @@ const PERSON_SCHEMA = {
   }
 };
 
+const LOCAL_BUSINESS_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Sierra at Skyeview Homes",
+  "description": "New construction homes in Skye Canyon, Northwest Las Vegas. Expert buyer representation from Dr. Jan Duffy.",
+  "url": "https://www.sierraskyeview.com",
+  "telephone": "+1-702-500-1955",
+  "email": "DrDuffy@SierraSkyeview.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "8925 Vanhoy Creek St.",
+    "addressLocality": "Las Vegas",
+    "addressRegion": "NV",
+    "postalCode": "89166",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "36.2844",
+    "longitude": "-115.3153"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Las Vegas",
+    "containedInPlace": {
+      "@type": "State",
+      "name": "Nevada"
+    }
+  },
+  "priceRange": "$$",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "10:00",
+    "closes": "18:00"
+  }
+};
+
 class MyDocument extends Document {
   render() {
     return (
@@ -96,6 +142,10 @@ class MyDocument extends Document {
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(PERSON_SCHEMA) }}
+          />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(LOCAL_BUSINESS_SCHEMA) }}
           />
         </Head>
         <body className="bg-black antialiased">
