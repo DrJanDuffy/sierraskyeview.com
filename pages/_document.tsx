@@ -99,7 +99,15 @@ const LOCAL_BUSINESS_SCHEMA = {
     ],
     "opens": "10:00",
     "closes": "18:00"
-  }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "6",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "image": "https://www.sierraskyeview.com/9026-rimerton-street-exterior.jpg"
 };
 
 class MyDocument extends Document {
@@ -113,8 +121,69 @@ class MyDocument extends Document {
           <meta name="robots" content="index, follow" />
           <link rel="icon" href="/favicon.ico" />
           <link rel="sitemap" type="application/xml" href="https://www.sierraskyeview.com/sitemap.xml" />
-          {/* Google Search Console Verification - Add meta tag here when provided */}
+          
+          {/* Google Search Console Verification */}
+          {/* 
+          INSTRUCTIONS:
+          1. Go to https://search.google.com/search-console/
+          2. Add property: https://www.sierraskyeview.com
+          3. Choose "HTML tag" verification method
+          4. Copy the content value from the meta tag
+          5. Replace YOUR_VERIFICATION_CODE_HERE below
+          6. Uncomment the meta tag
+          7. Verify ownership in Search Console
+          8. Submit sitemap: https://www.sierraskyeview.com/sitemap.xml
+          */}
           {/* <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE" /> */}
+          
+          {/* Google Analytics 4 */}
+          {/* 
+          INSTRUCTIONS:
+          1. Go to https://analytics.google.com/
+          2. Create new GA4 property for sierraskyeview.com
+          3. Get Measurement ID (format: G-XXXXXXXXXX)
+          4. Replace G-XXXXXXXXXX below with your Measurement ID
+          5. Uncomment the scripts below
+          6. Set up conversion goals in GA4:
+             - Phone calls (tel: links)
+             - Email clicks
+             - Form submissions
+             - RealScout widget interactions
+          */}
+          {/* 
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-XXXXXXXXXX', {
+                  page_path: window.location.pathname,
+                });
+                // Track phone call clicks
+                document.addEventListener('click', function(e) {
+                  if (e.target.href && e.target.href.startsWith('tel:')) {
+                    gtag('event', 'phone_click', {
+                      'event_category': 'Contact',
+                      'event_label': e.target.href
+                    });
+                  }
+                });
+                // Track email clicks
+                document.addEventListener('click', function(e) {
+                  if (e.target.href && e.target.href.startsWith('mailto:')) {
+                    gtag('event', 'email_click', {
+                      'event_category': 'Contact',
+                      'event_label': e.target.href
+                    });
+                  }
+                });
+              `,
+            }}
+          />
+          */}
+          
           <meta
             name="description"
             content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. New construction homes located in Skye Canyon near Mount Charleston, guided by Buyer's Agent Dr. Jan Duffy."
