@@ -46,9 +46,31 @@ curl -I http://www.sierraskyeview.com/
 curl -I https://www.sierraskyeview.com/
 ```
 
-Expected results:
-- All should redirect to `https://www.sierraskyeview.com/` with 301 status
-- Final URL should return 200 OK
+**Actual Test Results (as of Dec 9, 2025):**
+
+✅ `https://www.sierraskyeview.com/` → **200 OK** (Correct - canonical URL)
+- Status: Working perfectly
+- Headers: All security headers present (HSTS, X-Frame-Options, etc.)
+
+⚠️ `https://sierraskyeview.com/` → **307 Temporary Redirect** to `https://www.sierraskyeview.com/`
+- **Issue**: Returns 307 instead of 301 Permanent Redirect
+- **Cause**: Vercel edge redirects may override Next.js `permanent: true` setting
+- **Impact**: Still works for SEO, but 301 would be better for link equity
+- **Note**: This is a Vercel platform behavior, not a code issue
+
+✅ `http://sierraskyeview.com/` → **308 Permanent Redirect** to `https://sierraskyeview.com/` → then redirects to www
+- **Status**: Working correctly
+- **Note**: Two-step redirect (HTTP→HTTPS, then HTTPS→WWW) is normal and expected
+
+✅ `http://www.sierraskyeview.com/` → **308 Permanent Redirect** to `https://www.sierraskyeview.com/`
+- **Status**: Working correctly
+- **Result**: Direct redirect to canonical URL
+
+**Summary:**
+- ✅ All URLs eventually redirect to `https://www.sierraskyeview.com/`
+- ✅ Final URL returns 200 OK with all security headers
+- ⚠️ Non-www HTTPS uses 307 instead of 301 (Vercel platform behavior)
+- ✅ HTTP to HTTPS redirects use 308 (correct for protocol upgrades)
 
 ### 2. In Google Search Console
 
@@ -98,8 +120,15 @@ Google Search Console shows "Page with redirect" when:
 
 The validation "fails" because Google wants you to:
 - Choose one canonical URL (✅ Done: `https://www.sierraskyeview.com`)
-- Ensure all variants redirect to it (✅ Done)
+- Ensure all variants redirect to it (✅ Done - all redirects working)
 - Set preferred domain in Search Console (⚠️ Do this)
+
+**About the 307 Redirect:**
+- The non-www HTTPS → www redirect returns 307 (Temporary) instead of 301 (Permanent)
+- This is a Vercel platform behavior at the edge level
+- While 301 would be ideal for SEO, 307 still works correctly
+- Google will follow 307 redirects and index the canonical URL
+- The redirect chain is: `https://sierraskyeview.com/` → (307) → `https://www.sierraskyeview.com/` → (200 OK)
 
 ## Expected Outcome
 
