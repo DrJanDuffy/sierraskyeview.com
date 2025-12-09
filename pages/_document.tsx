@@ -3,7 +3,7 @@ import Document, { Head, Html, Main, NextScript } from "next/document";
 const ORGANIZATION_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Sierra at Skyeview Homes",
+  "name": "Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate",
   "url": "https://www.sierraskyeview.com",
   "logo": "https://www.sierraskyeview.com/favicon.ico",
   "contactPoint": {
@@ -18,11 +18,11 @@ const ORGANIZATION_SCHEMA = {
 const WEBSITE_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Sierra at Skyeview Homes",
+  "name": "Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate",
   "url": "https://www.sierraskyeview.com",
   "publisher": {
     "@type": "Organization",
-    "name": "Dr. Jan Duffy Real Estate"
+    "name": "Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate"
   }
 };
 
@@ -35,7 +35,7 @@ const PERSON_SCHEMA = {
   "url": "https://www.sierraskyeview.com/about",
   "worksFor": {
     "@type": "Organization",
-    "name": "Sierra at Skyeview Homes"
+    "name": "Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate"
   },
   "areaServed": {
     "@type": "City",
@@ -59,7 +59,7 @@ const PERSON_SCHEMA = {
 const LOCAL_BUSINESS_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Sierra at Skyeview Homes",
+  "name": "Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate",
   "description": "New construction homes in Skye Canyon, Northwest Las Vegas. Expert buyer representation from Dr. Jan Duffy.",
   "url": "https://www.sierraskyeview.com",
   "telephone": "+1-702-500-1955",
@@ -188,7 +188,7 @@ class MyDocument extends Document {
             name="description"
             content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. New construction homes located in Skye Canyon near Mount Charleston, guided by Buyer's Agent Dr. Jan Duffy."
           />
-          <meta property="og:site_name" content="Sierra at Skyeview Homes" />
+          <meta property="og:site_name" content="Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate" />
           <meta
             property="og:description"
             content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. New construction homes located in Skye Canyon near Mount Charleston with expert guidance from Dr. Jan Duffy."

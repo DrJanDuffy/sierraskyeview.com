@@ -72,11 +72,11 @@ Follow these steps to complete Google setup for your website. The site is techni
 
 ### 3.1 Claim or Create Profile
 1. Go to [Google Business Profile](https://business.google.com/)
-2. Search for "Dr. Jan Duffy Real Estate" or "Sierra at Skyeview Homes"
+2. Search for "Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate"
 3. If found, claim it. If not, create new profile
 
 ### 3.2 Complete Business Information
-**Business Name:** Dr. Jan Duffy Real Estate  
+**Business Name:** Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate  
 **Address:** 8925 Vanhoy Creek St., Las Vegas, NV 89166  
 **Phone:** (702) 500-1955  
 **Website:** https://www.sierraskyeview.com  

@@ -86,7 +86,7 @@
 **Steps:**
 1. Claim or create Google Business Profile for "Dr. Jan Duffy Real Estate"
 2. Complete profile with:
-   - Business Name: "Dr. Jan Duffy Real Estate" or "Sierra at Skyeview Homes"
+   - Business Name: "Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate"
    - Address: 8925 Vanhoy Creek St., Las Vegas, NV 89166
    - Phone: (702) 500-1955
    - Website: https://www.sierraskyeview.com
@@ -240,7 +240,7 @@ Before submitting to Google, verify:
 
 ## 📞 Contact Information for Google Services
 
-**Business Name:** Dr. Jan Duffy Real Estate / Sierra at Skyeview Homes
+**Business Name:** Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate
 **Address:** 8925 Vanhoy Creek St., Las Vegas, NV 89166
 **Phone:** (702) 500-1955
 **Email:** DrDuffy@SierraSkyeview.com

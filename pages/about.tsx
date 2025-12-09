@@ -78,7 +78,7 @@ const About: NextPage = () => {
               ],
               "worksFor": {
                 "@type": "Organization",
-                "name": "Berkshire Hathaway HomeServices"
+                "name": "Sierra at Skyeview Homes | Dr. Jan Duffy Real Estate"
               }
             })
           }}
