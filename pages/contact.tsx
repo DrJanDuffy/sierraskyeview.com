@@ -98,6 +98,58 @@ const Contact: NextPage = () => {
             })
           }}
         />
+        {/* Breadcrumb Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.sierraskyeview.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Contact",
+                  "item": "https://www.sierraskyeview.com/contact"
+                }
+              ]
+            })
+          }}
+        />
+        {/* FAQ Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How can I contact Dr. Jan Duffy for realtor service when buying a new home?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can contact Dr. Jan Duffy by calling (702) 500-1955 or emailing DrDuffy@SierraSkyeview.com. She provides expert realtor service when buying a new home at Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas. Office hours are Monday-Friday 9am-6pm, Saturday 10am-4pm, and Sunday 12pm-4pm."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What is Dr. Jan Duffy's office address?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Dr. Jan Duffy's office is located at 8925 Vanhoy Creek St., Las Vegas, NV 89166. This location serves buyers interested in Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas."
+                  }
+                }
+              ]
+            })
+          }}
+        />
       </Head>
 
       {/* Navigation */}
@@ -128,14 +180,25 @@ const Contact: NextPage = () => {
       </nav>
 
       <main className="pt-16">
+        {/* Breadcrumb Navigation */}
+        <section className="bg-gray-50 py-4">
+          <div className="max-w-7xl mx-auto px-4">
+            <nav className="flex items-center space-x-2 text-sm">
+              <Link href="/" className="text-blue-600 hover:text-blue-700">Home</Link>
+              <span className="text-gray-400">/</span>
+              <span className="text-gray-600">Contact</span>
+            </nav>
+          </div>
+        </section>
+
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Contact Dr. Jan Duffy
+              Contact Dr. Jan Duffy for Expert Realtor Service When Buying a New Home
             </h1>
               <p className="text-xl mb-8 max-w-3xl mx-auto">
-                Ready to start your new home journey? Get in touch with Dr. Jan Duffy for expert guidance and VIP access to Sierra at Skyeview Homes.
+                Ready to start your new home journey? Get in touch with Dr. Jan Duffy for expert realtor service when buying a new home at Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas. Get VIP access and expert guidance throughout your new construction purchase.
               </p>
             <div className="flex justify-center mb-8">
               <Image
@@ -160,8 +223,44 @@ const Contact: NextPage = () => {
           </div>
         </section>
 
-        {/* Contact Information */}
+        {/* Comprehensive Content Section */}
         <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+              Get Expert Realtor Service When Buying a New Home in Northwest Las Vegas
+            </h2>
+            
+            <div className="prose prose-lg max-w-none mb-12">
+              <p className="text-lg text-gray-700 mb-6">
+                Contact <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> today to get expert realtor service when buying a new home at <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, Northwest Las Vegas, zip code 89166. Dr. Jan provides independent buyer representation, meaning she represents YOUR interests exclusively, not the builder's. Her realtor service when buying a new home includes comprehensive market analysis, lot selection guidance, negotiation expertise, and advocacy throughout the entire new construction process.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Why Contact Dr. Jan Duffy for Your New Home Purchase?
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Dr. Jan Duffy's realtor service when buying a new home provides independent buyer representation that protects your interests and ensures you get the best value for your investment. With 20+ years of Las Vegas real estate expertise and deep knowledge of Skye Canyon's 3,000+ foot elevation community, she helps buyers navigate the new construction process with confidence. Her realtor service when buying a new home includes early access to the best lots, expert negotiation on pricing and incentives, and guidance throughout construction and closing.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Office Hours and Availability
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Dr. Jan Duffy is available to provide realtor service when buying a new home Monday through Friday from 9:00 AM to 6:00 PM, Saturday from 10:00 AM to 4:00 PM, and Sunday from 12:00 PM to 4:00 PM. She understands that buying a new home is a significant decision, and she's committed to being available when you need her. Whether you prefer to call, email, or schedule an in-person meeting, Dr. Jan is ready to help you with your Sierra at Skyeview Homes purchase in Skye Canyon, Northwest Las Vegas.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Location and Service Area
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Dr. Jan Duffy's office is located at 8925 Vanhoy Creek St., Las Vegas, NV 89166, serving buyers interested in Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas. Her realtor service when buying a new home focuses on this premier master-planned community, where she has deep knowledge of the elevated location, proximity to Mount Charleston, and community amenities. Whether you're a first-time buyer or experienced investor, Dr. Jan provides the expert guidance you need for your new construction purchase.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Contact Information */}
+        <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12">
               {/* Contact Form */}
