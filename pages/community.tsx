@@ -734,10 +734,10 @@ const Community: NextPage = () => {
         <section className="py-16 bg-red-600 text-white">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Ready to Experience Sierra Skyview in Person?
+              Ready to Experience Sierra Skyeview in Person?
             </h2>
             <p className="text-lg mb-8">
-              These features showcase just a glimpse of the luxury and quality you'll find at Sierra Skyview. Schedule your personal tour today to see these stunning homes and community features up close.
+              These features showcase just a glimpse of the luxury and quality you'll find at Sierra Skyeview. Schedule your personal tour today to see these stunning homes and community features up close.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
@@ -811,7 +811,7 @@ const Community: NextPage = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Sierra Skyview | Homes by Dr Jan Duffy. All rights reserved.</p>
+            <p>&copy; 2025 Sierra Skyeview | Homes by Dr Jan Duffy. All rights reserved.</p>
             <div className="flex flex-col items-center gap-4 mt-4">
               <div className="flex items-center justify-center gap-4">
                 <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>

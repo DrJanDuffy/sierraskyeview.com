@@ -388,7 +388,7 @@ const Contact: NextPage = () => {
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900 mb-2">Address</h3>
                       <p className="text-gray-600">Call for location details</p>
-                      <p className="sr-only">Sierra Skyview Sales Office, 8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
+                      <p className="sr-only">Sierra Skyeview Sales Office, 8925 Vanhoy Creek St., Las Vegas, NV 89166</p>
                     </div>
                   </div>
 
@@ -550,7 +550,7 @@ const Contact: NextPage = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Sierra Skyview | Homes by Dr Jan Duffy. All rights reserved.</p>
+            <p>&copy; 2025 Sierra Skyeview | Homes by Dr Jan Duffy. All rights reserved.</p>
             <div className="flex flex-col items-center gap-4 mt-4">
               <div className="flex items-center justify-center gap-4">
                 <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>

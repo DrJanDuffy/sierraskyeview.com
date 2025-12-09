@@ -557,7 +557,7 @@ const Services: NextPage = () => {
               <div className="text-center">
                 <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Community Tour</h3>
-                <p className="text-gray-600 text-sm">Explore Sierra Skyview and available lots</p>
+                <p className="text-gray-600 text-sm">Explore Sierra Skyeview and available lots</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
@@ -699,7 +699,7 @@ const Services: NextPage = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Sierra Skyview | Homes by Dr Jan Duffy. All rights reserved.</p>
+            <p>&copy; 2025 Sierra Skyeview | Homes by Dr Jan Duffy. All rights reserved.</p>
             <div className="flex flex-col items-center gap-4 mt-4">
               <div className="flex items-center justify-center gap-4">
                 <p className="text-gray-400">Dr. Jan Duffy | Nevada Real Estate License #S.0197614</p>
