@@ -41,25 +41,101 @@ const Community: NextPage = () => {
         <meta name="twitter:image" content="https://www.sierraskyeview.com/9026-rimerton-neighborhood-real.jpg" />
         <link rel="canonical" href="https://www.sierraskyeview.com/community" />
         
-        {/* Video Schema for Virtual Tours */}
+        {/* Breadcrumb Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "VideoObject",
-              "name": "Sierra at Skyeview Homes Community Virtual Tour",
-              "description": "Take a virtual tour of Sierra at Skyeview Homes community in Skye Canyon, Las Vegas. See the beautiful homes, amenities, and lifestyle that awaits you in this master-planned community.",
-              "thumbnailUrl": "https://www.sierraskyeview.com/skye-canyon-master-plan.jpg",
-              "uploadDate": "2025-01-27",
-              "duration": "PT3M30S",
-              "contentUrl": "https://www.youtube.com/watch?v=example",
-              "embedUrl": "https://www.youtube.com/embed/example",
-              "publisher": {
-                "@type": "Organization",
-                "name": "Dr. Jan Duffy Real Estate",
-                "url": "https://www.sierraskyeview.com"
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.sierraskyeview.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Skye Canyon Community",
+                  "item": "https://www.sierraskyeview.com/community"
+                }
+              ]
+            })
+          }}
+        />
+        
+        {/* RealEstateAgent Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "RealEstateAgent",
+              "name": "Dr. Jan Duffy",
+              "description": "Expert buyer's agent specializing in Skye Canyon community homes. Realtor service when buying new construction homes at Sierra at Skyeview in Northwest Las Vegas.",
+              "url": "https://www.sierraskyeview.com/community",
+              "telephone": "(702) 500-1955",
+              "email": "DrDuffy@SierraSkyeview.com",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "8925 Vanhoy Creek St.",
+                "addressLocality": "Las Vegas",
+                "addressRegion": "NV",
+                "postalCode": "89166",
+                "addressCountry": "US"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "36.2844",
+                "longitude": "-115.3153"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Las Vegas",
+                "containedInPlace": {
+                  "@type": "State",
+                  "name": "Nevada"
+                }
               }
+            })
+          }}
+        />
+        
+        {/* FAQ Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What makes Skye Canyon a great community for new construction homes?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Skye Canyon is a 1,700-acre master-planned community in Northwest Las Vegas offering comprehensive amenities, excellent schools, parks, trails, and a strong sense of community. Located at 3,000+ foot elevation with cooler temperatures and mountain views, Skye Canyon provides a unique lifestyle opportunity. Sierra at Skyeview Homes within Skye Canyon offers new construction homes with access to all these community benefits."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What amenities are available in Skye Canyon?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Skye Canyon features recreation centers, fitness facilities, parks, walking trails, sports courts, splash pads, and neighborhood schools. The master-planned community is designed to enhance quality of life with comprehensive amenities that support active living, family activities, and community engagement."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does Dr. Jan Duffy help buyers understand Skye Canyon community benefits?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Dr. Jan Duffy provides expert realtor service when buying a new home, including comprehensive guidance on Skye Canyon community benefits, amenities, schools, and lifestyle advantages. Her expertise helps buyers understand how the master-planned community enhances their investment and quality of life."
+                  }
+                }
+              ]
             })
           }}
         />
@@ -93,11 +169,22 @@ const Community: NextPage = () => {
       </nav>
 
       <main className="pt-16">
+        {/* Breadcrumb Navigation */}
+        <section className="bg-gray-50 py-4">
+          <div className="max-w-7xl mx-auto px-4">
+            <nav className="flex items-center space-x-2 text-sm">
+              <Link href="/" className="text-blue-600 hover:text-blue-700">Home</Link>
+              <span className="text-gray-400">/</span>
+              <span className="text-gray-600">Skye Canyon Community</span>
+            </nav>
+          </div>
+        </section>
+
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Sierra at Skyeview Homes Community
+              Skye Canyon Community: Premier Master-Planned Living in Northwest Las Vegas
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
               Discover new Skyeview homes for sale in Las Vegas, NV, at Sierra at Skyeview Homes! Offering exciting, two-story Homes with up to 1,965 square feet, <Link href="/floor-plans" className="text-blue-300 hover:text-blue-200 underline">Sierra at Skyeview Homes</Link> is the perfect place to plant roots. Residents enjoy incredible amenities at this 1,700-acre neighborhood, from a stunning central clubhouse to pools, parks, playgrounds, and much more. Explore <Link href="/new-build-homes" className="text-blue-300 hover:text-blue-200 underline">new construction homes</Link> and <Link href="/quick-move-in" className="text-blue-300 hover:text-blue-200 underline">quick move-in opportunities</Link>.
@@ -118,8 +205,44 @@ const Community: NextPage = () => {
           </div>
         </section>
 
-        {/* Community Amenities Overview */}
+        {/* Comprehensive Content Section - Skye Canyon Overview */}
         <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+              Skye Canyon: Premier Master-Planned Community in Northwest Las Vegas
+            </h2>
+            
+            <div className="prose prose-lg max-w-none mb-12">
+              <p className="text-lg text-gray-700 mb-6">
+                <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> is located within <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, a premier 1,700-acre master-planned community in Northwest Las Vegas, zip code 89166. This master-planned community represents one of the most thoughtfully designed residential developments in the region, offering a comprehensive lifestyle that combines natural beauty, modern amenities, and a strong sense of community. Located at 3,000+ foot elevation with stunning mountain views and cooler temperatures, Skye Canyon provides a unique living experience that's increasingly sought after by homebuyers in Northwest Las Vegas. <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> provides expert realtor service when buying a new home, helping buyers understand the exceptional value and lifestyle benefits of living in Skye Canyon.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Master-Planned Community Excellence
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Skye Canyon's master-planned approach ensures thoughtful development, quality infrastructure, and long-term value appreciation. The 1,700-acre community is designed to preserve natural beauty while providing modern conveniences, creating a balance between development and environmental stewardship. This master-planned approach includes comprehensive amenities, quality schools, parks, trails, and recreational facilities that enhance quality of life. The community's design philosophy focuses on creating neighborhoods that foster connection, wellness, and active living. This commitment to master-planned excellence makes Skye Canyon one of the most desirable communities in Northwest Las Vegas for buyers seeking new construction homes with comprehensive lifestyle benefits.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Elevated Living at 3,000+ Feet
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                One of Skye Canyon's unique advantages is its elevated location at over 3,000 feet above sea level. This elevation provides temperatures that are typically 10-15 degrees cooler than the Las Vegas Valley floor, making summers significantly more comfortable and reducing energy costs. The elevated location also offers cleaner air quality, stunning panoramic views of both the Las Vegas Valley and the Spring Mountain Range, including Mount Charleston, and a sense of living in a mountain retreat while maintaining easy access to Las Vegas amenities. This elevated living experience is a key differentiator for Skye Canyon and makes it an exceptional choice for buyers seeking an alternative to traditional Las Vegas living.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Proximity to Mount Charleston and Outdoor Recreation
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Skye Canyon's location in Northwest Las Vegas provides easy access to Mount Charleston, located just 30 minutes away in the Spring Mountains. This proximity offers year-round outdoor recreation including hiking on over 60 miles of trails, winter skiing and snowboarding at the Las Vegas Ski & Snowboard Resort, camping, picnicking, and wildlife viewing. The ability to escape to mountain recreation while maintaining Las Vegas convenience creates a lifestyle that's increasingly sought after by homebuyers. This combination of elevated living, mountain proximity, and Las Vegas access makes Skye Canyon an exceptional choice for buyers seeking a unique lifestyle in Northwest Las Vegas.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Community Amenities Overview */}
+        <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
