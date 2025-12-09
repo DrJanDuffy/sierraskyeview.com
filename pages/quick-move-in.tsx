@@ -57,6 +57,57 @@ const QuickMoveIn: NextPage = () => {
             })
           }}
         />
+        {/* RealEstateAgent Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "RealEstateAgent",
+              "name": "Dr. Jan Duffy",
+              "description": "Expert buyer's agent specializing in quick move-in homes at Sierra at Skyeview. Realtor service when buying new construction homes in Northwest Las Vegas.",
+              "url": "https://www.sierraskyeview.com/quick-move-in",
+              "telephone": "(702) 500-1955",
+              "email": "DrDuffy@SierraSkyeview.com",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "8925 Vanhoy Creek St.",
+                "addressLocality": "Las Vegas",
+                "addressRegion": "NV",
+                "postalCode": "89166",
+                "addressCountry": "US"
+              }
+            })
+          }}
+        />
+        {/* FAQ Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "Are there quick move-in homes available at Sierra at Skyeview?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas, offers quick move-in homes for immediate occupancy. These homes are available in 1,602 sq ft, 1,708 sq ft, and 1,965 sq ft floor plans starting from $420,240. Dr. Jan Duffy tracks availability and helps buyers secure quick move-in homes with expert buyer representation."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does Dr. Jan Duffy help buyers find quick move-in homes?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Dr. Jan Duffy provides expert realtor service when buying a new home, including tracking quick move-in availability, helping buyers evaluate homes for immediate occupancy, and negotiating the best terms for quick move-in purchases. Her realtor service when buying a new home ensures buyers get the best value and terms for their quick move-in home purchase."
+                  }
+                }
+              ]
+            })
+          }}
+        />
       </Head>
 
       {/* Navigation */}
@@ -94,6 +145,53 @@ const QuickMoveIn: NextPage = () => {
       </nav>
 
       <main className="pt-16">
+        {/* Breadcrumb Navigation */}
+        <section className="bg-gray-50 py-4">
+          <div className="max-w-7xl mx-auto px-4">
+            <nav className="flex items-center space-x-2 text-sm">
+              <Link href="/" className="text-blue-600 hover:text-blue-700">Home</Link>
+              <span className="text-gray-400">/</span>
+              <span className="text-gray-600">Quick Move-In Homes</span>
+            </nav>
+          </div>
+        </section>
+
+        {/* Comprehensive Content Section */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+              Quick Move-In Homes at Sierra at Skyeview: Immediate Occupancy in Northwest Las Vegas
+            </h2>
+            
+            <div className="prose prose-lg max-w-none mb-12">
+              <p className="text-lg text-gray-700 mb-6">
+                Sierra at Skyeview Homes in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, Northwest Las Vegas, zip code 89166, offers quick move-in homes for buyers who want immediate occupancy without waiting for construction completion. These move-in ready homes are available in 1,602 sq ft, 1,708 sq ft, and 1,965 sq ft floor plans starting from $420,240, featuring premium finishes, smart home technology, and access to world-class community amenities. <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> provides expert realtor service when buying a new home, helping buyers secure quick move-in homes with the best terms and value.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Benefits of Quick Move-In Homes in Skye Canyon
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Quick move-in homes at Sierra at Skyeview offer numerous advantages for buyers who want to start enjoying their new home immediately. These homes allow you to move in right away without waiting months for construction, avoid potential construction delays or supply chain issues, see exactly what you're buying before you purchase, and start enjoying Skye Canyon's amenities and elevated living at 3,000+ feet immediately. Located near Mount Charleston in Northwest Las Vegas, these quick move-in homes provide immediate access to the unique lifestyle that Skye Canyon offers.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Available Quick Move-In Homes
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Sierra at Skyeview Homes currently offers quick move-in homes in various floor plans, including 1,602 sq ft homes starting at $420,240, 1,708 sq ft homes starting at $429,990, and 1,965 sq ft homes starting at $449,990. Each quick move-in home features premium finishes, integrated smart home technology, energy-efficient systems, and designs that maximize natural light and mountain views. Dr. Jan Duffy's realtor service when buying a new home includes tracking quick move-in availability and helping buyers evaluate these homes for immediate occupancy.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Expert Realtor Service for Quick Move-In Purchases
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Dr. Jan Duffy's realtor service when buying a new home includes specialized guidance for quick move-in purchases. She helps buyers evaluate quick move-in homes, understand what's included versus what can be customized, negotiate the best terms for immediate occupancy, and ensure the home meets quality standards before closing. Her expertise in Northwest Las Vegas new construction and Skye Canyon ensures buyers make informed decisions about their quick move-in home purchase.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-green-600 to-green-700 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 text-center">
