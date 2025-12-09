@@ -162,6 +162,18 @@ const createSitemap = () => {
       <image:caption>Two-story 1,965 sq ft home with 3 bedrooms and 2.5 bathrooms at Sierra at Skyeview</image:caption>
     </image:image>
   </url>
+  <url>
+    <loc>https://www.sierraskyeview.com/homes-near-mount-charleston</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.sierraskyeview.com/northwest-las-vegas-new-homes</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>`;
 };
 

@@ -182,6 +182,50 @@ const Services: NextPage = () => {
             })
           }}
         />
+        {/* FAQ Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "Why do I need realtor service when buying a new home?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Realtor service when buying a new home provides independent buyer representation, market expertise, and negotiation power that builder sales agents cannot offer. Dr. Jan Duffy's realtor service when buying a new home ensures you have an advocate who understands the Northwest Las Vegas market, knows how to negotiate with builders, and protects your interests throughout the construction and closing process."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What does realtor service when buying a new home include?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Dr. Jan Duffy's realtor service when buying a new home includes comprehensive market analysis, lot selection guidance, negotiation expertise, construction oversight, and advocacy throughout the entire process. Her realtor service when buying a new home ensures you get the best value, terms, and lot selection for your Sierra at Skyeview Homes purchase in Skye Canyon, Northwest Las Vegas."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does Dr. Jan Duffy's realtor service when buying a new home differ from builder sales agents?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Dr. Jan Duffy's realtor service when buying a new home provides independent buyer representation, meaning she represents YOUR interests exclusively, not the builder's. Builder sales agents represent the builder's interests and are compensated by the builder, which creates a conflict of interest. Her realtor service when buying a new home ensures honest market analysis, expert negotiation, and advocacy focused on protecting your investment."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Does realtor service when buying a new home cost extra?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No, realtor service when buying a new home typically doesn't cost buyers extra. Builder commissions are typically built into the home price, and having a buyer's agent doesn't increase the cost. In fact, Dr. Jan Duffy's realtor service when buying a new home often saves buyers money through expert negotiation, identifying incentives, and ensuring you get the best value for your purchase."
+                  }
+                }
+              ]
+            })
+          }}
+        />
       </Head>
 
       {/* Navigation */}
@@ -246,8 +290,55 @@ const Services: NextPage = () => {
           </div>
         </section>
 
-        {/* Services Grid */}
+        {/* Breadcrumb Navigation */}
+        <section className="bg-gray-50 py-4">
+          <div className="max-w-7xl mx-auto px-4">
+            <nav className="flex items-center space-x-2 text-sm">
+              <Link href="/" className="text-blue-600 hover:text-blue-700">Home</Link>
+              <span className="text-gray-400">/</span>
+              <span className="text-gray-600">Realtor Service When Buying a New Home</span>
+            </nav>
+          </div>
+        </section>
+
+        {/* Comprehensive Content Section */}
         <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+              Expert Realtor Service When Buying a New Home in Northwest Las Vegas
+            </h2>
+            
+            <div className="prose prose-lg max-w-none mb-12">
+              <p className="text-lg text-gray-700 mb-6">
+                When purchasing a new construction home at <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, Northwest Las Vegas, having expert realtor service when buying a new home is essential for protecting your investment and ensuring you get the best value. <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> specializes in providing comprehensive realtor service when buying a new home, offering independent buyer representation that focuses exclusively on your interests, not the builder's. Her realtor service when buying a new home includes market analysis, lot selection guidance, negotiation expertise, construction oversight, and advocacy throughout the entire process.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Why You Need Realtor Service When Buying a New Home
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Many buyers mistakenly believe that realtor service when buying a new home isn't necessary because they're working directly with the builder. However, this misconception can cost buyers thousands of dollars and result in less favorable terms. Realtor service when buying a new home provides independent representation, market expertise, and negotiation power that builder sales agents cannot offer. Dr. Jan Duffy's realtor service when buying a new home ensures you have an advocate who understands the Northwest Las Vegas market, knows how to negotiate with builders, and protects your interests throughout the construction and closing process.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Independent Buyer Representation for New Construction
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                The most important aspect of realtor service when buying a new home is independent buyer representation. Builder sales agents represent the builder's interests and are compensated by the builder, which creates a conflict of interest. Dr. Jan Duffy's realtor service when buying a new home provides independent representation, meaning she represents YOUR interests exclusively. This independent representation ensures you receive honest market analysis, expert negotiation on pricing and terms, and advocacy throughout the construction and closing process. Her realtor service when buying a new home is focused entirely on protecting your investment and ensuring you get the best value, terms, and lot selection for your Sierra at Skyeview Homes purchase.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Market Analysis and Pricing Guidance
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Dr. Jan Duffy's realtor service when buying a new home includes comprehensive market analysis to help you understand true market value for new construction homes in Northwest Las Vegas. She compares Sierra at Skyeview Homes pricing to similar new construction communities in Skye Canyon and throughout Northwest Las Vegas, evaluates lot premiums and their impact on value, and helps you understand which upgrades provide the best return on investment. This market expertise ensures you make informed decisions about your purchase and understand the investment potential of your new home. Her realtor service when buying a new home includes helping you evaluate whether the pricing, lot selection, and upgrade packages represent good value in the Northwest Las Vegas market.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Services Grid */}
+        <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -402,15 +493,58 @@ const Services: NextPage = () => {
           </div>
         </section>
 
-        {/* Process Timeline */}
+        {/* Comprehensive Realtor Service Details */}
         <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+              Comprehensive Realtor Service When Buying a New Home: What to Expect
+            </h2>
+            
+            <div className="prose prose-lg max-w-none mb-12">
+              <p className="text-lg text-gray-700 mb-6">
+                Dr. Jan Duffy's realtor service when buying a new home at Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas, is comprehensive and designed to protect your interests at every stage. Her realtor service when buying a new home begins with an initial consultation to understand your needs, budget, and preferences. This consultation includes market analysis, discussion of Northwest Las Vegas new construction options, and explanation of the benefits of elevated living at 3,000+ feet in Skye Canyon. Her realtor service when buying a new home ensures you have all the information needed to make informed decisions about your purchase.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Lot Selection and Homesite Evaluation
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                One of the most valuable aspects of Dr. Jan Duffy's realtor service when buying a new home is lot selection guidance. She helps buyers evaluate homesites at Sierra at Skyeview Homes based on mountain views, sun exposure, privacy, proximity to amenities, and future development plans. Her expertise in Skye Canyon and elevated living helps buyers understand which lots offer the best views, how elevation affects home design and energy efficiency, and what to consider when selecting a homesite. This guidance is essential for maximizing your investment and ensuring you choose a lot that meets your lifestyle needs and long-term goals. Her realtor service when buying a new home includes helping you understand lot premiums, their impact on value, and whether they represent good value for your investment.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Negotiation and Builder Incentives
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Dr. Jan Duffy's realtor service when buying a new home includes expert negotiation to secure the best terms, pricing, and incentives. Even with new construction, there's room to negotiate on lot premiums, upgrade packages, closing costs, and builder incentives. Her negotiation expertise ensures you get maximum value when purchasing Sierra at Skyeview Homes. She understands builder pricing strategies, knows when incentives are available, and negotiates on your behalf to secure the best possible terms. This negotiation power is one of the key benefits of having independent buyer representation when purchasing new construction. Her realtor service when buying a new home includes identifying opportunities for savings and ensuring you get the best value for your investment.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Construction Oversight and Quality Control
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Dr. Jan Duffy's realtor service when buying a new home extends throughout the construction process. She provides construction oversight, attends key construction milestones, and ensures quality standards are met. Her expertise helps identify potential issues early, ensures specifications are followed, and provides peace of mind throughout the building process. This construction oversight is essential for protecting your investment and ensuring your new home meets quality standards. Her realtor service when buying a new home includes being your advocate during walkthroughs, inspections, and the final closing process. She ensures that any issues are addressed promptly and that your new home meets the quality standards you expect.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Design Center Guidance and Upgrade Selection
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Part of Dr. Jan Duffy's realtor service when buying a new home includes guidance through the design center process. She helps buyers understand which upgrades provide the best return on investment, which are essential for elevated living at 3,000+ feet, and which can be added later at potentially lower costs. Her expertise in new construction and Northwest Las Vegas market trends ensures you make smart decisions about upgrades that enhance your home's value and livability. Her realtor service when buying a new home includes helping you prioritize upgrades based on your budget and long-term goals, ensuring you get maximum value from your investment.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Process Timeline */}
+        <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                 Your Home Buying Journey
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                From initial consultation to closing day, Dr. Jan Duffy guides you through every step of the process.
+                From initial consultation to closing day, Dr. Jan Duffy guides you through every step of the process with expert realtor service when buying a new home.
               </p>
             </div>
 
@@ -444,6 +578,46 @@ const Services: NextPage = () => {
           </div>
         </section>
 
+        {/* FAQ Section */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Frequently Asked Questions About Realtor Service When Buying a New Home
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Get answers to common questions about realtor service when buying a new home at Sierra at Skyeview Homes in Northwest Las Vegas.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-gray-50 rounded-lg p-6 shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Why do I need realtor service when buying a new home?</h3>
+                <p className="text-gray-700">
+                  Realtor service when buying a new home provides independent buyer representation, market expertise, and negotiation power that builder sales agents cannot offer. Dr. Jan Duffy's realtor service when buying a new home ensures you have an advocate who understands the Northwest Las Vegas market, knows how to negotiate with builders, and protects your interests throughout the construction and closing process.
+                </p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-6 shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">What does realtor service when buying a new home include?</h3>
+                <p className="text-gray-700">
+                  Dr. Jan Duffy's realtor service when buying a new home includes comprehensive market analysis, lot selection guidance, negotiation expertise, construction oversight, and advocacy throughout the entire process. Her realtor service when buying a new home ensures you get the best value, terms, and lot selection for your Sierra at Skyeview Homes purchase in Skye Canyon, Northwest Las Vegas.
+                </p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-6 shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">How does Dr. Jan Duffy's realtor service when buying a new home differ from builder sales agents?</h3>
+                <p className="text-gray-700">
+                  Dr. Jan Duffy's realtor service when buying a new home provides independent buyer representation, meaning she represents YOUR interests exclusively, not the builder's. Builder sales agents represent the builder's interests and are compensated by the builder, which creates a conflict of interest. Her realtor service when buying a new home ensures honest market analysis, expert negotiation, and advocacy focused on protecting your investment.
+                </p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-6 shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Does realtor service when buying a new home cost extra?</h3>
+                <p className="text-gray-700">
+                  No, realtor service when buying a new home typically doesn't cost buyers extra. Builder commissions are typically built into the home price, and having a buyer's agent doesn't increase the cost. In fact, Dr. Jan Duffy's realtor service when buying a new home often saves buyers money through expert negotiation, identifying incentives, and ensuring you get the best value for your purchase.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Call to Action */}
         <section className="py-16 bg-red-600 text-white">
           <div className="max-w-7xl mx-auto px-4 text-center">
@@ -451,7 +625,7 @@ const Services: NextPage = () => {
               Ready to Start Your Home Buying Journey?
             </h2>
             <p className="text-lg mb-8">
-              Get expert guidance from Dr. Jan Duffy and discover why so many homebuyers choose her for their new construction needs.
+              Get expert guidance from Dr. Jan Duffy and discover why so many homebuyers choose her for their new construction needs. Experience the difference that expert realtor service when buying a new home can make.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:7025001955" className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">

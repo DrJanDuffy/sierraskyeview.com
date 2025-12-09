@@ -94,7 +94,6 @@ const Home: NextPage = () => {
 
   return (
     <>
-      {/* @ts-expect-error - Head component children are implicit in Next.js */}
       <Head>
         <title>Sierra at Skyeview Homes for Sale | New Construction Northwest Las Vegas 89166</title>
         <meta name="description" content="Sierra at Skyeview Homes for sale in Northwest Las Vegas. New construction homes starting at $420,240 located in Skye Canyon near Mount Charleston, zip code 89166. Realtor service when buying a new home from buyer's agent Dr. Jan Duffy. Quick move-in homes available now." />
@@ -122,6 +121,25 @@ const Home: NextPage = () => {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+        
+        {/* Breadcrumb Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.sierraskyeview.com/"
+                }
+              ]
+            })
+          }}
         />
         
         {/* Local Business Schema */}
@@ -490,6 +508,58 @@ const Home: NextPage = () => {
           </div>
         </section>
 
+        {/* Breadcrumb Navigation */}
+        <section className="bg-gray-50 py-4">
+          <div className="max-w-7xl mx-auto px-4">
+            <nav className="flex items-center space-x-2 text-sm">
+              <Link href="/" className="text-blue-600 hover:text-blue-700">Home</Link>
+            </nav>
+          </div>
+        </section>
+
+        {/* Comprehensive Content Section - Sierra at Skyeview Homes Overview */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+              Sierra at Skyeview Homes: Premier New Construction in Skye Canyon, Northwest Las Vegas
+            </h2>
+            
+            <div className="prose prose-lg max-w-none mb-12">
+              <p className="text-lg text-gray-700 mb-6">
+                <Link href="/floor-plans" className="text-blue-600 hover:text-blue-700 underline">Sierra at Skyeview Homes</Link> represents the premier new construction opportunity in <Link href="/community" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon</Link>, Northwest Las Vegas, zip code 89166. Located at 3,000+ foot elevation with stunning mountain views and cooler temperatures, these new construction homes offer a unique lifestyle that combines elevated living with Las Vegas convenience. As your buyer's agent, <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> provides expert realtor service when buying a new home, ensuring you get the best lot selection, pricing, and terms for your Sierra at Skyeview Homes purchase.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Elevated Living at 3,000+ Feet in Skye Canyon
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas, offers a unique advantage: elevated living at over 3,000 feet above sea level. This elevation provides temperatures that are typically 10-15 degrees cooler than the Las Vegas Valley floor, making summers significantly more comfortable and reducing energy costs. The elevated location also offers cleaner air quality, stunning panoramic views of both the Las Vegas Valley and the Spring Mountain Range, including Mount Charleston, and a sense of living in a mountain retreat while maintaining easy access to Las Vegas amenities, shopping, dining, and entertainment.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                New Construction Homes with Premium Finishes
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Sierra at Skyeview Homes offers three distinct floor plans designed for modern living. The 1,602 sq ft homes start at $420,240, featuring 3 bedrooms and 2.5 bathrooms with an open-concept layout perfect for families. The 1,708 sq ft homes start at $429,990, offering additional space and flexibility. The 1,965 sq ft homes start at $449,990, providing the most spacious option with premium features throughout. Each home includes integrated smart home technology, premium finishes, energy-efficient systems optimized for the elevated climate, and designs that maximize natural light and mountain views. These new construction homes represent exceptional value for Northwest Las Vegas homebuyers seeking quality, modern living.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Skye Canyon Master-Planned Community Benefits
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Sierra at Skyeview Homes is located within Skye Canyon, a 1,700-acre master-planned community in Northwest Las Vegas that offers comprehensive amenities and thoughtful development. The community features parks, walking trails, recreational facilities, neighborhood schools, and a central clubhouse. This master-planned approach ensures quality infrastructure, long-term value appreciation, and a strong sense of community. Living in Skye Canyon means access to world-class amenities while enjoying the natural beauty of the elevated location. The community is designed to enhance the lifestyle of residents while preserving the area's natural character and providing modern conveniences.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Proximity to Mount Charleston and Outdoor Recreation
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                One of the unique advantages of Sierra at Skyeview Homes in Skye Canyon is proximity to Mount Charleston, located just 30 minutes away in the Spring Mountains. This proximity provides easy access to year-round outdoor recreation including hiking on over 60 miles of trails, winter skiing and snowboarding at the Las Vegas Ski & Snowboard Resort, camping, picnicking, and wildlife viewing. The ability to escape to mountain recreation while maintaining Las Vegas convenience creates a lifestyle that's increasingly sought after by homebuyers. This combination of elevated living, mountain proximity, and Las Vegas access makes Sierra at Skyeview Homes an exceptional choice for buyers seeking a unique lifestyle in Northwest Las Vegas.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Why Work With Dr. Jan Duffy */}
         <section className="py-16 bg-blue-900 text-white">
           <div className="max-w-7xl mx-auto px-4">
@@ -535,6 +605,56 @@ const Home: NextPage = () => {
                 <h3 className="text-xl font-bold mb-2">Las Vegas Specialist</h3>
                 <p className="text-gray-300">Nevada License S.0197614. Deep knowledge of Skye Canyon and the entire metro area. <Link href="/about" className="text-blue-300 hover:text-blue-200 underline">Learn more about Dr. Jan Duffy</Link>.</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Comprehensive Realtor Service Section */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+              Expert Realtor Service When Buying a New Home at Sierra at Skyeview
+            </h2>
+            
+            <div className="prose prose-lg max-w-none mb-12">
+              <p className="text-lg text-gray-700 mb-6">
+                <Link href="/about" className="text-blue-600 hover:text-blue-700 underline">Dr. Jan Duffy</Link> specializes in providing expert realtor service when buying new construction homes at Sierra at Skyeview in Skye Canyon, Northwest Las Vegas. As your buyer's agent, Dr. Jan understands that purchasing a new construction home requires specialized knowledge and independent representation. Her realtor service when buying a new home includes comprehensive market analysis, lot selection guidance, negotiation expertise, construction oversight, and representation focused exclusively on protecting your interests throughout the entire process.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Independent Buyer Representation for New Construction
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                When you work with Dr. Jan Duffy for realtor service when buying a new home at Sierra at Skyeview Homes, you get independent buyer representation—meaning she represents YOUR interests exclusively, not the builder's. This independent representation is crucial for new construction purchases because it ensures you receive honest market analysis, expert negotiation on pricing and terms, and advocacy throughout the construction and closing process. Unlike builder sales agents who represent the builder's interests, Dr. Jan's realtor service when buying a new home is focused entirely on protecting your investment and ensuring you get the best value, terms, and lot selection.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Market Analysis and Pricing Guidance
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Dr. Jan Duffy's realtor service when buying a new home includes comprehensive market analysis to help you understand true market value for Sierra at Skyeview Homes in Skye Canyon, Northwest Las Vegas. She compares pricing to similar new construction communities, evaluates lot premiums and their impact on value, and helps you understand which upgrades provide the best return on investment. This market expertise ensures you make informed decisions about your purchase and understand the investment potential of your new home. Her realtor service when buying a new home includes helping you evaluate whether the pricing, lot selection, and upgrade packages represent good value in the Northwest Las Vegas market.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Lot Selection and Homesite Evaluation
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                One of the most important aspects of Dr. Jan Duffy's realtor service when buying a new home is lot selection guidance. She helps buyers evaluate homesites based on mountain views, sun exposure, privacy, proximity to amenities, and future development plans. Her expertise in Skye Canyon and elevated living helps buyers understand which lots offer the best views, how elevation affects home design and energy efficiency, and what to consider when selecting a homesite. This guidance is essential for maximizing your investment and ensuring you choose a lot that meets your lifestyle needs and long-term goals.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Negotiation and Builder Incentives
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Dr. Jan Duffy's realtor service when buying a new home includes expert negotiation to secure the best terms, pricing, and incentives. Even with new construction, there's room to negotiate on lot premiums, upgrade packages, closing costs, and builder incentives. Her negotiation expertise ensures you get maximum value when purchasing Sierra at Skyeview Homes. She understands builder pricing strategies, knows when incentives are available, and negotiates on your behalf to secure the best possible terms. This negotiation power is one of the key benefits of having independent buyer representation when purchasing new construction.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                Construction Oversight and Quality Control
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Dr. Jan Duffy's realtor service when buying a new home extends throughout the construction process. She provides construction oversight, attends key construction milestones, and ensures quality standards are met. Her expertise helps identify potential issues early, ensures specifications are followed, and provides peace of mind throughout the building process. This construction oversight is essential for protecting your investment and ensuring your new home meets quality standards. Her realtor service when buying a new home includes being your advocate during walkthroughs, inspections, and the final closing process.
+              </p>
             </div>
           </div>
         </section>
